@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-07 12:05+0200\n"
+"PO-Revision-Date: 2015-08-07 13:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -1893,7 +1893,7 @@ msgstr "Kurzus újbóli elindítása"
 
 #: cms/templates/index.html
 msgid "Are you staff on an existing {studio_name} course?"
-msgstr "Benne vagy a kurzus oktatói között? {studio_name} "
+msgstr "Benne vagy a kurzus oktatói csapatában? {studio_name} "
 
 #: cms/templates/index.html
 msgid ""
