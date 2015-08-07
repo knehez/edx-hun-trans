@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-06 22:15+0200\n"
+"PO-Revision-Date: 2015-08-07 11:35+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Generated-By: Babel 1.3\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 1.8.4\n"
 
 #: cms/templates/404.html
 msgid "The page that you were looking for was not found."
@@ -44,8 +44,8 @@ msgid ""
 "An error occurred in {studio_name} and the page could not be loaded. Please "
 "try again in a few moments."
 msgstr ""
-"{studio_name} egy hiba miatt nem tudja betölteni az oldalt. Kérlek "
-"próbálkozz egy kicsit később."
+"{studio_name} egy hiba miatt nem tudja betölteni az oldalt. Kérlek próbálkozz "
+"egy kicsit később."
 
 #: cms/templates/500.html
 msgid ""
@@ -75,8 +75,8 @@ msgid ""
 "This account, set up using {email}, has already been activated. Please sign "
 "in to start working within {studio_name}."
 msgstr ""
-"Ehhez az email-hez: {email} tartozó fiókot már aktiválták. Lépj be és kezd "
-"el a munkát a {studio_name}-ban."
+"Ehhez az email-hez: {email} tartozó fiókot már aktiválták. Lépj be és kezd el "
+"a munkát a {studio_name}-ban."
 
 #: cms/templates/activation_active.html cms/templates/activation_complete.html
 msgid "Sign into {studio_name}"
@@ -104,9 +104,9 @@ msgid ""
 "the URL you went to was correct, as e-mail programs will sometimes split it "
 "into two lines."
 msgstr ""
-"Sajnáljuk, de valami hiba történt az aktiválás során. Ellenőrizd, hogy az "
-"URL ami az e-mailben szerepel helyes-e. Van olyan e-mail program, amely "
-"széttöri két sorra a linket."
+"Sajnáljuk, de valami hiba történt az aktiválás során. Ellenőrizd, hogy az URL "
+"ami az e-mailben szerepel helyes-e. Van olyan e-mail program, amely széttöri "
+"két sorra a linket."
 
 #: cms/templates/activation_invalid.html
 msgid ""
@@ -121,8 +121,7 @@ msgstr ""
 msgid "Contact {platform_name} Support"
 msgstr "Vedd fel a kapcsolatot a {platform_name} támogató csoporttal."
 
-#: cms/templates/asset_index.html cms/templates/asset_index.html
-#: cms/templates/widgets/header.html
+#: cms/templates/asset_index.html cms/templates/widgets/header.html
 msgid "Files &amp; Uploads"
 msgstr "Fájlok &amp; Feltöltések"
 
@@ -133,25 +132,19 @@ msgstr "Fájlok &amp; Feltöltések"
 msgid "Content"
 msgstr "Tartalom"
 
-#: cms/templates/asset_index.html cms/templates/asset_index.html
-#: cms/templates/container.html cms/templates/container.html
+#: cms/templates/asset_index.html cms/templates/container.html
 #: cms/templates/course-create-rerun.html cms/templates/course_info.html
-#: cms/templates/course_info.html cms/templates/course_outline.html
 #: cms/templates/course_outline.html cms/templates/edit-tabs.html
-#: cms/templates/edit-tabs.html cms/templates/index.html
 #: cms/templates/index.html cms/templates/library.html
-#: cms/templates/library.html cms/templates/manage_users.html
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
-#: cms/templates/manage_users_lib.html cms/templates/textbooks.html
 #: cms/templates/textbooks.html cms/templates/videos_index.html
-#: cms/templates/videos_index.html cms/templates/ux/reference/container.html
+#: cms/templates/ux/reference/container.html
 #: cms/templates/ux/reference/course-create-rerun.html
 #: cms/templates/ux/reference/outline.html
 msgid "Page Actions"
 msgstr "Oldalműveletek"
 
-#: cms/templates/asset_index.html cms/templates/asset_index.html
-#: cms/templates/videos_index.html
+#: cms/templates/asset_index.html cms/templates/videos_index.html
 msgid "Upload New File"
 msgstr "Új fájl feltöltése"
 
@@ -161,17 +154,17 @@ msgstr "Fájlok hozzáadása a kurzushoz"
 
 #: cms/templates/asset_index.html
 msgid ""
-"To add files to use in your course, click {em_start}Upload New File{em_end}."
-" Then follow the prompts to upload a file from your computer."
+"To add files to use in your course, click {em_start}Upload New File{em_end}. "
+"Then follow the prompts to upload a file from your computer."
 msgstr ""
 "Fájlok kurzushoz adásához kattints az {em_start}Új fájl feltöltése{em_end} "
 "gombra, majd kövesd a megjelenő utasításokat."
 
 #: cms/templates/asset_index.html
 msgid ""
-"{em_start}Caution{em_end}: {platform_name} recommends that you limit the "
-"file size to {em_start}10 MB{em_end}. In addition, do not upload video or "
-"audio files. You should use a third party service to host multimedia files."
+"{em_start}Caution{em_end}: {platform_name} recommends that you limit the file "
+"size to {em_start}10 MB{em_end}. In addition, do not upload video or audio "
+"files. You should use a third party service to host multimedia files."
 msgstr ""
 "{em_start}Figyelem:{em_end}: {platform_name} az edX azt javasolja, hogy a "
 "fájl mérete  {em_start}10 MB-nál{em_end}. ne legyen nagyobb. Ne tölts fel "
@@ -183,8 +176,8 @@ msgid ""
 "The course image, textbook chapters, and files that appear on your Course "
 "Handouts sidebar also appear in this list."
 msgstr ""
-"A kurzus képe, a tankönyv fejezetei és azok a fájlok, melyek a kurzus vázlat"
-" oldalsó panelén láthatóak szintén megjelennek ebben a listában."
+"A kurzus képe, a tankönyv fejezetei és azok a fájlok, melyek a kurzus vázlat "
+"oldalsó panelén láthatóak szintén megjelennek ebben a listában."
 
 #: cms/templates/asset_index.html
 msgid "Using File URLs"
@@ -201,12 +194,12 @@ msgstr ""
 #: cms/templates/asset_index.html
 msgid ""
 "Use the {em_start}Web URL{em_end} value to reference the file or image only "
-"from outside of your course. {em_start}Note:{em_end} If you lock a file, the"
-" Web URL no longer works for external access to a file."
+"from outside of your course. {em_start}Note:{em_end} If you lock a file, the "
+"Web URL no longer works for external access to a file."
 msgstr ""
 "Használd a {em_start}Web URL{em_end}-t a fájlok, képek kurzuson kívüli "
-"linkeléséhez.{em_start}Figyelem:{em_end} amennyiben zárolsz egy fájlt, a Web"
-" URL nem fog tovább működni, a tartalom nem lesz elérhető kívülről."
+"linkeléséhez.{em_start}Figyelem:{em_end} amennyiben zárolsz egy fájlt, a Web "
+"URL nem fog tovább működni, a tartalom nem lesz elérhető kívülről."
 
 #: cms/templates/asset_index.html
 msgid ""
@@ -240,11 +233,10 @@ msgstr "figyelmeztetés bezárása"
 msgid "Course Certificates"
 msgstr "Kurzus bizonyítvány"
 
-#: cms/templates/certificates.html cms/templates/certificates.html
 #: cms/templates/certificates.html cms/templates/export.html
 #: cms/templates/widgets/header.html
 msgid "Certificates"
-msgstr "Tanúsítványok"
+msgstr "Bizonyítványok"
 
 #: cms/templates/certificates.html
 msgid "This module is not enabled."
@@ -252,8 +244,8 @@ msgstr "Ez a modul jelenleg le van tiltva."
 
 #: cms/templates/certificates.html
 msgid ""
-"Upon successful completion of your course, learners receive a certificate to"
-" acknowledge their accomplishment. If you are a course team member with the "
+"Upon successful completion of your course, learners receive a certificate to "
+"acknowledge their accomplishment. If you are a course team member with the "
 "Admin role in Studio, you can configure your course certificate."
 msgstr ""
 
@@ -264,8 +256,8 @@ msgid ""
 "and specify at least one signatory. You can include up to four signatories "
 "for a certificate. You can also upload a signature image file for each "
 "signatory. {em_start}Note:{em_end} Signature images are used only for "
-"verified certificates. Optionally, specify a different course title to use "
-"on your course certificate. You might want to use a different title if, for "
+"verified certificates. Optionally, specify a different course title to use on "
+"your course certificate. You might want to use a different title if, for "
 "example, the official course name is too long to display well on a "
 "certificate."
 msgstr ""
@@ -273,18 +265,18 @@ msgstr ""
 #: cms/templates/certificates.html
 msgid ""
 "Select a course mode and click {em_start}Preview Certificate{em_end} to "
-"preview the certificate that a learner in the selected enrollment track "
-"would receive. When the certificate is ready for issuing, click "
-"{em_start}Activate.{em_end} To stop issuing an active certificate, click "
-"{em_start}Deactivate{em_end}."
+"preview the certificate that a learner in the selected enrollment track would "
+"receive. When the certificate is ready for issuing, click {em_start}Activate."
+"{em_end} To stop issuing an active certificate, click {em_start}"
+"Deactivate{em_end}."
 msgstr ""
 
 #: cms/templates/certificates.html
 msgid ""
 " To edit the certificate configuration, hover over the top right corner of "
 "the form and click {em_start}Edit{em_end}. To delete a certificate, hover "
-"over the top right corner of the form and click the delete icon. In general,"
-" do not delete certificates after a course has started, because some "
+"over the top right corner of the form and click the delete icon. In general, "
+"do not delete certificates after a course has started, because some "
 "certificates might already have been issued to learners."
 msgstr ""
 
@@ -292,11 +284,8 @@ msgstr ""
 msgid "Learn more about certificates"
 msgstr "Tudj meg többet a bizonyítványokról."
 
-#: cms/templates/certificates.html cms/templates/certificates.html
-#: cms/templates/group_configurations.html
-#: cms/templates/group_configurations.html cms/templates/settings.html
+#: cms/templates/certificates.html cms/templates/group_configurations.html
 #: cms/templates/settings.html cms/templates/settings_advanced.html
-#: cms/templates/settings_advanced.html cms/templates/settings_graders.html
 #: cms/templates/settings_graders.html
 msgid "Other Course Settings"
 msgstr "Kurzus további beállításai"
@@ -321,25 +310,23 @@ msgstr "Oktatói csapat"
 
 #: cms/templates/certificates.html cms/templates/group_configurations.html
 #: cms/templates/settings.html cms/templates/settings_advanced.html
-#: cms/templates/settings_advanced.html cms/templates/settings_graders.html
-#: cms/templates/widgets/header.html
+#: cms/templates/settings_graders.html cms/templates/widgets/header.html
 msgid "Advanced Settings"
 msgstr "Speciális beállítások"
 
 #: cms/templates/certificates.html cms/templates/group_configurations.html
-#: cms/templates/group_configurations.html cms/templates/settings.html
-#: cms/templates/settings_advanced.html cms/templates/settings_graders.html
-#: cms/templates/widgets/header.html
+#: cms/templates/settings.html cms/templates/settings_advanced.html
+#: cms/templates/settings_graders.html cms/templates/widgets/header.html
 msgid "Group Configurations"
 msgstr "Csoport beállításai"
 
-#: cms/templates/checklists.html cms/templates/checklists.html
+#: cms/templates/checklists.html
 msgid "Course Checklists"
 msgstr "Kurzus ellenőrzőlista"
 
 #: cms/templates/checklists.html cms/templates/export.html
 #: cms/templates/export_git.html cms/templates/import.html
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html
 msgid "Tools"
 msgstr "Eszközök"
 
@@ -353,8 +340,8 @@ msgstr "Mi az a kurzus ellenőrzőlista?"
 
 #: cms/templates/checklists.html
 msgid ""
-"Course checklists are tools to help you understand and keep track of all the"
-" steps necessary to get your course ready for students."
+"Course checklists are tools to help you understand and keep track of all the "
+"steps necessary to get your course ready for students."
 msgstr ""
 "A kurzus ellenőrzőlistája egy olyan eszköz, ami végigvezet az összes "
 "szükséges lépésen, hogy a kurzusod sikeresen elkészüljön."
@@ -372,7 +359,6 @@ msgid "{studio_name} checklists"
 msgstr "{studio_name} ellenőrzőlista"
 
 #: cms/templates/component.html cms/templates/studio_xblock_wrapper.html
-#: cms/templates/studio_xblock_wrapper.html
 msgid "Duplicate"
 msgstr "Duplikálás"
 
@@ -385,7 +371,7 @@ msgid "Delete this component"
 msgstr "Töröld ezt a komponenst"
 
 #: cms/templates/component.html cms/templates/edit-tabs.html
-#: cms/templates/edit-tabs.html cms/templates/studio_xblock_wrapper.html
+#: cms/templates/studio_xblock_wrapper.html
 msgid "Drag to reorder"
 msgstr "Húzd az új sorrend kialakításához"
 
@@ -458,8 +444,8 @@ msgstr ""
 
 #: cms/templates/container.html
 msgid ""
-"Confirm that you have properly configured content in each of your experiment"
-" groups."
+"Confirm that you have properly configured content in each of your experiment "
+"groups."
 msgstr ""
 
 #: cms/templates/container.html
@@ -476,8 +462,8 @@ msgstr "Hely azonosítója"
 
 #: cms/templates/container.html
 msgid ""
-"Use this ID when you create links to this unit from other course content. "
-"You enter the ID in the URL field."
+"Use this ID when you create links to this unit from other course content. You "
+"enter the ID in the URL field."
 msgstr ""
 "Használd ezt az azonosítót, ha linket szeretnél ehhez a leckéhez a kurzus "
 "másik tartalmában elhelyezni. Írd be az azonosítót az URL mezőbe."
@@ -506,8 +492,8 @@ msgstr ""
 
 #: cms/templates/course-create-rerun.html
 msgid ""
-"Note: Together, the organization, course number, and course run must "
-"uniquely identify this new course instance."
+"Note: Together, the organization, course number, and course run must uniquely "
+"identify this new course instance."
 msgstr ""
 
 #: cms/templates/course-create-rerun.html
@@ -530,7 +516,7 @@ msgstr ""
 "eredeti kurzus névvel.)"
 
 #: cms/templates/course-create-rerun.html cms/templates/index.html
-#: cms/templates/index.html cms/templates/settings.html
+#: cms/templates/settings.html
 msgid "Organization"
 msgstr "Szervezet"
 
@@ -540,7 +526,6 @@ msgstr "Szervezet"
 #. Translators: "e.g. UniversityX or OrganizationX" is a placeholder displayed
 #. when user put no data into this field.
 #: cms/templates/course-create-rerun.html cms/templates/index.html
-#: cms/templates/index.html
 msgid "e.g. UniversityX or OrganizationX"
 msgstr "pl. UniversityX vagy OrganizationX"
 
@@ -552,8 +537,6 @@ msgstr ""
 "Az új kurzust támogató szervezet neve. (Ez gyakran megegyezik a szervezet "
 "nevével.)"
 
-#: cms/templates/course-create-rerun.html
-#: cms/templates/course-create-rerun.html
 #: cms/templates/course-create-rerun.html
 msgid "Note: No spaces or special characters are allowed."
 msgstr "Figyelem: Szóköz és speciális karakterek használata nem megengedett."
@@ -628,7 +611,7 @@ msgstr ""
 msgid "Learn more about Course Re-runs"
 msgstr "Tudj meg többet a kurzus újraindításáról"
 
-#: cms/templates/course_info.html cms/templates/course_info.html
+#: cms/templates/course_info.html
 msgid "Course Updates"
 msgstr "Kurzus frissítései"
 
@@ -638,16 +621,15 @@ msgstr "Új frissítés"
 
 #: cms/templates/course_info.html
 msgid ""
-"Use course updates to notify students of important dates or exams, highlight"
-" particular discussions in the forums, announce schedule changes, and "
-"respond to student questions. You add or edit updates in HTML."
+"Use course updates to notify students of important dates or exams, highlight "
+"particular discussions in the forums, announce schedule changes, and respond "
+"to student questions. You add or edit updates in HTML."
 msgstr ""
 "Használd a frissítéseket arra, hogy értesítsd a tanulókat a fontos "
-"dátumokról, vagy vizsgákról, megjelöld a fontos vitákat a fórumban, "
-"értesítsd az ütemezés változásairól és válaszolj a tanulók kérdéseire. Adj "
-"hozzá, vagy szerkessz HTML formátumban."
+"dátumokról, vagy vizsgákról, megjelöld a fontos vitákat a fórumban, értesítsd "
+"az ütemezés változásairól és válaszolj a tanulók kérdéseire. Adj hozzá, vagy "
+"szerkessz HTML formátumban."
 
-#: cms/templates/course_outline.html cms/templates/course_outline.html
 #: cms/templates/course_outline.html
 msgid "Course Outline"
 msgstr "Kurzus vázlat"
@@ -660,10 +642,10 @@ msgstr ""
 
 #: cms/templates/course_outline.html
 msgid ""
-"No course content is currently visible, and no students are enrolled. Be "
-"sure to review and reset all dates, including the Course Start Date; set up "
-"the course team; review course updates and other assets for dated material; "
-"and seed the discussions and wiki."
+"No course content is currently visible, and no students are enrolled. Be sure "
+"to review and reset all dates, including the Course Start Date; set up the "
+"course team; review course updates and other assets for dated material; and "
+"seed the discussions and wiki."
 msgstr ""
 "A kurzus tartalma még nem látható és a tanulók sem tudnak feliratkozni rá. "
 "Győződj meg róla, hogy minden dátumot beállítottál, beleértve a Kezdő "
@@ -693,9 +675,9 @@ msgstr "Nem támogatott komponensek"
 #: cms/templates/course_outline.html
 msgid ""
 "To avoid errors, {platform_name} strongly recommends that you remove "
-"unsupported features from the course advanced settings. To do this, go to "
-"the {link_start}Advanced Settings page{link_end}, locate the \"Advanced "
-"Module List\" setting, and then delete the following modules from the list."
+"unsupported features from the course advanced settings. To do this, go to the "
+"{link_start}Advanced Settings page{link_end}, locate the \"Advanced Module "
+"List\" setting, and then delete the following modules from the list."
 msgstr ""
 
 #: cms/templates/course_outline.html
@@ -739,7 +721,7 @@ msgstr "Élő nézet"
 msgid "Course Start Date:"
 msgstr "Kurzus kezdési dátuma:"
 
-#: cms/templates/course_outline.html cms/templates/course_outline.html
+#: cms/templates/course_outline.html
 msgid "Edit Start Date"
 msgstr "Kezdő dátum szerkesztése"
 
@@ -749,16 +731,15 @@ msgstr "Alakítsd ki a kurzus struktúráját"
 
 #: cms/templates/course_outline.html
 msgid "You add sections, subsections, and units directly in the outline."
-msgstr ""
-"Adj hozzá fejezeteket, alfejezeteket és leckéket közvetlen a vázlathoz."
+msgstr "Adj hozzá fejezeteket, alfejezeteket és leckéket közvetlen a vázlathoz."
 
 #: cms/templates/course_outline.html
 msgid ""
 "Create a section, then add subsections and units. Open a unit to add course "
 "components."
 msgstr ""
-"Készíts fejezetet, aztán adj hozzá alfejezetet és leckét. Nyisd meg a leckét"
-" és adj hozzá további komponenseket."
+"Készíts fejezetet, aztán adj hozzá alfejezetet és leckét. Nyisd meg a leckét "
+"és adj hozzá további komponenseket."
 
 #: cms/templates/course_outline.html
 msgid "Reorganizing your course"
@@ -779,9 +760,9 @@ msgid ""
 "date. When you configure a subsection, you can also set the grading policy "
 "and due date."
 msgstr ""
-"Válaszd a beállítások ikont a fejezetek, vagy alfejezetek mellett és állítsd"
-" be a megjelenés dátumát. Amikor egy alfejezet beállításait végzed. be tudod"
-" állítani még az értékelési irányelveket és az esedékesség dátumát is."
+"Válaszd a beállítások ikont a fejezetek, vagy alfejezetek mellett és állítsd "
+"be a megjelenés dátumát. Amikor egy alfejezet beállításait végzed. be tudod "
+"állítani még az értékelési irányelveket és az esedékesség dátumát is."
 
 #: cms/templates/course_outline.html
 msgid "Changing the content students see"
@@ -789,8 +770,8 @@ msgstr "Változtasd meg a tanulók által látható tartalmat"
 
 #: cms/templates/course_outline.html
 msgid ""
-"To publish draft content, select the Publish icon for a section, subsection,"
-" or unit."
+"To publish draft content, select the Publish icon for a section, subsection, "
+"or unit."
 msgstr ""
 "A tervezett tartalom publikálásához válaszd a Publikálás ikont a fejezet, "
 "alfejezet, vagy lecke mellett."
@@ -801,8 +782,8 @@ msgid ""
 "subsection, or unit, then select {em_start}Hide from students{em_end}."
 msgstr ""
 "Ha el akarod rejteni a tartalmat a tanulók elöl, akkor válaszd a Beállítás "
-"ikont a fejezet, alfejezet, vagy lecke mellett és pipáld ki a "
-"{em_start}Elrejtés a tanulók elöl{em_end} jelölőnégyzetet.."
+"ikont a fejezet, alfejezet, vagy lecke mellett és pipáld ki a {em_start}"
+"Elrejtés a tanulók elöl{em_end} jelölőnégyzetet.."
 
 #: cms/templates/course_outline.html
 msgid "Learn more about the course outline"
@@ -810,8 +791,8 @@ msgstr "Tudj meg többet a kurzus vázlatról"
 
 #. Translators: Pages refer to the tabs that appear in the top navigation of
 #. each course.
-#: cms/templates/edit-tabs.html cms/templates/edit-tabs.html
-#: cms/templates/export.html cms/templates/widgets/header.html
+#: cms/templates/edit-tabs.html cms/templates/export.html
+#: cms/templates/widgets/header.html
 msgid "Pages"
 msgstr "Lapok"
 
@@ -822,22 +803,21 @@ msgstr "Új oldal"
 #: cms/templates/edit-tabs.html
 msgid ""
 "Note: Pages are publicly visible. If users know the URL of a page, they can "
-"view the page even if they are not registered for or logged in to your "
-"course."
+"view the page even if they are not registered for or logged in to your course."
 msgstr ""
 "Figyelem: A lapok publikusan láthatóak. Ha a felhasználó tudja a lapok URL "
-"címét, akkor meg tudja nézni anélkül, hogy bejelentkezne, vagy regisztrálna "
-"a kurzusra."
+"címét, akkor meg tudja nézni anélkül, hogy bejelentkezne, vagy regisztrálna a "
+"kurzusra."
 
 #: cms/templates/edit-tabs.html
 msgid "Show this page"
 msgstr "Oldal megjelenítése"
 
-#: cms/templates/edit-tabs.html cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html
 msgid "Show/hide page"
 msgstr "Oldal mutatása/elrejtése"
 
-#: cms/templates/edit-tabs.html cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html
 msgid "This page cannot be reordered"
 msgstr "Ennek az oldalnak nem lehet megváltoztatni a sorrendjét"
 
@@ -884,8 +864,8 @@ msgid ""
 "Students see the default and custom pages at the top of your course and use "
 "these links to navigate."
 msgstr ""
-"A tanulók az oldal tetején látják az alapértelmezett és az egyéni lapokat és"
-" ezeket a linkeket használják navigálásra."
+"A tanulók az oldal tetején látják az alapértelmezett és az egyéni lapokat és "
+"ezeket a linkeket használják navigálásra."
 
 #: cms/templates/edit-tabs.html
 msgid "See an example"
@@ -905,12 +885,11 @@ msgid ""
 "(Courseware, Course Info, Discussion, Wiki, and Progress) are followed by "
 "textbooks and custom pages."
 msgstr ""
-"A Lapok a felső navigációs területen jelennek meg. Az alapértelmezett "
-"lapokat (Tananyag, Hírek, Vita, Wiki és Eredmények) a tankönyvek lap, majd "
-"egyéni lapok követik."
+"A Lapok a felső navigációs területen jelennek meg. Az alapértelmezett lapokat "
+"(Tananyag, Hírek, Vita, Wiki és Eredmények) a tankönyvek lap, majd egyéni "
+"lapok követik."
 
 #: cms/templates/edit-tabs.html cms/templates/howitworks.html
-#: cms/templates/howitworks.html cms/templates/howitworks.html
 msgid "close modal"
 msgstr ""
 
@@ -929,10 +908,10 @@ msgstr "A keresett oldal nem található"
 
 #: cms/templates/error.html
 msgid ""
-"We're sorry. We couldn't find the {studio_name} page you're looking for. You"
-" may want to return to the {studio_name} Dashboard and try again. If you are"
-" still having problems accessing things, please feel free to "
-"{link_start}contact {studio_name} support{link_end} for further help."
+"We're sorry. We couldn't find the {studio_name} page you're looking for. You "
+"may want to return to the {studio_name} Dashboard and try again. If you are "
+"still having problems accessing things, please feel free to {link_start}"
+"contact {studio_name} support{link_end} for further help."
 msgstr ""
 
 #: cms/templates/error.html
@@ -941,22 +920,22 @@ msgstr "A szerver hibát jelzett"
 
 #: cms/templates/error.html
 msgid ""
-"We're sorry. There was a problem with the server while trying to process "
-"your last request. You may want to return to the {studio_name} Dashboard or "
-"try this request again. If you are still having problems accessing things, "
-"please feel free to {link_start}contact {studio_name} support{link_end} for "
-"further help."
+"We're sorry. There was a problem with the server while trying to process your "
+"last request. You may want to return to the {studio_name} Dashboard or try "
+"this request again. If you are still having problems accessing things, please "
+"feel free to {link_start}contact {studio_name} support{link_end} for further "
+"help."
 msgstr ""
 
 #: cms/templates/error.html
 msgid "Back to dashboard"
 msgstr "Vissza a főoldalra"
 
-#: cms/templates/export.html cms/templates/export.html
+#: cms/templates/export.html
 msgid "Library Export"
 msgstr "Könyvtár Exportálás"
 
-#: cms/templates/export.html cms/templates/export.html
+#: cms/templates/export.html
 msgid "Course Export"
 msgstr "Kurzus exportálása"
 
@@ -967,10 +946,10 @@ msgstr "Könyvtárak exportálásáról"
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html
 msgid ""
-"You can export libraries and edit them outside of {studio_name}. The "
-"exported file is a .tar.gz file (that is, a .tar file compressed with GNU "
-"Zip) that contains the library structure and content. You can also re-import"
-" libraries that you've exported."
+"You can export libraries and edit them outside of {studio_name}. The exported "
+"file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that "
+"contains the library structure and content. You can also re-import libraries "
+"that you've exported."
 msgstr ""
 
 #: cms/templates/export.html
@@ -990,15 +969,14 @@ msgstr ""
 msgid ""
 "{em_start}Caution:{em_end} When you export a course, information such as "
 "MATLAB API keys, LTI passports, annotation secret token strings, and "
-"annotation storage URLs are included in the exported data. If you share your"
-" exported files, you may also be sharing sensitive or license-specific "
+"annotation storage URLs are included in the exported data. If you share your "
+"exported files, you may also be sharing sensitive or license-specific "
 "information."
 msgstr ""
-"{em_start}Figyelem:{em_end} Kurzus exportálás esetlén"
-"olyan bizalmas információk, mint kódok, kulcsok, MATLAP API kulcsok is "
-"mentésre "
-"kerülnek. A mentett kurzus mással való megosztása esetén ez "
-"biztonsági problémákat okozhat."
+"{em_start}Figyelem:{em_end} Kurzus exportálás esetlénolyan bizalmas "
+"információk, mint kódok, kulcsok, MATLAP API kulcsok is mentésre kerülnek. A "
+"mentett kurzus mással való megosztása esetén ez biztonsági problémákat "
+"okozhat."
 
 #: cms/templates/export.html
 msgid "Export My Library Content"
@@ -1069,12 +1047,12 @@ msgstr "Miért exportáljunk egy könyvtárat?"
 #: cms/templates/export.html
 msgid ""
 "You may want to edit the XML in your library directly, outside of "
-"{studio_name}. You may want to create a backup copy of your library. Or, you"
-" may want to create a copy of your library that you can later import into "
+"{studio_name}. You may want to create a backup copy of your library. Or, you "
+"may want to create a copy of your library that you can later import into "
 "another library instance and customize."
 msgstr ""
 
-#: cms/templates/export.html cms/templates/export.html
+#: cms/templates/export.html
 msgid "Opening the downloaded file"
 msgstr "Letöltött fájl megnyitása"
 
@@ -1105,11 +1083,9 @@ msgid ""
 "another course instance and customize."
 msgstr ""
 "Így lehetőséged nyílik a {studio_name}-n kívül is szerkeszteni a kurzus "
-"tartalmát "
-"XML fájlok formájában. Ezen felül hasznos, mert készíthetsz biztonsági "
-"másolatot, "
-"vagy esetleg a későbbiekben egy másik kurzus keretében beimportálhatod és "
-"testre szabhatod."
+"tartalmát XML fájlok formájában. Ezen felül hasznos, mert készíthetsz "
+"biztonsági másolatot, vagy esetleg a későbbiekben egy másik kurzus keretében "
+"beimportálhatod és testre szabhatod."
 
 #: cms/templates/export.html
 msgid "What content is exported?"
@@ -1117,11 +1093,11 @@ msgstr "Milyen tartalmak kerülnek exportálásra?"
 
 #: cms/templates/export.html
 msgid ""
-"The course content and structure (including sections, subsections, and "
-"units) are exported. Values from Advanced Settings, including MATLAB API "
-"keys and LTI passports, are also exported. Other data, including student "
-"data, grading information, discussion forum data, course settings, and "
-"course team information, is not exported."
+"The course content and structure (including sections, subsections, and units) "
+"are exported. Values from Advanced Settings, including MATLAB API keys and "
+"LTI passports, are also exported. Other data, including student data, grading "
+"information, discussion forum data, course settings, and course team "
+"information, is not exported."
 msgstr ""
 "A kurzus tartalma és struktúrája (fejezetek, alfejezetek és leckék) kerül "
 "exportálásra. A speciális beállítások, magában foglalva a MATLAB API "
@@ -1133,12 +1109,12 @@ msgstr ""
 #: cms/templates/export.html
 msgid ""
 "Use an archive program to extract the data from the .tar.gz file. Extracted "
-"data includes the course.xml file, as well as subfolders that contain course"
-" content."
+"data includes the course.xml file, as well as subfolders that contain course "
+"content."
 msgstr ""
 "Használj olyan tömörítő programot, amely képes a .tar.gz fájlok "
-"kicsomagolására. A kicsomagolt fájlok között megtalálod a course.xml fájlt "
-"és a kurzus lényegi részeit tartalmazó jegyzékeket."
+"kicsomagolására. A kicsomagolt fájlok között megtalálod a course.xml fájlt és "
+"a kurzus lényegi részeit tartalmazó jegyzékeket."
 
 #: cms/templates/export.html
 msgid "Learn more about exporting a course"
@@ -1148,8 +1124,7 @@ msgstr "Tudj meg többet a kurzus exportálásáról"
 msgid "Export Course to Git"
 msgstr "Kurzus exportálása Git-re"
 
-#: cms/templates/export_git.html cms/templates/export_git.html
-#: cms/templates/widgets/header.html
+#: cms/templates/export_git.html cms/templates/widgets/header.html
 msgid "Export to Git"
 msgstr "Exportálás Git-re"
 
@@ -1193,13 +1168,10 @@ msgstr "Kurzusod:"
 msgid "Course git url:"
 msgstr "A kurzus git url-je:"
 
-#: cms/templates/group_configurations.html
-#: cms/templates/group_configurations.html
-#: cms/templates/visibility_editor.html
+#: cms/templates/group_configurations.html cms/templates/visibility_editor.html
 msgid "Content Groups"
 msgstr "Tartalom csoportok"
 
-#: cms/templates/group_configurations.html
 #: cms/templates/group_configurations.html
 msgid "Experiment Group Configurations"
 msgstr ""
@@ -1218,22 +1190,20 @@ msgstr ""
 #: cms/templates/group_configurations.html
 msgid ""
 "Each content group that you create can be associated with one or more "
-"cohorts. In addition to course content that is intended for all students, "
-"you can designate some content as visible only to specified content groups. "
-"Only learners in the cohorts that are associated with the specified content "
-"groups see the additional content."
+"cohorts. In addition to course content that is intended for all students, you "
+"can designate some content as visible only to specified content groups. Only "
+"learners in the cohorts that are associated with the specified content groups "
+"see the additional content."
 msgstr ""
 
 #: cms/templates/group_configurations.html
 msgid ""
-"Click {em_start}New content group{em_end} to add a new content group. To "
-"edit the name of a content group, hover over its box and click "
-"{em_start}Edit{em_end}. You can delete a content group only if it is not in "
-"use by a unit. To delete a content group, hover over its box and click the "
-"delete icon."
+"Click {em_start}New content group{em_end} to add a new content group. To edit "
+"the name of a content group, hover over its box and click {em_start}"
+"Edit{em_end}. You can delete a content group only if it is not in use by a "
+"unit. To delete a content group, hover over its box and click the delete icon."
 msgstr ""
 
-#: cms/templates/group_configurations.html
 #: cms/templates/group_configurations.html
 msgid "Learn More"
 msgstr "Tudj meg többet"
@@ -1243,17 +1213,17 @@ msgid ""
 "Use experiment group configurations if you are conducting content "
 "experiments, also known as A/B testing, in your course. Experiment group "
 "configurations define how many groups of students are in a content "
-"experiment. When you create a content experiment for a course, you select "
-"the group configuration to use."
+"experiment. When you create a content experiment for a course, you select the "
+"group configuration to use."
 msgstr ""
 
 #: cms/templates/group_configurations.html
 msgid ""
 "Click {em_start}New Group Configuration{em_end} to add a new configuration. "
-"To edit a configuration, hover over its box and click "
-"{em_start}Edit{em_end}. You can delete a group configuration only if it is "
-"not in use in an experiment. To delete a configuration, hover over its box "
-"and click the delete icon."
+"To edit a configuration, hover over its box and click {em_start}Edit{em_end}. "
+"You can delete a group configuration only if it is not in use in an "
+"experiment. To delete a configuration, hover over its box and click the "
+"delete icon."
 msgstr ""
 
 #: cms/templates/howitworks.html
@@ -1266,8 +1236,8 @@ msgstr "Üdvözlünk a {studio_name}-ban"
 
 #: cms/templates/howitworks.html
 msgid ""
-"{studio_name} helps manage your online courses, so you can focus on teaching"
-" them"
+"{studio_name} helps manage your online courses, so you can focus on teaching "
+"them"
 msgstr ""
 "A {studio_name} segít az online kurzusod kezelésében, így a tanításra "
 "fókuszálhatsz"
@@ -1276,7 +1246,7 @@ msgstr ""
 msgid "{studio_name}'s Many Features"
 msgstr ""
 
-#: cms/templates/howitworks.html cms/templates/howitworks.html
+#: cms/templates/howitworks.html
 msgid "{studio_name} Helps You Keep Your Courses Organized"
 msgstr ""
 
@@ -1290,10 +1260,10 @@ msgid ""
 "<strong>Outline</strong> editor, providing a simple hierarchy and easy drag "
 "and drop to help you and your students stay organized."
 msgstr ""
-"A kurzusaidat rugalmasan szerkesztheted. A {studio_name} a "
-"<strong>Vázlat</strong> szerkesztővel könnyen hierarchikusan szerkeszthetővé"
-" válnak a kurzusok. A jól ismert \"fogd és vidd\" technika segítségével "
-"könnyen átszervezhető a kurzus felépítése."
+"A kurzusaidat rugalmasan szerkesztheted. A {studio_name} a <strong>Vázlat</"
+"strong> szerkesztővel könnyen hierarchikusan szerkeszthetővé válnak a "
+"kurzusok. A jól ismert \"fogd és vidd\" technika segítségével könnyen "
+"átszervezhető a kurzus felépítése."
 
 #: cms/templates/howitworks.html
 msgid "Simple Organization For Content"
@@ -1313,11 +1283,11 @@ msgstr "Gondold meg magad bármikor"
 
 #: cms/templates/howitworks.html
 msgid ""
-"Draft your outline and build content anywhere. Simple drag and drop tools "
-"let you reorganize quickly."
+"Draft your outline and build content anywhere. Simple drag and drop tools let "
+"you reorganize quickly."
 msgstr ""
-"Elkészítetted a vázlatot, de a tartalom nem megfelelő. Egyszerű fogd és vidd"
-" technikával gyorsan szervezd újra."
+"Elkészítetted a vázlatot, de a tartalom nem megfelelő. Egyszerű fogd és vidd "
+"technikával gyorsan szervezd újra."
 
 #: cms/templates/howitworks.html
 msgid "Go A Week Or A Semester At A Time"
@@ -1328,10 +1298,9 @@ msgid ""
 "Build and release <strong>sections</strong> to your students incrementally. "
 "You don't have to have it all done at once."
 msgstr ""
-"Készíts és publikálj mindig csak egy-egy <strong>fejezetet</strong>. Nem "
-"kell elkészítened előre az egész anyagot."
+"Készíts és publikálj mindig csak egy-egy <strong>fejezetet</strong>. Nem kell "
+"elkészítened előre az egész anyagot."
 
-#: cms/templates/howitworks.html cms/templates/howitworks.html
 #: cms/templates/howitworks.html
 msgid "Learning is More than Just Lectures"
 msgstr "A tanulás nem csak az előadásokból áll"
@@ -1342,8 +1311,8 @@ msgid ""
 "learning. Insert videos, discussions, and a wide variety of exercises with "
 "just a few clicks."
 msgstr ""
-"{studio_name} segítségével összeszőheted a tartalmakat úgy, hogy a tanulás a"
-" leghatékonyabb legyen. Szúrj be videókat, vitákat, és a feladatok széles "
+"{studio_name} segítségével összeszőheted a tartalmakat úgy, hogy a tanulás a "
+"leghatékonyabb legyen. Szúrj be videókat, vitákat, és a feladatok széles "
 "választékát néhány kattintással."
 
 #: cms/templates/howitworks.html
@@ -1368,8 +1337,8 @@ msgid ""
 "Work visually and see exactly what your students will see. Reorganize all "
 "your content with drag and drop."
 msgstr ""
-"Dolgozz vizuálisan és pontosan azt lásd, amit a tanulók is látni "
-"fognak.Szerkeszd át az anyag sorrendjét fogd és vidd technikával."
+"Dolgozz vizuálisan és pontosan azt lásd, amit a tanulók is látni fognak."
+"Szerkeszd át az anyag sorrendjét fogd és vidd technikával."
 
 #: cms/templates/howitworks.html
 msgid "A Broad Library of Problem Types"
@@ -1377,14 +1346,14 @@ msgstr "Feladattípusok széles palettája"
 
 #: cms/templates/howitworks.html
 msgid ""
-"It's more than just multiple choice. {studio_name} supports more than a "
-"dozen types of problems to challenge your learners."
+"It's more than just multiple choice. {studio_name} supports more than a dozen "
+"types of problems to challenge your learners."
 msgstr ""
 "Nem csak egyszerű kiválasztásos feladatokat támogat. A {studio_name} több "
-"tucat feladat típust támogat, hogy minél nagyobb kihívás elé tudd állítani a"
-" diákjaidat."
+"tucat feladat típust támogat, hogy minél nagyobb kihívás elé tudd állítani a "
+"diákjaidat."
 
-#: cms/templates/howitworks.html cms/templates/howitworks.html
+#: cms/templates/howitworks.html
 msgid ""
 "{studio_name} Gives You Simple, Fast, and Incremental Publishing. With "
 "Friends."
@@ -1398,12 +1367,12 @@ msgstr "Egyszerű, gyors és egyenként történő publikálás. Akár csapatban
 msgid ""
 "{studio_name} works like web applications you already know, yet understands "
 "how you build curriculum. Instant publishing to the web when you want it, "
-"incremental release when it makes sense. And with co-authors, you can have a"
-" whole team building a course, together."
+"incremental release when it makes sense. And with co-authors, you can have a "
+"whole team building a course, together."
 msgstr ""
-"{studio_name} úgy működik, mint egy webes program amit már ismersz és tudod,"
-" hogyan készíts vele tananyagot. Azonnali publikálásra képes a webre, ha "
-"éppen erre van szükséged, vagy egyenként történő megjelenést tesz lehetővé. "
+"{studio_name} úgy működik, mint egy webes program amit már ismersz és tudod, "
+"hogyan készíts vele tananyagot. Azonnali publikálásra képes a webre, ha éppen "
+"erre van szükséged, vagy egyenként történő megjelenést tesz lehetővé. "
 "Dolgozhatsz szerzőtársakkal, így akár egy nagy csapat is készíthet egy "
 "kurzust."
 
@@ -1413,8 +1382,8 @@ msgstr "Azonnali változások"
 
 #: cms/templates/howitworks.html
 msgid ""
-"Caught a bug? No problem. When you want, your changes go live when you click"
-" Save."
+"Caught a bug? No problem. When you want, your changes go live when you click "
+"Save."
 msgstr ""
 "Elkövettél valamilyen hibát? Nincs semmi baj. Amikor akarod, kijavíthatod, "
 "csak a mentésre kell kattintanod és a rendszerben már az új verzió lesz "
@@ -1426,8 +1395,8 @@ msgstr "A kiadás dátumán publikálj"
 
 #: cms/templates/howitworks.html
 msgid ""
-"When you've finished a <strong>section</strong>, pick when you want it to go"
-" live and {studio_name} takes care of the rest. Build your course "
+"When you've finished a <strong>section</strong>, pick when you want it to go "
+"live and {studio_name} takes care of the rest. Build your course "
 "incrementally."
 msgstr ""
 "Amikor befejeztél egy <strong>fejezetet</strong>, állítsd be, hogy mikor "
@@ -1440,8 +1409,8 @@ msgstr "Dolgozz csapatban"
 
 #: cms/templates/howitworks.html
 msgid ""
-"Co-authors have full access to all the same authoring tools. Make your "
-"course better through a team effort."
+"Co-authors have full access to all the same authoring tools. Make your course "
+"better through a team effort."
 msgstr ""
 "A segéd szerzők teljes elérési joggal rendelkeznek. Tedd jobbá a kurzusod a "
 "csoportmunkában rejlő lehetőségekkel."
@@ -1464,8 +1433,8 @@ msgstr "Kurzusod vázlata"
 
 #: cms/templates/howitworks.html
 msgid ""
-"Simple two-level outline to organize your couse. Drag and drop, and see your"
-" course at a glance."
+"Simple two-level outline to organize your couse. Drag and drop, and see your "
+"course at a glance."
 msgstr ""
 
 #: cms/templates/howitworks.html
@@ -1494,34 +1463,33 @@ msgstr "Hiba történt a komponens feldolgozása során"
 
 #: cms/templates/html_error.html
 msgid ""
-"Students will not be able to access this component. Re-edit your component "
-"to fix the error."
+"Students will not be able to access this component. Re-edit your component to "
+"fix the error."
 msgstr ""
 "A tanulók nem fogják tudni elérni ezt a komponenst. Szerkeszd újra, hogy "
 "kijavítsd a hibákat."
 
-#: cms/templates/import.html cms/templates/import.html
+#: cms/templates/import.html
 msgid "Library Import"
 msgstr "Könyvtár Importálás"
 
-#: cms/templates/import.html cms/templates/import.html
+#: cms/templates/import.html
 msgid "Course Import"
 msgstr "Kurzus importálása"
 
 #: cms/templates/import.html
 msgid ""
 "Be sure you want to import a library before continuing. The contents of the "
-"imported library will replace the contents of the existing library. "
-"{em_start}You cannot undo a library import{em_end}. Before you proceed, we "
-"recommend that you export the current library, so that you have a backup "
-"copy of it."
+"imported library will replace the contents of the existing library. {em_start}"
+"You cannot undo a library import{em_end}. Before you proceed, we recommend "
+"that you export the current library, so that you have a backup copy of it."
 msgstr ""
 
 #: cms/templates/import.html
 msgid ""
 "The library that you import must be in a .tar.gz file (that is, a .tar file "
-"compressed with GNU Zip). This .tar.gz file must contain a library.xml file."
-" It may also contain other files."
+"compressed with GNU Zip). This .tar.gz file must contain a library.xml file. "
+"It may also contain other files."
 msgstr ""
 
 #: cms/templates/import.html
@@ -1535,16 +1503,14 @@ msgstr ""
 #: cms/templates/import.html
 msgid ""
 "Be sure you want to import a course before continuing. The contents of the "
-"imported course will replace the contents of the existing course. "
-"{em_start}You cannot undo a course import{em_end}. Before you proceed, we "
-"recommend that you export the current course, so that you have a backup copy"
-" of it."
+"imported course will replace the contents of the existing course. {em_start}"
+"You cannot undo a course import{em_end}. Before you proceed, we recommend "
+"that you export the current course, so that you have a backup copy of it."
 msgstr ""
 "Bizonyosodj meg arról, hogy valóban akarod-e importálni a kurzust mielőtt "
-"folytatod. Az importált kurzus tartalma felülírja a meglévő kurzus "
-"tartalmát. {em_start}Az importálás nem vonható vissza{em_end}. Mielőtt "
-"folytatnád, javasoljuk exportáld ki az aktuális kurzust egy biztonsági "
-"mentés céljából."
+"folytatod. Az importált kurzus tartalma felülírja a meglévő kurzus tartalmát. "
+"{em_start}Az importálás nem vonható vissza{em_end}. Mielőtt folytatnád, "
+"javasoljuk exportáld ki az aktuális kurzust egy biztonsági mentés céljából."
 
 #: cms/templates/import.html
 msgid ""
@@ -1639,8 +1605,8 @@ msgstr "Kurzus frissítése"
 
 #: cms/templates/import.html
 msgid ""
-"Integrating your imported content into this library. This process might take"
-" longer with larger libraries."
+"Integrating your imported content into this library. This process might take "
+"longer with larger libraries."
 msgstr ""
 
 #: cms/templates/import.html
@@ -1675,9 +1641,9 @@ msgstr "Miért importáljunk egy könyvtárat?"
 
 #: cms/templates/import.html
 msgid ""
-"You might want to update an existing library to a new version, or replace an"
-" existing library entirely. You might also have developed a library outside "
-"of {studio_name}."
+"You might want to update an existing library to a new version, or replace an "
+"existing library entirely. You might also have developed a library outside of "
+"{studio_name}."
 msgstr ""
 
 #: cms/templates/import.html
@@ -1717,15 +1683,15 @@ msgstr "Milyen tartalom került importálásra?"
 #: cms/templates/import.html
 msgid ""
 "Only the course content and structure (including sections, subsections, and "
-"units) are imported. Other data, including student data, grading "
-"information, discussion forum data, course settings, and course team "
-"information, remains the same as it was in the existing course."
+"units) are imported. Other data, including student data, grading information, "
+"discussion forum data, course settings, and course team information, remains "
+"the same as it was in the existing course."
 msgstr ""
-"Csak a kurzus felépítése és tartalma (beleértve a fejezeteket, alfejezeteket"
-" és leckéket) került importálásra. Egyéb adatok, beleértve a tanulói "
-"adatokat, értékelési információkat, vitákat, kurzus beállításokat és az "
-"oktatói csapat adatait nem, azok maradtak az eredetinek megfelelőek, ha ez "
-"egy létező kurzus volt."
+"Csak a kurzus felépítése és tartalma (beleértve a fejezeteket, alfejezeteket "
+"és leckéket) került importálásra. Egyéb adatok, beleértve a tanulói adatokat, "
+"értékelési információkat, vitákat, kurzus beállításokat és az oktatói csapat "
+"adatait nem, azok maradtak az eredetinek megfelelőek, ha ez egy létező kurzus "
+"volt."
 
 #: cms/templates/import.html
 msgid "Warning: Importing while a course is running"
@@ -1733,8 +1699,8 @@ msgstr "Figyelem: Importálni akarsz, miközben a kurzus folyamatban van"
 
 #: cms/templates/import.html
 msgid ""
-"If you perform an import while your course is running, and you change the "
-"URL names (or url_name nodes) of any Problem components, the student data "
+"If you perform an import while your course is running, and you change the URL "
+"names (or url_name nodes) of any Problem components, the student data "
 "associated with those Problem components may be lost. This data includes "
 "students' problem scores."
 msgstr ""
@@ -1747,8 +1713,7 @@ msgstr ""
 msgid "Learn more about importing a course"
 msgstr "Tudj meg többet a kurzus importálásról"
 
-#: cms/templates/index.html cms/templates/index.html
-#: cms/templates/widgets/header.html
+#: cms/templates/index.html cms/templates/widgets/header.html
 msgid "{studio_name} Home"
 msgstr ""
 
@@ -1764,7 +1729,7 @@ msgstr "Küldj e-mailt a stábnak, hogy kurzust készíthess"
 msgid "New Library"
 msgstr "Új könyvtár"
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid "Please correct the highlighted fields below."
 msgstr "Kérlek javítsd ki a kiemelt mezőket."
 
@@ -1778,11 +1743,11 @@ msgstr "Új kurzus létrehozásához szükséges információk"
 
 #: cms/templates/index.html
 msgid ""
-"The public display name for your course. This cannot be changed, but you can"
-" set a different display name in Advanced Settings later."
+"The public display name for your course. This cannot be changed, but you can "
+"set a different display name in Advanced Settings later."
 msgstr ""
-"A kurzusban nyilvánosan megjelenő név. Nem lehet megváltoztatni, de később a"
-" Speciális beállításoknál írhatsz be eltérő megjelenítési nevet."
+"A kurzusban nyilvánosan megjelenő név. Nem lehet megváltoztatni, de később a "
+"Speciális beállításoknál írhatsz be eltérő megjelenítési nevet."
 
 #: cms/templates/index.html
 msgid "The name of the organization sponsoring the course."
@@ -1790,16 +1755,16 @@ msgstr "A kurzust támogató szervezet neve."
 
 #: cms/templates/index.html
 msgid ""
-"Note: This is part of your course URL, so no spaces or special characters "
-"are allowed."
+"Note: This is part of your course URL, so no spaces or special characters are "
+"allowed."
 msgstr ""
 "Figyelem: Ez része lesz a kurzus URL címének, ezért sem szóközt, sem "
 "speciális karaktert nem tartalmazhat."
 
 #: cms/templates/index.html
 msgid ""
-"This cannot be changed, but you can set a different display name in Advanced"
-" Settings later."
+"This cannot be changed, but you can set a different display name in Advanced "
+"Settings later."
 msgstr ""
 "Nem lehet megváltoztatni, de később a Speciális beállításoknál írhatsz be "
 "eltérő megjelenítési nevet."
@@ -1808,10 +1773,10 @@ msgstr ""
 msgid "The unique number that identifies your course within your organization."
 msgstr "Egyedi azonosító, ami azonosítja kurzust a szervezeten belül."
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid ""
-"Note: This is part of your course URL, so no spaces or special characters "
-"are allowed and it cannot be changed."
+"Note: This is part of your course URL, so no spaces or special characters are "
+"allowed and it cannot be changed."
 msgstr ""
 "Figyelem: Ez része lesz a kurzus URL címének, ezért sem szóközt, sem "
 "speciális karaktert nem tartalmazhat."
@@ -1822,7 +1787,7 @@ msgstr ""
 "Az az időszak, amikor a kurzus megtartásra kerül. Célszerű az eredeti "
 "jelölést használni T= Term, azaz időszak. "
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid "Create"
 msgstr "Létrehozás"
 
@@ -1853,7 +1818,7 @@ msgstr "A könyvtár neve, ahogy megfog jelenni."
 msgid "The public organization name for your library."
 msgstr "A szervezet neve, amelyhez a könyvtár tartozni fog."
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid "This cannot be changed."
 msgstr "Ez a későbbiekben nem változtatható."
 
@@ -1878,14 +1843,14 @@ msgid ""
 "Note: This is part of your library URL, so no spaces or special characters "
 "are allowed."
 msgstr ""
-"Figyelem: a kód része a könyvtár URL-nek, ezért space és speciális "
-"karakterek nem megengedettek."
+"Figyelem: a kód része a könyvtár URL-nek, ezért space és speciális karakterek "
+"nem megengedettek."
 
 #: cms/templates/index.html
 msgid "Courses Being Processed"
 msgstr "A kurzus feldolgozása elkészült"
 
-#: cms/templates/index.html cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid "Course Run:"
 msgstr "Kurzus időszaka:"
 
@@ -1904,8 +1869,8 @@ msgstr "Beállítás újraindításhoz"
 #: cms/templates/index.html
 msgid ""
 "The new course will be added to your course list in 5-10 minutes. Return to "
-"this page or {link_start}refresh it{link_end} to update the course list. The"
-" new course will need some manual configuration."
+"this page or {link_start}refresh it{link_end} to update the course list. The "
+"new course will need some manual configuration."
 msgstr ""
 
 #: cms/templates/index.html
@@ -1915,8 +1880,8 @@ msgid ""
 "assistance."
 msgstr ""
 "Rendszerhiba történt a kurzus feldolgozása közben. Menj vissza az eredeti "
-"kurzushoz, hogy megpróbáld újraindítani, vagy vedd fel a kapcsolatot a PM-"
-"mel segítségért."
+"kurzushoz, hogy megpróbáld újraindítani, vagy vedd fel a kapcsolatot a PM-mel "
+"segítségért."
 
 #: cms/templates/index.html
 msgid "Libraries"
@@ -1938,7 +1903,7 @@ msgstr ""
 "A kurzus készítőjének jogosultságot kell adni ahhoz, hogy hozzáférj a "
 "kurzushoz. Vedd fel a kapcsolatot a készítővel vagy az adminisztrátorral."
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid "Create Your First Course"
 msgstr "Készítsd el az első kurzusod"
 
@@ -1952,14 +1917,14 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid ""
-"{studio_name} is a hosted solution for our xConsortium partners and selected"
-" guests. Courses for which you are a team member appear above for you to "
-"edit, while course creator privileges are granted by {platform_name}. Our "
-"team will evaluate your request and provide you feedback within 24 hours "
-"during the work week."
+"{studio_name} is a hosted solution for our xConsortium partners and selected "
+"guests. Courses for which you are a team member appear above for you to edit, "
+"while course creator privileges are granted by {platform_name}. Our team will "
+"evaluate your request and provide you feedback within 24 hours during the "
+"work week."
 msgstr ""
 
-#: cms/templates/index.html cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid "Your Course Creator Request Status:"
 msgstr "Kurzus készítői kérésed állapota:"
 
@@ -1967,19 +1932,19 @@ msgstr "Kurzus készítői kérésed állapota:"
 msgid "Request the Ability to Create Courses"
 msgstr "Kurzus készítései lehetőség kérése"
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid "Your Course Creator Request Status"
 msgstr "Kurzus készítői kérésed állapota"
 
 #: cms/templates/index.html
 msgid ""
-"{studio_name} is a hosted solution for our xConsortium partners and selected"
-" guests. Courses for which you are a team member appear above for you to "
-"edit, while course creator privileges are granted by {platform_name}. Our "
-"team is has completed evaluating your request."
+"{studio_name} is a hosted solution for our xConsortium partners and selected "
+"guests. Courses for which you are a team member appear above for you to edit, "
+"while course creator privileges are granted by {platform_name}. Our team is "
+"has completed evaluating your request."
 msgstr ""
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid "Your Course Creator request is:"
 msgstr "Kurzus készítői kérésed:"
 
@@ -1995,16 +1960,16 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid ""
-"{studio_name} is a hosted solution for our xConsortium partners and selected"
-" guests. Courses for which you are a team member appear above for you to "
-"edit, while course creator privileges are granted by {platform_name}. Our "
-"team is currently  evaluating your request."
+"{studio_name} is a hosted solution for our xConsortium partners and selected "
+"guests. Courses for which you are a team member appear above for you to edit, "
+"while course creator privileges are granted by {platform_name}. Our team is "
+"currently  evaluating your request."
 msgstr ""
 
 #: cms/templates/index.html
 msgid ""
-"Your request is currently being reviewed by {platform_name} staff and should"
-" be updated shortly."
+"Your request is currently being reviewed by {platform_name} staff and should "
+"be updated shortly."
 msgstr ""
 
 #: cms/templates/index.html
@@ -2017,13 +1982,13 @@ msgstr "Arra számítottál, hogy különböző könyvtárakat fogsz itt találn
 
 #: cms/templates/index.html
 msgid ""
-"The library creator must give you access to the library. Contact the library"
-" creator or administrator for the library you are helping to author."
+"The library creator must give you access to the library. Contact the library "
+"creator or administrator for the library you are helping to author."
 msgstr ""
 "A könyvtár készítőjének hozzáférési jogosultságot kell adnia számodra. Vedd "
 "fel a kapcsolatot az adott könyvtár készítőjével vagy az adminisztrátorral."
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid "Create Your First Library"
 msgstr "Készítsd el az első könyvtáradat"
 
@@ -2042,19 +2007,19 @@ msgstr "Új vagy az {studio_name}?"
 #: cms/templates/index.html
 msgid ""
 "Click Help in the upper-right corner to get more information about the "
-"{studio_name} page you are viewing. You can also use the links at the bottom"
-" of the page to access our continually updated documentation and other "
+"{studio_name} page you are viewing. You can also use the links at the bottom "
+"of the page to access our continually updated documentation and other "
 "{studio_name} resources."
 msgstr ""
 "Kattints a Segítségre a jobb felső sarokban, a bővebb informáciért az "
-"{studio_name} -al kapcsolatban. Használhatod a lenti linket is, hogy elérd a"
-" folyamatosan frissített dokumentációt és egyéb {studio_name} erőforrásokat."
+"{studio_name} -al kapcsolatban. Használhatod a lenti linket is, hogy elérd a "
+"folyamatosan frissített dokumentációt és egyéb {studio_name} erőforrásokat."
 
 #: cms/templates/index.html
 msgid "Getting Started with {studio_name}"
 msgstr "Kezdjünk bele az {studio_name} használatába"
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid "Use our feedback tool, Tender, to request help"
 msgstr ""
 
@@ -2062,7 +2027,7 @@ msgstr ""
 msgid "Request help with {studio_name}"
 msgstr ""
 
-#: cms/templates/index.html cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html
 msgid "Can I create courses in {studio_name}?"
 msgstr ""
 
@@ -2105,9 +2070,8 @@ msgstr "Segítségre van szükséged?"
 
 #: cms/templates/index.html
 msgid ""
-"Please check your Junk or Spam folders in case our email isn't in your "
-"INBOX. Still can't find the verification email? Request help via the link "
-"below."
+"Please check your Junk or Spam folders in case our email isn't in your INBOX. "
+"Still can't find the verification email? Request help via the link below."
 msgstr ""
 
 #: cms/templates/index.html
@@ -2128,15 +2092,15 @@ msgstr ""
 
 #: cms/templates/library.html
 msgid ""
-"Add components to your library for use in courses, using Add New Component "
-"at the bottom of this page."
+"Add components to your library for use in courses, using Add New Component at "
+"the bottom of this page."
 msgstr ""
 
 #: cms/templates/library.html
 msgid ""
 "Components are listed in the order in which they are added, with the most "
-"recently added at the bottom. Use the pagination arrows to navigate from "
-"page to page if you have more than one page of components in your library."
+"recently added at the bottom. Use the pagination arrows to navigate from page "
+"to page if you have more than one page of components in your library."
 msgstr ""
 
 #: cms/templates/library.html
@@ -2145,12 +2109,12 @@ msgstr "Könyvtár tartalmának használata a kurzusokban"
 
 #: cms/templates/library.html
 msgid ""
-"Use library content in courses by adding the "
-"{em_start}library_content{em_end} policy key to the Advanced Module List in "
-"the course's Advanced Settings, then adding a Randomized Content Block to "
-"your courseware. In the settings for each Randomized Content Block, select "
-"this library as the source library, and specify the number of problems to be"
-" randomly selected and displayed to each student."
+"Use library content in courses by adding the {em_start}"
+"library_content{em_end} policy key to the Advanced Module List in the "
+"course's Advanced Settings, then adding a Randomized Content Block to your "
+"courseware. In the settings for each Randomized Content Block, select this "
+"library as the source library, and specify the number of problems to be "
+"randomly selected and displayed to each student."
 msgstr ""
 
 #: cms/templates/library.html
@@ -2161,7 +2125,7 @@ msgstr "Tudj meg többet a tartalom könyvtárakról"
 msgid "Sign In"
 msgstr "Bejelentkezés"
 
-#: cms/templates/login.html cms/templates/login.html
+#: cms/templates/login.html
 msgid "Sign In to {studio_name}"
 msgstr "Jelentkezz be a {studio_name}-ba"
 
@@ -2209,8 +2173,7 @@ msgstr "Felhasználók e-mail címei"
 
 #: cms/templates/manage_users.html
 msgid ""
-"Please provide the email address of the course staff member you'd like to "
-"add"
+"Please provide the email address of the course staff member you'd like to add"
 msgstr ""
 "Add meg az email címét annak az oktatónak, akit hozzá akarsz adni a kurzushoz"
 
@@ -2238,8 +2201,8 @@ msgstr "Oktatói csapat jogok"
 
 #: cms/templates/manage_users.html
 msgid ""
-"Course team members, or staff, are course co-authors. They have full writing"
-" and editing privileges on all course content."
+"Course team members, or staff, are course co-authors. They have full writing "
+"and editing privileges on all course content."
 msgstr ""
 
 #: cms/templates/manage_users.html
@@ -2301,8 +2264,8 @@ msgstr ""
 
 #: cms/templates/manage_users_lib.html
 msgid ""
-"Users can view library content and can reference or use library components "
-"in their courses, but they cannot edit the contents of a library."
+"Users can view library content and can reference or use library components in "
+"their courses, but they cannot edit the contents of a library."
 msgstr ""
 
 #: cms/templates/manage_users_lib.html
@@ -2331,11 +2294,11 @@ msgstr "Már van {studio_name} fiókod? Jelentkezz be"
 
 #: cms/templates/register.html
 msgid ""
-"Ready to start creating online courses? Sign up below and start creating "
-"your first {platform_name} course today."
+"Ready to start creating online courses? Sign up below and start creating your "
+"first {platform_name} course today."
 msgstr ""
-"Készen állsz, hogy online kurzusokat készíts? Regisztrálj lent és készítsd "
-"el az első {platform_name} kurzusod még ma!"
+"Készen állsz, hogy online kurzusokat készíts? Regisztrálj lent és készítsd el "
+"az első {platform_name} kurzusod még ma!"
 
 #: cms/templates/register.html
 msgid "Required Information to Sign Up for {studio_name}"
@@ -2371,14 +2334,14 @@ msgstr "Kinek van szüksége az {studio_name}?"
 
 #: cms/templates/register.html
 msgid ""
-"{studio_name} is for anyone that wants to create online courses that "
-"leverage the global {platform_name} platform. Our users are often faculty "
-"members, teaching assistants and course staff, and members of instructional "
-"technology groups."
+"{studio_name} is for anyone that wants to create online courses that leverage "
+"the global {platform_name} platform. Our users are often faculty members, "
+"teaching assistants and course staff, and members of instructional technology "
+"groups."
 msgstr ""
 "{studio_name} mindenkinek javasolt, aki a {platform_name} platformban rejlő "
-"lehetőségek segítségével online kurzust szeretne készíteni. A felhasználóink"
-" gyakran oktatók, tanársegédek, az oktatási személyzet tagjai és az "
+"lehetőségek segítségével online kurzust szeretne készíteni. A felhasználóink "
+"gyakran oktatók, tanársegédek, az oktatási személyzet tagjai és az "
 "oktatástechnológiai csoport tagjai."
 
 #: cms/templates/register.html
@@ -2393,15 +2356,15 @@ msgid ""
 "{studio_name} is designed to be easy to use by almost anyone familiar with "
 "common web-based authoring environments (Wordpress, Moodle, etc.). No "
 "programming knowledge is required, but for some of the more advanced "
-"features, a technical background would be helpful. As always, we are here to"
-" help, so don't hesitate to dive right in."
+"features, a technical background would be helpful. As always, we are here to "
+"help, so don't hesitate to dive right in."
 msgstr ""
 "{studio_name}-ot úgy terveztük, hogy könnyen használható legyen bárki "
-"számára, aki legalább egy kis ismerettel rendelkezik a web alapú szerkesztői"
-" környezetek használatával (Wordpress, Moodle, stb.). Nincs szükség "
+"számára, aki legalább egy kis ismerettel rendelkezik a web alapú szerkesztői "
+"környezetek használatával (Wordpress, Moodle, stb.). Nincs szükség "
 "programozói tudásra, de a haladó szintű funkciókhoz nem árt egy kis "
-"informatikai háttér. Úgy, mint mindig, mi itt vagyunk és segítünk, szóval ne"
-" hezitálj azonnal elkezdeni."
+"informatikai háttér. Úgy, mint mindig, mi itt vagyunk és segítünk, szóval ne "
+"hezitálj azonnal elkezdeni."
 
 #: cms/templates/register.html
 msgid "I've never authored a course online before. Is there help?"
@@ -2411,13 +2374,13 @@ msgstr "Még sohasem készítettem online kurzust. Van segítség?"
 msgid ""
 "Absolutely. We have created an online course, edX101, that describes some "
 "best practices: from filming video, creating exercises, to the basics of "
-"running an online course. Additionally, we're always here to help, just drop"
-" us a note."
+"running an online course. Additionally, we're always here to help, just drop "
+"us a note."
 msgstr ""
-"Feltétlenül. Készítettünk egy online kurzust, edX101 kóddal, ami bemutatja a"
-" leggyakoribb praktikákat: videó készítést, feladatok készítését és az "
-"online kurzusok elindításának alapjait. Ráadásul mi mindig itt vagyunk és "
-"segítünk, csak dobj egy üzenetet."
+"Feltétlenül. Készítettünk egy online kurzust, edX101 kóddal, ami bemutatja a "
+"leggyakoribb praktikákat: videó készítést, feladatok készítését és az online "
+"kurzusok elindításának alapjait. Ráadásul mi mindig itt vagyunk és segítünk, "
+"csak dobj egy üzenetet."
 
 #: cms/templates/settings.html
 msgid "Schedule &amp; Details Settings"
@@ -2435,9 +2398,7 @@ msgstr "Alapinformációk"
 msgid "The nuts and bolts of your course"
 msgstr "A kurzus sava-borsa"
 
-#: cms/templates/settings.html cms/templates/settings.html
-#: cms/templates/settings.html cms/templates/settings.html
-#: cms/templates/settings.html cms/templates/settings.html
+#: cms/templates/settings.html
 msgid "This field is disabled: this information cannot be changed."
 msgstr "Ez nem szerkeszthető mező: ez az információ nem változtatható meg."
 
@@ -2459,9 +2420,9 @@ msgid ""
 "for enrollment. Please navigate to this course at {link_for_about_page} to "
 "enroll."
 msgstr ""
-"A \"{course_display_name}\" kurzus, a {platform_name} rendszerben megnyílt a"
-" feliratkozók számára. Lépj a {link_for_about_page} oldalra, hogy "
-"feliratkozz erre a kurzusra."
+"A \"{course_display_name}\" kurzus, a {platform_name} rendszerben megnyílt a "
+"feliratkozók számára. Lépj a {link_for_about_page} oldalra, hogy feliratkozz "
+"erre a kurzusra."
 
 #: cms/templates/settings.html
 msgid "Send a note to students via email"
@@ -2490,7 +2451,7 @@ msgstr ""
 msgid "Steps needed for credit eligibility"
 msgstr ""
 
-#: cms/templates/settings.html cms/templates/settings.html
+#: cms/templates/settings.html
 msgid "Minimum Passing Grade"
 msgstr ""
 
@@ -2532,8 +2493,7 @@ msgstr "Kurzus kezdetének első napja"
 msgid "Course Start Time"
 msgstr "Kurzus kezdési ideje"
 
-#: cms/templates/settings.html cms/templates/settings.html
-#: cms/templates/settings.html cms/templates/settings.html
+#: cms/templates/settings.html
 msgid "(UTC)"
 msgstr "(UTC)"
 
@@ -2576,8 +2536,8 @@ msgstr "Ezek a dátumok nem látszódnak amikor hirdeted a kurzusodat."
 #: cms/templates/settings.html
 msgid ""
 "These dates impact <strong>when your courseware can be viewed</strong>, but "
-"they are <strong>not the dates shown on your course summary page</strong>. "
-"To provide the course start and registration dates as shown on your course "
+"they are <strong>not the dates shown on your course summary page</strong>. To "
+"provide the course start and registration dates as shown on your course "
 "summary page, follow the instructions provided by your Program Manager."
 msgstr ""
 
@@ -2595,8 +2555,8 @@ msgstr "Kurzus nyelve"
 
 #: cms/templates/settings.html
 msgid ""
-"Identify the course language here. This is used to assist users find courses"
-" that are taught in a specific language."
+"Identify the course language here. This is used to assist users find courses "
+"that are taught in a specific language."
 msgstr ""
 "Határozd meg a kurzus nyelvét itt. A hallgatók ez alapján fogják tudni "
 "megtalálni a számukra megfelelőt."
@@ -2633,10 +2593,8 @@ msgstr "kurzus áttekintő lap"
 msgid ""
 "Introductions, prerequisites, FAQs that are used on %s (formatted in HTML)"
 msgstr ""
-"Bevezető, előképzettség, GyIK, amiket a %s -ben használsz (formázott HTML-"
-"ben)"
+"Bevezető, előképzettség, GyIK, amiket a %s -ben használsz (formázott HTML-ben)"
 
-#: cms/templates/settings.html cms/templates/settings.html
 #: cms/templates/settings.html
 msgid "Course Image"
 msgstr "Kurzus képe"
@@ -2650,8 +2608,8 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid ""
-"Your course currently does not have an image. Please upload one (JPEG or PNG"
-" format, and minimum suggested dimensions are 375px wide by 200px tall)"
+"Your course currently does not have an image. Please upload one (JPEG or PNG "
+"format, and minimum suggested dimensions are 375px wide by 200px tall)"
 msgstr ""
 "A kurzusodhoz nem rendeltél még képet. Tölts fel egyet (JPEG, vagy PNG "
 "formátumban, legalább 375px x 200px méretben javasolt)"
@@ -2664,8 +2622,8 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid ""
-"Please provide a valid path and name to your course image (Note: only JPEG "
-"or PNG format supported)"
+"Please provide a valid path and name to your course image (Note: only JPEG or "
+"PNG format supported)"
 msgstr ""
 "Érvényes útvonalat és nevet adj meg a kurzus képéhez (Figyelem: csak JPEG, "
 "vagy PNG formátum támogatott)"
@@ -2674,7 +2632,7 @@ msgstr ""
 msgid "Upload Course Image"
 msgstr "Kurzus kép feltöltése"
 
-#: cms/templates/settings.html cms/templates/settings.html
+#: cms/templates/settings.html
 msgid "Course Introduction Video"
 msgstr "Kurzus bemutató videó"
 
@@ -2730,8 +2688,8 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid ""
-"You can now view and author your course entrance exam from the "
-"{link_start}Course Outline{link_end}."
+"You can now view and author your course entrance exam from the {link_start}"
+"Course Outline{link_end}."
 msgstr ""
 
 #: cms/templates/settings.html
@@ -2771,8 +2729,8 @@ msgid ""
 "Your course's schedule determines when students can enroll in and begin a "
 "course."
 msgstr ""
-"A kurzus ütemezése meghatározza, hogy a tanulók mikor tudnak feliratkozni és"
-" elkezdeni a kurzust."
+"A kurzus ütemezése meghatározza, hogy a tanulók mikor tudnak feliratkozni és "
+"elkezdeni a kurzust."
 
 #: cms/templates/settings.html
 msgid ""
@@ -2783,8 +2741,7 @@ msgid ""
 msgstr ""
 "További információkat a Kurzusról oldalon találsz. Ezek az információk: "
 "kurzus áttekintése, kurzus képe, bevezető videó és a kurzus elvégzéséhez "
-"szükséges idő. A tanulók a Kurzusról lapot látják, amikor kurzust "
-"választanak."
+"szükséges idő. A tanulók a Kurzusról lapot látják, amikor kurzust választanak."
 
 #: cms/templates/settings_advanced.html
 msgid "Your policy changes have been saved."
@@ -2821,28 +2778,26 @@ msgid ""
 "control specific course settings."
 msgstr ""
 "A speciális beállítások segítségével testre szabhatod a kurzusodat. Ezen az "
-"oldalon "
-"ezt kézzel megteheted. Kérlek olvasd el a megjegyzésekben foglaltakat alább."
+"oldalon ezt kézzel megteheted. Kérlek olvasd el a megjegyzésekben foglaltakat "
+"alább."
 
 #: cms/templates/settings_advanced.html
 msgid ""
 "Any policies you modify here override all other information you've defined "
-"elsewhere in {studio_name}. Do not edit policies unless you are familiar "
-"with both their purpose and syntax."
+"elsewhere in {studio_name}. Do not edit policies unless you are familiar with "
+"both their purpose and syntax."
 msgstr ""
 "Ezek a beállítások a kurzuson belül globálisan értendőek, csak akkor "
-"módosítsd "
-"ha biztosan érted a beállítás használatának szabályait."
+"módosítsd ha biztosan érted a beállítás használatának szabályait."
 
 #: cms/templates/settings_advanced.html
 msgid ""
-"{em_start}Note:{em_end} When you enter strings as policy values, ensure that"
-" you use double quotation marks (&quot;) around the string. Do not use "
-"single quotation marks (&apos;)."
+"{em_start}Note:{em_end} When you enter strings as policy values, ensure that "
+"you use double quotation marks (&quot;) around the string. Do not use single "
+"quotation marks (&apos;)."
 msgstr ""
 "{em_start}Megjegyzés:{em_end} Szöveges értékek megadásakor akkor idézőjelek "
-"(&quot;) "
-"add meg a beállítást. Ne használj aposztrófot!"
+"(&quot;) add meg a beállítást. Ne használj aposztrófot!"
 
 #: cms/templates/settings_graders.html
 msgid "Grading Settings"
@@ -2910,8 +2865,8 @@ msgstr "Mit tudok tenni ezen az oldalon?"
 #: cms/templates/settings_graders.html
 msgid ""
 "You can use the slider under Overall Grade Range to specify whether your "
-"course is pass/fail or graded by letter, and to establish the thresholds for"
-" each grade."
+"course is pass/fail or graded by letter, and to establish the thresholds for "
+"each grade."
 msgstr ""
 "A teljes értékelési tartomány alatti csúszkával beállíthatod a jegyekhez "
 "tartozó osztályozási tartományokat."
@@ -2929,10 +2884,9 @@ msgid ""
 "worth."
 msgstr ""
 "Könnyen készíthetsz különböző feladat típusokat, mint házi feladat, labor "
-"munka, teszt és vizsgafeladatok és azt is megadhatod, hogy milyen "
-"súlyozással kerül beszámításra a tanuló értékelésénél."
+"munka, teszt és vizsgafeladatok és azt is megadhatod, hogy milyen súlyozással "
+"kerül beszámításra a tanuló értékelésénél."
 
-#: cms/templates/studio_xblock_wrapper.html
 #: cms/templates/studio_xblock_wrapper.html
 msgid "Expand or Collapse"
 msgstr "Kinyitás, vagy összecsukás"
@@ -2953,8 +2907,7 @@ msgstr "Ez a blokk több komponenst tartalmaz."
 msgid "{platform_name} edge"
 msgstr ""
 
-#: cms/templates/textbooks.html cms/templates/textbooks.html
-#: cms/templates/widgets/header.html
+#: cms/templates/textbooks.html cms/templates/widgets/header.html
 msgid "Textbooks"
 msgstr "Tankönyvek"
 
@@ -2984,20 +2937,19 @@ msgstr "Mi történik akkor, ha a tankönyvet nem tördelem fejezetekre?"
 
 #: cms/templates/textbooks.html
 msgid ""
-"If your textbook doesn't have individual chapters, you can upload the entire"
-" text as a single chapter and enter a name of your choice in the Chapter "
-"Name field."
+"If your textbook doesn't have individual chapters, you can upload the entire "
+"text as a single chapter and enter a name of your choice in the Chapter Name "
+"field."
 msgstr ""
 "Ha a tankönyv nem tartalmaz egyedi fejezeteket, akkor feltöltheted az "
-"egészet, úgy, mintha egy fejezet lenne az egész és a fejezet címe mezőbe azt"
-" írsz, amit csak szeretnél."
+"egészet, úgy, mintha egy fejezet lenne az egész és a fejezet címe mezőbe azt "
+"írsz, amit csak szeretnél."
 
 #: cms/templates/textbooks.html
 msgid "Learn more about textbooks"
 msgstr "Tudj meg többet a tankönyvekről"
 
-#: cms/templates/videos_index.html cms/templates/videos_index.html
-#: cms/templates/widgets/header.html
+#: cms/templates/videos_index.html cms/templates/widgets/header.html
 msgid "Video Uploads"
 msgstr "Videó feltöltések"
 
@@ -3013,9 +2965,8 @@ msgid ""
 "and stores them for you."
 msgstr ""
 "Ahhoz hogy a videó több eszközön is megtekinthető legyen, többféle formában "
-"is rendelkezésre kell állnia. Miután feltöltötted az eredeti videót .mp4 vagy "
-".mov "
-"formátumban, a weboldal automatikusan elkészíti a további szükséges "
+"is rendelkezésre kell állnia. Miután feltöltötted az eredeti videót .mp4 "
+"vagy .mov formátumban, a weboldal automatikusan elkészíti a további szükséges "
 "változatokat."
 
 #: cms/templates/videos_index.html
@@ -3036,17 +2987,16 @@ msgstr ""
 #: cms/templates/videos_index.html
 msgid ""
 "After a file uploads successfully, automated processing begins. After "
-"automated processing begins for a file it is listed under Previous Uploads "
-"as {em_start}In Progress{em_end}. You can add the video to your course as "
-"soon as it has a unique video ID and the status is {em_start}Ready{em_end}. "
-"Allow 24 hours for file processing at the external video hosting sites to "
-"complete."
+"automated processing begins for a file it is listed under Previous Uploads as "
+"{em_start}In Progress{em_end}. You can add the video to your course as soon "
+"as it has a unique video ID and the status is {em_start}Ready{em_end}. Allow "
+"24 hours for file processing at the external video hosting sites to complete."
 msgstr ""
 
 #: cms/templates/videos_index.html
 msgid ""
-"If something goes wrong, the {em_start}Failed{em_end} status message "
-"appears. Check for problems in your original file and upload a replacement."
+"If something goes wrong, the {em_start}Failed{em_end} status message appears. "
+"Check for problems in your original file and upload a replacement."
 msgstr ""
 
 #: cms/templates/videos_index.html
@@ -3055,13 +3005,13 @@ msgstr ""
 
 #: cms/templates/videos_index.html
 msgid ""
-"As soon as the status for a file is {em_start}Ready{em_end}, you can add "
-"that video to a component in your course. Copy the unique video ID. In "
-"another browser window, on the Course Outline page, create or locate a video"
-" component to play this video. Edit the video component to paste the ID into"
-" the Advanced {em_start}Video ID{em_end} field. The video can play in the "
-"LMS as soon as its status is {em_start}Ready{em_end}, although processing "
-"may not be complete for all encodings and all video hosting sites."
+"As soon as the status for a file is {em_start}Ready{em_end}, you can add that "
+"video to a component in your course. Copy the unique video ID. In another "
+"browser window, on the Course Outline page, create or locate a video "
+"component to play this video. Edit the video component to paste the ID into "
+"the Advanced {em_start}Video ID{em_end} field. The video can play in the LMS "
+"as soon as its status is {em_start}Ready{em_end}, although processing may not "
+"be complete for all encodings and all video hosting sites."
 msgstr ""
 
 #: cms/templates/visibility_editor.html
@@ -3106,24 +3056,24 @@ msgstr "Törölt tartalmi csoport"
 
 #: cms/templates/visibility_editor.html
 msgid ""
-"Content group no longer exists. Please choose another or allow access to All"
-" Students and staff"
+"Content group no longer exists. Please choose another or allow access to All "
+"Students and staff"
 msgstr ""
 "A tartalom csoport már nem létezik. Kérlek válassz másikat vagy engedélyezd a "
 "hozzáférést minden hallgatónak és staffnak"
 
 #: cms/templates/emails/activation_email.txt
 msgid ""
-"Thank you for signing up for {studio_name}! To activate your account, please"
-" copy and paste this address into your web browser's address bar:"
+"Thank you for signing up for {studio_name}! To activate your account, please "
+"copy and paste this address into your web browser's address bar:"
 msgstr ""
 "Köszönjük, hogy regisztráltál a {studio_name}-ra! A fiókod aktiválásához "
 "kérlek másold be ez a címet a böngésző címsorába:"
 
 #: cms/templates/emails/activation_email.txt
 msgid ""
-"If you didn't request this, you don't need to do anything; you won't receive"
-" any more email from us. Please do not reply to this e-mail; if you require "
+"If you didn't request this, you don't need to do anything; you won't receive "
+"any more email from us. Please do not reply to this e-mail; if you require "
 "assistance, check the help section of the {studio_name} web site."
 msgstr ""
 
@@ -3137,8 +3087,8 @@ msgstr ""
 
 #: cms/templates/emails/course_creator_admin_user_pending.txt
 msgid ""
-"User '{user}' with e-mail {email} has requested {studio_name} course creator"
-" privileges on edge."
+"User '{user}' with e-mail {email} has requested {studio_name} course creator "
+"privileges on edge."
 msgstr ""
 
 #: cms/templates/emails/course_creator_admin_user_pending.txt
@@ -3149,8 +3099,8 @@ msgstr ""
 
 #: cms/templates/emails/course_creator_denied.txt
 msgid ""
-"Your request for course creation rights to {studio_name} have been denied. "
-"If you believe this was in error, please contact {email}"
+"Your request for course creation rights to {studio_name} have been denied. If "
+"you believe this was in error, please contact {email}"
 msgstr ""
 
 #: cms/templates/emails/course_creator_granted.txt
@@ -3193,7 +3143,7 @@ msgid ""
 "trademarks or trademarks of {link_start}edX Inc.{link_end}"
 msgstr ""
 
-#: cms/templates/widgets/footer.html cms/templates/widgets/footer.html
+#: cms/templates/widgets/footer.html
 msgid "Powered by Open edX"
 msgstr "Powered by MeDX"
 
@@ -3201,8 +3151,7 @@ msgstr "Powered by MeDX"
 msgid "Current Course:"
 msgstr "Aktuális kurzus:"
 
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html
 msgid "Course"
 msgstr "Kurzus"
 
@@ -3222,11 +3171,11 @@ msgstr "Ütemezés &amp; Részletek"
 msgid "Checklists"
 msgstr "Ellenőrzőlista"
 
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html
 msgid "Import"
 msgstr "Importálás"
 
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html
 msgid "Export"
 msgstr "Exportálás"
 
@@ -3238,15 +3187,15 @@ msgstr "Aktuális könyvtár:"
 msgid "Library"
 msgstr "Könyvtár"
 
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html
 msgid "Account"
 msgstr ""
 
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html
 msgid "Account Navigation"
 msgstr ""
 
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html
 msgid "Contextual Online Help"
 msgstr ""
 
@@ -3259,36 +3208,29 @@ msgid "Launch Latex Source Compiler"
 msgstr ""
 
 #: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
 msgid "Heading 1"
 msgstr "Címsor 1"
 
-#: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
 msgid "Multiple Choice"
 msgstr "Több Lehetőség"
 
 #: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
 msgid "Checkboxes"
 msgstr "Jelölőnégyzet"
 
-#: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
 msgid "Text Input"
 msgstr "Szöveges beviteli mező"
 
 #: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
 msgid "Numerical Input"
 msgstr "Numerikus beviteli mező"
 
 #: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
 msgid "Dropdown"
 msgstr "Legördülő lista"
 
-#: cms/templates/widgets/problem-edit.html
 #: cms/templates/widgets/problem-edit.html
 msgid "Explanation"
 msgstr "Magyarázat"
@@ -3313,7 +3255,7 @@ msgstr "Segítségre van szükséged a {studio_name}-val kapcsolatban?"
 msgid "Hide {studio_name} Help"
 msgstr "{studio_name} súgó elrejtése"
 
-#: cms/templates/widgets/sock.html cms/templates/widgets/sock.html
+#: cms/templates/widgets/sock.html
 msgid "{studio_name} Documentation"
 msgstr "{studio_name} dokumentáció"
 
@@ -3324,16 +3266,16 @@ msgid ""
 "download the Building and Running an {platform_name} Course PDF file, to go "
 "to the {platform_name} Author Support site, or to enroll in edX101."
 msgstr ""
-"A jobb felső sarokban lévő Segítség-re kattintva további információkat kapsz"
-" az aktuális oldallal kapcsolatban. Használhatod az alábbi linket is, hogy "
-"letöltsd Kurzusok készítése segédanyag {platform_name} PDF fájlt, nézd meg "
-"az {platform_name} oldalt, vagy iratkozz fel az edX101 kurzusra."
+"A jobb felső sarokban lévő Segítség-re kattintva további információkat kapsz "
+"az aktuális oldallal kapcsolatban. Használhatod az alábbi linket is, hogy "
+"letöltsd Kurzusok készítése segédanyag {platform_name} PDF fájlt, nézd meg az "
+"{platform_name} oldalt, vagy iratkozz fel az edX101 kurzusra."
 
 #: cms/templates/widgets/sock.html
 msgid "Building and Running an {platform_name} Course PDF"
 msgstr "Kurzusok készítése {platform_name} segédanyag PDF-ben"
 
-#: cms/templates/widgets/sock.html cms/templates/widgets/sock.html
+#: cms/templates/widgets/sock.html
 msgid "{studio_name} Author Support"
 msgstr "{studio_name} Szerzői Támogatás"
 
@@ -3354,5 +3296,3 @@ msgstr ""
 #: cms/templates/widgets/tabs-aggregator.html
 msgid "name"
 msgstr "név"
-
-

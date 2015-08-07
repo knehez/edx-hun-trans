@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-05 11:46+0200\n"
+"PO-Revision-Date: 2015-08-07 11:42+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Generated-By: Babel 1.3\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 1.8.4\n"
 
 #: cms/templates/js/add-xblock-component-menu-problem.underscore
 #: cms/templates/js/add-xblock-component-menu.underscore
@@ -81,7 +81,6 @@ msgstr "Leadási határidő"
 msgid "remove all"
 msgstr "összes eltávolítása"
 
-#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
 #: lms/templates/ccx/schedule.underscore
 msgid "remove"
 msgstr "eltávolítás"
@@ -93,8 +92,8 @@ msgstr ""
 #: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid ""
-"Please print this page for your records; it serves as your receipt. You will"
-" also receive an email with the same information."
+"Please print this page for your records; it serves as your receipt. You will "
+"also receive an email with the same information."
 msgstr ""
 
 #: lms/templates/commerce/receipt.underscore
@@ -395,7 +394,6 @@ msgid ""
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid "What does this mean?"
 msgstr "Mit jelent ez?"
 
@@ -511,8 +509,8 @@ msgid ""
 "specify additional information and see your linked social accounts on this "
 "page."
 msgstr ""
-"Az alábbi oldal a fiókod alapvető beállításait tartalmazza. Emellett további"
-" információkat tudsz megadni és láthatod a hozzákapcsolt közösségi oldal "
+"Az alábbi oldal a fiókod alapvető beállításait tartalmazza. Emellett további "
+"információkat tudsz megadni és láthatod a hozzákapcsolt közösségi oldal "
 "fiókját is."
 
 #: lms/templates/student_account/account_settings.underscore
@@ -529,7 +527,6 @@ msgid "Forgot password?"
 msgstr "Elfelejtetted a jelszavad?"
 
 #: lms/templates/student_account/hinted_login.underscore
-#: lms/templates/student_account/login.underscore
 #: lms/templates/student_account/login.underscore
 #: lms/templates/student_account/register.underscore
 msgid "Sign in"
@@ -577,8 +574,8 @@ msgstr ""
 #: lms/templates/student_account/login.underscore
 msgid ""
 "You have successfully signed into %(currentProvider)s, but your "
-"%(currentProvider)s account does not have a linked %(platformName)s account."
-" To link your accounts, sign in now using your %(platformName)s password."
+"%(currentProvider)s account does not have a linked %(platformName)s account. "
+"To link your accounts, sign in now using your %(platformName)s password."
 msgstr ""
 
 #: lms/templates/student_account/login.underscore
@@ -587,8 +584,8 @@ msgstr "Jelszó emlékeztető e-mail elküldve."
 
 #: lms/templates/student_account/login.underscore
 msgid ""
-"We've sent instructions for resetting your password to the email address you"
-" provided."
+"We've sent instructions for resetting your password to the email address you "
+"provided."
 msgstr ""
 "A megadott e-mail címedre elküldtük, hogyan tudod beállítani az új "
 "jelszavadat"
@@ -697,7 +694,7 @@ msgstr "Kötelező mező"
 
 #: lms/templates/student_account/register.underscore
 msgid "Already have an account?"
-msgstr "Már létezik egy felhasználói fiókod?"
+msgstr "Van már felhasználói fiókod?"
 
 #: lms/templates/student_profile/learner_profile.underscore
 msgid "You are currently sharing a limited profile."
@@ -807,8 +804,8 @@ msgstr ""
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
-"To use the current photo, select the camera button %(icon)s. To take another"
-" photo, select the retake button %(icon)s."
+"To use the current photo, select the camera button %(icon)s. To take another "
+"photo, select the retake button %(icon)s."
 msgstr ""
 
 #: lms/templates/verify_student/face_photo_step.underscore
@@ -844,8 +841,8 @@ msgstr ""
 msgid ""
 "We use the highest levels of security available to encrypt your photo and "
 "send it to our authorization service for review. Your photo and information "
-"are not saved or visible anywhere on %(platformName)s after the verification"
-" process is complete."
+"are not saved or visible anywhere on %(platformName)s after the verification "
+"process is complete."
 msgstr ""
 
 #: lms/templates/verify_student/face_photo_step.underscore
@@ -1133,4 +1130,3 @@ msgstr "Fotó újrakészítése"
 #: lms/templates/verify_student/webcam_photo.underscore
 msgid "Take Photo"
 msgstr "Fotó készítése"
-
