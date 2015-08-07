@@ -28,12 +28,40 @@ msgstr "A megadott email cím formátuma helytelen."
 msgid "Male"
 msgstr "Férfi"
 
+msgid "Female"
+msgstr "Nő"
+
+msgid "Other"
+msgstr "Egyéb"
+
 msgid "%(field)s must have at least %(count)d characters."
 msgstr "%(field)s mező hossza legalább %(count)d karakter legyen."
 
 msgid "%(field)s can only contain up to %(count)d characters."
 msgstr "%(field)s mező hossza legfeljebb %(count)d karakter lehet."
 
+msgid "Doctorate"
+msgstr "Doktori fokozat (PhD)"
 
+msgid "Master's or professional degree"
+msgstr "Mester/MSc. felsőfokú végzettség"
+
+msgid "Bachelor's degree"
+msgstr "Főiskolai vagy BSc fokozat"
+
+msgid "Associate degree"
+msgstr "Felsőfokú szakképzés"
+
+msgid "Secondary/high school"
+msgstr "Szakközépiskola/gimnázium"
+
+msgid "Junior secondary/junior high/middle school"
+msgstr "Szakiskola"
+
+msgid "Elementary/primary school"
+msgstr "Elemi/általános iskola"
+
+msgid "None"
+msgstr "Nincs"
 
 
