@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-07 11:41+0200\n"
+"PO-Revision-Date: 2015-08-07 16:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -2279,15 +2279,15 @@ msgstr "Kurzus ütemezés &amp; részletek szerkesztése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Draft Your Course's Grading Policy"
-msgstr "Tervezd meg a kurzusod pontozási feltételeit"
+msgstr "Tervezd meg a kurzusod osztályozási feltételeit"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Set up your assignment types and grading policy even if you haven't created "
 "all your assignments."
 msgstr ""
-"Határozd meg a számonkérés típusait és a pontozási rendszert még akkor is, ha "
-"nem készültél még el az összes számonkéréssel. "
+"Határozd meg a számonkérés típusait és a pontozási rendszert akkor is, ha még "
+"nem dolgoztad ki a teljes számonkérést. "
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Edit Grading Settings"
@@ -2295,7 +2295,7 @@ msgstr "Értékelés beállításainak szerkesztése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Explore the Other Studio Checklists"
-msgstr "Fedezd fel további Studio funkciókat"
+msgstr "Fedezd fel a többi Studio funkciót"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2382,12 +2382,12 @@ msgid ""
 "useful. To do this, create a section and set the release date to the distant "
 "future."
 msgstr ""
-"Ezt úgy teheted meg, hogy a megjelenési dátumot egy távoli jövőre állítod be "
+"Ezt úgy teheted meg, hogy a megjelenési dátumot a távoli jövőre állítod be "
 "(pl. 2099.12.31)."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Explore edX's Support Tools"
-msgstr "Használd az edX segítő eszközeit"
+msgstr "Használd az edX  segédeszközeit"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Explore the Studio Help Forum"
@@ -2423,7 +2423,7 @@ msgstr "Stúdió dokumentációjának letöltése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Download the searchable Studio reference documentation in PDF form."
-msgstr "Hivatkozással ellátott Stúdió dokumentáció letöltése PDF formátumban."
+msgstr "Töltsd ke a kereshető Stúdio dokumentációt PDF formátumban."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Download Documentation"
@@ -2435,7 +2435,7 @@ msgstr "Tervezd meg a kurzusod információs oldalát"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Draft a Course Description"
-msgstr "Add meg ki a kurzus bemutatásához szükséges információt"
+msgstr "Add meg a kurzus bemutatásához szükséges információt"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2452,7 +2452,7 @@ msgstr "Kurzus ütemezés &amp; részletek szerkesztése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Staff Bios"
-msgstr "Adj rövid leírást a staffról"
+msgstr "Adj rövid leírást a stábodról"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
