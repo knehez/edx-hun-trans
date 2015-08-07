@@ -1,0 +1,4 @@
+### Internationalization artifacts
+*.mo
+django.po
+djangojs.po

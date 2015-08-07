@@ -1,0 +1,3919 @@
+# edX translation file.
+# Copyright (C) 2015 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# EdX Team <info@edx.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2015-07-29 22:07+0200\n"
+"PO-Revision-Date: 2015-08-05 11:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: cms/static/coffee/src/views/tabs.js cms/static/coffee/src/views/tabs.js
+#: cms/static/coffee/src/xblock/cms.runtime.v1.js
+#: cms/static/js/certificates/views/signatory_details.js
+#: cms/static/js/models/section.js cms/static/js/utils/drag_and_drop.js
+#: cms/static/js/views/asset.js cms/static/js/views/container.js
+#: cms/static/js/views/course_info_handout.js
+#: cms/static/js/views/course_info_update.js
+#: cms/static/js/views/edit_textbook.js
+#: cms/static/js/views/list_item_editor.js cms/static/js/views/overview.js
+#: cms/static/js/views/overview_assignment_grader.js
+#: cms/static/js/views/modals/edit_xblock.js
+#: cms/static/js/views/utils/xblock_utils.js
+#: cms/static/js/views/utils/xblock_utils.js lms/static/js/ccx/schedule.js
+#: lms/static/js/views/fields.js
+msgid "Saving"
+msgstr "Mentés"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/coffee/src/views/tabs.js
+#: cms/static/js/views/course_info_update.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/static/coffee/src/discussion/utils.js
+msgid "OK"
+msgstr "OK"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/coffee/src/views/tabs.js
+#: cms/static/js/certificates/views/signatory_editor.js
+#: cms/static/js/factories/export.js cms/static/js/views/asset.js
+#: cms/static/js/views/course_info_update.js
+#: cms/static/js/views/manage_users_and_roles.js
+#: cms/static/js/views/show_textbook.js cms/static/js/views/validation.js
+#: cms/static/js/views/modals/base_modal.js
+#: cms/static/js/views/modals/course_outline_modals.js
+#: cms/static/js/views/utils/view_utils.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: cms/static/js/certificates/views/signatory_editor.js
+#: cms/static/js/views/asset.js cms/static/js/views/list_item.js
+#: cms/static/js/views/manage_users_and_roles.js
+#: cms/static/js/views/show_textbook.js
+#: common/static/js/vendor/ova/catch/js/catch.js
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Delete"
+msgstr "Törlés"
+
+#. Translators: This is the status of an active video upload
+#: cms/static/js/models/active_video_upload.js cms/static/js/views/assets.js
+#: lms/static/js/views/fields.js
+msgid "Uploading"
+msgstr "Feltöltés"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/assets.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Name"
+msgstr "Név"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/manage_users_and_roles.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Ok"
+msgstr "Ok"
+
+#: cms/static/js/views/manage_users_and_roles.js
+#: lms/static/coffee/src/instructor_dashboard/util.js
+#: lms/static/coffee/src/instructor_dashboard/util.js
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: cms/static/js/views/metadata.js lms/static/js/views/file_uploader.js
+msgid "Upload File"
+msgstr "Fájl feltöltése"
+
+#: cms/static/js/views/validation.js
+#: lms/static/js/groups/views/cohort_discussions_course_wide.js
+#: lms/static/js/groups/views/cohort_discussions_inline.js
+#: lms/static/js/views/fields.js
+msgid "Your changes have been saved."
+msgstr "A változtatások el lettek mentve."
+
+#. Translators: This message will be added to the front of messages of type
+#. error,
+#. e.g. "Error: required field is missing".
+#: cms/static/js/views/xblock_validation.js
+#: lms/static/js/student_account/views/FinishAuthView.js
+#: lms/static/js/verify_student/views/payment_confirmation_step_view.js
+#: lms/static/js/verify_student/views/step_view.js
+#: lms/static/js/views/fields.js
+msgid "Error"
+msgstr "Hiba"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/base_modal.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Save"
+msgstr "Mentés"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/edit_xblock.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Close"
+msgstr "Bezárás"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+msgid "Show Annotations"
+msgstr "Magyarázatok megjelenítése"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+msgid "Hide Annotations"
+msgstr "Magyarázatok elrejtése"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+msgid "Expand Instructions"
+msgstr "Utasítások kinyitása"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+msgid "Collapse Instructions"
+msgstr "Utasítások összecsukása"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+msgid "Commentary"
+msgstr "Kommentár"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js
+msgid "Reply to Annotation"
+msgstr "Válasz a magyarázatra"
+
+#. Translators: %(earned)s is the number of points earned. %(total)s is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "(%(earned)s/%(possible)s point)"
+msgid_plural "(%(earned)s/%(possible)s points)"
+msgstr[0] "(%(earned)s/%(possible)s pont)"
+msgstr[1] "(%(earned)s/%(possible)s pont)"
+
+#. Translators: %(num_points)s is the number of points possible (examples: 1,
+#. 3, 10). There will always be at least 1 point possible.;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "(%(num_points)s point possible)"
+msgid_plural "(%(num_points)s points possible)"
+msgstr[0] "(%(num_points)s pont lehetséges)"
+msgstr[1] "(%(num_points)s pont lehetséges)"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "The grading process is still running. Refresh the page to see updates."
+msgstr "Az osztályozó eljárás még mindig fut. Frissítsd az oldalt "
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "Answer:"
+msgstr "Válasz:"
+
+#. Translators: the word Answer here refers to the answer to a problem the
+#. student must solve.;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "Hide Answer"
+msgstr "Válasz elrejtése"
+
+#. Translators: the word Answer here refers to the answer to a problem the
+#. student must solve.;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "Show Answer"
+msgstr "Válasz mutatása"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "Answer hidden"
+msgstr "Válasz elrejtve"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "Status: unsubmitted"
+msgstr "Státusz: nem benyújtott"
+
+#. Translators: A "rating" is a score a student gives to indicate how well
+#. they feel they were graded on this problem
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid "You need to pick a rating before you can submit."
+msgstr "Értékelned kell, mielőtt beküldöd."
+
+#. Translators: this message appears when transitioning between openended
+#. grading
+#. types (i.e. self assesment to peer assessment). Sometimes, if a student
+#. did not perform well at one step, they cannot move on to the next one.
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid "Your score did not meet the criteria to move to the next step."
+msgstr "A pontszámod nem elegendő a továbblépéshez."
+
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "Submit"
+msgstr "Küldés"
+
+#. Translators: one clicks this button after one has finished filling out the
+#. grading
+#. form for an openended assessment
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid "Submit assessment"
+msgstr "Értékelés küldése"
+
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid ""
+"Your response has been submitted. Please check back later for your grade."
+msgstr "A válaszod beküldésre került. Nézd meg kicsit később az értékelést."
+
+#. Translators: this button is clicked to submit a student's rating of
+#. an evaluator's assessment
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid "Submit post-assessment"
+msgstr "Utólagos értékelés küldése"
+
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid "Answer saved, but not yet submitted."
+msgstr "A válasz el lett mentve, de nem került beküldésre."
+
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid ""
+"Please confirm that you wish to submit your work. You will not be able to "
+"make any changes after submitting."
+msgstr ""
+"Erősítsd meg, hogy be akarod küldeni a munkád. Beküldés után már nem lehet "
+"változtatni rajta."
+
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid ""
+"You are trying to upload a file that is too large for our system.  Please "
+"choose a file under 2MB or paste a link to it into the answer box."
+msgstr ""
+"Túl nagy méretű fájlt próbáltál feltölteni. Kérlek válassz 2MB-nál kisebb "
+"fájlt, vagy illeszd be a linkjét a válasz dobozba."
+
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid ""
+"Are you sure you want to remove your previous response to this question?"
+msgstr "Biztosan el akarod távolítani az előző válaszod erre a kérdésre?"
+
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid "Moved to next step."
+msgstr "Következő lépés"
+
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid ""
+"File uploads are required for this question, but are not supported in your "
+"browser. Try the newest version of Google Chrome. Alternatively, if you have"
+" uploaded the image to another website, you can paste a link to it into the "
+"answer box."
+msgstr ""
+"A válaszhoz fájl feltöltésre van szükség, de a böngésződ nem támogatja azt. "
+"Próbáld meg a legújabb Google Chrome-mal. Alternatív megoldásként "
+"feltöltheted a képet egy másik weboldalra és bemásolhatod a hivatkozását."
+
+#. Translators: "Show Question" is some text that, when clicked, shows a
+#. question's
+#. content that had been hidden
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid "Show Question"
+msgstr "Kérdés mutatása"
+
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+#: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
+msgid "Hide Question"
+msgstr "Kérdés elrejtése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Paragraph"
+msgstr "Bekezdés"
+
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Preformatted"
+msgstr "Előreformázott"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Heading 1"
+msgstr "Címsor 1"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Heading 2"
+msgstr "Címsor 2"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Heading 3"
+msgstr "Címsor 3"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Add to Dictionary"
+msgstr "Hozzáadás a szótárhoz"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Advanced"
+msgstr "Haladó"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Align center"
+msgstr "Középre igazítás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Align left"
+msgstr "Balra igazítás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Align right"
+msgstr "Jobbra igazítás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Alignment"
+msgstr "Igazítás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Alternative source"
+msgstr "Alternatív forrás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Anchor"
+msgstr "Horgony"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Anchors"
+msgstr "Horgonyok"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Author"
+msgstr "Szerző"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Background color"
+msgstr "Háttér színe"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: lms/static/js/Markdown.Editor.js
+msgid "Blockquote"
+msgstr "Idézet"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Blocks"
+msgstr "Blokkok"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Body"
+msgstr "Body - HTML törzs"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Bold"
+msgstr "Félkövér"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Border color"
+msgstr "Keret színe"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Border"
+msgstr "Keret"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Bottom"
+msgstr "Alsó"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Bullet list"
+msgstr "Felsorolás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Caption"
+msgstr "Felirat"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Cell padding"
+msgstr "Cellamargó"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Cell properties"
+msgstr "Cella tulajdonságai"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Cell spacing"
+msgstr "Cella-térköz"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Cell type"
+msgstr "Cella típusa"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Cell"
+msgstr "Cella"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Center"
+msgstr "Középre"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Circle"
+msgstr "Kör"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Clear formatting"
+msgstr "Formázások törlése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Code block"
+msgstr "Kód blokk"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Code"
+msgstr "Kód"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Color"
+msgstr "Szín"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Cols"
+msgstr "Oszlopok"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Column group"
+msgstr "Csoport oszlop"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Column"
+msgstr "Oszlop"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Constrain proportions"
+msgstr "Arányok"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Copy row"
+msgstr "Sor másolása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Copy"
+msgstr "Másolás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Could not find the specified string."
+msgstr "Nem találom a megadott szöveget."
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Custom color"
+msgstr "Egyéni szín"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Custom..."
+msgstr "Egyéni..."
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Cut row"
+msgstr "Sor kivágása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Cut"
+msgstr "Kivágás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Decrease indent"
+msgstr "Behúzás csökkentése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Delete column"
+msgstr "Oszlop törlése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Delete row"
+msgstr "Sor törlése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Delete table"
+msgstr "Táblázat törlése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Description"
+msgstr "Leírás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Dimensions"
+msgstr "Méretek"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Disc"
+msgstr "Lemez"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Div"
+msgstr "Div"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Document properties"
+msgstr "Dokumentum tulajdonságai"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Edit HTML"
+msgstr "HTML szerkesztése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Embed"
+msgstr "Beágyazott"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Emoticons"
+msgstr "Hangulatjelek"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Encoding"
+msgstr "Kódolás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "File"
+msgstr "Fájl"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Find and replace"
+msgstr "Keresés és csere"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Find next"
+msgstr "Következő keresése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Find previous"
+msgstr "Előző keresése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Find"
+msgstr "Keresés"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Finish"
+msgstr "Befejezés"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Font Family"
+msgstr "Betűcsalád"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Font Sizes"
+msgstr "Betű méret"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Footer"
+msgstr "Lábléc"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Format"
+msgstr "Formázás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Formats"
+msgstr "Formátumok"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Fullscreen"
+msgstr "Teljes képernyő"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "General"
+msgstr "Általános"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "H Align"
+msgstr "Vízszintes igazítás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Header 1"
+msgstr "Címsor 1"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Header 2"
+msgstr "Címsor 2"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Header 3"
+msgstr "Címsor 3"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Header 4"
+msgstr "Címsor 4"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Header 5"
+msgstr "Címsor 5"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Header 6"
+msgstr "Címsor 6"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Header cell"
+msgstr "Fejléc cella"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid "Header"
+msgstr "Fejléc"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Headers"
+msgstr "Fejlécek"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Heading 4"
+msgstr "Címsor 4"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Heading 5"
+msgstr "Címsor 5"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Heading 6"
+msgstr "Címsor 6"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Headings"
+msgstr "Címsorok"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Height"
+msgstr "Magasság"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Horizontal line"
+msgstr "Vízszintes vonal"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Horizontal space"
+msgstr "Vízszintes hely"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "HTML source code"
+msgstr "HTML forráskód"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Ignore all"
+msgstr "Összes elvetése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Ignore"
+msgstr "Elvetés"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Image description"
+msgstr "Kép leírása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Increase indent"
+msgstr "Behúzás növelése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Inline"
+msgstr "Egy sorban"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert column after"
+msgstr "oszlop beszúrása utána"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert column before"
+msgstr "Oszlop beszúrása elé"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert date/time"
+msgstr "Dátum/idő beszúrása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert image"
+msgstr "Kép beszúrása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert link"
+msgstr "Link beszúrása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert row after"
+msgstr "Sor beszúrása utána"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert row before"
+msgstr "Sor beszúrása elé"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert table"
+msgstr "Táblázat beszúrása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert template"
+msgstr "Sablon beszúrása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert video"
+msgstr "Videó beszúrása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert"
+msgstr "Beszúrás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert/edit image"
+msgstr "Kép beszúrása/szerkesztése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert/edit link"
+msgstr "Link beszúrása/szerkesztése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Insert/edit video"
+msgstr "Videó beszúrása/szerkesztése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Italic"
+msgstr "Dőlt"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Justify"
+msgstr "Igazítás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Keywords"
+msgstr "Kulcsszavak"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Left to right"
+msgstr "Balról jobbra"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Left"
+msgstr "Bal"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Lower Alpha"
+msgstr "Kisbetű"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Lower Greek"
+msgstr "Kis görög betű"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Lower Roman"
+msgstr "Kis római karakter"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Match case"
+msgstr "Kis- és nagybetű érzékeny"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Merge cells"
+msgstr "Cellák összevonása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Middle"
+msgstr "Közép"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "New document"
+msgstr "Új dokumentum"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "New window"
+msgstr "Új ablak"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Next"
+msgstr "Következő"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "No color"
+msgstr "Nincs szín"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Nonbreaking space"
+msgstr "Nem törhető szóköz"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "None"
+msgstr "Nincs"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Numbered list"
+msgstr "Számozott lista"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Page break"
+msgstr "Oldaltörés"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Paste as text"
+msgstr "Beszúrás szövegként"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid ""
+"Paste is now in plain text mode. Contents will now be pasted as plain text "
+"until you toggle this option off."
+msgstr ""
+"A beillesztés egyszerű szöveges módban van. A tartalom formázás nélküli "
+"szövegként kerül beillesztésre amíg ezt az opciót ki nem kapcsolod."
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Paste row after"
+msgstr "Sor beillesztése utána"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Paste row before"
+msgstr "Sor beillesztése elé"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Paste your embed code below:"
+msgstr "Illeszd be a beágyazott kódot:"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Paste"
+msgstr "Beillesztés"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Poster"
+msgstr "Poszter"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Pre"
+msgstr "Előre"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Prev"
+msgstr "Előző"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: lms/static/coffee/src/customwmd.js
+msgid "Preview"
+msgstr "Előnézet"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Print"
+msgstr "Nyomtatás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Redo"
+msgstr "Mégis"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Remove link"
+msgstr "Link eltávolítása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Replace all"
+msgstr "Összes cseréje"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Replace with"
+msgstr "Csere"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Replace"
+msgstr "Csere"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Restore last draft"
+msgstr "Utolsó tervezet visszaállítása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid ""
+"Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press "
+"ALT-0 for help"
+msgstr ""
+"Rich Text terület. Nyomja le az  ALT-F9-et a menü eléréséhez. ALT-F10-et az "
+"eszköztár eléréséhez és ALT-0-át segítségért."
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Right to left"
+msgstr "Jobbról balra"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Right"
+msgstr "Jobb"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Robots"
+msgstr "Keresőrobot"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Row group"
+msgstr "Csoport sor"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Row properties"
+msgstr "Sor tulajdonságai"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Row type"
+msgstr "Sor típusa"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Row"
+msgstr "Sor"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Rows"
+msgstr "Sorok"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Scope"
+msgstr "Hatáskör"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Select all"
+msgstr "Az összes kiválasztása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Show blocks"
+msgstr "Blokkok mutatása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Show invisible characters"
+msgstr "Nem látható karakterek megjelenítése"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Source code"
+msgstr "Forráskód"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Source"
+msgstr "Forrás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Special character"
+msgstr "Speciális karakterek"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Spellcheck"
+msgstr "Helyesírás-ellenőrző"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Split cell"
+msgstr "Cellák felosztása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Square"
+msgstr "Négyzetes"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Start search"
+msgstr "Keresés indítása"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Strikethrough"
+msgstr "Áthúzott"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Style"
+msgstr "Stílus"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Subscript"
+msgstr "Alsó index"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Superscript"
+msgstr "Felső index"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Table properties"
+msgstr "Táblázat tulajdonságai"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Table"
+msgstr "Táblázat"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Target"
+msgstr "Cél"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Templates"
+msgstr "Sablonok"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Text color"
+msgstr "Szöveg színe"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Text to display"
+msgstr "Megjelenítendő szöveg"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid ""
+"The URL you entered seems to be an email address. Do you want to add the "
+"required mailto: prefix?"
+msgstr "A begépelt URL email címnek tűnik. Hozzáadjuk a mailto: előtagot?"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid ""
+"The URL you entered seems to be an external link. Do you want to add the "
+"required http:// prefix?"
+msgstr ""
+"Az az internetcím, amit begépeltél külső kapcsolatnak tűnik. Hozzá akarod "
+"adni a szükséges http:// prefixumot?"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Title"
+msgstr "Cím"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Tools"
+msgstr "Eszközök"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Top"
+msgstr "Felső"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Underline"
+msgstr "Aláhúzott"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Undo"
+msgstr "Visszavonás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Upper Alpha"
+msgstr "Nagy betű"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Upper Roman"
+msgstr "Római számok"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Url"
+msgstr "Url"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "V Align"
+msgstr "Függőleges igazítás"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Vertical space"
+msgstr "Függőleges távolság"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "View"
+msgstr "Nézet"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Visual aids"
+msgstr "Vizuális segédeszközök"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Whole words"
+msgstr "Teljes szóra"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Width"
+msgstr "Szélesség"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "Words: {0}"
+msgstr "Szavak: {0}"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid "You have unsaved changes are you sure you want to navigate away?"
+msgstr ""
+"Nem mentettél el minden változtatást, biztosan tovább akarsz navigálni?"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+msgid ""
+"Your browser doesn't support direct access to the clipboard. Please use the "
+"Ctrl+X/C/V keyboard shortcuts instead."
+msgstr ""
+"A böngésződ nem támogatja a közvetlen vágólap használatot. Használd a "
+"Ctrl+X/C/V billentyűzet kombinációkat."
+
+#: common/lib/xmodule/xmodule/js/src/lti/lti.js
+msgid ""
+"Click OK to have your username and e-mail address sent to a 3rd party "
+"application.\n"
+"\n"
+"Click Cancel to return to this page without sending your information."
+msgstr ""
+"Kattints az OK-ra, ha hozzájárulsz, hogy a felhasználói neved és az e-mail "
+"címed elküldjük egy 3-dik féltől származó applikációnak.\n"
+"\n"
+"Kattints a Mégsem-re, hogy visszatérj az oldalra adatküldés nélkül."
+
+#: common/lib/xmodule/xmodule/js/src/lti/lti.js
+msgid ""
+"Click OK to have your username sent to a 3rd party application.\n"
+"\n"
+"Click Cancel to return to this page without sending your information."
+msgstr ""
+"Kattints az OK-ra, ha hozzájárulsz, hogy a felhasználói neved elküldjük egy "
+"3-dik féltől származó applikációnak.\n"
+"\n"
+"Kattints a Mégsem-re, hogy visszatérj az oldalra adatküldés nélkül."
+
+#: common/lib/xmodule/xmodule/js/src/lti/lti.js
+msgid ""
+"Click OK to have your e-mail address sent to a 3rd party application.\n"
+"\n"
+"Click Cancel to return to this page without sending your information."
+msgstr ""
+"Kattints az OK-ra, ha hozzájárulsz, hogy az e-mail címed elküldjük egy 3-dik "
+"féltől származó applikációnak.\n"
+"\n"
+"Kattints a Mégsem-re, hogy visszatérj az oldalra adatküldés nélkül."
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid "incorrect"
+msgstr "nem helyes"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid "correct"
+msgstr "helyes"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid "answer"
+msgstr "válasz"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid "Short explanation"
+msgstr "Rövid magyarázat"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid ""
+"If you use the Advanced Editor, this problem will be converted to XML and you "
+"will not be able to return to the Simple Editor Interface.\n"
+"\n"
+"Proceed to the Advanced Editor and convert this problem to XML?"
+msgstr ""
+"Ha a haladó szerkesztőt használod, a feladatot XML formátumba konvertáljuk és "
+"au egysezerű szerkesztőbe nem tudsz visszatérni.\n"
+"\n"
+"Folytatpd a haladó szerkesztővel és XML formátumba konvertálsz ?"
+
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js
+msgid ""
+"Sequence error! Cannot navigate to %(tab_name)s in the current "
+"SequenceModule. Please contact the course staff."
+msgstr ""
+"Sorrend hiba! A jelenlegi molekulában nem lehet a %(tab_name)s navigálni. "
+"Lépj kapcsolatba a kurzus szerzőjévek."
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+#: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js
+#: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js
+#: common/lib/xmodule/xmodule/js/src/video/09_play_skip_control.js
+#: common/lib/xmodule/xmodule/js/src/video/09_play_skip_control.js
+msgid "Play"
+msgstr "Lejátszás"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+msgid "Pause"
+msgstr "Megállítás"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+msgid "Mute"
+msgstr "Némítás"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+msgid "Unmute"
+msgstr "Hangosítás"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
+msgid "Exit full browser"
+msgstr "Kilépés nagy méretű megjelenítésből"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
+msgid "Fill browser"
+msgstr "Böngészőablak kitöltése"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
+msgid "Speed"
+msgstr "Sebesség"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js
+msgid "Volume"
+msgstr "Hangerő"
+
+#. Translators: Volume level equals 0%.
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+msgid "Muted"
+msgstr "Némított"
+
+#. Translators: Volume level in range ]0,20]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+msgid "Very low"
+msgstr "Nagyon halk"
+
+#. Translators: Volume level in range ]20,40]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+msgid "Low"
+msgstr "Halk"
+
+#. Translators: Volume level in range ]40,60]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+msgid "Average"
+msgstr "Normál"
+
+#. Translators: Volume level in range ]60,80]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+msgid "Loud"
+msgstr "Hangos"
+
+#. Translators: Volume level in range ]80,99]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+msgid "Very loud"
+msgstr "Nagyon hangos"
+
+#. Translators: Volume level equals 100%.
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
+msgid "Maximum"
+msgstr "Maximum"
+
+#: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js
+msgid "VideoPlayer: Element corresponding to the given selector was not found."
+msgstr "Videó lejátszó: Az elem által hivatkozott rész nem található."
+
+#: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js
+msgid "This browser cannot play .mp4, .ogg, or .webm files."
+msgstr "Ez a böngésző nem tudja lejátszani a .mp4, .ogg, or .webm fájlokat."
+
+#: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js
+msgid "Try using a different browser, such as Google Chrome."
+msgstr "Használj másik böngészőt, például a Google Chrome-ot."
+
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js
+msgid "HD off"
+msgstr "HD ki"
+
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js
+msgid "HD on"
+msgstr "HD be"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
+msgid "Video position"
+msgstr "Videó pozíció"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
+msgid "Video ended"
+msgstr "Videó vége"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
+msgid "%(value)s hour"
+msgid_plural "%(value)s hours"
+msgstr[0] "%(value)s óra"
+msgstr[1] "%(value)s óra"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
+msgid "%(value)s minute"
+msgid_plural "%(value)s minutes"
+msgstr[0] "%(value)s perc"
+msgstr[1] "%(value)s perc"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
+msgid "%(value)s second"
+msgid_plural "%(value)s seconds"
+msgstr[0] "%(value)s másodperc"
+msgstr[1] "%(value)s másodperc"
+
+#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js
+msgid ""
+"Click on this button to mute or unmute this video or press UP or DOWN "
+"buttons to increase or decrease volume level."
+msgstr ""
+"Kattints ide, hogy lenémítsd, vagy visszahangosítsd a Videót, vagy nyomd le "
+"a fel, vagy le nyilakat, hogy növeld, illetve csökkentsd a hangerőt."
+
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
+msgid "Speeds"
+msgstr "Sebességek"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_play_skip_control.js
+msgid "Skip"
+msgstr "Kihagyás"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_poster.js
+msgid "Play video"
+msgstr "Videó lejátszás"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_skip_control.js
+#: common/lib/xmodule/xmodule/js/src/video/09_skip_control.js
+msgid "Do not show again"
+msgstr "Ne mutassa újra"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
+msgid "Turn off captions"
+msgstr "Felirat kikapcsolása"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
+msgid ""
+"Activating an item in this group will spool the video to the corresponding "
+"time point. To skip transcript, go to previous item."
+msgstr ""
+"Ha ebben a csoportban aktiválsz egy elemet, akkor a videót a megfelelő "
+"időpontra tekered. Az átirat kihagyásához menj az előző elemre"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
+msgid "Caption will be displayed when "
+msgstr "A felirat megjelenítése amikor"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
+msgid "Turn on captions"
+msgstr "Felirat bekapcsolása"
+
+#: common/lib/xmodule/xmodule/public/js/library_content_edit.js
+msgid "Updating with latest library content"
+msgstr "Frissítés a legújabb könyvtári tartalommal"
+
+#: common/lib/xmodule/xmodule/public/js/split_test_author_view.js
+msgid "Creating missing groups"
+msgstr "Hiányzó csoportok létrehozása"
+
+#: common/static/coffee/src/discussion/discussion_module_view.js
+#: common/static/coffee/src/discussion/discussion_module_view.js
+msgid "Hide Discussion"
+msgstr "Vita elrejtése"
+
+#: common/static/coffee/src/discussion/discussion_module_view.js
+msgid "Show Discussion"
+msgstr "Vita megjelenítése"
+
+#: common/static/coffee/src/discussion/discussion_module_view.js
+#: common/static/coffee/src/discussion/discussion_module_view.js
+#: common/static/coffee/src/discussion/utils.js
+#: common/static/coffee/src/discussion/utils.js
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+#: common/static/coffee/src/discussion/views/discussion_user_profile_view.js
+#: common/static/coffee/src/discussion/views/response_comment_view.js
+msgid "Sorry"
+msgstr "Sajnáljuk"
+
+#: common/static/coffee/src/discussion/discussion_module_view.js
+msgid "We had some trouble loading the discussion. Please try again."
+msgstr "Hiba történt a vita betöltése közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/discussion_module_view.js
+msgid ""
+"We had some trouble loading the threads you requested. Please try again."
+msgstr "Hiba történt a folyamat betöltése közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/utils.js
+msgid "Loading content"
+msgstr "Tartalom betöltése"
+
+#: common/static/coffee/src/discussion/utils.js
+msgid ""
+"We had some trouble processing your request. Please ensure you have copied "
+"any unsaved work and then reload the page."
+msgstr ""
+"Hiba történt a kérés feldolgozása közben. Győződj meg róla, hogy lemásoltál "
+"minden mentetlen munkát és töltsd be újra az oldalt. "
+
+#: common/static/coffee/src/discussion/utils.js
+msgid "We had some trouble processing your request. Please try again."
+msgstr "Hiba történt a kérés feldolgozása közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/utils.js
+#: common/static/coffee/src/discussion/utils.js
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+#: common/static/coffee/src/discussion/views/discussion_topic_menu_view.js
+msgid "…"
+msgstr "…"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "there is currently %(numVotes)s vote"
+msgid_plural "there are currently %(numVotes)s votes"
+msgstr[0] "jelenleg %(numVotes) szavazat van"
+msgstr[1] "jelenleg %(numVotes)s szavazat van"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "%(numVotes)s Vote"
+msgid_plural "%(numVotes)s Votes"
+msgstr[0] "%(numVotes)s szavazat"
+msgstr[1] "%(numVotes)s szavazat"
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "We had some trouble subscribing you to this thread. Please try again."
+msgstr ""
+"Hiba történt a folyamatra történő feliratkozás közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid ""
+"We had some trouble unsubscribing you from this thread. Please try again."
+msgstr ""
+"Hiba történt a folyamatról történő leiratkozás közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid ""
+"We had some trouble marking this response as an answer.  Please try again."
+msgstr ""
+"Hiba történt a válasz megjelölése, mint válasz közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid ""
+"We had some trouble removing this response as an answer.  Please try again."
+msgstr ""
+"Hiba történt a válasz eltávolítása, mint válasz közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "We had some trouble marking this response endorsed.  Please try again."
+msgstr "Hiba történt a válasz elfogadása közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "We had some trouble removing this endorsement.  Please try again."
+msgstr ""
+"Hiba történt az elfogadott válasz eltávolítása  közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "We had some trouble saving your vote.  Please try again."
+msgstr "Hiba történt a szavazatod mentése közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "We had some trouble pinning this thread. Please try again."
+msgstr "Hiba történt a folyamathoz való csatlakozás közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "We had some trouble unpinning this thread. Please try again."
+msgstr ""
+"Hiba történt a folyamatról történő leválasztás közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "We had some trouble removing your flag on this post.  Please try again."
+msgstr "Hiba történt az üzenetjelölő eltávolítása közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "We had some trouble reporting this post.  Please try again."
+msgstr "Hiba történt az üzenet jelentése közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "We had some trouble closing this thread.  Please try again."
+msgstr "Hiba történt a folyamat lezárása közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_content_view.js
+msgid "We had some trouble reopening this thread.  Please try again."
+msgstr "Hiba történt a folyamat újranyitása közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+msgid "Load more"
+msgstr "Továbbiak betöltése"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+msgid "Loading more threads"
+msgstr "További folyamat betöltése"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+msgid "We had some trouble loading more threads. Please try again."
+msgstr "Hiba történt a további folyamat betöltése közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+msgid "%(unread_count)s new comment"
+msgid_plural "%(unread_count)s new comments"
+msgstr[0] "%(unread_count)s új hozzászólás"
+msgstr[1] "%(unread_count)s db új hozzászólás"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+msgid "Current conversation"
+msgstr "Jelenlegi beszélgetés"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+#: lms/static/js/edxnotes/views/tabs/search_results.js
+msgid "Search Results"
+msgstr "Keresési eredmények"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+msgid "Loading thread list"
+msgstr "Folyamat lista betöltése"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+msgid ""
+"No results found for %(original_query)s. Showing results for "
+"%(suggested_query)s."
+msgstr ""
+"Nincs találat a keresésre %(original_query)s. mutasd a javasolt keresés "
+"%(suggested_query)s találatait."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+msgid "No threads matched your query."
+msgstr "Nem találtam a keresésnek megfelelőt"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
+msgid "Show posts by %(username)s."
+msgstr "%(username)s üzeneteinek megjelenítése."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+msgid "The thread you selected has been deleted. Please select another thread."
+msgstr "Amit kiválasztottál már törölték. Kérlek válassz másikat"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+msgid "We had some trouble loading responses. Please reload the page."
+msgstr "Hiba történt a válaszok betöltése közben. Töltsd be újra az oldalt."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+msgid "We had some trouble loading more responses. Please try again."
+msgstr "Hiba történt a további válasz betöltése közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+msgid "%(numResponses)s other response"
+msgid_plural "%(numResponses)s other responses"
+msgstr[0] "%(numResponses)s egyéb válasz"
+msgstr[1] "%(numResponses)s egyéb válasz"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+msgid "%(numResponses)s response"
+msgid_plural "%(numResponses)s responses"
+msgstr[0] "%(numResponses)s egyéb válasz"
+msgstr[1] "%(numResponses)s egyéb válasz"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+msgid "Showing all responses"
+msgstr "Minden válasz mutatása"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+msgid "Showing first response"
+msgid_plural "Showing first %(numResponses)s responses"
+msgstr[0] "Az első válasz megjelenítve"
+msgstr[1] "Az elős %(numResponses)s válasz megjelenítve"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+msgid "Load all responses"
+msgstr "Minden válasz betöltése"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+msgid "Load next %(numResponses)s responses"
+msgstr "A következő %(numResponses)s válasz betöltése"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+msgid "Are you sure you want to delete this post?"
+msgstr "Biztosan törölni akarod ezt az üzenetet?"
+
+#: common/static/coffee/src/discussion/views/discussion_user_profile_view.js
+msgid "We had some trouble loading the page you requested. Please try again."
+msgstr "Hiba történt az oldal betöltése közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/new_post_view.js
+msgid "Your post will be discarded."
+msgstr "Az üzeneted törlődött."
+
+#: common/static/coffee/src/discussion/views/response_comment_show_view.js
+msgid "anonymous"
+msgstr "névtelen"
+
+#: common/static/coffee/src/discussion/views/response_comment_view.js
+msgid "Are you sure you want to delete this comment?"
+msgstr "Biztosan törölni akarod ezt a hozzászólást?"
+
+#: common/static/coffee/src/discussion/views/response_comment_view.js
+msgid "We had some trouble deleting this comment. Please try again."
+msgstr "Hiba történt a hozzászólás törlése közben. Próbáld meg újra."
+
+#: common/static/coffee/src/discussion/views/thread_response_view.js
+msgid "Are you sure you want to delete this response?"
+msgstr "Biztosan törölni akarod ezt a választ?"
+
+#: common/static/common/js/components/views/paging_header.js
+msgid "Showing %(first_index)s out of %(num_items)s total"
+msgstr ""
+
+#: common/static/common/js/components/views/paging_header.js
+msgid "Showing %(first_index)s-%(last_index)s out of %(num_items)s total"
+msgstr ""
+
+#: common/static/js/capa/drag_and_drop/base_image.js
+msgid "Drop target image"
+msgstr "A cél kép eldobása"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js
+msgid "dragging out of slider"
+msgstr "húzd a csúszkát"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js
+msgid "dragging"
+msgstr "húzás"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js
+msgid "dropped in slider"
+msgstr "csúszka csökkentése"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js
+msgid "dropped on target"
+msgstr "csökkent a cél"
+
+#. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "%s ago"
+msgstr "%s ezelőtt"
+
+#. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "%s from now"
+msgstr "%s mostantól"
+
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "less than a minute"
+msgstr "kevesebb, mint egy perce"
+
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "about a minute"
+msgstr "körülbelül egy perce"
+
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d perce"
+msgstr[1] "%d perce"
+
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "about an hour"
+msgstr "körülbelül egy órája"
+
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "about %d hour"
+msgid_plural "about %d hours"
+msgstr[0] "körülbelül %d órája"
+msgstr[1] "körülbelül %d órája"
+
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "a day"
+msgstr "egy napja"
+
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d napja"
+msgstr[1] "%d napja"
+
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "about a month"
+msgstr "körülbelül egy hónapja"
+
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d hónapja"
+msgstr[1] "%d hónapja"
+
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "about a year"
+msgstr "körülbelül egy éve"
+
+#: common/static/js/src/jquery.timeago.locale.js
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d éve"
+msgstr[1] "%d éve"
+
+#. Translators: please note that this is not a literal flag, but rather a
+#. report
+#: common/static/js/vendor/ova/flagging-annotator.js
+msgid "Check the box to remove all flags."
+msgstr "Jelöld be a négyzetet, hogy eltávolítsd az összes jelölőt."
+
+#. Translators: 'totalFlags' is the number of flags solely for that annotation
+#: common/static/js/vendor/ova/flagging-annotator.js
+msgid "Check the box to remove %(totalFlags)s flag."
+msgid_plural "Check the box to remove %(totalFlags)s flags."
+msgstr[0] "Jelöld be a négyzetet, hogy eltávolíts %(totalFlags)s jelölőt."
+msgstr[1] "Jelöld be a négyzetet, hogy eltávolíts %(totalFlags)s jelölőt."
+
+#. Translators: 'count' is the number of flags solely for that annotation that
+#. will be removed
+#: common/static/js/vendor/ova/flagging-annotator.js
+msgid "Check the box to remove %(count)s flag."
+msgid_plural "Check the box to remove %(count)s flags."
+msgstr[0] "Jelöld be a négyzetet, hogy eltávolíts %(count)s jelölőt."
+msgstr[1] "Jelöld be a négyzetet, hogy eltávolíts %(count)s jelölőt."
+
+#: common/static/js/vendor/ova/flagging-annotator.js
+msgid "All flags have been removed. To undo, uncheck the box."
+msgstr ""
+"Az összes jelölőt eltávolítottuk. Ha vissza akarod csinálni, akkor töröld a "
+"jelölőnégyzetet."
+
+#: common/static/js/vendor/ova/flagging-annotator.js
+#: common/static/js/vendor/ova/flagging-annotator.js
+msgid "You have already reported this annotation."
+msgstr "Már jelentetted ezt a magyarázatot."
+
+#: common/static/js/vendor/ova/flagging-annotator.js
+#: common/static/js/vendor/ova/flagging-annotator.js
+msgid "Report annotation as inappropriate or offensive."
+msgstr "Magyarázat jelentése, mint illetlen, vagy sértő."
+
+#. Translators: 'count' is the number of flags solely for that annotation
+#: common/static/js/vendor/ova/flagging-annotator.js
+msgid "This annotation has %(count)s flag."
+msgid_plural "This annotation has %(count)s flags."
+msgstr[0] "Ezt a kommentárt %(count)s esetben jelölték meg."
+msgstr[1] "Ezt a kommentárt %(count)s esetben jelölték meg."
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "User"
+msgstr "Felhasználó"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Annotation"
+msgstr "Jegyzet"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Start"
+msgstr "Kezdés"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "End"
+msgstr "Vége"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "#Replies"
+msgstr "#Válaszok"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Date posted"
+msgstr "Küldés dátum"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+#: lms/static/js/courseware/credit_progress.js
+#: lms/static/js/courseware/credit_progress.js
+msgid "More"
+msgstr "Továbbiak"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "My Notes"
+msgstr "Jegyzeteim"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Instructor"
+msgstr "Oktató"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Public"
+msgstr "Publikus"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Search"
+msgstr "Keresés"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Users"
+msgstr "Felhasználók"
+
+#. Translators: 'Tags' is the name of the view (noun) within the Student Notes
+#. page that shows all
+#. notes organized by the tags the student has associated with them (if any).
+#. When defining a
+#. note in the courseware, the student can choose to associate 1 or more tags
+#. with the note
+#. in order to group similar notes together and help with search.
+#: common/static/js/vendor/ova/catch/js/catch.js
+#: common/static/js/vendor/ova/catch/js/catch.js
+#: lms/static/js/edxnotes/views/tabs/tags.js
+msgid "Tags"
+msgstr "Címkék"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Annotation Text"
+msgstr "Jegyzet szöveg"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Clear"
+msgstr "Törlés"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Text"
+msgstr "Szöveg"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Video"
+msgstr "Videó"
+
+#: common/static/js/vendor/ova/catch/js/catch.js lms/static/js/views/fields.js
+msgid "Image"
+msgstr "Kép"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Reply"
+msgstr "Válasz"
+
+#: common/static/js/vendor/ova/catch/js/catch.js
+msgid "Tags:"
+msgstr "Címkék:"
+
+#: lms/djangoapps/teams/static/teams/js/collections/topic.js
+msgid "name"
+msgstr "név"
+
+#: lms/djangoapps/teams/static/teams/js/collections/topic.js
+msgid "team count"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
+msgid ""
+"Course teams are organized into topics created by course instructors. Try to"
+" join others in an existing team before you decide to create a new team!"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
+msgid "Teams"
+msgstr "Csapatok"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
+msgid "My Teams"
+msgstr "Csapataim"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
+msgid "Browse"
+msgstr "Böngészd"
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js
+msgid "%(team_count)s Team"
+msgid_plural "%(team_count)s Teams"
+msgstr[0] "%(team_count) Csapat"
+msgstr[1] "%(team_count)s Csapat"
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js
+msgid "View Teams in the %(topic_name)s Topic"
+msgstr ""
+
+#: lms/static/coffee/src/calculator.js
+msgid "Open Calculator"
+msgstr "Számológép megnyitása"
+
+#: lms/static/coffee/src/calculator.js
+msgid "Close Calculator"
+msgstr "Számológép bezárása"
+
+#: lms/static/coffee/src/customwmd.js
+msgid "Post body"
+msgstr "Üzenet törzse"
+
+#: lms/static/coffee/src/instructor_dashboard/data_download.js
+msgid "Error generating student profile information. Please try again."
+msgstr ""
+"Hiba történt a tanuló profil információ elkészítése közben. Próbáld újra."
+
+#: lms/static/coffee/src/instructor_dashboard/data_download.js
+msgid "Loading"
+msgstr "Betöltés"
+
+#: lms/static/coffee/src/instructor_dashboard/data_download.js
+msgid "Error getting student list."
+msgstr "Hiba a hallgatói lista lekérése közben."
+
+#: lms/static/coffee/src/instructor_dashboard/data_download.js
+msgid "Error generating list of students who may enroll. Please try again."
+msgstr ""
+"Hiba történt a azon a hallhatók listájának  a összeállításakor, akik "
+"beiratkozhatnak . Próbáld újra."
+
+#: lms/static/coffee/src/instructor_dashboard/data_download.js
+msgid "Error retrieving grading configuration."
+msgstr "Hiba történt az értékelés konfigurációjának lekérése közben."
+
+#: lms/static/coffee/src/instructor_dashboard/data_download.js
+msgid "Error generating grades. Please try again."
+msgstr "Hiba történt az értékelés elkészítése közben. Próbáld újra."
+
+#: lms/static/coffee/src/instructor_dashboard/data_download.js
+msgid "Error generating problem grade report. Please try again."
+msgstr "Hiba történt az értékelés elkészítése közben. Próbáld újra."
+
+#: lms/static/coffee/src/instructor_dashboard/instructor_analytics.js
+msgid "Unavailable metric display."
+msgstr ""
+
+#: lms/static/coffee/src/instructor_dashboard/instructor_analytics.js
+msgid "Error fetching grade distributions."
+msgstr ""
+
+#: lms/static/coffee/src/instructor_dashboard/instructor_analytics.js
+msgid "Last Updated: <%= timestamp %>"
+msgstr ""
+
+#: lms/static/coffee/src/instructor_dashboard/instructor_analytics.js
+msgid "<%= num_students %> students scored."
+msgstr ""
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+#: lms/static/js/student_account/views/account_settings_factory.js
+#: lms/static/js/student_profile/views/learner_profile_factory.js
+msgid "Username"
+msgstr "Felhasználói név"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Email"
+msgstr "E-mail"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Revoke access"
+msgstr "Hozzáférési jog eltávolítása"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Enter username or email"
+msgstr "Add meg a felhasználói neved vagy e-mail címed"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Please enter a username or email."
+msgstr "Kérlek, add meg a felhasználói neved vagy e-mail címed."
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Error changing user's permissions."
+msgstr "Hiba történt a felhasználói jogok megváltoztatása közben."
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid ""
+"Could not find a user with username or email address '<%= identifier %>'."
+msgstr ""
+"Nem található felhasználó ezzel a felhasználói névvel, vagy e-mail címmel: "
+"'<%= identifier %>'."
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid ""
+"Error: User '<%= username %>' has not yet activated their account. Users "
+"must create and activate their accounts before they can be assigned a role."
+msgstr ""
+"Hiba: '<%= username %>' felhasználó nem aktiválta a felhasználói fiókját. A "
+"felhasználóknak aktiválniuk kell a fiókjukat, mielőtt valamilyen szerepet "
+"jelölnek ki nekik"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Error: You cannot remove yourself from the Instructor group!"
+msgstr "Hiba: Nem törölheted magad az Oktató csoportból!"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Errors"
+msgstr "Hibák"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "The following errors were generated:"
+msgstr "A következő hiba keletkezett:"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Warnings"
+msgstr "Figyelmeztetések"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "The following warnings were generated:"
+msgstr "A következő figyelmeztetés keletkezett:"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+#: lms/static/js/views/fields.js
+msgid "Success"
+msgstr "Siker"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "All accounts were created successfully."
+msgstr "Minden fiók sikeresen elkészült."
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Error adding/removing users as beta testers."
+msgstr ""
+"Hiba történt a felhasználó béta tesztelőkhöz történő hozzáadása/eltávolítása"
+" közben."
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "These users were successfully added as beta testers:"
+msgstr "Az alábbi  felhasználók béta tesztelőkhöz adása sikeresen megtörtént:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "These users were successfully removed as beta testers:"
+msgstr ""
+"Az alábbi felhasználók béta tesztelők közül történő eltávolítása sikeresen "
+"megtörtént:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "These users were not added as beta testers:"
+msgstr "Az alábbi felhasználók nem kerültek a béta tesztelők közé:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "These users were not removed as beta testers:"
+msgstr ""
+"Az alábbi felhasználók nem kerültek eltávolításra a béta tesztelők közül:"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid ""
+"Users must create and activate their account before they can be promoted to "
+"beta tester."
+msgstr ""
+"A felhasználóknak aktiválniuk kell a fiókjukat, mielőtt béta tesztelőkké "
+"lépnek elő"
+
+#. Translators: A list of identifiers (which are email addresses and/or
+#. usernames) appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Could not find users associated with the following identifiers:"
+msgstr "A következő azonosítókhoz nem találtunk hozzárendelt felhasználót:"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Reason field should not be left blank."
+msgstr "Az indoklás mező nem lehet üres"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Error enrolling/unenrolling users."
+msgstr "Hiba történt a felhasználó le-/feliratkozásakor."
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "The following email addresses and/or usernames are invalid:"
+msgstr "A következő email címek és/vagy felhasználónevek érvénytelenek:"
+
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Successfully enrolled and sent email to the following users:"
+msgstr ""
+"Sikeresen feliratkoztak a következő tanulók és az email küldés is "
+"megtörtént:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "Successfully enrolled the following users:"
+msgstr "Sikeresen feliratkoztak a következő tanulók:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid ""
+"Successfully sent enrollment emails to the following users. They will be "
+"allowed to enroll once they register:"
+msgstr ""
+"Sikeresen elküldtük a feliratkozási emaileket következő felhasználóknak. "
+"Regisztrálás után feliratkozhatnak:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "These users will be allowed to enroll once they register:"
+msgstr "Ezek a hallgatók regisztráció után feliratkozhatnak"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid ""
+"Successfully sent enrollment emails to the following users. They will be "
+"enrolled once they register:"
+msgstr ""
+"Sikeresen elküldtük a feliratkozási emaileket következő felhasználóknak. "
+"Regisztrálás után feliratkoztak:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "These users will be enrolled once they register:"
+msgstr "Ezek a hallgatók regisztráció után feliratkozhatnak"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid ""
+"Emails successfully sent. The following users are no longer enrolled in the "
+"course:"
+msgstr ""
+"E-mail elküldése sikeres. Az alábbi felhasználók már nincsenek feliratkozva "
+"a kurzusra."
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid "The following users are no longer enrolled in the course:"
+msgstr "A következő hallgatók már nincsenek feliratkozva:"
+
+#. Translators: A list of users appears after this sentence. This situation
+#. arises when a staff member tries to unenroll a user who is not currently
+#. enrolled in this course.;
+#: lms/static/coffee/src/instructor_dashboard/membership.js
+msgid ""
+"These users were not affiliated with the course so could not be unenrolled:"
+msgstr ""
+"Ezek a felhasználók nincsenek kapcsolatban a kurzussal, így nem tudnak "
+"leiratkozni sem:"
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid "Your message must have a subject."
+msgstr "Az üzenetednek tartalmaznia kell tárgyat."
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid "Your message cannot be blank."
+msgstr "Az üzeneted nem maradhat üresen."
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid ""
+"There are invalid keywords in your email. Please check the following "
+"keywords and try again:"
+msgstr ""
+"Az emailedben érvénytelen kulcsszavak vannak. Ellenőrizd a következő "
+"kulcsszavakat:"
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid "Your email was successfully queued for sending."
+msgstr "Az emailedet betettük a küldési sorba."
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid ""
+"You are about to send an email titled '<%= subject %>' to yourself. Is this "
+"OK?"
+msgstr "Egy emailt küldesz magadnak '<%= subject %>' tárggyal. OK ?"
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid ""
+"You are about to send an email titled '<%= subject %>' to everyone who is "
+"staff or instructor on this course. Is this OK?"
+msgstr ""
+"Egy emailt küldesz mindenkinek, aki a kurzus személyzetéhez vagy oktatóihoz "
+"tartozik '<%= subject %>' tárggyal. OK ?"
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid ""
+"You are about to send an email titled '<%= subject %>' to ALL (everyone who "
+"is enrolled in this course as student, staff, or instructor). Is this OK?"
+msgstr ""
+"Egy emailt küldesz mindenkinek '<%= subject %>' tárggyal. (Mindenkinek, aki "
+"felvette a kurzust, aki a kurzus személyzetéhez vagy oktatóihoz tartozik) OK"
+" ?"
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid ""
+"Your email was successfully queued for sending. Please note that for large "
+"classes, it may take up to an hour (or more, if other courses are "
+"simultaneously sending email) to send all emails."
+msgstr ""
+"Az emailedet betettük a küldési sorba. Nagy létszámú osztályoknál akár több,"
+" mint egy óráig is tarthat az összes email elküldése (különösen, ha más "
+"kurzusok is küldenek emailt párhuzamosan)"
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid "Error sending email."
+msgstr "Hiba az üzenet küldése közben."
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid "There is no email history for this course."
+msgstr "Nincs e-mail előzménye ennek a kurzusnak."
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid "There was an error obtaining email task history for this course."
+msgstr "Hiba történt a kurzushoz tartozó e-mail előzmények elérése közben."
+
+#: lms/static/coffee/src/instructor_dashboard/send_email.js
+msgid "There was an error obtaining email content history for this course."
+msgstr "Hiba történt a kurzushoz tartozó e-mail előzmények elérése közben."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+msgid "Please enter a student email address or username."
+msgstr "Írd be egy tanuló e-mail címét, vagy felhasználói nevét."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Error getting student progress url for '<%= student_id %>'. Make sure that "
+"the student identifier is spelled correctly."
+msgstr ""
+"Hiba történt a hallgatói előrehaladás URL lekérésekor '<%= student_id %>' "
+"részére. Kérlek ellenőrizd a hallgatói azonosítót."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid "Please enter a problem location."
+msgstr "Írd le a hiba helyét."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Success! Problem attempts reset for problem '<%= problem_id %>' and student "
+"'<%= student_id %>'."
+msgstr ""
+"Sikerült! A feladatmegoldás próbálkozások száma törölve '<%= problem_id %>' "
+"feladatnál és '<%= student_id %>' hallgatónál."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Error resetting problem attempts for problem '<%= problem_id %>' and student"
+" '<%= student_id %>'. Make sure that the problem and student identifiers are"
+" complete and correct."
+msgstr ""
+"Hiba történt a feladatmegoldás próbálkozások számának törlése közben '<%= "
+"problem_id %>' feladatnál és '<%= student_id %>' hallgatónál. Ellenőrizd a "
+"hallgatói azonosítót és a feladat kódját"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Delete student '<%= student_id %>'s state on problem '<%= problem_id %>'?"
+msgstr ""
+"Töröljük '<%= student_id %> hallgató '<%= problem_id %> feladatainak "
+"adatait'?"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Error deleting student '<%= student_id %>'s state on problem '<%= problem_id"
+" %>'. Make sure that the problem and student identifiers are complete and "
+"correct."
+msgstr ""
+"Hiba történt '<%= student_id %> hallgató '<%= problem_id %>' feladat "
+"állapotának törlésekor? Ellenőrizd a hallgatói azonosítót és a feladat "
+"kódját."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid "Module state successfully deleted."
+msgstr "A modul állapota sikeresen törölve."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Started rescore problem task for problem '<%= problem_id %>' and student "
+"'<%= student_id %>'. Click the 'Show Background Task History for Student' "
+"button to see the status of the task."
+msgstr ""
+"Elkezdődött '<%= problem_id %>' feladat és '<%= student_id %>' hallgató "
+"újrapontozása. Nyomd meg a Hallgatói háttérfolyamatok előzményeinek "
+"megjelenítése gombot a folyamat státuszának megtekintéséhez"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Error starting a task to rescore problem '<%= problem_id %>' for student "
+"'<%= student_id %>'. Make sure that the the problem and student identifiers "
+"are complete and correct."
+msgstr ""
+"Hiba történt '<%= problem_id %>' feladat és '<%= student_id %>' hallgató "
+"újrapontozása során. Ellenőrizd a hallgatói azonosítót és a feladat kódját."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Error getting task history for problem '<%= problem_id %>' and student '<%= "
+"student_id %>'. Make sure that the problem and student identifiers are "
+"complete and correct."
+msgstr ""
+"Hiba történt '<%= problem_id %>' feladat és '<%= student_id %>' hallgató "
+"feladat előzményeinek lekérésekor. Ellenőrizd a hallgatói azonosítót és a "
+"feladat kódját."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+msgid "Entrance exam attempts is being reset for student '{student_id}'."
+msgstr ""
+"A felvételi vizsga kísérletek száma törlésre kerül '{student_id}' "
+"hallgatónál."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+msgid ""
+"Error resetting entrance exam attempts for student '{student_id}'. Make sure"
+" student identifier is correct."
+msgstr ""
+"Hiba történet a felvételi vizsga kísérletek számának törlésekor "
+"'{student_id}' hallgatónák. Ellenőrizd a hallgató azonosítóját"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Started entrance exam rescore task for student '{student_id}'. Click the "
+"'Show Background Task History for Student' button to see the status of the "
+"task."
+msgstr ""
+"Elkezdődött '{student_id}' hallgató felvételi vizsgájának az ujrapontozása. "
+"Nyomd meg a Hallgatói háttérfolyamatok előzményeinek megjelenítése gombot a "
+"folyamat státuszának megtekintéséhez"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Error starting a task to rescore entrance exam for student '{student_id}'. "
+"Make sure that entrance exam has problems in it and student identifier is "
+"correct."
+msgstr ""
+"Hiba történt '{student_id}' hallgató felvételi vizsgájának újrapontozása "
+"közben. Ellenőrizd a hallgatói azonosítót és hogy a felvételi vizsgában "
+"vannak feladatok"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+msgid "Enter a student's username or email address."
+msgstr "Írd be egy tanuló email címét, vagy felhasználói nevét."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Do you want to allow this student ('{student_id}') to skip the entrance "
+"exam?"
+msgstr ""
+"Engedélyezed ('{student_id}') hallgatónak, hogy kihagyja a felvételi vizsgát"
+" ?"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"An error occurred. Make sure that the student's username or email address is"
+" correct and try again."
+msgstr ""
+"Hiba történt. Ellenőrizd, hogy a felhasználó név vagy email cím helyes és "
+"próbáld újra."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+msgid "Entrance exam state is being deleted for student '{student_id}'."
+msgstr "'{student_id}' hallgató felvételi vizsgájának állapota törölve."
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Error deleting entrance exam state for student '{student_id}'. Make sure "
+"student identifier is correct."
+msgstr ""
+"Hiba történt '{student_id}' hallgató felvételi vizsga állapotának törlése "
+"közben. Ellenőrizd a hallgató azonosítóját"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Error getting entrance exam task history for student '{student_id}'. Make "
+"sure student identifier is correct."
+msgstr ""
+"Hiba történt '{student_id}' hallgató felvételi vizsga előzményeinek lekérése"
+" közben. Ellenőrizd a hallgató azonosítóját"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid "Reset attempts for all students on problem '<%= problem_id %>'?"
+msgstr ""
+"Töröljük a próbálkozások számát '<%= problem_id %>' feladatnál minden "
+"hallgatónál?"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Successfully started task to reset attempts for problem '<%= problem_id %>'."
+" Click the 'Show Background Task History for Problem' button to see the "
+"status of the task."
+msgstr ""
+"Elkezdődött '<%= problem_id %>' feladat újrapontozása. Nyomd meg a Hallgatói"
+" háttérfolyamatok előzményeinek megjelenítése gombot a folyamat státuszának "
+"megtekintéséhez"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Error starting a task to reset attempts for all students on problem '<%= "
+"problem_id %>'. Make sure that the problem identifier is complete and "
+"correct."
+msgstr ""
+"Hiba történt a  '<%= problem_id %>' feladat újrapontozásakor minden "
+"hallgatónál. Ellenőrizd a feladat kódját"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid "Rescore problem '<%= problem_id %>' for all students?"
+msgstr "Újrapontozzuk a '<%= problem_id %>' feladatot minden hallgatónál?"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Successfully started task to rescore problem '<%= problem_id %>' for all "
+"students. Click the 'Show Background Task History for Problem' button to see"
+" the status of the task."
+msgstr ""
+"Elkezdődött '<%= problem_id %>' feladat újrapontozása minden hallgatónál. "
+"Nyomd meg a Hallgatói háttérfolyamatok előzményeinek megjelenítése gombot a "
+"folyamat státuszának megtekintéséhez"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid ""
+"Error starting a task to rescore problem '<%= problem_id %>'. Make sure that"
+" the problem identifier is complete and correct."
+msgstr ""
+"Hiba történt a  '<%= problem_id %>' feladat újrapontozásakor. Ellenőrizd a "
+"feladat kódját"
+
+#: lms/static/coffee/src/instructor_dashboard/student_admin.js
+msgid "Error listing task history for this student and problem."
+msgstr ""
+"Hiba történt hallgató előzményeinek lekérésekor ennél a hallgatónál és "
+"feladatnál"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Task Type"
+msgstr "Feladat típus"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Task inputs"
+msgstr "feladat bemenetek"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Task ID"
+msgstr "Feladat azonosító"
+
+#. Translators: a "Requester" is a username that requested a task such as
+#. sending email
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Requester"
+msgstr "Kérelmező"
+
+#. Translators: A timestamp of when a task (eg, sending email) was submitted
+#. appears after this
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Submitted"
+msgstr "Elküldve"
+
+#. Translators: The length of a task (eg, sending email) in seconds appears
+#. this
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Duration (sec)"
+msgstr "Időtartam (másodperc)"
+
+#. Translators: The state (eg, "In progress") of a task (eg, sending email)
+#. appears after this.
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "State"
+msgstr "Állapot"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Task Status"
+msgstr "Feladat állapot"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Task Progress"
+msgstr "Feladat folyamatjelző"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid ""
+"An error occurred retrieving your email. Please try again later, and contact"
+" technical support if the problem persists."
+msgstr ""
+"Hiba történt az e-mail lekérése közben. Próbáld kicsit később újra és lépj "
+"kapcsolatba a te4chnikai személyzettel, ha a hiba továbbra is fennáll."
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Subject"
+msgstr "Tárgy"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Sent By"
+msgstr "Küldte"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Time Sent"
+msgstr "Elküldés ideje"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Number Sent"
+msgstr "Elküldés száma"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Copy Email To Editor"
+msgstr "E-mail másolása szerkesztőbe"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Subject:"
+msgstr "Tárgy:"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Sent By:"
+msgstr "Küldte:"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Time Sent:"
+msgstr "Elküldés ideje:"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Sent To:"
+msgstr "Küldve:"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "Message:"
+msgstr "Üzenet:"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "No tasks currently running."
+msgstr "Nincs futó feladat."
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid "File Name"
+msgstr "Fájlnév"
+
+#: lms/static/coffee/src/instructor_dashboard/util.js
+msgid ""
+"Links are generated on demand and expire within 5 minutes due to the "
+"sensitive nature of student information."
+msgstr ""
+"A kérésedre generált linkek 5 perc múlva lejárnak, mivel a hallgatói adatok "
+"elővigyázatossággal kezelendők"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "Grades saved.  Fetching the next submission to grade."
+msgstr "Jegyek elmentve. Veszem a következő osztályozandó feladatokat"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "Problem Name"
+msgstr "Feladat neve"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "Graded"
+msgstr "Értékelt"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "Available to Grade"
+msgstr "Készen áll az értékelésre"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "Required"
+msgstr "Kötelező"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "Progress"
+msgstr "Eredmények"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "Back to problem list"
+msgstr "Vissza a feladat listához"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "Try loading again"
+msgstr "Próbáld újra betölteni"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "<%= num %> available "
+msgstr "<%= num %> áll rendelkezésre"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "<%= num %> graded "
+msgstr "<%= num %> értékelt"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "<%= num %> more needed to start ML"
+msgstr "Még <%= num %> kell, hogy elinduljon ML"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "Re-check for submissions"
+msgstr "Újraellenőrzés beküldéshez"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "System got into invalid state: <%= state %>"
+msgstr "A rendszer hibás állapotba került: <%= state %>"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "System got into invalid state for submission: "
+msgstr "A rendszer hibás állapotba került a beküldés során"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "(Hide)"
+msgstr "(Elrejtés)"
+
+#: lms/static/coffee/src/staff_grading/staff_grading.js
+msgid "(Show)"
+msgstr "(Megmutatás)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Insert Hyperlink"
+msgstr "Hivatkozás beszúrása"
+
+#. Translators: Please keep the quotation marks (") around this text
+#: lms/static/js/Markdown.Editor.js lms/static/js/Markdown.Editor.js.c
+msgid "\"optional title\""
+msgstr "\"opcionális cím\""
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Insert Image (upload file or type url)"
+msgstr "Kép beszúrása (töltsd fel, vagy írd be az url-t)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Markdown Editing Help"
+msgstr "Leárazás szerkesztő sugó"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Bold (Ctrl+B)"
+msgstr "Félkövér (Ctrl+B)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Italic (Ctrl+I)"
+msgstr "Dőlt (Ctrl+I)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Hyperlink (Ctrl+L)"
+msgstr "Hivatkozás (Ctrl+L)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Blockquote (Ctrl+Q)"
+msgstr "Idézet (Ctrl+Q)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Code Sample (Ctrl+K)"
+msgstr "Programkód (Ctrl+K)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Image (Ctrl+G)"
+msgstr "Kép (Ctrl+G)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Numbered List (Ctrl+O)"
+msgstr "Számozott lista (Ctrl+O)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Bulleted List (Ctrl+U)"
+msgstr "Felsorolás (Ctrl+U)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Heading (Ctrl+H)"
+msgstr "Címsor (Ctrl+H)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Horizontal Rule (Ctrl+R)"
+msgstr "Vízszintes elválasztás (Ctrl+R)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Undo (Ctrl+Z)"
+msgstr "Visszavonás (Ctrl+Z)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Redo (Ctrl+Y)"
+msgstr "Mégis (Ctrl+Y)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Redo (Ctrl+Shift+Z)"
+msgstr "Mégis (Ctrl+Shift+Z)"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "strong text"
+msgstr "kiemelt szöveg"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "emphasized text"
+msgstr "kiemelt szöveg"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "enter image description here"
+msgstr "a kép leírását írd ide"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "enter link description here"
+msgstr "ide írd a link leírását"
+
+#: lms/static/js/Markdown.Editor.js lms/static/js/Markdown.Editor.js
+msgid "enter code here"
+msgstr "ide írd a kódot"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "List item"
+msgstr "Elem listázása"
+
+#: lms/static/js/Markdown.Editor.js
+msgid "Heading"
+msgstr "Címsor"
+
+#: lms/static/js/ajax-error.js
+msgid "You have been logged out of your edX account. "
+msgstr "Kijelentkeztél az edX fiókodból."
+
+#: lms/static/js/course_survey.js
+msgid "There has been an error processing your survey."
+msgstr "Hiba történt a kérdőív feldolgozása közben"
+
+#: lms/static/js/staff_debug_actions.js
+msgid "Unknown Error Occurred."
+msgstr "Ismeretlen hiba történt."
+
+#: lms/static/js/staff_debug_actions.js
+msgid "Successfully reset the attempts for user {user}"
+msgstr " Sikeresen töröltük {user} felhasználó próbálkozásait"
+
+#: lms/static/js/staff_debug_actions.js
+msgid "Failed to reset attempts."
+msgstr "Hiba történt a próbálkozások számának alaphelyzetbe állításakor."
+
+#: lms/static/js/staff_debug_actions.js
+msgid "Successfully deleted student state for user {user}"
+msgstr "Sikeresen törlésre került a  {user} tanuló állapota."
+
+#: lms/static/js/staff_debug_actions.js
+msgid "Failed to delete student state."
+msgstr "Nem sikerült a tanuló állapotának törlése."
+
+#: lms/static/js/staff_debug_actions.js
+msgid "Successfully rescored problem for user {user}"
+msgstr "{user} tanuló feladatának újrapontozása sikeresen megtörtént."
+
+#: lms/static/js/staff_debug_actions.js
+msgid "Failed to rescore problem."
+msgstr "Nem sikerült újra pontozni a feladatot."
+
+#: lms/static/js/ccx/schedule.js
+msgid "All subsections"
+msgstr "Összes alfejezet"
+
+#: lms/static/js/ccx/schedule.js
+msgid "All units"
+msgstr "Összes lecke"
+
+#: lms/static/js/ccx/schedule.js
+msgid "Select a chapter"
+msgstr "Válassz egy fejezetet"
+
+#: lms/static/js/ccx/schedule.js lms/static/js/ccx/schedule.js.c
+msgid "Save changes"
+msgstr "Változások mentése"
+
+#: lms/static/js/ccx/schedule.js
+msgid "Enter Due Date"
+msgstr "Add meg az esedékesség dátumát"
+
+#: lms/static/js/ccx/schedule.js
+msgid "Enter Start Date"
+msgstr "Add meg a kezdő dátumot"
+
+#: lms/static/js/courseware/credit_progress.js
+msgid "Less"
+msgstr "Kevesebb"
+
+#: lms/static/js/dashboard/donation.js
+msgid "Please enter a valid donation amount."
+msgstr "Érvényes összeget adj meg az adományhoz."
+
+#: lms/static/js/dashboard/donation.js
+msgid "Your donation could not be submitted."
+msgstr "A felajánlásod nem sikerült elküldeni."
+
+#: lms/static/js/dashboard/legacy.js
+msgid "An error occurred. Please try again later."
+msgstr "Hiba történt. Próbáld újra."
+
+#: lms/static/js/discovery/form.js
+msgid "We couldn't find any results for \"%s\"."
+msgstr "Nincs találat erre \"%s\"."
+
+#: lms/static/js/discovery/form.js
+msgid "There was an error, try searching again."
+msgstr "Hiba történt, ismételd meg a keresést."
+
+#: lms/static/js/edxnotes/plugins/accessibility.js
+msgid "Focus grabber"
+msgstr "Középppont"
+
+#: lms/static/js/edxnotes/views/search_box.js
+#: lms/static/js/edxnotes/views/toggle_notes_factory.js
+msgid ""
+"An error has occurred. Make sure that you are connected to the Internet, and"
+" then try refreshing the page."
+msgstr ""
+"Hiba történt. Ellenőrizd az internetkapcsolatod és frissítsd az oldalt."
+
+#: lms/static/js/edxnotes/views/search_box.js
+msgid "Please enter a term in the %(anchor_start)s search field%(anchor_end)s."
+msgstr ""
+"Kérjük adj meg egy időintervallumot %(anchor_start)s a "
+"keresőmező%(anchor_end)s."
+
+#: lms/static/js/edxnotes/views/tab_item.js
+msgid "Current tab"
+msgstr "Aktuális fül"
+
+#: lms/static/js/edxnotes/views/toggle_notes_factory.js
+msgid "Hide notes"
+msgstr "Megjegyzések elrejtése"
+
+#: lms/static/js/edxnotes/views/toggle_notes_factory.js
+msgid "Notes visible"
+msgstr "Megjegyzések láthatóak"
+
+#: lms/static/js/edxnotes/views/toggle_notes_factory.js
+msgid "Show notes"
+msgstr "Válasz megjegyzések"
+
+#: lms/static/js/edxnotes/views/toggle_notes_factory.js
+msgid "Notes hidden"
+msgstr "Megjegyzések elrejtve"
+
+#: lms/static/js/edxnotes/views/tabs/course_structure.js
+msgid "Location in Course"
+msgstr "Helye a kurzusban"
+
+#: lms/static/js/edxnotes/views/tabs/recent_activity.js
+msgid "Recent Activity"
+msgstr "Legutóbbi tevékenységek"
+
+#: lms/static/js/edxnotes/views/tabs/search_results.js
+msgid "No results found for \"%(query_string)s\". Please try searching again."
+msgstr ""
+"Ar \"%(query_string)s\" keresésre nincs találat. Próbáld újra a keresést"
+
+#. Translators: this is a title shown before all Notes that have no associated
+#. tags. It is put within
+#. brackets to differentiate it from user-defined tags, but it should still be
+#. translated.
+#: lms/static/js/edxnotes/views/tabs/tags.js
+msgid "[no tags]"
+msgstr "[nincs tag]"
+
+#: lms/static/js/groups/views/cohort_discussions.js
+#: lms/static/js/groups/views/cohort_discussions_course_wide.js
+#: lms/static/js/groups/views/cohort_discussions_inline.js
+#: lms/static/js/groups/views/cohort_form.js
+#: lms/static/js/groups/views/cohorts.js
+msgid "We've encountered an error. Refresh your browser and then try again."
+msgstr "Hiba történt. Frissítsd az oldalt a böngészőben és próbáld újra."
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "Selected tab"
+msgstr "Kiválasztott fül"
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "Saved cohort"
+msgstr "Elmentett tanulócsoport"
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "Error adding students."
+msgstr "Hiba a tanuló hozzáadása közben."
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "Enter a username or email."
+msgstr "Add meg a felhasználói neved vagy e-mail címed"
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "{numUsersAdded} student has been added to this cohort"
+msgid_plural "{numUsersAdded} students have been added to this cohort"
+msgstr[0] "{numUsersAdded} tanulót adtunk hozzá ehhez a tanulócsoporthoz."
+msgstr[1] "{numUsersAdded} tanulót adtunk hozzá ehhez a tanulócsoporthoz."
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "{numMoved} student was removed from {oldCohort}"
+msgid_plural "{numMoved} students were removed from {oldCohort}"
+msgstr[0] ""
+"{numMoved} tanuló került eltávolításra a következő csoportból {oldCohort}"
+msgstr[1] ""
+"{numMoved} tanuló került eltávolításra a következő csoportból {oldCohort}"
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "{numPresent} student was already in the cohort"
+msgid_plural "{numPresent} students were already in the cohort"
+msgstr[0] "{numPresent} hallgató van a hallgatói csoportban"
+msgstr[1] "{numPresent} hallgató van a hallgatói csoportban"
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "Unknown user: {user}"
+msgstr "Ismeretlen felhasználó: {user}"
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "There was an error when trying to add students:"
+msgid_plural "There were {numErrors} errors when trying to add students:"
+msgstr[0] "Hiba történt a tanulók hozzáadása közben:"
+msgstr[1] " {numErrors} hiba történt a tanulók hozzáadása közben:"
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "View all errors"
+msgstr "Az összes hiba megtekintése"
+
+#: lms/static/js/groups/views/cohort_form.js
+msgid "You must specify a name for the cohort"
+msgstr "A tanulócsoport nevét meg kell adni"
+
+#: lms/static/js/groups/views/cohort_form.js
+msgid "You did not select a content group"
+msgstr "Nincs kiválasztva tartalom csoport"
+
+#: lms/static/js/groups/views/cohort_form.js
+msgid "The selected content group does not exist"
+msgstr "A megadott tartalom csoport nem létezik"
+
+#: lms/static/js/groups/views/cohort_form.js
+msgid "The cohort cannot be saved"
+msgstr "A tanulócsoport nem menhető"
+
+#: lms/static/js/groups/views/cohort_form.js
+msgid "The cohort cannot be added"
+msgstr "Tanulócsoport hozzáadása sikertlelen"
+
+#: lms/static/js/groups/views/cohorts.js
+msgid "You currently have no cohorts configured"
+msgstr "Jelenleg nincs tanulócsoport beállítva"
+
+#: lms/static/js/groups/views/cohorts.js
+msgid "Add Cohort"
+msgstr "Tanulócsoport hozzáadása"
+
+#: lms/static/js/groups/views/cohorts.js
+msgid ""
+"The {cohortGroupName} cohort has been created. You can manually add students"
+" to this cohort below."
+msgstr ""
+"A {cohortGroupName} csoport elkészült. Alul hozzáadhatod kézzel a "
+"hallgatókat."
+
+#: lms/static/js/groups/views/cohorts.js
+msgid "Assign students to cohorts by uploading a CSV file."
+msgstr "Rendeld a halgatókat korcsoporthoz egy CSV fájl feltöltésével"
+
+#: lms/static/js/groups/views/cohorts.js
+msgid "Choose a .csv file"
+msgstr "Válassz egy .csv fájlt"
+
+#: lms/static/js/groups/views/cohorts.js
+msgid "Only properly formatted .csv files will be accepted."
+msgstr "Csak a megfelelően formázott .csv fájlokat fogadjuk el"
+
+#: lms/static/js/groups/views/cohorts.js
+msgid "Upload File and Assign Students"
+msgstr "Fájl feltöltése és hallgató hozzárendelése"
+
+#: lms/static/js/groups/views/cohorts.js
+msgid ""
+"Your file '{file}' has been uploaded. Allow a few minutes for processing."
+msgstr "A '{file}' fájl feltöltődött. A feldolgozása pár percet igényel"
+
+#: lms/static/js/groups/views/course_cohort_settings_notification.js
+msgid "Cohorts Enabled"
+msgstr "Tanulócsoport engedélyezve"
+
+#: lms/static/js/groups/views/course_cohort_settings_notification.js
+msgid "Cohorts Disabled"
+msgstr "Tanulócsoport tiltva"
+
+#: lms/static/js/instructor_dashboard/certificates.js
+msgid "Allow students to generate certificates for this course?"
+msgstr "A hallgatók kaphatnak bizonyítványt a kurzus elvégzéséről?"
+
+#: lms/static/js/instructor_dashboard/certificates.js
+msgid "Prevent students from generating certificates in this course?"
+msgstr "A hallgatók nem kaphatnak bizonyítványt a kurzus elvégzéséről"
+
+#: lms/static/js/instructor_dashboard/certificates.js
+msgid "Start generating certificates for all students in this course?"
+msgstr ""
+"Elkezdjünk minden diáknak bizonyítványokat létrehozni ebben a kurzusban?"
+
+#: lms/static/js/instructor_dashboard/certificates.js
+msgid "Error while generating certificates. Please try again."
+msgstr "Hiba történt a bizonyítványok generálása közben. Próbáld újra."
+
+#: lms/static/js/instructor_dashboard/ecommerce.js
+#: lms/static/js/instructor_dashboard/ecommerce.js
+msgid ""
+"There was a problem creating the report. Select \"Create Executive Summary\""
+" to try again."
+msgstr ""
+"Hiba történt a jelentés készítése közben. Válaszd a vezetői összefoglaló "
+"készítését az újrakezdéshez"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js
+msgid "Enter the enrollment code."
+msgstr "Feliratkozási kód megadása"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js
+msgid "Cancel enrollment code"
+msgstr "Feliratkozási kód törlése"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js
+msgid "Restore enrollment code"
+msgstr "Feliratkozási kód visszaállítása"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js
+msgid "Mark enrollment code as unused"
+msgstr "Feliratkozási kód megjelölése nem használtként"
+
+#: lms/static/js/search/base/views/search_results_view.js
+msgid "%s result"
+msgid_plural "%s results"
+msgstr[0] "%s találat"
+msgstr[1] "%s találat"
+
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+msgid "Started entrance exam rescore task for student '{student_id}'."
+msgstr ""
+"'{student_id}' hallgató felvételi vizsgájának újrapontozása elkezdődött."
+
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+msgid ""
+"Error starting a task to rescore entrance exam for student '{student_id}'."
+msgstr ""
+"Hiba történt '{student_id}' hallgató felvételi vizsgájának újrapontozása "
+"közben."
+
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+msgid "Error deleting entrance exam state for student '{student_id}'. "
+msgstr ""
+"Hiba történt '{student_id}' hallgató felvételi vizsga állapotának törlésekor"
+
+#: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
+msgid "Error getting entrance exam task history for student '{student_id}'. "
+msgstr ""
+"Hiba történt '{student_id}' hallgató felvételi vizsga előzményeinek "
+"lekérésekor"
+
+#: lms/static/js/student_account/account.js
+msgid "The data could not be saved."
+msgstr "Nem sikerült a mentés."
+
+#: lms/static/js/student_account/account.js
+msgid "Please enter a valid email address"
+msgstr "Adj meg egy helyes e-mail címet."
+
+#: lms/static/js/student_account/account.js
+msgid "Please enter a valid password"
+msgstr "Adj meg egy helyes jelszót"
+
+#: lms/static/js/student_account/account.js
+msgid ""
+"Password reset email sent. Follow the link in the email to change your "
+"password."
+msgstr ""
+"Jelszó helyreállító e-mail elküldve. Kövesd az e-mailben található linket a "
+"jelszó megváltoztatásához."
+
+#: lms/static/js/student_account/account.js
+msgid "We weren't able to send you a password reset email."
+msgstr "Nem sikerült a jelszó helyreállító e-mail elküldése."
+
+#: lms/static/js/student_account/account.js
+msgid "Please check your email to confirm the change"
+msgstr "Ellenőrizd az e-mail címed, hogy jóváhagyd a változásokat."
+
+#: lms/static/js/student_account/views/FinishAuthView.js
+msgid "Saving your email preference"
+msgstr "Email beállítások mentése"
+
+#: lms/static/js/student_account/views/FinishAuthView.js
+msgid "Enrolling you in the selected course"
+msgstr "Feliratkoztál a kiválasztott kurzusba"
+
+#: lms/static/js/student_account/views/FinishAuthView.js
+msgid "Adding the selected course to your cart"
+msgstr "A kiválasztott kurzust a kosaradba tettük"
+
+#: lms/static/js/student_account/views/FinishAuthView.js
+msgid "Loading your courses"
+msgstr "Kurzusaid betöltése"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Basic Account Information (required)"
+msgstr "Alapvető fiók információk (kötelező)"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid ""
+"The name that identifies you throughout {platform_name}. You cannot change "
+"your username."
+msgstr ""
+"A név, amely azonosít {platform_name} oldalakon. Nem tudod megváltoztatni a "
+"felhasználónevedet."
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Full Name"
+msgstr "Teljes név"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid ""
+"The name that appears on your certificates. Other learners never see your "
+"full name."
+msgstr ""
+"A név ami a tanúsítványon meg fog jelenni. Más hallgatók nem láthatják a "
+"teljes nevedet"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Email Address"
+msgstr "E-mail cím"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid ""
+"The email address you use to sign in. Communications from {platform_name} "
+"and your courses are sent to this address."
+msgstr ""
+"Az email cím, amivel bejelentkezel. A  {platform_name} és a kurzusaid erre a"
+" címre küldenek üzeneteket."
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Password"
+msgstr "Jelszó"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Reset your Password"
+msgstr "Jelszó visszaállítása"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Reset Password"
+msgstr "Elfelejtett jelszó"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid ""
+"When you click \"Reset Password\", a message will be sent to your email "
+"address. Click the link in the message to reset your password."
+msgstr ""
+"Amikor a jelszó visszaállítását választod, egy emailt küldünk az email "
+"címedre. Kattints az üzenetben szereplő linkre a jelszó visszaállításához"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Language"
+msgstr "Nyelv"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid ""
+"The language used throughout this site. This site is currently available in "
+"a limited number of languages."
+msgstr ""
+"A nyelv, amit az egész  weboldalon keresztül használsz. Ez  a weboldal "
+"korlátozott számú nyelven áll rendelkezésre."
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Country or Region"
+msgstr "Ország vagy régió"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Additional Information (optional)"
+msgstr "Egyéb információ (opcionális)"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Education Completed"
+msgstr "Oktatás befejeződött"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Gender"
+msgstr "Nem"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Year of Birth"
+msgstr "Születési év"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+#: lms/static/js/student_profile/views/learner_profile_factory.js
+msgid "Preferred Language"
+msgstr "Nyelv"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Connected Accounts"
+msgstr "Csatolt fiókok"
+
+#: lms/static/js/student_account/views/account_settings_factory.js
+msgid "Connect your {accountName} account"
+msgstr "Csatlakozz a {accountName} fiókkal"
+
+#: lms/static/js/student_account/views/account_settings_fields.js
+msgid "We've sent a confirmation message to {new_email_address}. "
+msgstr "Elküldtük a visszaigazoló üzenetet {new_email_address} címre. "
+
+#: lms/static/js/student_account/views/account_settings_fields.js
+msgid ""
+"You must sign out and sign back in before your language changes take effect."
+msgstr ""
+"Lépj ki, majd lépj be újra, hogy a nyelvi változtatások érvényre jussanak"
+
+#: lms/static/js/student_account/views/account_settings_fields.js
+msgid "We've sent a message to {email_address}. "
+msgstr "Email üzenet elküldve {email_address} címre"
+
+#: lms/static/js/student_account/views/account_settings_fields.js
+msgid "Unlink"
+msgstr "Link eltávolítása"
+
+#: lms/static/js/student_account/views/account_settings_fields.js
+msgid "Link"
+msgstr "Link"
+
+#: lms/static/js/student_account/views/account_settings_fields.js
+msgid "Unlinking"
+msgstr "Szétkapcsolás"
+
+#: lms/static/js/student_account/views/account_settings_fields.js
+msgid "Linking"
+msgstr "Csatlakozás"
+
+#: lms/static/js/student_account/views/account_settings_fields.js
+msgid "Successfully unlinked."
+msgstr "Skeresen szétkapcsolva"
+
+#: lms/static/js/student_profile/views/learner_profile_factory.js
+msgid "{platform_name} learners can see my:"
+msgstr "{platform_name} tanulói láthatják az én:"
+
+#: lms/static/js/student_profile/views/learner_profile_factory.js
+msgid "Limited Profile"
+msgstr "Korlátozott profil"
+
+#: lms/static/js/student_profile/views/learner_profile_factory.js
+msgid "Full Profile"
+msgstr "Teljes profil"
+
+#: lms/static/js/student_profile/views/learner_profile_factory.js
+msgid "Country"
+msgstr "Ország"
+
+#: lms/static/js/student_profile/views/learner_profile_factory.js
+msgid "Add Country"
+msgstr "Ország hozzáadása"
+
+#: lms/static/js/student_profile/views/learner_profile_factory.js
+msgid "Add language"
+msgstr "Nyelv hozzáadása"
+
+#: lms/static/js/student_profile/views/learner_profile_factory.js
+msgid "About me"
+msgstr "Magamról"
+
+#: lms/static/js/student_profile/views/learner_profile_factory.js
+msgid ""
+"Tell other learners a little about yourself: where you live, what your "
+"interests are, why you're taking courses, or what you hope to learn."
+msgstr ""
+"Mesélj a tanulótársaidnak magadról_ hol élsz, mi az érdeklődési köröd, miért"
+" jelentkeztél a kurzusra, mit szeretnél tanulni."
+
+#: lms/static/js/student_profile/views/learner_profile_fields.js
+msgid "Account Settings page."
+msgstr "Fiók beállítási oldal"
+
+#: lms/static/js/student_profile/views/learner_profile_fields.js
+msgid ""
+"You must specify your birth year before you can share your full profile. To "
+"specify your birth year, go to the {account_settings_page_link}"
+msgstr ""
+"Meg kell adnod a születési évedet, mielőtt megosztod a teljes profilod. Menj"
+" a {account_settings_page_link} oldalra"
+
+#: lms/static/js/student_profile/views/learner_profile_fields.js
+msgid ""
+"You must be over 13 to share a full profile. If you are over 13, make sure "
+"that you have specified a birth year on the {account_settings_page_link}"
+msgstr ""
+"Csak 12 éves kor felett oszthatsz meg teljes profilt. Ha elmúltál 13, "
+"ellenőrizd a születési éved  {account_settings_page_link} oldalon."
+
+#: lms/static/js/student_profile/views/learner_profile_fields.js
+msgid "Profile Image"
+msgstr "profilkép"
+
+#: lms/static/js/student_profile/views/learner_profile_fields.js
+msgid "Profile image for {username}"
+msgstr "{username} profilképe"
+
+#: lms/static/js/verify_student/views/image_input_view.js
+msgid "Image Upload Error"
+msgstr "Képfeltöltési hiba"
+
+#: lms/static/js/verify_student/views/image_input_view.js
+msgid "Please verify that you have uploaded a valid image (PNG and JPEG)."
+msgstr "Ellenőrizd, hogy megfelelő képet töltöttél fel (PNG vagyJPEG)."
+
+#: lms/static/js/verify_student/views/incourse_reverify_view.js
+#: lms/static/js/verify_student/views/review_photos_step_view.js
+msgid "An error has occurred. Please try again later."
+msgstr "Hia történt. Próbáld meg később."
+
+#: lms/static/js/verify_student/views/incourse_reverify_view.js
+#: lms/static/js/verify_student/views/review_photos_step_view.js
+msgid "Could not submit photos"
+msgstr "Nem tudtam elküldeni a fényképet"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js
+msgid "Professional Education Verified Certificate"
+msgstr "Hiteles szakképzési bizonyítvány"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js
+msgid "Professional Education"
+msgstr "Szakképzés"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js
+msgid "Verified Certificate upgrade"
+msgstr "Hiteles bizonyítvány frissítése"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js
+msgid "Verified Certificate"
+msgstr "Hiteles bizonyítvány"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js
+msgid "Checkout"
+msgstr "Fizetés"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js
+msgid "Checkout with PayPal"
+msgstr "Fizetés PayPal-lel"
+
+#. Translators: 'processor' is the name of a third-party payment processing
+#. vendor (example: "PayPal")
+#: lms/static/js/verify_student/views/make_payment_step_view.js
+msgid "Checkout with {processor}"
+msgstr "Fizetés ezzel {processor}"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js
+msgid "An error has occurred. Please try again."
+msgstr "Hia történt. Próbáld meg újra."
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js
+msgid "Could not submit order"
+msgstr "Megrendelés elküldése sikertelen"
+
+#: lms/static/js/verify_student/views/payment_confirmation_step_view.js
+msgid "Could not retrieve payment information"
+msgstr "Nem lehet lekérdezni a fizetési információt."
+
+#: lms/static/js/verify_student/views/reverify_view.js
+msgid "Take a photo of your ID"
+msgstr "Fényképezd le a személyidet"
+
+#: lms/static/js/verify_student/views/reverify_view.js
+msgid "Review your info"
+msgstr "Adataid áttekintése"
+
+#: lms/static/js/verify_student/views/reverify_view.js
+msgid "Confirm"
+msgstr "Jóváhagyás"
+
+#: lms/static/js/verify_student/views/step_view.js
+msgid "An error has occurred. Please try reloading the page."
+msgstr "Hiba történt. Töltsd be újra az oldalt."
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js
+msgid "Video Capture Error"
+msgstr "Video rögzítési hiba"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js
+msgid ""
+"Please verify that your webcam is connected and that you have allowed your "
+"browser to access it."
+msgstr ""
+"Ellenőrizd, hogy a webkamerád csatlakoztatva a böngésződ hozzáférése "
+"engedélyezve van."
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js
+msgid "No Webcam Detected"
+msgstr "Nem találok webkamerát"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js
+msgid "You don't seem to have a webcam connected."
+msgstr "Nem találtunk webkamerát csatlakoztatva"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js
+msgid "Double-check that your webcam is connected and working to continue."
+msgstr ""
+"Ellenőrizd, hogy a webkamerád csatlakoztatva van és működik, mielőtt "
+"folytatnád"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js
+msgid "Photo Captured successfully."
+msgstr "A fotó rögzítése sikeres"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js
+msgid "No Flash Detected"
+msgstr "Nem találok Flasht"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js
+msgid ""
+"You don't seem to have Flash installed. Get Flash to continue your "
+"verification."
+msgstr ""
+"Flash installáció nem található. Telepítsd a Flasht az ellenőrzés "
+"folytatásához"
+
+#: lms/static/js/views/fields.js
+msgid "Editable"
+msgstr "szerkeszthető"
+
+#: lms/static/js/views/fields.js
+msgid "Validation Error"
+msgstr "Érvényesítési hiba"
+
+#: lms/static/js/views/fields.js
+msgid "In Progress"
+msgstr "Folyamatban"
+
+#: lms/static/js/views/fields.js
+msgid "Placeholder"
+msgstr "helykitöltő"
+
+#: lms/static/js/views/fields.js
+msgid "An error occurred. Please try again."
+msgstr "Hiba történt. Próbáld újra."
+
+#: lms/static/js/views/fields.js
+msgid "Upload an image"
+msgstr "Kép feltöltése"
+
+#: lms/static/js/views/fields.js
+msgid "Change image"
+msgstr "Kép megváltoztatása"
+
+#: lms/static/js/views/fields.js
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: lms/static/js/views/fields.js
+msgid "Removing"
+msgstr "Eltávolítás"
+
+#: lms/static/js/views/fields.js
+msgid "An error has occurred. Refresh the page, and then try again."
+msgstr "Hiba történt. Frissítsd az oldalt és próbáld újra"
+
+#: lms/static/js/views/fields.js
+msgid "The file must be at least {size} in size."
+msgstr "A fájl mérete legalább {size} kell legyen"
+
+#: lms/static/js/views/fields.js
+msgid "The file must be smaller than {size} in size."
+msgstr "A fálj mérete legyen kisebb, mint {size} "
+
+#: lms/static/js/views/fields.js
+msgid ""
+"Upload is in progress. To avoid errors, stay on this page until the process "
+"is complete."
+msgstr ""
+"Feltöltés folyamatban. A hibák elkerülése érdekében maradj az oldalon, amíg "
+"a folyamat befejeződik."
+
+#: lms/static/js/views/fields.js
+msgid ""
+"Removal is in progress. To avoid errors, stay on this page until the process"
+" is complete."
+msgstr ""
+"Törlés folyamatban. A hibák elkerülése érdekében maradj az oldalon, amíg a "
+"folyamat befejeződik."
+
+#: lms/static/js/views/fields.js
+msgid "bytes"
+msgstr "bájtok"
+
+#: lms/static/js/views/fields.js
+msgid "KB"
+msgstr "KB"
+
+#: lms/static/js/views/fields.js
+msgid "MB"
+msgstr "MB"
+
+#: lms/static/js/views/file_uploader.js
+msgid "Your upload of '{file}' succeeded."
+msgstr "A '{file}' fájl feltöltése sikeresen megtörtént"
+
+#: lms/static/js/views/file_uploader.js
+msgid "Your upload of '{file}' failed."
+msgstr "A '{file}' fájl feltöltése sikertelen"
+
+#: lms/templates/class_dashboard/all_section_metrics.js
+#: lms/templates/class_dashboard/all_section_metrics.js
+msgid "Unable to retrieve data, please try again later."
+msgstr "Nem sikerült lekérni az adatokat próbáld kicsit később újra."
+
+#: lms/templates/class_dashboard/d3_stacked_bar_graph.js
+msgid "%(num_students)s student opened Subsection"
+msgid_plural "%(num_students)s students opened Subsection"
+msgstr[0] "%(num_students)s tanuló nyitott alszakaszt"
+msgstr[1] "%(num_students)s tanuló nyitott alszakaszt"
+
+#: lms/templates/class_dashboard/d3_stacked_bar_graph.js
+msgid "%(num_students)s student"
+msgid_plural "%(num_students)s students"
+msgstr[0] "%(num_students)s tanuló"
+msgstr[1] "%(num_students)s tanuló"
+
+#: lms/templates/class_dashboard/d3_stacked_bar_graph.js
+msgid "%(num_questions)s question"
+msgid_plural "%(num_questions)s questions"
+msgstr[0] "%(num_questions)s kérdés"
+msgstr[1] "%(num_questions)s kérdés"
+
+#: lms/templates/class_dashboard/d3_stacked_bar_graph.js
+msgid "Number of Students"
+msgstr "Tanulók száma"
+
