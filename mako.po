@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-07 11:41+0200\n"
+"PO-Revision-Date: 2015-08-07 12:10+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -6702,7 +6702,7 @@ msgstr "A felhasználói fiók már aktív."
 
 #: lms/templates/registration/activation_complete.html
 msgid "You can now {link_start}log in{link_end}."
-msgstr ""
+msgstr "Most már {link_start}bejelentkezhetsz{link_end}."
 
 #: lms/templates/registration/activation_invalid.html
 msgid "Activation Invalid"
