@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-06 22:39+0200\n"
+"PO-Revision-Date: 2015-08-09 19:45+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 1.8.4\n"
 
 #: cms/static/coffee/src/main.js
 msgid ""
@@ -51,7 +51,7 @@ msgstr "Törlés"
 
 #: cms/static/coffee/src/xblock/cms.runtime.v1.js
 msgid "OpenAssessment Save Error"
-msgstr ""
+msgstr "Hiba a nyílt kiértékelés elmentése közben"
 
 #: cms/static/js/base.js
 msgid "This link will open in a new browser window/tab"
@@ -95,7 +95,7 @@ msgstr "Szervezeti logo feltöltése"
 
 #: cms/static/js/certificates/views/certificate_editor.js
 msgid "Maximum logo height should be 125px."
-msgstr ""
+msgstr "A maximális logó magassága 125px."
 
 #. Translators: This field pertains to the custom label for a certificate.
 #. Translators: this refers to a collection of certificates.
@@ -108,11 +108,11 @@ msgstr "bizonyítvány"
 #. has been inserted
 #: cms/static/js/certificates/views/certificates_list.js
 msgid "You have not created any certificates yet."
-msgstr ""
+msgstr "Még nem készítettél bizonyítványt"
 
 #: cms/static/js/certificates/views/signatory_editor.js
 msgid "Delete \"<%= signatoryName %>\" from the list of signatories?"
-msgstr ""
+msgstr "Töröljem \"<%= signatoryName %>\" az aláírások listájáról?"
 
 #: cms/static/js/certificates/views/signatory_editor.js
 #: cms/static/js/views/course_info_update.js
@@ -171,8 +171,8 @@ msgstr ""
 
 #: cms/static/js/factories/export.js
 msgid ""
-"Your course could not be exported to XML. There is not enough information to"
-" identify the failed component. Inspect your course to identify any "
+"Your course could not be exported to XML. There is not enough information to "
+"identify the failed component. Inspect your course to identify any "
 "problematic components and try again."
 msgstr ""
 
@@ -246,7 +246,7 @@ msgstr "Rendszergazda"
 
 #: cms/static/js/factories/manage_users_lib.js
 msgid "Already a library team member"
-msgstr ""
+msgstr "Már tagja a könyvtár csapatnak"
 
 #: cms/static/js/factories/manage_users_lib.js
 msgid "Are you sure you want to delete {email} from the library “{container}”?"
@@ -254,7 +254,7 @@ msgstr ""
 
 #: cms/static/js/factories/manage_users_lib.js
 msgid "Library User"
-msgstr ""
+msgstr "Könyvtár felhasználó"
 
 #: cms/static/js/factories/settings_advanced.js
 msgid "Hide Deprecated Settings"
@@ -273,7 +273,7 @@ msgstr ""
 #. waiting for other uploads to complete
 #: cms/static/js/models/active_video_upload.js
 msgid "Queued"
-msgstr ""
+msgstr "Sorban áll"
 
 #. Translators: This is the status of a video upload that has
 #. completed successfully
@@ -320,8 +320,8 @@ msgstr "A csoportoknak egyedi névre van szüksége."
 
 #: cms/static/js/models/uploads.js
 msgid ""
-"Only <%= fileTypes %> files can be uploaded. Please select a file ending in "
-"<%= fileExtensions %> to upload."
+"Only <%= fileTypes %> files can be uploaded. Please select a file ending in <"
+"%= fileExtensions %> to upload."
 msgstr ""
 "Kizárólag <%= fileTypes %> típusú fájlok tölthetők fel. Kérlek válassz <%= "
 "fileExtensions %> -ra végződő fájlt a feltöltéshez."
@@ -519,8 +519,8 @@ msgstr[1] "%(count)s csoportot tartalmaz"
 #. the course outline page.
 #: cms/static/js/views/group_configuration_details.js
 msgid ""
-"This Group Configuration is not in use. Start by adding a content experiment"
-" to any Unit via the %(outlineAnchor)s."
+"This Group Configuration is not in use. Start by adding a content experiment "
+"to any Unit via the %(outlineAnchor)s."
 msgstr ""
 
 #. Translators: this refers to a collection of groups.
@@ -531,7 +531,7 @@ msgstr ""
 
 #: cms/static/js/views/group_configurations_list.js
 msgid "You have not created any group configurations yet."
-msgstr ""
+msgstr "Még nem készítettél el egy csoport konfigurációt sem "
 
 #: cms/static/js/views/import.js
 msgid "Your import is in progress; navigating away will abort it."
@@ -563,7 +563,7 @@ msgstr ""
 
 #: cms/static/js/views/license.js
 msgid "Version"
-msgstr ""
+msgstr "Verzió"
 
 #: cms/static/js/views/license.js
 msgid "Attribution"
@@ -604,8 +604,8 @@ msgstr "ugyanúgy részesedik"
 #: cms/static/js/views/license.js
 msgid ""
 "Allow others to distribute derivative works only under a license identical "
-"to the license that governs your work. This option is incompatible with \"No"
-" Derivatives\"."
+"to the license that governs your work. This option is incompatible with \"No "
+"Derivatives\"."
 msgstr ""
 
 #. Translators: "item_display_name" is the name of the item to be deleted.
@@ -645,12 +645,12 @@ msgstr "Lépj vissza és adj meg e-mail címet"
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid "Already a member"
-msgstr ""
+msgstr "Már tag"
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid ""
-"{email} is already on the {container} team. Recheck the email address if you"
-" want to add a new member."
+"{email} is already on the {container} team. Recheck the email address if you "
+"want to add a new member."
 msgstr ""
 
 #: cms/static/js/views/manage_users_and_roles.js
@@ -687,11 +687,11 @@ msgstr "A fejezet kiadás dátumának szerkesztése"
 
 #: cms/static/js/views/overview_assignment_grader.js
 msgid "Not Graded"
-msgstr "Nem minősített"
+msgstr "Nem osztályozott"
 
 #: cms/static/js/views/paged_container.js
 msgid "Date added"
-msgstr ""
+msgstr "Hozzáadás dátuma"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
@@ -754,8 +754,8 @@ msgstr "Törlöd “<%= name %>”?"
 
 #: cms/static/js/views/show_textbook.js
 msgid ""
-"Deleting a textbook cannot be undone and once deleted any reference to it in"
-" your courseware's navigation will also be removed."
+"Deleting a textbook cannot be undone and once deleted any reference to it in "
+"your courseware's navigation will also be removed."
 msgstr ""
 "A tankönyv törlése nem visszavonható és törlés esetén a tananyagból minden "
 "hivatkozás rá el lesz távolítva."
@@ -811,7 +811,7 @@ msgstr "Figyelmeztetés"
 #: cms/static/js/views/components/add_xblock.js
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Adding"
-msgstr ""
+msgstr "Hozzáadás"
 
 #: cms/static/js/views/modals/course_outline_modals.js
 msgid "%(display_name)s Settings"
@@ -858,17 +858,16 @@ msgstr "Változtasd meg manuálisan"
 #. Translators: "title" is the name of the current component being edited.
 #: cms/static/js/views/pages/container.js
 msgid "Editing visibility for: %(title)s"
-msgstr ""
+msgstr "Láthatóság szerkesztése: %(title)s"
 
 #: cms/static/js/views/pages/container.js
 msgid "Duplicating"
-msgstr ""
+msgstr "Másolás"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Publishing"
-msgstr ""
+msgstr "Közzététel"
 
-#: cms/static/js/views/pages/container_subviews.js
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Discard Changes"
 msgstr "Változtatások elvetése"
@@ -883,21 +882,20 @@ msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Discarding Changes"
-msgstr ""
+msgstr "Változtatások visszavonása"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Hiding from Students"
-msgstr ""
+msgstr "Elrejtés a hallgatók elől"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Explicitly Hiding from Students"
-msgstr ""
+msgstr "Halgatók elől szándékosan elrejt"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Inheriting Student Visibility"
-msgstr ""
+msgstr "Láthatóság öröklése"
 
-#: cms/static/js/views/pages/container_subviews.js
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Make Visible to Students"
 msgstr "Tanulók számára láthatóvá tétel"
@@ -911,7 +909,7 @@ msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Making Visible to Students"
-msgstr ""
+msgstr "Hallgatók számára láthatóvá tétel"
 
 #: cms/static/js/views/pages/course_outline.js
 msgid "Course Index"
@@ -923,11 +921,11 @@ msgstr ""
 
 #: cms/static/js/views/pages/paged_container.js
 msgid "Hide Previews"
-msgstr ""
+msgstr "Előnézet elrejtése"
 
 #: cms/static/js/views/pages/paged_container.js
 msgid "Show Previews"
-msgstr ""
+msgstr "Előnézet megmutatása"
 
 #: cms/static/js/views/settings/advanced.js
 msgid ""
@@ -948,7 +946,7 @@ msgstr ""
 
 #: cms/static/js/views/settings/main.js
 msgid "Credit Eligibility Requirements"
-msgstr ""
+msgstr "Kredit megszerzésének feltételei"
 
 #: cms/static/js/views/settings/main.js
 msgid "Minimum passing grade for credit is not set."
@@ -1036,39 +1034,36 @@ msgstr "Válassz egy .srt fomátumú fájlt."
 
 #: cms/static/js/views/video/transcripts/file_uploader.js
 msgid "Error: Uploading failed."
-msgstr ""
+msgstr "Hiba: feltöltés sikertelen."
 
 #: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Import failed."
-msgstr ""
+msgstr "Hiba: Az importálás sikertelen"
 
 #: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Replacing failed."
-msgstr ""
+msgstr "Hiba: helyettesítés sikertelen."
 
 #: cms/static/js/views/video/transcripts/message_manager.js
-#: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Choosing failed."
-msgstr ""
+msgstr "Hiba: kiválasztás sikertelen."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Error: Connection with server failed."
-msgstr ""
+msgstr "Hiba: a szerverhez való kapcsolódás sikertelen."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "No sources"
-msgstr ""
+msgstr "Nincs forrás"
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Link types should be unique."
-msgstr ""
+msgstr "A link típusa legyen egyedi."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Links should be unique."
-msgstr ""
+msgstr "A linkek legyenek egyediek."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Incorrect url format."
-msgstr ""
-
-
+msgstr "Helytelen URL formátum"
