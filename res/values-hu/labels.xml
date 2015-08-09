@@ -5,33 +5,33 @@
     <!-- Divider between current time and total time. For example  "2:33/5:10" -->
 	<string name="lbl_slash">/</string>
     <!-- Name of mode when user has no internet connection causing some features to be unavailable -->
-    <string name="lbl_offline_mode">Offline Mode</string>
+    <string name="lbl_offline_mode">Offline Mód</string>
     <!-- Label describing the meaning of offline mode -->
-    <string name="lbl_offline_mode_desc">In offline mode, you can only view videos that are saved on your device.</string>
+    <string name="lbl_offline_mode_desc">Offline módban csak azokat a videókat nézheted meg, amelyeket elmentettél.</string>
     <!-- Button allowing user to open a web page corresponding to the current screen in a web browser -->
-    <string name="lbl_open_in_browser">Open in Browser</string>
+    <string name="lbl_open_in_browser">Megnyitás böngészőben</string>
     <!-- Button allowing user to open a web page corresponding to the current screen in a web browser -->
-    <string name="lbl_view_on_web">VIEW ON WEB</string>
+    <string name="lbl_view_on_web">WEB NÉZET</string>
     <!-- Label indicating that the only course content visible in the app is videos -->
-    <string name="lbl_showing_only_videos">Showing only videos</string>
+    <string name="lbl_showing_only_videos">Csak videókat mutat</string>
 
     <!-- Dialog Fragment Labels -->
     <!-- Alert dialog cancel button -->
-    <string name="label_cancel">Cancel</string>
+    <string name="label_cancel">Visszavon</string>
     <!-- Alert dialog No button -->
-    <string name="label_no">No</string>
+    <string name="label_no">Nem</string>
     <!-- Alert dialog download button -->
-    <string name="label_download">Download</string>
+    <string name="label_download">Letölt</string>
     <!-- Alert dialog yes confirmation button -->
-    <string name="label_yes">Yes</string>
+    <string name="label_yes">Igen</string>
     <!-- Alert dialog delete confirmation button -->
-    <string name="label_delete">Delete</string>
+    <string name="label_delete">Töröl</string>
     <!-- Alert dialog edit list confirmation button -->
-    <string name="label_edit">Edit</string>
+    <string name="label_edit">Szerkeszt</string>
     <!-- Alert dialog okay button -->
     <string name="label_ok">OK</string>
     <!-- Alert dialog close button -->
-    <string name="label_close">Close</string>
+    <string name="label_close">Bezár</string>
     <!-- Alert dialog continue confirmation button -->
-    <string name="label_continue">Continue</string>
+    <string name="label_continue">Folytat</string>
 </resources>
