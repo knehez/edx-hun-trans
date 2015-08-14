@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-14 16:54+0200\n"
+"PO-Revision-Date: 2015-08-14 17:06+0200\n"
 "Last-Translator: Luke Skywalker\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -55,8 +55,8 @@ msgid ""
 "GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or configure a different path with "
 "GIT_REPO_EXPORT_DIR"
 msgstr ""
-"GIT_REPO_EXPORT_DIR nincs létrehozva vagy az elérési út {0} nem létezik, kérjük hozza létre, vagy állítsa be az "
-"elérési útvonalat az GIT_REPO_EXPORT_DIRval"
+"GIT_REPO_EXPORT_DIR nincs létrehozva vagy az elérési út {0} nem létezik. Kérjük hozza létre, vagy állítsa be az "
+"elérési útvonalat az GIT_REPO_EXPORT_DIR könyvtárhoz"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Non writable git url provided. Expecting something like: git@github.com:mitocw/edx4edx_lite.git"
@@ -110,7 +110,8 @@ msgid ""
 ". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
 msgstr ""
 "Megadott kurzus exportálása git repository-ba.\n"
-"A kurzus könyvtárának már jelen kell lennie a  git repository-ban. Használata:  git_export <course_loc> <git_url>"
+". A kurzus könyvtárának már jelen kell lennie a  git repository-ban. Használata:  git_export <course_loc> "
+"<git_url>"
 
 #: cms/djangoapps/contentstore/views/assets.py
 msgid ""
@@ -165,7 +166,7 @@ msgid ""
 "There is already a course defined with the same organization and course number. Please change either "
 "organization or course number to be unique."
 msgstr ""
-"Már létezik egy kurzus ugyanazzal a szervezettel és képzés számmal. Kérlek változtasd meg a szervezetet, vagy a "
+"Már létezik egy kurzus ugyanazzal a szervezettel és kurzus számmal. Kérlek változtasd meg a szervezetet, vagy a "
 "kurzus számát egyedire."
 
 #: cms/djangoapps/contentstore/views/course.py
@@ -196,7 +197,7 @@ msgstr "Fül hiba"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "This group configuration is in use and cannot be deleted."
-msgstr "A csoport beállításai használatban vannak, így nem törölhető."
+msgstr "A csoport használatban van, így nem törölhető"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "This content group is in use and cannot be deleted."
@@ -244,7 +245,7 @@ msgstr "Hibás adat ({details})"
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "Duplicate of {0}"
-msgstr "'{0}' duplán szerepel."
+msgstr "{0} duplán szerepel."
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "Duplicate of '{0}'"
@@ -297,11 +298,11 @@ msgstr "Nem található elem."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py
 msgid "Transcripts are supported only for \"video\" modules."
-msgstr "Az átiratot csak a \"videó\" modul támogatja."
+msgstr "A feliratot csak a \"videó\" modul támogatja."
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "Insufficient permissions"
-msgstr "Nincs elegendő engedély."
+msgstr "Nem megfelelő jogosultság"
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "Could not find user by email address '{email}'."
@@ -344,7 +345,7 @@ msgstr "Kész"
 #. process
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Failed"
-msgstr "Nem sikerült"
+msgstr "Sikertelen"
 
 #. Translators: This is the status for a video for which an invalid
 #. processing token was provided in the course settings
@@ -401,7 +402,7 @@ msgstr "függőben"
 
 #: cms/djangoapps/course_creators/models.py
 msgid "granted"
-msgstr "adott"
+msgstr "jogosultság hozzáadva"
 
 #: cms/djangoapps/course_creators/models.py
 msgid "denied"
@@ -409,19 +410,19 @@ msgstr "megtagadva"
 
 #: cms/djangoapps/course_creators/models.py
 msgid "Studio user"
-msgstr "Stúdió felhasználó"
+msgstr "Studio felhasználó"
 
 #: cms/djangoapps/course_creators/models.py
 msgid "The date when state was last updated"
-msgstr "Az a dátum, amikor az utolsó frissítés megtörtént"
+msgstr "Az a dátum, amikor az utolsó státusz frissítés történt"
 
 #: cms/djangoapps/course_creators/models.py
 msgid "Current course creator state"
-msgstr "Aktuális kurzuskészítő állapota"
+msgstr "A kurzus létrehozásának státusza"
 
 #: cms/djangoapps/course_creators/models.py
 msgid "Optional notes about this user (for example, why course creation access was denied)"
-msgstr "Opcionális megjegyzések a felhasználóhoz (pl.: miért tagadtuk meg a kurzus készítését számára)"
+msgstr "Opcionális megjegyzések a felhasználónak (pl.: miért tagadtuk meg a kurzus készítését számára)"
 
 #: cms/djangoapps/models/settings/course_metadata.py
 msgid "Incorrect format for field '{name}'. {detailed_message}"
