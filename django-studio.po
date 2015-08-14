@@ -1,14 +1,14 @@
 # edX translation file.
 # Copyright (C) 2015 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # EdX Team <info@edx.org>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-07-31 17:26+0200\n"
+"PO-Revision-Date: 2015-08-14 16:54+0200\n"
 "Last-Translator: Luke Skywalker\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,10 +16,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 1.8.4\n"
 
-#: cms/djangoapps/contentstore/course_group_config.py
-#: cms/djangoapps/contentstore/views/certificates.py
+#: cms/djangoapps/contentstore/course_group_config.py cms/djangoapps/contentstore/views/certificates.py
 msgid "invalid JSON"
 msgstr "érvénytelen JSON"
 
@@ -32,7 +31,6 @@ msgid "must have at least one group"
 msgstr "legalább egy csoportnak lennie kell"
 
 #: cms/djangoapps/contentstore/course_info_model.py
-#: cms/djangoapps/contentstore/course_info_model.py
 msgid "Invalid course update id."
 msgstr "Érvénytelen kurzus frissítés id."
 
@@ -42,7 +40,7 @@ msgstr "Kurzus frissítés nem található."
 
 #: cms/djangoapps/contentstore/courseware_index.py
 msgid "Could not index item: {}"
-msgstr ""
+msgstr "Az elem nem indexálható: {}"
 
 #: cms/djangoapps/contentstore/courseware_index.py
 msgid "General indexing error occurred"
@@ -54,28 +52,23 @@ msgstr "(Névtelen)"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
-"GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
-"configure a different path with GIT_REPO_EXPORT_DIR"
+"GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or configure a different path with "
+"GIT_REPO_EXPORT_DIR"
 msgstr ""
-"GIT_REPO_EXPORT_DIR nincs létrehozva vagy az elérési út {0} nem létezik, "
-"kérjük hozza létre, vagy állítsa be az elérési útvonalat az "
-"GIT_REPO_EXPORT_DIRval"
+"GIT_REPO_EXPORT_DIR nincs létrehozva vagy az elérési út {0} nem létezik, kérjük hozza létre, vagy állítsa be az "
+"elérési útvonalat az GIT_REPO_EXPORT_DIRval"
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+msgid "Non writable git url provided. Expecting something like: git@github.com:mitocw/edx4edx_lite.git"
+msgstr "A megadott git url nem írható. Valami ilyesmit várunk: git@github.com:mitocw/edx4edx_lite.git"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid ""
-"Non writable git url provided. Expecting something like: "
-"git@github.com:mitocw/edx4edx_lite.git"
+"If using http urls, you must provide the username and password in the url. Similar to https://user:pass@github."
+"com/user/course."
 msgstr ""
-"A megadott git url nem írható. Valami ilyesmit várunk: "
-"git@github.com:mitocw/edx4edx_lite.git"
-
-#: cms/djangoapps/contentstore/git_export_utils.py
-msgid ""
-"If using http urls, you must provide the username and password in the url. "
-"Similar to https://user:pass@github.com/user/course."
-msgstr ""
-"Ha http url-t használ, gondoskodnia kell a felhasználónévről és a jelszóról "
-"az url-ben. Hasonlóan ehhez https://user:pass@github.com/user/course."
+"Ha http url-t használ, gondoskodnia kell a felhasználónévről és a jelszóról az url-ben. Hasonlóan ehhez https://"
+"user:pass@github.com/user/course."
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to determine branch, repo in detached HEAD mode"
@@ -94,20 +87,14 @@ msgid "Unable to configure git username and password"
 msgstr "A git felhasználói név és jelszó konfigurálása sikertelen."
 
 #: cms/djangoapps/contentstore/git_export_utils.py
-msgid ""
-"Unable to commit changes. This is usually because there are no changes to be"
-" committed"
-msgstr ""
-"Nem sikerült a változásokat elmenteni. Ez általában azért történik, mert nem"
-" volt változás."
+msgid "Unable to commit changes. This is usually because there are no changes to be committed"
+msgstr "Nem sikerült a változásokat elmenteni. Ez általában azért történik, mert nem volt változás."
 
 #: cms/djangoapps/contentstore/git_export_utils.py
-msgid ""
-"Unable to push changes.  This is usually because the remote repository "
-"cannot be contacted"
+msgid "Unable to push changes.  This is usually because the remote repository cannot be contacted"
 msgstr ""
-"Nem sikerült a változásokat elmenteni. Ez gyakran azért történik, mert nem "
-"sikerült kapcsolatot létesíteni a távoli repository-val."
+"Nem sikerült a változásokat elmenteni. Ez gyakran azért történik, mert nem sikerült kapcsolatot létesíteni a "
+"távoli repository-val."
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Bad course location provided"
@@ -127,13 +114,11 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/assets.py
 msgid ""
-"File {filename} exceeds maximum size of {size_mb} MB. Please follow the "
-"instructions here to upload a file elsewhere and link to it instead: "
-"{faq_url}"
+"File {filename} exceeds maximum size of {size_mb} MB. Please follow the instructions here to upload a file "
+"elsewhere and link to it instead: {faq_url}"
 msgstr ""
-"A {filename} mérete meghaladja a maximális {size_mb} MB-ot. Kérlek kövesd az"
-" itt található instrukciókat arra vonatkozóan, hogyan tudnád máshová "
-"feltölteni és ide linkelni: {faq_url}"
+"A {filename} mérete meghaladja a maximális {size_mb} MB-ot. Kérlek kövesd az itt található instrukciókat arra "
+"vonatkozóan, hogyan tudnád máshová feltölteni és ide linkelni: {faq_url}"
 
 #: cms/djangoapps/contentstore/views/assets.py
 msgid "Upload completed"
@@ -141,16 +126,15 @@ msgstr "Feltöltés befejezve"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "must have name of the certificate"
-msgstr ""
+msgstr "A bizonyítvány neve kötelező"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "Certificate dict {0} missing value key '{1}'"
-msgstr ""
+msgstr "A dict {0} bizonyítvány '{1}' kulcsa hiányzik"
 
 #: cms/djangoapps/contentstore/views/certificates.py
-#: cms/djangoapps/contentstore/views/certificates.py
 msgid "PermissionDenied: Failed in authenticating {user}"
-msgstr ""
+msgstr "Hozzáférés megtagadva: A felhasználó {user} nem azonosítható"
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "HTML"
@@ -164,8 +148,7 @@ msgstr "Videó"
 msgid "Blank"
 msgstr "Üres"
 
-#: cms/djangoapps/contentstore/views/course.py
-#: cms/djangoapps/contentstore/views/tests/test_course_index.py
+#: cms/djangoapps/contentstore/views/course.py cms/djangoapps/contentstore/views/tests/test_course_index.py
 msgid "Course has been successfully reindexed."
 msgstr "A kurzus sikeresen újraindexelve."
 
@@ -174,28 +157,20 @@ msgid "Unscheduled"
 msgstr "Nincs ütemezve"
 
 #: cms/djangoapps/contentstore/views/course.py
-msgid ""
-"Special characters not allowed in organization, course number, and course "
-"run."
-msgstr ""
-"Speciális karakterek nem használhatóak intézménynél, kurzus számnál és a "
-"kurzus időszakánál."
+msgid "Special characters not allowed in organization, course number, and course run."
+msgstr "Speciális karakterek nem használhatóak intézménynél, kurzus számnál és a kurzus időszakánál."
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid ""
-"There is already a course defined with the same organization and course "
-"number. Please change either organization or course number to be unique."
+"There is already a course defined with the same organization and course number. Please change either "
+"organization or course number to be unique."
 msgstr ""
-"Már létezik egy kurzus ugyanazzal a szervezettel és képzés számmal. Kérlek "
-"változtasd meg a szervezetet, vagy a kurzus számát egyedire."
+"Már létezik egy kurzus ugyanazzal a szervezettel és képzés számmal. Kérlek változtasd meg a szervezetet, vagy a "
+"kurzus számát egyedire."
 
 #: cms/djangoapps/contentstore/views/course.py
-#: cms/djangoapps/contentstore/views/course.py
-msgid ""
-"Please change either the organization or course number so that it is unique."
-msgstr ""
-"Kérjük változtassa meg a szervezetet vagy a kurzus számát, hogy a kurzus "
-"egyedi legyen."
+msgid "Please change either the organization or course number so that it is unique."
+msgstr "Kérjük változtassa meg a szervezetet vagy a kurzus számát, hogy a kurzus egyedi legyen."
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid ""
@@ -209,31 +184,31 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Invalid prerequisite course key"
-msgstr ""
+msgstr "Helytelen előfeltételi kurzus kód"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "An error occurred while trying to save your tabs"
-msgstr ""
+msgstr "A fülek mentésekor hiba történt"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Tabs Exception"
-msgstr ""
+msgstr "Fül hiba"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "This group configuration is in use and cannot be deleted."
-msgstr ""
+msgstr "A csoport beállításai használatban vannak, így nem törölhető."
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "This content group is in use and cannot be deleted."
-msgstr ""
+msgstr "A tartalom csoport használatban van és nem törölhető."
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py
 msgid "Entrance Exam - Subsection"
-msgstr ""
+msgstr "Felvételi vizsga - alfejezet"
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py
 msgid "Completed Course Entrance Exam"
-msgstr ""
+msgstr "Felvételi vizsga teljesítve"
 
 #: cms/djangoapps/contentstore/views/export_git.py
 msgid "Course successfully exported to git repository"
@@ -249,7 +224,7 @@ msgstr "Üres"
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "We only support uploading a .tar.gz file."
-msgstr ""
+msgstr "Csak .tar.gz fájlt fogadunk el."
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "File upload corrupted. Please try again"
@@ -261,11 +236,11 @@ msgstr "Nem találom a {0} fájlt a csomagban."
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "Invalid data"
-msgstr ""
+msgstr "Hibás adat"
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "Invalid data ({details})"
-msgstr ""
+msgstr "Hibás adat ({details})"
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "Duplicate of {0}"
@@ -279,9 +254,8 @@ msgstr "'{0}' duplán szerepel."
 #. in many languages. This is used to avoid Transifex's misinterpreting of
 #. '% o'. The percent sign is also translatable as a standalone string.
 #: cms/djangoapps/contentstore/views/item.py
-msgid ""
-"Students must score {score}{pct_sign} or higher to access course materials."
-msgstr ""
+msgid "Students must score {score}{pct_sign} or higher to access course materials."
+msgstr "Legalább {score}{pct_sign}-ot el kell érni a hallgatóknak, hogy a kurzus anyagához hozzáférjenek."
 
 #. Translators: This is the percent sign. It will be used to represent
 #. a percent value out of 100, e.g. "58%" means "58/100".
@@ -295,7 +269,7 @@ msgstr "{section_or_subsection} \"{display_name}\""
 
 #: cms/djangoapps/contentstore/views/library.py
 msgid "Unable to create library - missing required field '{field}'"
-msgstr ""
+msgstr "Könyvtár létrehozása sikertelen - kötelező mezők hiányoznak: '{field}'"
 
 #: cms/djangoapps/contentstore/views/library.py
 msgid ""
@@ -303,13 +277,15 @@ msgid ""
 "\n"
 "{err}"
 msgstr ""
+"Könyvtár létrehozása sikertelen '{name}'.\n"
+"\n"
+"{err}"
 
 #: cms/djangoapps/contentstore/views/library.py
 msgid ""
-"There is already a library defined with the same organization and library "
-"code. Please change your library code so that it is unique within your "
-"organization."
-msgstr ""
+"There is already a library defined with the same organization and library code. Please change your library code "
+"so that it is unique within your organization."
+msgstr "Már van egy könyvtár ugyanezzel a szervezet névvel és könyvtárkóddal. Változtasd meg a könyvtárkódot. "
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py
 msgid "Incoming video data is empty."
@@ -337,15 +313,15 @@ msgstr "{email} felhasználó regisztrált, de még nem erősítette meg a fiók
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "No `role` specified."
-msgstr ""
+msgstr "Nincs `szerepkör` meghatározva."
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "Invalid `role` specified."
-msgstr ""
+msgstr "Helytelen `szerepkör`"
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "You may not remove the last Admin. Add another Admin first."
-msgstr ""
+msgstr "Nem törölheted az utolsó rendszergazdát. Adj hozzá egy másik rendszergazdát először."
 
 #. Translators: This is the status of an active video upload
 #: cms/djangoapps/contentstore/views/videos.py
@@ -362,7 +338,7 @@ msgstr "Folyamatban"
 #. successfully processed
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Ready"
-msgstr ""
+msgstr "Kész"
 
 #. Translators: This is the status for a video that the servers have failed to
 #. process
@@ -374,13 +350,13 @@ msgstr "Nem sikerült"
 #. processing token was provided in the course settings
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Invalid Token"
-msgstr ""
+msgstr "Hibás token"
 
 #. Translators: This is the status for a video that was included in a course
 #. import
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Imported"
-msgstr ""
+msgstr "Importált"
 
 #. Translators: This is the status for a video that is in an unknown state
 #: cms/djangoapps/contentstore/views/videos.py
@@ -392,11 +368,11 @@ msgstr "Ismeretlen"
 #. (e.g. desktop, mobile high quality, mobile low quality)
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "{profile_name} URL"
-msgstr ""
+msgstr "{profile_name} URL"
 
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Duration"
-msgstr ""
+msgstr "Hossz"
 
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Date Added"
@@ -413,7 +389,7 @@ msgstr "Folyamatban"
 #. listing for videos uploaded through Studio
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "{course}_video_urls"
-msgstr ""
+msgstr "{course}_video_urls"
 
 #: cms/djangoapps/course_creators/models.py
 msgid "unrequested"
@@ -444,12 +420,8 @@ msgid "Current course creator state"
 msgstr "Aktuális kurzuskészítő állapota"
 
 #: cms/djangoapps/course_creators/models.py
-msgid ""
-"Optional notes about this user (for example, why course creation access was "
-"denied)"
-msgstr ""
-"Opcionális megjegyzések a felhasználóhoz (pl.: miért tagadtuk meg a kurzus "
-"készítését számára)"
+msgid "Optional notes about this user (for example, why course creation access was denied)"
+msgstr "Opcionális megjegyzések a felhasználóhoz (pl.: miért tagadtuk meg a kurzus készítését számára)"
 
 #: cms/djangoapps/models/settings/course_metadata.py
 msgid "Incorrect format for field '{name}'. {detailed_message}"
