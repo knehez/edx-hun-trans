@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-10 23:17+0200\n"
+"PO-Revision-Date: 2015-08-14 16:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -125,7 +125,7 @@ msgstr "Fájl zárolása"
 
 #: cms/templates/js/asset.underscore
 msgid "Lock/unlock file"
-msgstr "Fájl zárolás feloldás/zárolás"
+msgstr "Fájl zárolás/feloldás"
 
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/content-group-details.underscore
@@ -140,7 +140,7 @@ msgstr "Bizonyítvány részletei"
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/certificate-editor.underscore
 msgid "Course Title Override"
-msgstr "Kurzus cím áttekintés"
+msgstr "Kurzus cím felülírás"
 
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/certificate-editor.underscore
@@ -208,11 +208,11 @@ msgstr "Szervezeti Logo"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Path to organization logo"
-msgstr "Szervezeti Logo elérési útja"
+msgstr "Szervezeti logo elérési útja"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Maximum logo height 125px, width variable"
-msgstr "Minimális logo méret 125 pixel széles"
+msgstr "Maximális logo méret 125 pixel magas, a szélesség változhat"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Add Signatory"
@@ -220,7 +220,7 @@ msgstr "Aláírás hozzáadása"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "(Up to 4 signatories are allowed for a certificate)"
-msgstr "A bizonyítványhoz legfeljebb 4 aláírás engedélyezett"
+msgstr "Egy bizonyítványhoz legfeljebb 4 aláírás engedélyezett"
 
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/content-group-editor.underscore
@@ -246,7 +246,7 @@ msgstr "Deaktivál"
 
 #: cms/templates/js/checklist.underscore
 msgid "{number}{pct_sign} of checklists completed"
-msgstr "Az ellenőrző lista {number}{pct_sign} -ban kész"
+msgstr "Az ellenőrző lista {number}{pct_sign} készültségű"
 
 #: cms/templates/js/checklist.underscore
 msgid "%"
@@ -271,7 +271,7 @@ msgstr ""
 #: cms/templates/js/content-group-details.underscore
 #: cms/templates/js/content-group-editor.underscore
 msgid "Cannot delete when in use by a unit"
-msgstr "Nem törölheted mert használatban van egy feladatban"
+msgstr "Nem törölheted mert használatban van egy leckében"
 
 #: cms/templates/js/content-group-details.underscore
 msgid "This content group is used in:"
@@ -312,7 +312,7 @@ msgstr "Nem publikált változások, melyek a jövőben kerülnek kiadásra"
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/grading-editor.underscore
 msgid "Not Graded"
-msgstr "Nem minősített"
+msgstr "Nem osztályzott"
 
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/xblock-outline.underscore
@@ -358,7 +358,7 @@ msgstr "Nem közzétett"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Graded as:"
-msgstr "Minősítés:"
+msgstr "Értékelés:"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Due:"
@@ -372,7 +372,7 @@ msgstr "Még nem adtál semmilyen tartalmat a kurzushoz."
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/xblock-outline.underscore
 msgid "Click to add a new %(xblock_type)s"
-msgstr "Kattints a %(xblock_type)s hozzáadásához"
+msgstr "Kattints a(z) %(xblock_type)s hozzáadásához"
 
 #: cms/templates/js/course_grade_policy.underscore
 msgid "Assignment Type Name"
@@ -400,7 +400,7 @@ msgstr "mint százalék. pl.: 40"
 
 #: cms/templates/js/course_grade_policy.underscore
 msgid "Total Number"
-msgstr "Teljes száma"
+msgstr "Összesen"
 
 #: cms/templates/js/course_grade_policy.underscore
 msgid "total exercises assigned"
@@ -450,7 +450,7 @@ msgstr "Esedékesség ideje UTC szerint:"
 
 #: cms/templates/js/due-date-editor.underscore
 msgid "Clear Grading Due Date"
-msgstr "Értékelés esedékesség dátumának törlése"
+msgstr "Értékelés határidejének törlése"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "Chapter Name"
@@ -463,7 +463,7 @@ msgstr "%s Fejezet"
 #: cms/templates/js/edit-chapter.underscore
 msgid "provide the title/name of the chapter that will be used in navigating"
 msgstr ""
-"Add meg úgy a fejezet címét/nevét, ahogy a navigációnál szeretnéd "
+"Add meg a fejezet címét/nevét úgy, ahogy a navigációnál szeretnéd "
 "megjelentetni"
 
 #: cms/templates/js/edit-chapter.underscore
@@ -476,7 +476,7 @@ msgstr "könyvtár/alkönyvtár/BevezetesASutemenySutesRejtelmeibe-Fejezet%d.pdf
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "upload a PDF file or provide the path to a Studio asset file"
-msgstr "Tölts fel egy PDF fájlt, vagy a Stúdioban megadott eszköz fájl linkjét"
+msgstr "Tölts fel egy PDF fájlt, vagy add meg a fájl Studio linkjét"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "Upload PDF"
@@ -503,7 +503,7 @@ msgid ""
 "provide the title/name of the text book as you would like your students to "
 "see it"
 msgstr ""
-"Add meg úgy a tankönyv címét/nevét, ahogy a tanulók számára szeretnéd "
+"Add meg a tankönyv címét/nevét úgy, ahogy a tanulók számára szeretnéd "
 "megjelentetni"
 
 #: cms/templates/js/edit-textbook.underscore
@@ -520,7 +520,7 @@ msgstr "Értékelés"
 
 #: cms/templates/js/grading-editor.underscore
 msgid "Grade as:"
-msgstr "Minősítés:"
+msgstr "Értékelés:"
 
 #: cms/templates/js/group-configuration-details.underscore
 #: cms/templates/js/group-configuration-editor.underscore
@@ -541,7 +541,7 @@ msgstr "Csoport beállítás neve"
 
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Group Configuration ID"
-msgstr "Csoport beállítás azonosítója"
+msgstr "Csoport azonosítója"
 
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "This is the Name of the Group Configuration"
@@ -549,7 +549,7 @@ msgstr "Ez a csoport beállításának neve"
 
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Name or short description of the configuration"
-msgstr "Neve, vagy rövid leírása a beállításnak"
+msgstr "A beállítás neve vagy rövid leírása"
 
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "This is the Description of the Group Configuration"
@@ -572,8 +572,8 @@ msgid ""
 "Name of the groups that students will be assigned to, for example, Control, "
 "Video, Problems. You must have two or more groups."
 msgstr ""
-"A csoportok nevei melyekhez a tanulók hozzá lettek rendelve, pl.: Irányítás, "
-"Videó, Feladatok. Legalább két csoportnak lennie kell."
+"A csoportok neve, amelyekhez a tanulók hozzá lettek rendelve, pl.: "
+"Irányítás, Videó, Feladatok. Legalább két csoportnak lennie kell."
 
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Add another group"
@@ -597,7 +597,7 @@ msgstr "Licenc típus"
 
 #: cms/templates/js/license-selector.underscore
 msgid "Learn more about {license_name}"
-msgstr "Tudj meg többet róla: {license_name} "
+msgstr "Tudj meg többet: {license_name} "
 
 #: cms/templates/js/license-selector.underscore
 msgid "Options for {license_name}"
@@ -632,7 +632,7 @@ msgstr "Bizonyos jogok fenntartva"
 
 #: cms/templates/js/list.underscore
 msgid "Add your first %(item_type)s"
-msgstr "Adj hozzá egy %(item_type)s-ot"
+msgstr "Az első %(item_type)s hozzáadása"
 
 #: cms/templates/js/list.underscore
 msgid "New %(item_type)s"
@@ -689,7 +689,7 @@ msgstr "Első tankönyv hozzáadása"
 
 #: cms/templates/js/paging-header.underscore
 msgid "Previous"
-msgstr "Elózó"
+msgstr "Előző"
 
 #: cms/templates/js/paging-header.underscore
 msgid "Next"
@@ -709,7 +709,7 @@ msgstr "Időtartam"
 
 #: cms/templates/js/previous-video-upload-list.underscore
 msgid "Video ID"
-msgstr "Video azonosító"
+msgstr "Videó azonosító"
 
 #: cms/templates/js/publish-history.underscore
 msgid "Never published"
@@ -749,7 +749,7 @@ msgstr "Publikált (még nem jelent meg)"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Draft (Unpublished changes)"
-msgstr "Vázlat (Nem publikált változtatások)"
+msgstr "Vázlat (nem publikált változtatások)"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Release:"
@@ -761,11 +761,11 @@ msgstr "Publikálás státusza"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Draft saved on %(last_saved_date)s by %(edit_username)s"
-msgstr " %(last_saved_date)s -ko r a vázlat mentve %(edit_username)s által"
+msgstr "%(edit_username)s a vázlatot mentette %(last_saved_date)s időpontban"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "with %(release_date_from)s"
-msgstr "%(release_date_from)s-al"
+msgstr "%(release_date_from)s dátummal"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Is Visible To:"
@@ -796,7 +796,7 @@ msgstr ""
 #: cms/templates/js/publish-xblock.underscore
 #: cms/templates/js/staff-lock-editor.underscore
 msgid "Hide from students"
-msgstr "Elrejtés a tanulók elöl"
+msgstr "Elrejtés a tanulók elől"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Discard Changes"
@@ -804,7 +804,7 @@ msgstr "Változtatások elvetése"
 
 #: cms/templates/js/release-date-editor.underscore
 msgid "Release Date and Time"
-msgstr "Nyilvánosságra hozás dátuma és ideje"
+msgstr "Nyilvánosságra hozatal dátuma és ideje"
 
 #: cms/templates/js/release-date-editor.underscore
 msgid "Release Date:"
@@ -890,8 +890,8 @@ msgid ""
 "to see its content after the release date has passed and you have published "
 "the unit."
 msgstr ""
-"Ha ezt a %(xblockType)s a hallgatók számára láthatóvá teszed, akkor a "
-"tartalom a kibocsájtás napja után  megjelenik. "
+"Ha a %(xblockType)s objektumokat a hallgatók számára láthatóvá teszed, akkor "
+"a tartalom a kibocsájtás napja után megjelenik. "
 
 #: cms/templates/js/staff-lock-editor.underscore
 msgid ""
@@ -948,7 +948,7 @@ msgid ""
 "course settings:"
 msgstr ""
 "Tekintsd át az alábbi visszajelzéseket, és módosítsd a kurzus beállításokat, "
-"ha szükséges"
+"ha szükséges:"
 
 #: cms/templates/js/xblock-string-field-editor.underscore
 msgid "Edit the name"
@@ -977,11 +977,11 @@ msgid ""
 "another version. These URLs cannot be YouTube URLs. The first listed video "
 "that's compatible with the student's computer will play."
 msgstr ""
-"Azért, hogy biztos lehess benne, hogy minden tanuló eléri a videót, mi azt "
-"javasoljuk, hogy a videó .mp4 és a .webm verzióját is tedd elérhetővé. "
-"Kattints lentebb a további verziókhoz URL hozzáadására. Ezek az URL-ek nem "
-"lehetnek YouTube URL-ek. A listában szereplő videók közül az kerül a tanuló "
-"számára lejátszásra, amelyik kompatibilis a számítógépével."
+"Hogy biztos lehess benne, minden tanuló eléri a videót, mi azt javasoljuk, "
+"hogy a videó .mp4 és a .webm verzióját is tedd elérhetővé. Kattints lentebb "
+"és add hozzá a további verziók URL-jeit. Ezek az URL-ek nem lehetnek YouTube "
+"URL-ek. A listában szereplő videók közül az kerül a tanuló számára "
+"lejátszásra, amelyik kompatibilis a számítógépével."
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore
 msgid "Default Timed Transcript"
@@ -1016,7 +1016,7 @@ msgstr "Hiba."
 
 #: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore
 msgid "Timed Transcript from %(filename)s"
-msgstr "Időzített felirat a %(filename)s-tól"
+msgstr "Időzített felirat a %(filename)s fájlból"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
 msgid "Timed Transcript Found"
@@ -1028,7 +1028,7 @@ msgid ""
 "transcript, you can download, edit, and re-upload the existing transcript. "
 "If you want to replace this transcript, upload a new .srt transcript file."
 msgstr ""
-"Az EdX-en van időzített felirat ehhez a videóhoz. Ha szerkeszteni szeretnéd, "
+"Az edX-en van időzített felirat ehhez a videóhoz. Ha szerkeszteni szeretnéd, "
 "akkor letöltheted, megszerkeszted és visszatöltheted. Ha le akarod cserélni, "
 "akkor tölts fel egy új .srt feliratfájlt."
 
@@ -1038,22 +1038,22 @@ msgstr ""
 #: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Upload New Transcript"
-msgstr "Új átirat feltöltése"
+msgstr "Új felirat feltöltése"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid "Upload New .srt Transcript"
-msgstr "Új .srt átirat feltöltése"
+msgstr "Új .srt felirat feltöltése"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
 #: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore
 #: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
 msgid "Download Transcript for Editing"
-msgstr "Átirat letöltése szerkesztéshez"
+msgstr "Felirat letöltése szerkesztéshez"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid "No EdX Timed Transcript"
-msgstr "Nincs EdX időzített felirat"
+msgstr "Nincs edX időzített felirat"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid ""
@@ -1061,9 +1061,9 @@ msgid ""
 "transcript on YouTube. You can import the YouTube transcript or upload your "
 "own .srt transcript file."
 msgstr ""
-"A rendszernek időzített felirata a videóhoz a Stúdióban, de találtunk "
-"YouTube-on. Importálhatod a YouTube feliratot, vagy tölthetsz fel egy saját ."
-"srt fájlt."
+"A rendszernek nincs időzített felirata a videóhoz a Studióban, de a YouTube-"
+"on megtalálható. Importálhatod a YouTube feliratot, vagy tölthetsz fel egy "
+"saját .srt felirat fájlt."
 
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid "Import YouTube Transcript"
@@ -1078,23 +1078,23 @@ msgid ""
 "EdX doesn\\'t have a timed transcript for this video. Please upload an .srt "
 "file."
 msgstr ""
-"Az EdX-nek nincs időzített felirata a videóhoz. Tölts fel egy .srt fájlt."
+"Az edX-nek nincs időzített felirata a videóhoz. Tölts fel egy .srt fájlt."
 
 #: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
 msgid ""
 "The timed transcript for this video on edX is out of date, but YouTube has a "
 "current timed transcript for this video."
 msgstr ""
-"Az EdX felirata ehhez a videóhoz elavult, de a YouTube-on van naprakész "
+"Az edX felirata ehhez a videóhoz elavult, de a YouTube-on van naprakész "
 "változat."
 
 #: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
 msgid "Do you want to replace the edX transcript with the YouTube transcript?"
-msgstr "Szeretnéd lecserélni az EdX feliratot a YouTube felirattal?"
+msgstr "Szeretnéd lecserélni az edX feliratot a YouTube feliratra?"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
 msgid "Yes, replace the edX transcript with the YouTube transcript"
-msgstr "Igen, cseréld le az edX átiratot a YouTube átirattal."
+msgstr "Igen, cseréld le az edX feliratot a YouTube feiratra"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
 msgid "Timed Transcript Uploaded Successfully"
@@ -1106,7 +1106,7 @@ msgid ""
 "transcript, upload a new .srt transcript file. If you want to edit this "
 "transcript, you can download, edit, and re-upload the existing transcript."
 msgstr ""
-"Az EdX-nek van időzített felirata a videóhoz. Ha akarod, akkor lecserélheted "
+"Az edX-nek van időzített felirata a videóhoz. Ha akarod, akkor lecserélheted "
 "a feliratot, tölts fel egy új .srt feliratfájlt. Ha szerkeszteni szeretnéd, "
 "akkor letöltheted, szerkesztheted és visszatöltheted a kész feliratot."
 
@@ -1120,10 +1120,10 @@ msgid ""
 "you want to use the current timed transcript or upload a new .srt transcript "
 "file?"
 msgstr ""
-"Megváltoztathatod a videó URL-jét, de ez nem változtatja meg az időzített "
+"Megváltoztattad a videó URL-jét, de ez nem változtattad meg az időzített "
 "felirat fájlt. Akarod használni a jelenlegi időzített feliratot, vagy "
 "feltöltenél egy új .srt felirat fájlt?"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Use Current Transcript"
-msgstr "Aktuális átirat használata"
+msgstr "Aktuális felirat használata"
