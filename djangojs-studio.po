@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-16 12:32+0200\n"
+"PO-Revision-Date: 2015-08-22 18:32+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -231,7 +231,7 @@ msgid ""
 "extension."
 msgstr ""
 "Nem támogatott fájl formátum. Kérlek tölts fel egy {file_extension} "
-"kiterjesztésű fájlt.extension."
+"kiterjesztésű fájlt."
 
 #: cms/static/js/factories/manage_users.js
 msgid "Already a course team member"
@@ -242,7 +242,7 @@ msgid ""
 "Are you sure you want to delete {email} from the course team for "
 "“{container}”?"
 msgstr ""
-"Biztos vagy benne, hogy törlöd a(z) {email} e-mail címet a \"{konténer}\" "
+"Biztos vagy benne, hogy törlöd a(z) {email} e-mail címet a \"{container}\" "
 "kurzus csapatából?"
 
 #: cms/static/js/factories/manage_users.js
@@ -262,7 +262,7 @@ msgstr "Már tagja a könyvtár csapatnak"
 #: cms/static/js/factories/manage_users_lib.js
 msgid "Are you sure you want to delete {email} from the library “{container}”?"
 msgstr ""
-"Biztos vagy benne, hogy törlöd a(z) {email} e-mail címet a \"{konténer}\" "
+"Biztos vagy benne, hogy törlöd a(z) {email} e-mail címet a \"{container}\" "
 "könyvtárból?"
 
 #: cms/static/js/factories/manage_users_lib.js
@@ -703,7 +703,7 @@ msgstr "Biztos vagy benne?"
 msgid "Are you sure you want to restrict {email} access to “{container}”?"
 msgstr ""
 "Biztos vagy benne, hogy korlátozod a(z) {email} e-mail címet hozzáférését a "
-"\"{konténer}\" objektumhpz?"
+"\"{container}\" objektumhpz?"
 
 #: cms/static/js/views/overview.js
 msgid "Collapse All Sections"
