@@ -1,15 +1,15 @@
 # edX translation file
 # Copyright (C) 2015 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # EdX Team <info@edx.org>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:08+0200\n"
-"PO-Revision-Date: 2015-07-31 15:35+0200\n"
-"Last-Translator: Luke Skywalker\n"
+"PO-Revision-Date: 2015-09-04 21:05+0200\n"
+"Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,8 +25,11 @@ msgstr "Hiányzó mező: %{field}s."
 msgid "The email address you\\'ve provided isn\\'t formatted correctly."
 msgstr "A megadott email cím formátuma helytelen."
 
-msgid "This is the first Hungarian Massive Open Online Course - Learning Management System."
-msgstr "Csatlakozz Magyarország legnagyobb nyílt online tanulmányi rendszeréhez."
+msgid ""
+"This is the first Hungarian Massive Open Online Course - Learning Management "
+"System."
+msgstr ""
+"Csatlakozz Magyarország legnagyobb nyílt online tanulmányi rendszeréhez."
 
 msgid "Welcome to MeMooc platform!"
 msgstr "Üdvözlünk a MeMooc rendszerben!"
@@ -62,11 +65,19 @@ msgstr "a közösségi tanulás <br />élménye"
 msgid "Welcome to <b>MeMOOC</b>!"
 msgstr "Üdvözlünk a <b>MeMOOC</b> portálon!"
 
-msgid "Learn here the basics of Information Technology<br /><b>improve your programming skills and develop cool apps</b>"
-msgstr "Nyílt kurzusainkon sajátísd el az informatika alapjait,<br /><b>tanulj programozni, alkalmazást fejleszteni</b>"
+msgid ""
+"Learn here the basics of Information Technology<br /><b>improve your "
+"programming skills and develop cool apps</b>"
+msgstr ""
+"Nyílt kurzusainkon sajátítsd el az informatika alapjait,<br /><b>tanulj "
+"programozni, alkalmazást fejleszteni</b>"
 
-msgid "<b>Apply to University of Miskolc</b> prepare for your exams<br />earn credits and get <b>certficate</b>"
-msgstr "<b>Jelentkezz a Miskolci Egyetemre,</b> készülj fel a vizsgára,<br />szerezz krediteket és zsebeld be a <b>Mérnökinformatikus FOSZ diplomát!</b>"
+msgid ""
+"<b>Apply to University of Miskolc</b> prepare for your exams<br />earn "
+"credits and get <b>certficate</b>"
+msgstr ""
+"<b>Jelentkezz a Miskolci Egyetemre,</b> készülj fel a vizsgára,<br />szerezz "
+"krediteket és zsebeld be a <b>Mérnökinformatikus FOSZ diplomát!</b>"
 
 msgid "Next"
 msgstr "Tovább"

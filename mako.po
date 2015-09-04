@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-07 12:10+0200\n"
+"PO-Revision-Date: 2015-09-04 21:21+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Generated-By: Babel 1.3\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: cms/templates/404.html cms/templates/error.html
 #: lms/templates/static_templates/404.html
@@ -1267,7 +1267,7 @@ msgstr "Elfogadom a {link_start}Szolgáltatási feltételeket{link_end}"
 #: lms/templates/register-shib.html lms/templates/register.html
 #: lms/templates/signup_modal.html
 msgid "I agree to the {link_start}Honor Code{link_end}"
-msgstr "Elfogadoma {link_start}becsületkódexben foglaltakat{link_end}"
+msgstr "Elfogadom a {link_start}becsületkódexben foglaltakat{link_end}"
 
 #: lms/templates/register-shib.html
 msgid "Update My Account"
@@ -1468,7 +1468,7 @@ msgstr ""
 #: lms/templates/seq_module.html
 #: lms/templates/discussion/mustache/_pagination.mustache
 msgid "Previous"
-msgstr "Elózó"
+msgstr "Előző"
 
 #: lms/templates/seq_module.html lms/templates/ccx/schedule.html
 msgid "Unit"
@@ -1692,7 +1692,7 @@ msgid ""
 "Go to each individual course's Instructor dashboard to manage course "
 "enrollment."
 msgstr ""
-"Menj az egyes kutzusok oktatói irányítópultjához, hogy a kurzus "
+"Menj az egyes kurzusok oktatói irányítópultjához, hogy a kurzus "
 "jelentkezéseket kezeld"
 
 #: lms/templates/sysadmin_dashboard.html
@@ -1732,7 +1732,7 @@ msgstr "Kurzus azonosító, vagy könyvtár"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Delete course from site"
-msgstr "Kurzus törtlése"
+msgstr "Kurzus törlése"
 
 #. Translators: A version number appears after this string
 #: lms/templates/sysadmin_dashboard.html
@@ -1741,11 +1741,11 @@ msgstr "Rendszer verziója"
 
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "previous"
-msgstr "Előzó"
+msgstr "Előző"
 
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "Page {current_page} of {total_pages}"
-msgstr "{current_page}. lap a {total_pages} lapbból"
+msgstr "{current_page}. lap a {total_pages} lapból"
 
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "next"
@@ -2105,7 +2105,7 @@ msgstr "Ütemezés"
 
 #: lms/templates/ccx/coach_dashboard.html
 msgid "Student Admin"
-msgstr "Tanuló adminiszrátor"
+msgstr "Tanuló adminisztrátor"
 
 #: lms/templates/ccx/coach_dashboard.html lms/templates/ccx/grading_policy.html
 msgid "Grading Policy"
@@ -2308,7 +2308,7 @@ msgstr "A következő szervezetek támogatásával:"
 
 #: lms/templates/certificates/invalid.html
 msgid "This is an invalid certificate number"
-msgstr "Helytelen tanusitványszám"
+msgstr "Helytelen tanúsítványszám"
 
 #: lms/templates/certificates/invalid.html
 msgid "This Certificate Does Not Exist"
@@ -2539,7 +2539,7 @@ msgstr "Esedékes {date}"
 #: lms/templates/courseware/course_about.html
 #: lms/templates/courseware/mktg_course_about.html
 msgid "An error occurred. Please try again later."
-msgstr "Hia történt. Próbáld meg később."
+msgstr "Hiba történt. Próbáld meg később."
 
 #: lms/templates/courseware/course_about.html
 msgid ""
@@ -2774,7 +2774,7 @@ msgstr ""
 
 #: lms/templates/courseware/gradebook.html
 msgid "Gradebook"
-msgstr "Ellenörző"
+msgstr "Ellenőrző"
 
 #: lms/templates/courseware/gradebook.html
 msgid "Search students"
@@ -2892,7 +2892,7 @@ msgid ""
 "To download student grades and view the grading configuration for your "
 "course, visit the Data Download section of the Instructor Dashboard."
 msgstr ""
-"A hallgató értékelésének letöltáséhez, a kurzus  osztályozás "
+"A hallgató értékelésének letöltéséhez, a kurzus  osztályozás "
 "konfigurálásához menj az oktatói irányítópult adatletöltés részéhez"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
@@ -2999,7 +2999,7 @@ msgid ""
 "To manage beta tester roles and cohorts, visit the Membership section of the "
 "Instructor Dashboard."
 msgstr ""
-"A bétatesztelők és tanulócsoportok beállításához menj az oktatói "
+"A béta tesztelők és tanulócsoportok beállításához menj az oktatói "
 "irányítópult tagok részéhez"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
@@ -3007,7 +3007,7 @@ msgid ""
 "To manage beta tester roles, visit the Membership section of the Instructor "
 "Dashboard."
 msgstr ""
-"A bétatesztelők beállításához menj az oktatói irányítópult tagok részéhez"
+"A béta tesztelők beállításához menj az oktatói irányítópult tagok részéhez"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "To send email, visit the Email section of the Instructor Dashboard."
@@ -3422,7 +3422,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Share on LinkedIn"
-msgstr "Megosztás LInkedin-en"
+msgstr "Megosztás Linkedin-en"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
@@ -3445,7 +3445,7 @@ msgstr "Feliratkoztál, mint:"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "View Archived Course"
-msgstr "Arhív kurzusok megtekintése"
+msgstr "Archív kurzusok megtekintése"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 #: lms/templates/shoppingcart/registration_code_receipt.html
@@ -4022,7 +4022,7 @@ msgstr "Ide írhatod a szöveget"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "follow this post"
-msgstr "üzenet nyomonkövetése"
+msgstr "üzenet nyomon követése"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "post anonymously"
@@ -5402,7 +5402,7 @@ msgstr ".csv fájlt készít, amely a kurzusod jelentkezési adatait tartalmazza
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Create Enrollment Report"
-msgstr "Feliratkozási jelenztések elkészítése"
+msgstr "Beiratkozási jelentések elkészítése"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Create an HTML file that contains an executive summary for this course."
@@ -5611,7 +5611,7 @@ msgstr "Bruttó függőben lévő bevétel "
 
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
 msgid "Number of Enrollment Refunds"
-msgstr "Feliratkozés visszatérítések száma"
+msgstr "Feliratkozás visszatérítések száma"
 
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
 msgid "Amount Refunded"
@@ -6286,7 +6286,7 @@ msgstr "Ár beállítása"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Student Gradebook"
-msgstr "halgatói ellenörző"
+msgstr "hallgatói ellenőrző"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid ""
@@ -6628,7 +6628,7 @@ msgstr ""
 
 #: lms/templates/peer_grading/peer_grading_problem.html
 msgid "Start Grading!"
-msgstr "Az értékelés megkezése!"
+msgstr "Az értékelés megkezdése!"
 
 #: lms/templates/peer_grading/peer_grading_problem.html
 msgid "Learning to grade"
@@ -7014,7 +7014,7 @@ msgid ""
 "in the course, or contact your company's administrator."
 msgstr ""
 "Egy olyan jelentkezési linkre kattintottál, amelyet már használtak. Nézd meg "
-"az {link_start}riányítópultot{link_end} hogy már jelentkeztél-e a kurzusra "
+"az {link_start}irányítópultot{link_end} hogy már jelentkeztél-e a kurzusra "
 "vagy kérdezd meg az adminisztrátort"
 
 #: lms/templates/shoppingcart/registration_code_receipt.html
@@ -7046,7 +7046,7 @@ msgstr "A kurzus, amire jelentkezel zárolt."
 #: lms/templates/shoppingcart/registration_code_receipt.html
 #: lms/templates/shoppingcart/registration_code_redemption.html
 msgid "There was an error processing your redeem code."
-msgstr "Hiba a beváltási kód feldolgozésakor"
+msgstr "Hiba a beváltási kód feldolgozásakor"
 
 #: lms/templates/shoppingcart/registration_code_receipt.html
 #: lms/templates/shoppingcart/registration_code_redemption.html
@@ -7091,7 +7091,7 @@ msgstr "Tanulók:"
 
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid "Input quantity and press enter."
-msgstr "Add meg a darabszámot és nyomj entert"
+msgstr "Add meg a darabszámot és nyomj enter-t"
 
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid "discount or activation code"
@@ -7321,7 +7321,7 @@ msgstr "A következő kötelező mezőket kihagytad:"
 
 #: lms/templates/survey/survey.html
 msgid "Cancel and Return to Dashboard"
-msgstr "Törlés és vissza az oktatói rányítópulthoz"
+msgstr "Törlés és vissza az oktatói irányítópulthoz"
 
 #: lms/templates/survey/survey.html
 msgid "Why do I need to complete this information?"
@@ -7354,7 +7354,7 @@ msgstr "A következő hiba történt a név szerkesztése közben:"
 
 #: lms/templates/verify_student/incourse_reverify.html
 msgid "Re-Verify for {course_name}"
-msgstr "Újraellenörzés {course_name}"
+msgstr "Újraellenőrzés {course_name}"
 
 #: lms/templates/verify_student/missed_verification_deadline.html
 msgid "Verification Deadline Has Passed"
@@ -7445,3 +7445,4 @@ msgstr "{span_start}aktív{span_end}"
 #: lms/templates/wiki/includes/breadcrumbs.html
 msgid "Add article"
 msgstr "Cikk hozzáadása"
+

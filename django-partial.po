@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-07 21:59+0200\n"
+"PO-Revision-Date: 2015-09-04 21:05+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
 #. the discussion forums
@@ -1516,7 +1516,7 @@ msgstr "Feladat megoldásának esedékességi dátuma"
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Amount of time after the due date that submissions will be accepted"
-msgstr "A határidő lejárta után mennyi ideig fogaható el a feladatbeadás"
+msgstr "A határidő lejárta után mennyi ideig fogadható el a feladatbeadás"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -2026,7 +2026,8 @@ msgstr "Kurzus szerkesztő"
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
-msgid "Enter the method by which this course is edited (\"XML\" or \"Studio\")."
+msgid ""
+"Enter the method by which this course is edited (\"XML\" or \"Studio\")."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2423,7 +2424,7 @@ msgstr "Stúdió dokumentációjának letöltése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Download the searchable Studio reference documentation in PDF form."
-msgstr "Töltsd ke a kereshető Stúdio dokumentációt PDF formátumban."
+msgstr "Töltsd le a kereshető Stúdió dokumentációt PDF formátumban."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Download Documentation"
@@ -3221,7 +3222,8 @@ msgid "Button Text"
 msgstr "Gomb felirat"
 
 #: common/lib/xmodule/xmodule/lti_module.py
-msgid "Enter the text on the button used to launch the third party application."
+msgid ""
+"Enter the text on the button used to launch the third party application."
 msgstr ""
 "Írd be a szöveget, ami a gomb felirata lesz a más forrásból származó program "
 "futtatásához."
@@ -3924,7 +3926,8 @@ msgid "Current position in the video."
 msgstr "Videó aktuális pozíciója."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
-msgid "Optional, for older browsers: the YouTube ID for the normal speed video."
+msgid ""
+"Optional, for older browsers: the YouTube ID for the normal speed video."
 msgstr ""
 "Opcionális, régi böngészők számára: YouTube azonosító a normál sebességű "
 "lejátszásához."
@@ -5129,7 +5132,8 @@ msgstr ""
 
 #: lms/djangoapps/instructor/tests/test_registration_codes.py
 #: lms/djangoapps/instructor/views/registration_codes.py
-msgid "The enrollment code ({code}) was not found for the {course_name} course."
+msgid ""
+"The enrollment code ({code}) was not found for the {course_name} course."
 msgstr ""
 
 #: lms/djangoapps/instructor/tests/test_registration_codes.py
@@ -5558,7 +5562,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Student Admin"
-msgstr "Tanuló adminiszrátor"
+msgstr "Tanuló adminisztrátor"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Extensions"
@@ -6165,7 +6169,8 @@ msgid ""
 msgstr ""
 
 #: lms/djangoapps/open_ended_grading/views.py
-msgid "View open ended problems that you have previously submitted for grading."
+msgid ""
+"View open ended problems that you have previously submitted for grading."
 msgstr ""
 
 #: lms/djangoapps/open_ended_grading/views.py
@@ -6733,7 +6738,8 @@ msgid ""
 msgstr ""
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
-msgid "Invalid account number. Possible fix: retry with another form of payment"
+msgid ""
+"Invalid account number. Possible fix: retry with another form of payment"
 msgstr ""
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
@@ -7487,7 +7493,7 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"      A %(platform_name)s leszavad beállítása\n"
+"      A %(platform_name)s jelszavad beállítása\n"
 "  "
 
 #: lms/templates/registration/password_reset_confirm.html
@@ -7607,7 +7613,7 @@ msgid ""
 "You're receiving this e-mail because you requested a password reset for your "
 "user account at %(site_name)s."
 msgstr ""
-"Ezt az e-mailt azért kaptad, mert a jelszó visszaállítást kezdeményeztél a "
+"Ezt az e-mailt azért kaptad, mert jelszó visszaállítást kezdeményeztél a "
 "felhasználói fiókodnál az %(site_name)s oldalon. "
 
 #: lms/templates/registration/password_reset_email.html
@@ -7760,7 +7766,7 @@ msgstr "Változtat"
 
 #: lms/templates/wiki/history.html
 msgid "Merge selected with current..."
-msgstr "A kivlálasztott összefésülése az aktuálissal..."
+msgstr "A kiválasztott összefésülése az aktuálissal..."
 
 #: lms/templates/wiki/history.html
 msgid "Switch to selected version"
@@ -8233,3 +8239,5 @@ msgstr "Hibás érték"
 #: openedx/core/lib/api/view_utils.py
 msgid "This field is not editable"
 msgstr "A mező nem szerkeszthető"
+
+
