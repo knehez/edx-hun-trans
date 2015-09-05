@@ -95,4 +95,5 @@ msgstr "A kurzusról"
 msgid "Overview"
 msgstr "Áttekintés"
 
-
+msgid "Answer:"
+msgstr "Válasz:"
