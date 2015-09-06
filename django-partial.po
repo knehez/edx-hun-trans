@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-06 13:33+0200\n"
+"PO-Revision-Date: 2015-09-06 19:54+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -1940,6 +1940,8 @@ msgid ""
 "Enter the passports for course LTI tools in the following format: \"id:"
 "client_key:client_secret\"."
 msgstr ""
+"Az LTI eszközök passport beállítását lehet megadni \"id:client_key:"
+"client_secret\" formátumban."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "List of pairs of (title, url) for textbooks used in this course"
@@ -2019,7 +2021,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the name of the course as it should appear in the edX.org course list."
-msgstr ""
+msgstr "Add meg a kurzus nevét úgy, ahogy megjelenik a kurzusok listájában."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Display Name"
@@ -2049,17 +2051,19 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Survey URL"
-msgstr ""
+msgstr "Kurzus kérdőív URL"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the URL for the end-of-course survey. If your course does not have a "
 "survey, enter null."
 msgstr ""
+"Add meg a kurzus befejezésekor megjelenő kérdőív URL-jét. Ha a kurzusodban "
+"nincs kérdőív legyen a beállíts null."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Discussion Blackout Dates"
-msgstr ""
+msgstr "Fórum szüneteltetésének dátuma"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2072,10 +2076,18 @@ msgid ""
 "periods looks like this, including the outer pair of square brackets: "
 "[[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", \"2015-10-08\"]] "
 msgstr ""
+"Adj meg egydátum párt, amely között a hallgatók nem küldhetnek fórim "
+"üzenenet. A szögletes zárójeleken belük adj meg még további szögletes zárójel "
+"párokat a dátum körül. A dátum formátuma legyen  [\"YYYY-MM-DD\", \"YYYY-MM-DD"
+"\"]. Ha időpontot is meg akarsz adni, a dormátum legyen  [\"YYYY-MM-DDTHH:MM"
+"\", \"YYYY-MM-DDTHH:MM\"]. Ne felejtsd el a \"T\" betűt a dátum és az idő "
+"között! Például, definiáljunk két szüneteltetési periódust. A már mgadott "
+"külső zárójellel a beállítás: [[\"2015-09-15\", \"2015-09-21\"], "
+"[\"2015-10-01\", \"2015-10-08\"]] "
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Discussion Topic Mapping"
-msgstr ""
+msgstr "Fórum témák összerendelése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2086,16 +2098,25 @@ msgid ""
 "\" values, the only special characters that are supported are underscore, "
 "hyphen, and period."
 msgstr ""
+"Add meg a fórum kategóriákat az alábbi formátumban: \"CategoryName\": {\"id"
+"\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. Legyen például "
+"egy fórum kategória \"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-"
+"course-2015_T1\"}. Az \"id\" érték minden kategóriánál legyen egyedi. Az \"id"
+"\" értékeknél, csak az alábbi speciális karakterek elfogadottak: aláhúzás, "
+"minusz jel, és a pont."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Discussion Sorting Alphabetical"
-msgstr ""
+msgstr "Fórum rendezési sorrend"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If true, discussion categories and subcategories are "
 "sorted alphabetically. If false, they are sorted chronologically."
 msgstr ""
+"Lehetséges értékek true vagy false. Ha true, akkor a fórum kategóriák és "
+"alkategóriák ábécé sorrendben vannka rendezve. Ha false, akkor megjelenési "
+"idő szerint vannak rendezve."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Announcement Date"
@@ -2173,6 +2194,8 @@ msgstr "Eredmény grafikon tiltása"
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter true or false. If true, students cannot view the progress graph."
 msgstr ""
+"Elfogadott érték true vagy false. Ha true, a hallgatók nem láthatják az "
+"előrehaladási grafikont."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "PDF Textbooks"
@@ -2192,16 +2215,21 @@ msgid ""
 "name of the tab (usually the name of the book) as well as the URLs and titles "
 "of all the chapters in the book."
 msgstr ""
+"A HTML formátumú tanköny egy külün fülön megjeleníthető a tananyagban. Add "
+"meg a fül nevét (ez rendszerint a tankönyv címe), add meg az URL-jét a "
+"könyvnek és minden fejezet címét."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Remote Gradebook"
-msgstr ""
+msgstr "Távoli leckekönyv"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the remote gradebook mapping. Only use this setting when "
 "REMOTE_GRADEBOOK_URL has been specified."
 msgstr ""
+"A távoli leckekönyv összerendelése. Csaak akkor használd a beállítást, ha a "
+"REMOTE_GRADEBOOK_URL is meg van adva"
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content. CCX Coach is
@@ -2253,6 +2281,7 @@ msgstr "Speciális modullista"
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter the names of the advanced components to use in your course."
 msgstr ""
+"Add meg a haladó komponenseknek a nevét, amelyeket a kurzusodban használsz."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Getting Started With Studio"
@@ -2506,6 +2535,9 @@ msgid ""
 "the Course Info page. Your course handouts appear in the right panel of the "
 "page."
 msgstr ""
+"Add meg azt az elnevezést, amelyet a hallgatók a letölthető kurzus kéziratok "
+"felett látnak a kurzus információs oldalán. A felirat a lap jobb oldalán "
+"jelenik majd meg."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2523,14 +2555,19 @@ msgid ""
 "\" for MM-DD-YYYY, \"%d-%m-%Y\" for DD-MM-YYYY, \"%Y-%m-%d\" for YYYY-MM-DD, "
 "or \"%Y-%d-%m\" for YYYY-DD-MM."
 msgstr ""
+"Add meg a határidők dátumának formátumát. Az alapértelmezett Mon DD, YYYY. "
+"Néhány példa:  \"%m-%d-%Y\" : MM-DD-YYYY, \"%d-%m-%Y\" : DD-MM-YYYY, \"%Y-%m-"
+"%d\" for YYYY-MM-DD, vagy  \"%Y-%d-%m\" : YYYY-DD-MM."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "External Login Domain"
-msgstr ""
+msgstr "Külső belépés domainje"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter the external login method students can use for the course."
 msgstr ""
+"Add meg azt a külső beléptető metódust, amellyel a hallgatók belépnek a "
+"kurzusra"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificates Downloadable Before End"
@@ -2569,7 +2606,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course About Page Image"
-msgstr "Kurzusról oldal képe"
+msgstr "Kurzusról információs oldal képe"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2577,16 +2614,21 @@ msgid ""
 "Files & Uploads page. You can also set the course image on the Settings & "
 "Details page."
 msgstr ""
+"Szerkesztd a kurzus kép fájl nevét. Ezt a képet fel kell töltened a Fájlok & "
+"Feltöltések lapon. A kurzus képét a Beállítások & Részletek oldalon is "
+"megadhatod"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Issue Open Badges"
-msgstr ""
+msgstr "Open Badges kiadás"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Issue Open Badges badges for this course. Badges are generated when "
 "certificates are created."
 msgstr ""
+"Az Open Badges szabványú kitűzpk kiadása a kurzusnál. Kitűzőket akkor "
+"generálunk, amikor bizonyítványokat is."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2672,7 +2714,7 @@ msgstr "Az előrehaladás fül elrejthető"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Organization Display String"
-msgstr ""
+msgstr "Szervezet megjelenő neve"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2681,6 +2723,9 @@ msgid ""
 "course. To use the organization that you entered when you created the course, "
 "enter null."
 msgstr ""
+"Add meg annak a szervezetnek úgy, ahogy megjelenik a kurzus anyagaiban. Ez a "
+"beállítás felülírja azt a szervezeti nevet, amelyet a kurzus létrehozásánál "
+"gépeltél be. Ha azt a nevet akarod meghagyni, legyen a beállíts null."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Number Display String"
@@ -2693,6 +2738,9 @@ msgid ""
 "course. To use the course number that you entered when you created the "
 "course, enter null."
 msgstr ""
+"Add meg a kurzus számát olyan formátumban, ahogy megjelenik a tananyagban. Ez "
+"a beállítás felülírja azt az értéket, amit a kurzus létrehozásánál beírtál. "
+"Ha azt a számot akarod használni, legyen az érték null"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Maximum Student Enrollment"
@@ -2715,6 +2763,8 @@ msgid ""
 "Enter true or false. If true, edX users can view the course wiki even if "
 "they're not enrolled in the course."
 msgstr ""
+"Lehetséges értékek: true és false. Ha true, akkor a felhasználók láthatják a "
+"wiki oldalakat jelentkezés nélkül is."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Invitation Only"
@@ -2723,6 +2773,8 @@ msgstr "Kizárólag meghívás alapján"
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Whether to restrict enrollment to invitation by the course staff."
 msgstr ""
+"A kurzus felvételét akarod-e korlátozni úgy, hogy csak a közreműködők "
+"meghívására lehessen jelentkezni."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Course Survey Name"
@@ -2754,6 +2806,10 @@ msgid ""
 "access to about page), 'about' (only allow access to about page), 'none' (do "
 "not show in catalog and do not allow access to an about page)."
 msgstr ""
+"Azt adja meg, hogyan látszik a kurzus a kurzusok listájában. Három értket "
+"vehet fel: 'both' (megjelenik a listában és hozzáférhető a kurzus leírás "
+"oldal), 'about' (csak a kurzus leírás oldal hozzáférhető), 'none' (nem "
+"jelenik meg és nem hozzáférhető a kurzus leírás oldal)."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Both"
@@ -2944,7 +3000,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Secret Token String for Annotation"
-msgstr ""
+msgstr "Annotációk titkos token sztringje"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3338,7 +3394,7 @@ msgstr "Leadási határidő"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Enter the date by which problems are due."
-msgstr ""
+msgstr "Add meg a leadási határidőt"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Is Entrance Exam"
@@ -3550,6 +3606,8 @@ msgid ""
 "Enter the location of the annotation storage server. The textannotation, "
 "videoannotation, and imageannotation advanced modules require this setting."
 msgstr ""
+"Add meg az annotációk tárolására szolgáló szervert. A szöveges-, képi- és "
+"videó annotáció használja ezt a beállítást. "
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "URL for Annotation Storage"
@@ -3560,6 +3618,8 @@ msgid ""
 "Enter the secret string for annotation storage. The textannotation, "
 "videoannotation, and imageannotation advanced modules require this string."
 msgstr ""
+"Add meg az annotációk tárolásához kapcsolódó titkos token sztringet. A "
+"szöveges-, képi- és videó annotáció használja ezt a beállítást. "
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enter the ids for the content groups this problem belongs to."
@@ -3572,6 +3632,9 @@ msgid ""
 "are \"always\", \"answered\", \"attempted\", \"closed\", \"finished\", "
 "\"past_due\", \"correct_or_past_due\", and \"never\"."
 msgstr ""
+"Megadja, mikor jelenjen meg a Válasz mutatása gomb. Lehetséges  értékek: "
+"\"always\", \"answered\", \"attempted\", \"closed\", \"finished\", \"past_due"
+"\", \"correct_or_past_due\", és \"never\"."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3580,16 +3643,22 @@ msgid ""
 "\"per_student\". This setting only applies to problems that have randomly "
 "generated numeric values."
 msgstr ""
+"Megadja, mikor történjen a feladatok véletlenszerűsítése, amikor a hallgató "
+"betölti a feladatot. A lehetséges értékek:  \"always\", \"onreset\", \"never"
+"\", és  \"per_student\". Csak azokra a feladatokra vonatkozik, amelyeket "
+"véletlenszerűen generálunk."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Days Early for Beta Users"
-msgstr "Days Early for Beta Users"
+msgstr "Beta tesztelők korai hozzáférése"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Enter the number of days before the start date that beta users can access the "
 "course."
 msgstr ""
+"Add meg azoknak a napoknak a számát, amennyivel korábban a beta felhasználók "
+"elérhetik a kurzust"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Static Asset Path"
@@ -3600,6 +3669,8 @@ msgid ""
 "Enter the path to use for files on the Files & Uploads page. This value "
 "overrides the Studio default, c4x://."
 msgstr ""
+"A Fájlok és Feltöltések oldalon a fájlok útvonala adható meg. Ez az érték "
+"felülírja a Studio alapértelmezett értékét, ami c4x://."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Text Customization"
@@ -3608,6 +3679,9 @@ msgstr "Szöveg testreszabása"
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enter string customization substitutions for particular locations."
 msgstr ""
+"Bizonyos sztringek testreszabhatóak. Itt lehet megadni, melyik helyen, milyen "
+"cseréket hajtsunk végre. Csak akkor álítsd át, ha a forráskódban meggyőződtél "
+"a helyes használatról."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enable LaTeX Compiler"
@@ -3618,6 +3692,8 @@ msgid ""
 "Enter true or false. If true, you can use the LaTeX templates for HTML "
 "components and advanced Problem components."
 msgstr ""
+"Lehetséges értékek true vagy false. Ha true. akkor LaTeX templéteket "
+"használhatsz a HTML komponensekben és a haladó feladat komponensekben"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3628,6 +3704,12 @@ msgid ""
 "specific number, you cannot set the Maximum Attempts for individual problems "
 "to unlimited."
 msgstr ""
+"Add meg azt a számot, amennyiszer a hallgatók egy adott kérdés "
+"megválaszolásakor próbálkozhatnak. Az alapértelmezett érték null, ami "
+"korlátlan próbálkozási számot jelent. Az egyes feladatok beállításánál "
+"felülírhatod ezt az értéket. Azonban, ha a kurzus alapértelmezett "
+"próbálkozási száma egy konkrét érték, akkor a feladatoknál nem adhatsz meg "
+"korlátlan értéket."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Matlab API key"
@@ -3642,6 +3724,9 @@ msgid ""
 "obtain a key for your course, or to report an issue, please contact "
 "moocsupport@mathworks.com"
 msgstr ""
+"Add meg azt az API kulcsot, amit a MathWorks adott a MATLAB Hosted Service "
+"eléréséhez. A kulcs meghatározot ideig él. Soha ne oszd meg a kulcsot a "
+"kurzusok között! További információka  moocsupport@mathworks.com e-mail címen."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Group Configurations"
@@ -3659,6 +3744,8 @@ msgstr "Videó gyorsítótár engedélyezése"
 msgid ""
 "Enter true or false. If true, video caching will be used for HTML5 videos."
 msgstr ""
+"Lehetséges értékek: true vagy false. Ha true, a HTML 5 videóknál bekapcsolja "
+"a gyorsítótárat"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Video Pre-Roll"
@@ -6104,6 +6191,8 @@ msgid ""
 "Enter the tab that is selected in the XBlock. If not set, the Courseware tab "
 "is selected."
 msgstr ""
+"Add meg azt a fület, amely az XBlockban ki van választva. Ha nincs beállítás, "
+"akkor a Tananyag fül az alapértelmezett"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "LaTeX Source File Name"
