@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-04 21:05+0200\n"
+"PO-Revision-Date: 2015-09-06 13:33+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 1.8.4\n"
 
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
 #. the discussion forums
@@ -256,7 +256,7 @@ msgstr ""
 
 #: common/djangoapps/embargo/models.py
 msgid "Blacklist {country} for {course}"
-msgstr ""
+msgstr "Letíltott {country} a {course} kurzushoz"
 
 #: common/djangoapps/student/forms.py
 msgid "Username must be minimum of two characters long"
@@ -1489,7 +1489,7 @@ msgstr "Ez a név jelenik meg a vízszintes navigációs sávban az oldal tetej�
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Blank Advanced Problem"
-msgstr ""
+msgstr "Feladat Haladó Szerkesztővel"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -1734,8 +1734,8 @@ msgstr "Hiba: {msg}"
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "{num_hour} hour"
 msgid_plural "{num_hour} hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_hour} óra"
+msgstr[1] "{num_hour} óra"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "{num_minute} minute"
@@ -1746,8 +1746,8 @@ msgstr[1] "{num_minute} perc"
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "{num_second} second"
 msgid_plural "{num_second} seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_second} másodperc"
+msgstr[1] "{num_second} másodperc"
 
 #. Translators: 'rescoring' refers to the act of re-submitting a student's
 #. solution so it can get a new score.
@@ -1967,7 +1967,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Cosmetic Course Display Price"
-msgstr ""
+msgstr "A kurzus árának kijelzése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -1975,6 +1975,9 @@ msgid ""
 "registration price is set by an administrator in the database, that price "
 "will be displayed instead of this one."
 msgstr ""
+"A hallgatók ezt az árat látják a kurzusra való jelentkezéskor. Ha az "
+"adminisztrátorok beiratkozási költséget állítanak be az adatbázisban, akkor "
+"annak az ára jelenik meg ehelyett."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Advertised Start Date"
@@ -1986,6 +1989,9 @@ msgid ""
 "is different from the set start date. To advertise the set start date, enter "
 "null."
 msgstr ""
+"Írd be azt a kezdő dátumot, amit a kurzus meghirdetésekor reklámozol. Akkor "
+"töltsd ki, ha a dátum különbözik a kurzus kezdő dátumától. A kezdő dáum "
+"használatához írj null értéket."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Requisite Courses"
@@ -2026,8 +2032,7 @@ msgstr "Kurzus szerkesztő"
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
-msgid ""
-"Enter the method by which this course is edited (\"XML\" or \"Studio\")."
+msgid "Enter the method by which this course is edited (\"XML\" or \"Studio\")."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2113,13 +2118,15 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Is New"
-msgstr "A kurzus új"
+msgstr "A kurzus új?"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If true, the course appears in the list of new courses "
 "on edx.org, and a New! badge temporarily appears next to the course image."
 msgstr ""
+"Elfogadott értékek true vagy false. Ha true, akkor a kurzus megjelenik az új "
+"kurzusok listájában és az a kurzus képe mellett ikon jelzi, hogy új."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Mobile Course Available"
@@ -2129,6 +2136,8 @@ msgstr "A kurzus elérhető mobil készülékről"
 msgid ""
 "Enter true or false. If true, the course will be available to mobile devices."
 msgstr ""
+"Elfogadott értékek true vagy false. Ha true, a kurzus elérhető mobil "
+"eszközökön"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Video Upload Credentials"
@@ -2155,7 +2164,7 @@ msgstr "A kurzus nem minősített"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter true or false. If true, the course will not be graded."
-msgstr ""
+msgstr "ELfogadott értékek true vagy false. Ha true, a kurzus nem osztályzott"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Disable Progress Graph"
@@ -2224,7 +2233,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Allow Anonymous Discussion Posts to Peers"
-msgstr ""
+msgstr "Névtelen fórum üzenetek engedélyezése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2232,6 +2241,9 @@ msgid ""
 "anonymous to other students. This setting does not make posts anonymous to "
 "course staff."
 msgstr ""
+"Elfogadott értékek: true vagy false. Ha true, akkor a hallgatók tudnak "
+"névtelenül fórumbejegyzéseket létrehozni. Ez a beállítás nem anonimizálja a "
+"kurzus stábjának bejegyzéseit. "
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/library_root_xblock.py
@@ -2522,7 +2534,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificates Downloadable Before End"
-msgstr ""
+msgstr "A bizonyítvány letölthető eddig"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2532,7 +2544,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificates Display Behavior"
-msgstr ""
+msgstr "Bizonyítvány kiértesítésének módja"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2545,6 +2557,15 @@ msgid ""
 "To display only the links to passing students as soon as certificates are "
 "generated, enter early_no_info."
 msgstr ""
+"Efogadott értékekend, early_with_info, és early_no_info. A bizonyítvány "
+"genarálása után azok a hallgatók,akik megszerezték a bizonyítványt az "
+"irányítópulton egy linket látnak, amely a bizonyítványra mutat. Akik "
+"megbuktak, azok az osztályozási beállításokat látják. Az alapértelmezett "
+"érték az end, amely ezeket a a kurzus befejezése után jeleníti meg. Ha "
+"early_with_info beállítást alkalmazol, minden hallgató megkapja a "
+"tájékoztatást,amint a bizonyítványt legenerálták. Ha csak a sikeresen "
+"teljsítő hallgatóknak mutatod meg a linket a bizonyítvány legenerálása után, "
+"akor használd a early_no_info beállítást. "
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course About Page Image"
@@ -2573,6 +2594,9 @@ msgid ""
 "marks, enter the short name of the course to use on the certificate that "
 "students receive when they complete the course."
 msgstr ""
+"Ezt az beállítást csak a pdf bizonyítványok generáláskor használuk. "
+"Idézőjelek között add meg az kurzus rüvid elnevezését, amelyet a hallgatók a "
+"kurzus elvégzésekor kapott bizonyítványokon látnak. "
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Name (Short)"
@@ -2584,6 +2608,9 @@ msgid ""
 "marks, enter the long name of the course to use on the certificate that "
 "students receive when they complete the course."
 msgstr ""
+"Ezt az elnevezést használjuk a pdf bizonyítványokon. Idézőjelek között add "
+"meg az kurzus hosszú elnevezését, amelyet a hallgatók a kurzus elvégzésekor "
+"kapott bizonyítványokon látnak. "
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Name (Long)"
@@ -2602,18 +2629,20 @@ msgid ""
 "Enter course-specific overrides for the Web/HTML template parameters here "
 "(JSON format)"
 msgstr ""
+"Kurzustól függő konfigurációs adatok felülírása a Web/HTML templlate "
+"paramétereknél (JSON formátumban)"
 
 #. Translators: This field is the container for course-specific certifcate
 #. configuration values
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Configuration"
-msgstr ""
+msgstr "Bizonyítvány beállítások"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter course-specific configuration information here (JSON format)"
-msgstr ""
+msgstr "Kurzustól függő konfigurációs adatok megadása (JSON formátumban)"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "CSS Class for Course Reruns"
@@ -2639,7 +2668,7 @@ msgstr "Eredmények fül elrejtése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Allows hiding of the progress tab."
-msgstr ""
+msgstr "Az előrehaladás fül elrejthető"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Organization Display String"
@@ -2674,6 +2703,8 @@ msgid ""
 "Enter the maximum number of students that can enroll in the course. To allow "
 "an unlimited number of students, enter null."
 msgstr ""
+"Add meg a legnagyobb tanulói létszámot, amelyet feliratkozáskor elfogadsz. "
+"Korlátlan hallgatói létszámot a null beállítás jelent."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Allow Public Wiki Access"
@@ -2919,7 +2950,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "Default Annotations Tab"
-msgstr ""
+msgstr "Alalpértelmezett annotációs fül"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -2988,7 +3019,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Choose n at random"
-msgstr ""
+msgstr "Válassz n derabot véletlenszerűen"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Count"
@@ -3027,7 +3058,7 @@ msgstr ""
 #. double quotes)
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "{refresh_icon} Update now."
-msgstr ""
+msgstr "{refresh_icon} Frissíts."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Library is invalid, corrupt, or has been deleted."
@@ -3173,7 +3204,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Comment as returned from grader, LTI2.0 spec"
-msgstr ""
+msgstr "Megjegyzés az osztályozótól, LTI2.0 spec"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Hide External Tool"
@@ -3222,8 +3253,7 @@ msgid "Button Text"
 msgstr "Gomb felirat"
 
 #: common/lib/xmodule/xmodule/lti_module.py
-msgid ""
-"Enter the text on the button used to launch the third party application."
+msgid "Enter the text on the button used to launch the third party application."
 msgstr ""
 "Írd be a szöveget, ami a gomb felirata lesz a más forrásból származó program "
 "futtatásához."
@@ -3336,7 +3366,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Content Experiment"
-msgstr ""
+msgstr "Tartalom"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 #: lms/djangoapps/lms_xblock/mixin.py
@@ -3553,7 +3583,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Days Early for Beta Users"
-msgstr ""
+msgstr "Days Early for Beta Users"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3656,6 +3686,10 @@ msgid ""
 "settings. All existing problems are affected when this course-wide setting is "
 "changed."
 msgstr ""
+"Elfogadott értékek true vagy false. Ha true, akkor alapértelmezetten a kurzus "
+"feladatainál megjelenik a visszaállítás alaphelyzetbe gomb. Minden egyes "
+"feladatnál felülírható a beállítás. Ha a beállítást módosítod, minden "
+"elkészített feladatra érvényes lesz a változtatás."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enable Student Notes"
@@ -3692,7 +3726,7 @@ msgstr ""
 #. graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "AI"
-msgstr ""
+msgstr "AI"
 
 #. Translators: "Peer" is used to denote an openended response that is peer-
 #. graded
@@ -3768,7 +3802,7 @@ msgstr ""
 #. evaluation
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 msgid "AI-Assessment"
-msgstr ""
+msgstr "AI feladat"
 
 #. Translators: 'tag' is one of 'feedback', 'submission_id',
 #. 'grader_id', or 'score'. They are categories that a student
@@ -3891,7 +3925,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 msgid "{exception_message}: Can't find uploaded transcripts: {user_filename}"
-msgstr ""
+msgstr "{exception_message}: nincs feltöltve feliratfájl: {user_filename}"
 
 #: common/lib/xmodule/xmodule/video_module/video_handlers.py
 msgid "Invalid encoding type, transcripts should be UTF-8 encoded."
@@ -3926,8 +3960,7 @@ msgid "Current position in the video."
 msgstr "Videó aktuális pozíciója."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
-msgid ""
-"Optional, for older browsers: the YouTube ID for the normal speed video."
+msgid "Optional, for older browsers: the YouTube ID for the normal speed video."
 msgstr ""
 "Opcionális, régi böngészők számára: YouTube azonosító a normál sebességű "
 "lejátszásához."
@@ -4170,6 +4203,8 @@ msgid ""
 "© {org_name}.  All rights reserved except where noted.  EdX, Open edX and the "
 "edX and Open EdX logos are registered trademarks or trademarks of edX Inc."
 msgstr ""
+"© {org_name}.  All rights reserved except where noted.  EdX, Open edX and the "
+"edX and Open EdX logos are registered trademarks or trademarks of edX Inc."
 
 #. Translators: 'Open edX' is a brand, please keep this untranslated.
 #. See http://openedx.org for more information.
@@ -4217,7 +4252,7 @@ msgstr "Adatvédelem"
 
 #: lms/djangoapps/branding/api.py
 msgid "Accessibility Policy"
-msgstr ""
+msgstr "Akadálymentesítési beállítások"
 
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
@@ -4235,11 +4270,11 @@ msgstr ""
 
 #: lms/djangoapps/ccx/plugins.py
 msgid "CCX Coach"
-msgstr ""
+msgstr "CCX Coach"
 
 #: lms/djangoapps/ccx/views.py
 msgid "You must be a CCX Coach to access this view."
-msgstr ""
+msgstr "Csak  CCX Coach jogosultásggal tekintheted meg ezt a nézetet."
 
 #: lms/djangoapps/ccx/views.py
 msgid "You must be the coach for this ccx to access this view"
@@ -4363,7 +4398,7 @@ msgstr ""
 #. Translators:  The format of the date includes the full name of the month
 #: lms/djangoapps/certificates/views.py
 msgid "{month} {day}, {year}"
-msgstr ""
+msgstr "{year} {month} {day}"
 
 #. Translators: This line appears on the certificate after the name of a
 #. course, and provides more
@@ -4393,7 +4428,7 @@ msgstr ""
 #. each individual certificate
 #: lms/djangoapps/certificates/views.py
 msgid "Certificate ID Number"
-msgstr ""
+msgstr "Bizonyítvány száma"
 
 #: lms/djangoapps/certificates/views.py
 msgid "About {platform_name} Certificates"
@@ -4477,7 +4512,7 @@ msgstr ""
 #. and appears in the browser title bar
 #: lms/djangoapps/certificates/views.py
 msgid "{partner_name} {course_number} Certificate | {platform_name}"
-msgstr ""
+msgstr "{partner_name} {course_number} Bizonyítvány | {platform_name}"
 
 #. Translators:  This text fragment appears after the student's name
 #. (displayed in a large font) on the certificate
@@ -4493,7 +4528,7 @@ msgstr ""
 #. and achieved a certification
 #: lms/djangoapps/certificates/views.py
 msgid "{fullname}, you've earned a certificate!"
-msgstr ""
+msgstr "{fullname}, megszerezted a bizonyítványt!"
 
 #. Translators: This line congratulates the user and instructs them to share
 #. their accomplishment on social networks
@@ -4503,6 +4538,8 @@ msgid ""
 "accomplished. Show it off to family, friends, and colleagues in your social "
 "and professional networks."
 msgstr ""
+"Gratulálunk, ezen az oldalon minden megtalálható, amit elértél. Mutasd meg a "
+"családodnak, barátaidnak, munkatársaidnak ."
 
 #. Translators: This line leads the reader to understand more about the
 #. certificate that a student has been awarded
@@ -4514,7 +4551,7 @@ msgstr ""
 #. protect published content
 #: lms/djangoapps/certificates/views.py
 msgid "All rights reserved"
-msgstr ""
+msgstr "Minden jog fenntartva"
 
 #. Translators:  This text is bound to the HTML 'title' element of the page
 #. and appears
@@ -4534,7 +4571,7 @@ msgstr ""
 #. the purpose of the page
 #: lms/djangoapps/certificates/views.py
 msgid "Certificate Validation"
-msgstr ""
+msgstr "Bizonyítvány érvényesség"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 #: lms/djangoapps/instructor/views/api.py
@@ -4692,12 +4729,12 @@ msgstr ""
 #. MIT, and Dartmouth).
 #: lms/djangoapps/courseware/views.py
 msgid "{first_institutions}, and {last_institution}"
-msgstr ""
+msgstr "{first_institutions}, és {last_institution}"
 
 #. Translators: The join of two institution names (e.g., Harvard and MIT).
 #: lms/djangoapps/courseware/views.py
 msgid "{first_institution} and {second_institution}"
-msgstr ""
+msgstr "{first_institution} és {second_institution}"
 
 #: lms/djangoapps/courseware/views.py
 msgid ""
@@ -4731,11 +4768,11 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views.py
 msgid "Certificate has already been created."
-msgstr ""
+msgstr "A bizonyítvány már elkészült"
 
 #: lms/djangoapps/courseware/views.py
 msgid "Certificate is being created."
-msgstr ""
+msgstr "A bizonyítvány készül"
 
 #: lms/djangoapps/courseware/features/video.py
 msgid "ERROR: No playable video sources found!"
@@ -4977,7 +5014,7 @@ msgstr "Kurzus neve"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Directory/ID"
-msgstr ""
+msgstr "Könyvtár/Azonosító"
 
 #. Translators: "Git Commit" is a computer command; see
 #. http://gitref.org/basic/#commit
@@ -5053,7 +5090,7 @@ msgstr ""
 
 #: lms/djangoapps/django_comment_client/base/views.py
 msgid "Comment level too deep"
-msgstr ""
+msgstr "A megjegyzések szintje alacsony"
 
 #: lms/djangoapps/django_comment_client/base/views.py
 msgid "Error uploading file. Please contact the site administrator. Thank you."
@@ -5083,7 +5120,7 @@ msgstr "Jegyzetek"
 
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py
 msgid "{platform_name} Staff"
-msgstr ""
+msgstr "{platform_name} Közreműködők"
 
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py
 msgid "Course Staff"
@@ -5113,7 +5150,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py
 msgid "Data Integrity Error"
-msgstr ""
+msgstr "Adat integritás hiba"
 
 #: lms/djangoapps/instructor/tests/test_api.py
 #: lms/djangoapps/instructor/views/instructor_task_helpers.py
@@ -5132,8 +5169,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/tests/test_registration_codes.py
 #: lms/djangoapps/instructor/views/registration_codes.py
-msgid ""
-"The enrollment code ({code}) was not found for the {course_name} course."
+msgid "The enrollment code ({code}) was not found for the {course_name} course."
 msgstr ""
 
 #: lms/djangoapps/instructor/tests/test_registration_codes.py
@@ -5311,7 +5347,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Coupon Code"
-msgstr ""
+msgstr "Kupon kód"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Course Id"
@@ -5319,7 +5355,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "% Discount"
-msgstr ""
+msgstr "% Diszkont"
 
 #: lms/djangoapps/instructor/views/api.py lms/djangoapps/shoppingcart/pdf.py
 #: lms/djangoapps/shoppingcart/reports.py
@@ -5415,7 +5451,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "All Students"
-msgstr ""
+msgstr "Minden hallgató"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Cannot rescore with all_students and unique_student_identifier."
@@ -5465,6 +5501,8 @@ msgid ""
 "You can view the status of the generation task in the \"Pending Tasks\" "
 "section."
 msgstr ""
+"A bizonyítvány előállításának folyamata elkezdődött. A függő feladatok között "
+"megtekintheted a folyamat státuszát."
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "coupon id is None"
@@ -5558,7 +5596,7 @@ msgstr "Tagság"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Cohorts"
-msgstr ""
+msgstr "Cohortok"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Student Admin"
@@ -5686,7 +5724,7 @@ msgstr "Teljes név"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "{title} in course {course_key}"
-msgstr ""
+msgstr "{title} a kurzusban {course_key}"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "ID"
@@ -5815,7 +5853,7 @@ msgstr ""
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py
 msgid "certificates generated"
-msgstr ""
+msgstr "Bizonyítványok elkészültek"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -5823,7 +5861,7 @@ msgstr ""
 #. {attempted} so far"
 #: lms/djangoapps/instructor_task/tasks.py
 msgid "cohorted"
-msgstr ""
+msgstr "cohort elkészült"
 
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "First Name"
@@ -5885,7 +5923,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "Coupon Codes Used"
-msgstr ""
+msgstr "Felhasznált kupon kód"
 
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "Registration Code Used"
@@ -6030,7 +6068,7 @@ msgstr "({skipped} kihagyva)"
 #. status messages.
 #: lms/djangoapps/instructor_task/views.py
 msgid " (out of {total})"
-msgstr ""
+msgstr " ( / {total})"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Whether to display this module in the table of contents"
@@ -6059,7 +6097,7 @@ msgstr ""
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Default Tab"
-msgstr ""
+msgstr "Alalpértelmezett fül"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
@@ -6084,6 +6122,8 @@ msgid ""
 "Enter true or false. If true, the course is open to the public. If false, the "
 "course is open only to admins."
 msgstr ""
+"Elfogadott értékek: true vagy false. Ha true, akkor a kurzus nyilvános. Ha "
+"false, a kurzus csak az Adminoknak elérhető"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
@@ -6123,7 +6163,7 @@ msgstr ""
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "AI Assessment"
-msgstr ""
+msgstr "AI feladat"
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "Peer Assessment"
@@ -6169,8 +6209,7 @@ msgid ""
 msgstr ""
 
 #: lms/djangoapps/open_ended_grading/views.py
-msgid ""
-"View open ended problems that you have previously submitted for grading."
+msgid "View open ended problems that you have previously submitted for grading."
 msgstr ""
 
 #: lms/djangoapps/open_ended_grading/views.py
@@ -6341,7 +6380,7 @@ msgstr "Sorrend"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "{id_label} # {item_id}"
-msgstr ""
+msgstr "{id_label} # {item_id}"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "Date: {date}"
@@ -6362,6 +6401,8 @@ msgid ""
 "Discount\n"
 "per item"
 msgstr ""
+"Diszkont\n"
+"darabonként"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "Amount"
@@ -6377,11 +6418,11 @@ msgstr ""
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "Balance"
-msgstr ""
+msgstr "Egyenleg"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "Billing Address"
-msgstr ""
+msgstr "Számlázási cím"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "Disclaimer"
@@ -6738,8 +6779,7 @@ msgid ""
 msgstr ""
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
-msgid ""
-"Invalid account number. Possible fix: retry with another form of payment"
+msgid "Invalid account number. Possible fix: retry with another form of payment"
 msgstr ""
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
@@ -7517,6 +7557,9 @@ msgid ""
 "your region\n"
 "            "
 msgstr ""
+"\n"
+"                Sajnos a, %(platform_name)s nem elérhető a régiódban.\n"
+"            "
 
 #: lms/templates/registration/password_reset_confirm.html
 msgid "The following errors occurred while processing your registration: "
@@ -7544,6 +7587,11 @@ msgid ""
 "have.\n"
 "            "
 msgstr ""
+"\n"
+"                Már értesítettek minket a problámáról. Kérjük, kis idő "
+"elteltével próbáld újra. A %(start_link)skapcsolat%(end_link)s linken "
+"elküldheted az észrevételeidet.\n"
+"            "
 
 #: lms/templates/registration/password_reset_confirm.html
 msgid ""
@@ -7607,6 +7655,10 @@ msgid ""
 "answers to commonly asked questions%(end_link)s\n"
 "          "
 msgstr ""
+"\n"
+"              látogasd meg a %(start_link)ssegítség linket a kapcsolattartási "
+"informáiókért és a Gyakran Ismételt Kérdésekért%(end_link)s\n"
+"          "
 
 #: lms/templates/registration/password_reset_email.html
 msgid ""
@@ -7750,7 +7802,7 @@ msgstr ""
 
 #: lms/templates/wiki/history.html
 msgid "(no log message)"
-msgstr ""
+msgstr "(nincs log üzenet)"
 
 #: lms/templates/wiki/history.html
 msgid "Preview this revision"
@@ -7758,7 +7810,7 @@ msgstr "A változat előnézete"
 
 #: lms/templates/wiki/history.html
 msgid "Auto log:"
-msgstr ""
+msgstr "Auto log:"
 
 #: lms/templates/wiki/history.html
 msgid "Change"
@@ -7870,11 +7922,11 @@ msgstr ""
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "[Article Name](wiki:ArticleName)"
-msgstr ""
+msgstr "[Article Name](wiki:ArticleName)"
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "%(platform_name)s Additions:"
-msgstr ""
+msgstr "%(platform_name)s egyebek:"
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "Math Expression"
@@ -7890,7 +7942,7 @@ msgstr "Wikipedia"
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "%(platform_name)s Wiki"
-msgstr ""
+msgstr "%(platform_name)s Wiki"
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "Huge Header"
@@ -8008,7 +8060,7 @@ msgstr "Visszaállítás"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "anonymous (IP logged)"
-msgstr ""
+msgstr "anonymous (IP logolva)"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "File history"
@@ -8033,7 +8085,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/course_groups/views.py
 msgid "A cohort with the same name already exists."
-msgstr ""
+msgstr "Ilyen nevű cohort már létezik"
 
 #: openedx/core/djangoapps/credit/models.py
 msgid ""
@@ -8239,5 +8291,3 @@ msgstr "Hibás érték"
 #: openedx/core/lib/api/view_utils.py
 msgid "This field is not editable"
 msgstr "A mező nem szerkeszthető"
-
-
