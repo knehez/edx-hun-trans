@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-06 19:54+0200\n"
+"PO-Revision-Date: 2015-09-07 20:04+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -1507,6 +1507,9 @@ msgid ""
 "Defines the number of times a student can try to answer this problem. If the "
 "value is not set, infinite attempts are allowed."
 msgstr ""
+"Megadja a lehetséges próbálkozások számát, a hallgatók ennyiszer "
+"próbálkozhatnak a feladat megválaszolásával. Ha nincs megadva, korlátlan "
+"számú próbálkozás megengedett."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -1528,6 +1531,8 @@ msgid ""
 "Defines when to show the answer to the problem. A default value can be set in "
 "Advanced Settings."
 msgstr ""
+"Megadja, hogy a válasz látható-e. Az alapértelmezett érték a Haladó "
+"beállítások között beállítható"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Always"
@@ -1574,6 +1579,9 @@ msgid ""
 "Determines whether a 'Reset' button is shown so the user may reset their "
 "answer. A default value can be set in Advanced Settings."
 msgstr ""
+"Meghatározza, hogy a Visszaállítás gomb látható-e, és a hallgatók "
+"visszaállíthatják-e a válaszaikat. Az alapértelmezett érték a Haladó "
+"beállításokban adható meg"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -1586,6 +1594,10 @@ msgid ""
 "This setting only applies to problems that can have randomly generated "
 "numeric values. A default value can be set in Advanced Settings."
 msgstr ""
+"Megadja, milyen gyakran véletlenszerűsítsük a feladatokat, amikor a hallgatók "
+"betöltik azokat. Csak azoknál a feladatoknál releváns, ahol véletlenszerűen "
+"előállított számit használunk. Az alapértelmezett érték a Haladó beállítások "
+"között található."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "On Reset"
@@ -1634,6 +1646,8 @@ msgid ""
 "Seconds a student must wait between submissions for a problem with multiple "
 "attempts."
 msgstr ""
+"Várakoyási idő másodpercekben. Ennyit kell várnia a hallgatónak, mielőtt újra "
+"próbálkozhat a feladat beküldésével."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -1646,6 +1660,8 @@ msgid ""
 "Defines the number of points each problem is worth. If the value is not set, "
 "each response field in the problem is worth one point."
 msgstr ""
+"Megadja, hány pontot ér egy feladat. Ha nincs kitöltve, minden feladat egy "
+"pontot ér."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
