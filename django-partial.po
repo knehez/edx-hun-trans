@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-07 20:04+0200\n"
+"PO-Revision-Date: 2015-09-07 20:21+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -653,12 +653,16 @@ msgid ""
 "If this option is selected, users will not be required to confirm their "
 "email, and their account will be activated immediately upon registration."
 msgstr ""
+"Ha ezt a beállítást választod, a felhasználóknak nem kell az e-mailjüket "
+"megerősíteni. és a fiókjukat rögtön, a regisztráció után aktiváljuk."
 
 #: common/djangoapps/third_party_auth/pipeline.py
 msgid ""
 "This account has not yet been activated. An activation email has been re-sent "
 "to {email_address}."
 msgstr ""
+"A fiókot még nem aktiválták. Az aktivációs e-mailt újra elküldtük  "
+"{email_address}."
 
 #. Translators: the translation for "LONG_DATE_FORMAT" must be a format
 #. string for formatting dates in a long form.  For example, the
@@ -961,7 +965,7 @@ msgstr "május"
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "June"
-msgstr "Június"
+msgstr "június"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "July 10, 2014". It is used for the %B directive in
@@ -969,7 +973,9 @@ msgstr "Június"
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "July"
-msgstr "Július"
+msgstr ""
+"j\n"
+"úlius"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "August 10, 2014". It is used for the %B directive in
@@ -1024,11 +1030,11 @@ msgstr "Feltölthető fájl maximális mérete  {file_size} byte."
 
 #: common/djangoapps/util/milestones_helpers.py
 msgid "Course {course_id} requires {prerequisite_course_id}"
-msgstr ""
+msgstr "A {course_id} kurzus előfeltétele {prerequisite_course_id}"
 
 #: common/djangoapps/util/milestones_helpers.py
 msgid "System defined milestone"
-msgstr ""
+msgstr "A rendszer által definiált mérföldkő"
 
 #: common/djangoapps/util/password_policy_validators.py
 msgid "Invalid Length ({0})"
@@ -4043,6 +4049,8 @@ msgid ""
 "The URL for your video. This can be a YouTube URL or a link to an .mp4, .ogg, "
 "or .webm video file hosted elsewhere on the Internet."
 msgstr ""
+"A video URL-je. Ez lehet egy youtube link vagy egy  .mp4, .ogg, vagy .webm "
+"videó fájl, amelyet valahol máshol hostolnak az interneten."
 
 #: common/lib/xmodule/xmodule/video_module/video_module.py
 msgid "Default Video URL"
@@ -4053,6 +4061,7 @@ msgid ""
 "The name students see. This name appears in the course ribbon and as a header "
 "for the video."
 msgstr ""
+"A hallgatók által látható név. Ez a név jelenik meg a videó feletti sávban."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Component Display Name"
@@ -7846,6 +7855,8 @@ msgid ""
 "You are deleting an article. This means that its children will be deleted as "
 "well. If you choose to purge, children will also be purged!"
 msgstr ""
+"Egy cikket fogsz törölni. Ez azt jelenti, hogy az összes al-cikk is törlésre "
+"kerül. Ha véglegesen törlöd, az al-cikkek is véglegesen törlődnek."
 
 #: lms/templates/wiki/delete.html
 msgid "Articles that will be deleted"
