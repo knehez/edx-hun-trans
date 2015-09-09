@@ -84,4 +84,10 @@ msgstr "A kurzusról"
 msgid "Overview"
 msgstr "Áttekintés"
 
+msgid "University of Miskolc"
+msgstr "Miskolci Egyetem"
+
+msgid "Search our courses"
+msgstr "Keress a kurzusok között"
+
 
