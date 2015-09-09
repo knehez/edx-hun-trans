@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-08-10 22:49+0200\n"
+"PO-Revision-Date: 2015-09-04 21:03+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: cms/static/coffee/src/views/tabs.js
 #: cms/static/coffee/src/xblock/cms.runtime.v1.js
@@ -252,7 +252,8 @@ msgstr ""
 "fájlt, vagy illeszd be a linkjét a válasz dobozba."
 
 #: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
-msgid "Are you sure you want to remove your previous response to this question?"
+msgid ""
+"Are you sure you want to remove your previous response to this question?"
 msgstr "Biztosan el akarod távolítani az előző válaszod erre a kérdésre?"
 
 #: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
@@ -1471,7 +1472,8 @@ msgstr "Szavak: {0}"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "You have unsaved changes are you sure you want to navigate away?"
-msgstr "Nem mentettél el minden változtatást, biztosan tovább akarsz navigálni?"
+msgstr ""
+"Nem mentettél el minden változtatást, biztosan tovább akarsz navigálni?"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1541,9 +1543,9 @@ msgid ""
 "Proceed to the Advanced Editor and convert this problem to XML?"
 msgstr ""
 "Ha a haladó szerkesztőt használod, a feladatot XML formátumba konvertáljuk és "
-"au egysezerű szerkesztőbe nem tudsz visszatérni.\n"
+"az egyszerű szerkesztőbe nem tudsz visszatérni.\n"
 "\n"
-"Folytatpd a haladó szerkesztővel és XML formátumba konvertálsz ?"
+"Folytatod a haladó szerkesztővel és XML formátumba konvertálsz ?"
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 msgid ""
@@ -1551,7 +1553,7 @@ msgid ""
 "SequenceModule. Please contact the course staff."
 msgstr ""
 "Sorrend hiba! A jelenlegi molekulában nem lehet a %(tab_name)s navigálni. "
-"Lépj kapcsolatba a kurzus szerzőjévek."
+"Lépj kapcsolatba a kurzus szerzőjével."
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js
@@ -1746,7 +1748,8 @@ msgid "We had some trouble loading the discussion. Please try again."
 msgstr "Hiba történt a vita betöltése közben. Próbáld meg újra."
 
 #: common/static/coffee/src/discussion/discussion_module_view.js
-msgid "We had some trouble loading the threads you requested. Please try again."
+msgid ""
+"We had some trouble loading the threads you requested. Please try again."
 msgstr "Hiba történt a folyamat betöltése közben. Próbáld meg újra."
 
 #: common/static/coffee/src/discussion/utils.js
@@ -1923,7 +1926,7 @@ msgstr "Minden válasz mutatása"
 msgid "Showing first response"
 msgid_plural "Showing first %(numResponses)s responses"
 msgstr[0] "Az első válasz megjelenítve"
-msgstr[1] "Az elős %(numResponses)s válasz megjelenítve"
+msgstr[1] "Az első %(numResponses)s válasz megjelenítve"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
 msgid "Load all responses"
@@ -2403,7 +2406,7 @@ msgstr "Hiba történt a felhasználó le-/feliratkozásakor."
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "The following email addresses and/or usernames are invalid:"
-msgstr "A következő email címek és/vagy felhasználónevek érvénytelenek:"
+msgstr "A következő e-mail címek és/vagy felhasználónevek érvénytelenek:"
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Successfully enrolled and sent email to the following users:"
@@ -2421,7 +2424,7 @@ msgid ""
 "Successfully sent enrollment emails to the following users. They will be "
 "allowed to enroll once they register:"
 msgstr ""
-"Sikeresen elküldtük a feliratkozási emaileket következő felhasználóknak. "
+"Sikeresen elküldtük a feliratkozási e-maileket következő felhasználóknak. "
 "Regisztrálás után feliratkozhatnak:"
 
 #. Translators: A list of users appears after this sentence;
@@ -2435,7 +2438,7 @@ msgid ""
 "Successfully sent enrollment emails to the following users. They will be "
 "enrolled once they register:"
 msgstr ""
-"Sikeresen elküldtük a feliratkozási emaileket következő felhasználóknak. "
+"Sikeresen elküldtük a feliratkozási e-maileket következő felhasználóknak. "
 "Regisztrálás után feliratkoztak:"
 
 #. Translators: A list of users appears after this sentence;
@@ -2480,18 +2483,18 @@ msgid ""
 "There are invalid keywords in your email. Please check the following keywords "
 "and try again:"
 msgstr ""
-"Az emailedben érvénytelen kulcsszavak vannak. Ellenőrizd a következő "
+"Az e-mailedben érvénytelen kulcsszavak vannak. Ellenőrizd a következő "
 "kulcsszavakat:"
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid "Your email was successfully queued for sending."
-msgstr "Az emailedet betettük a küldési sorba."
+msgstr "Az e-mailedet betettük a küldési sorba."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid ""
 "You are about to send an email titled '<%= subject %>' to yourself. Is this "
 "OK?"
-msgstr "Egy emailt küldesz magadnak '<%= subject %>' tárggyal. OK ?"
+msgstr "Egy e-mailt küldesz magadnak '<%= subject %>' tárggyal. OK ?"
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid ""
@@ -2515,7 +2518,7 @@ msgid ""
 "classes, it may take up to an hour (or more, if other courses are "
 "simultaneously sending email) to send all emails."
 msgstr ""
-"Az emailedet betettük a küldési sorba. Nagy létszámú osztályoknál akár több, "
+"Az e-mailedet betettük a küldési sorba. Nagy létszámú osztályoknál akár több, "
 "mint egy óráig is tarthat az összes email elküldése (különösen, ha más "
 "kurzusok is küldenek emailt párhuzamosan)"
 
@@ -2630,8 +2633,8 @@ msgid ""
 "Error resetting entrance exam attempts for student '{student_id}'. Make sure "
 "student identifier is correct."
 msgstr ""
-"Hiba történet a felvételi vizsga kísérletek számának törlésekor "
-"'{student_id}' hallgatónák. Ellenőrizd a hallgató azonosítóját"
+"Hiba történt a felvételi vizsga kísérletek számának törlésekor a"
+"'{student_id}' hallgatónál. Ellenőrizd a hallgató azonosítóját"
 
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 msgid ""
@@ -2639,7 +2642,7 @@ msgid ""
 "'Show Background Task History for Student' button to see the status of the "
 "task."
 msgstr ""
-"Elkezdődött '{student_id}' hallgató felvételi vizsgájának az ujrapontozása. "
+"Elkezdődött '{student_id}' hallgató felvételi vizsgájának az újrapontozása. "
 "Nyomd meg a Hallgatói háttérfolyamatok előzményeinek megjelenítése gombot a "
 "folyamat státuszának megtekintéséhez"
 
@@ -2656,7 +2659,7 @@ msgstr ""
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 #: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
 msgid "Enter a student's username or email address."
-msgstr "Írd be egy tanuló email címét, vagy felhasználói nevét."
+msgstr "Írd be egy tanuló e-mail címét, vagy felhasználói nevét."
 
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 msgid ""
@@ -2805,7 +2808,7 @@ msgid ""
 "technical support if the problem persists."
 msgstr ""
 "Hiba történt az e-mail lekérése közben. Próbáld kicsit később újra és lépj "
-"kapcsolatba a te4chnikai személyzettel, ha a hiba továbbra is fennáll."
+"kapcsolatba a technikai személyzettel, ha a hiba továbbra is fennáll."
 
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Subject"
@@ -2942,7 +2945,7 @@ msgstr "Kép beszúrása (töltsd fel, vagy írd be az url-t)"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Markdown Editing Help"
-msgstr "Leárazás szerkesztő sugó"
+msgstr "Leárazás szerkesztő súgó"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Bold (Ctrl+B)"
@@ -3110,14 +3113,15 @@ msgstr "Hiba történt, ismételd meg a keresést."
 
 #: lms/static/js/edxnotes/plugins/accessibility.js
 msgid "Focus grabber"
-msgstr "Középppont"
+msgstr "Középpont"
 
 #: lms/static/js/edxnotes/views/search_box.js
 #: lms/static/js/edxnotes/views/toggle_notes_factory.js
 msgid ""
 "An error has occurred. Make sure that you are connected to the Internet, and "
 "then try refreshing the page."
-msgstr "Hiba történt. Ellenőrizd az internetkapcsolatod és frissítsd az oldalt."
+msgstr ""
+"Hiba történt. Ellenőrizd az internetkapcsolatod és frissítsd az oldalt."
 
 #: lms/static/js/edxnotes/views/search_box.js
 msgid "Please enter a term in the %(anchor_start)s search field%(anchor_end)s."
@@ -3156,7 +3160,7 @@ msgstr "Legutóbbi tevékenységek"
 #: lms/static/js/edxnotes/views/tabs/search_results.js
 msgid "No results found for \"%(query_string)s\". Please try searching again."
 msgstr ""
-"Ar \"%(query_string)s\" keresésre nincs találat. Próbáld újra a keresést"
+"A \"%(query_string)s\" keresésre nincs találat. Próbáld újra a keresést"
 
 #. Translators: this is a title shown before all Notes that have no associated
 #. tags. It is put within
@@ -3238,11 +3242,11 @@ msgstr "A megadott tartalom csoport nem létezik"
 
 #: lms/static/js/groups/views/cohort_form.js
 msgid "The cohort cannot be saved"
-msgstr "A tanulócsoport nem menhető"
+msgstr "A tanulócsoport nem menthető"
 
 #: lms/static/js/groups/views/cohort_form.js
 msgid "The cohort cannot be added"
-msgstr "Tanulócsoport hozzáadása sikertlelen"
+msgstr "Tanulócsoport hozzáadása sikertelen"
 
 #: lms/static/js/groups/views/cohorts.js
 msgid "You currently have no cohorts configured"
@@ -3261,7 +3265,7 @@ msgstr ""
 
 #: lms/static/js/groups/views/cohorts.js
 msgid "Assign students to cohorts by uploading a CSV file."
-msgstr "Rendeld a halgatókat korcsoporthoz egy CSV fájl feltöltésével"
+msgstr "Rendeld a hallgatókat korcsoporthoz egy CSV fájl feltöltésével"
 
 #: lms/static/js/groups/views/cohorts.js
 msgid "Choose a .csv file"
@@ -3535,7 +3539,7 @@ msgstr "Csatlakozás"
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Successfully unlinked."
-msgstr "Skeresen szétkapcsolva"
+msgstr "Sikeresen szétkapcsolva"
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "{platform_name} learners can see my:"
@@ -3570,7 +3574,7 @@ msgid ""
 "Tell other learners a little about yourself: where you live, what your "
 "interests are, why you're taking courses, or what you hope to learn."
 msgstr ""
-"Mesélj a tanulótársaidnak magadról_ hol élsz, mi az érdeklődési köröd, miért "
+"Mesélj a tanulótársaidnak magadról, hol élsz, mi az érdeklődési köröd, miért "
 "jelentkeztél a kurzusra, mit szeretnél tanulni."
 
 #: lms/static/js/student_profile/views/learner_profile_fields.js
@@ -3607,12 +3611,12 @@ msgstr "Képfeltöltési hiba"
 
 #: lms/static/js/verify_student/views/image_input_view.js
 msgid "Please verify that you have uploaded a valid image (PNG and JPEG)."
-msgstr "Ellenőrizd, hogy megfelelő képet töltöttél fel (PNG vagyJPEG)."
+msgstr "Ellenőrizd, hogy megfelelő képet töltöttél fel (PNG vagy JPEG)."
 
 #: lms/static/js/verify_student/views/incourse_reverify_view.js
 #: lms/static/js/verify_student/views/review_photos_step_view.js
 msgid "An error has occurred. Please try again later."
-msgstr "Hia történt. Próbáld meg később."
+msgstr "Hiba történt. Próbáld meg később."
 
 #: lms/static/js/verify_student/views/incourse_reverify_view.js
 #: lms/static/js/verify_student/views/review_photos_step_view.js
@@ -3651,7 +3655,7 @@ msgstr "Fizetés ezzel {processor}"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "An error has occurred. Please try again."
-msgstr "Hia történt. Próbáld meg újra."
+msgstr "Hiba történt. Próbáld meg újra."
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Could not submit order"
@@ -3709,14 +3713,14 @@ msgstr "A fotó rögzítése sikeres"
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "No Flash Detected"
-msgstr "Nem találok Flasht"
+msgstr "Nem találom a Flash kiegészítőt"
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid ""
 "You don't seem to have Flash installed. Get Flash to continue your "
 "verification."
 msgstr ""
-"Flash installáció nem található. Telepítsd a Flasht az ellenőrzés "
+"Flash installáció nem található. Telepítsd a Flash-t az ellenőrzés "
 "folytatásához"
 
 #: lms/static/js/views/fields.js
@@ -3765,7 +3769,7 @@ msgstr "A fájl mérete legalább {size} kell legyen"
 
 #: lms/static/js/views/fields.js
 msgid "The file must be smaller than {size} in size."
-msgstr "A fálj mérete legyen kisebb, mint {size} "
+msgstr "A fájl mérete legyen kisebb, mint {size} "
 
 #: lms/static/js/views/fields.js
 msgid ""
@@ -3828,3 +3832,4 @@ msgstr[1] "%(num_questions)s kérdés"
 #: lms/templates/class_dashboard/d3_stacked_bar_graph.js
 msgid "Number of Students"
 msgstr "Tanulók száma"
+

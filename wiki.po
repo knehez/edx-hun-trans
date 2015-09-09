@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:08+0200\n"
-"PO-Revision-Date: 2015-08-14 17:25+0200\n"
-"Last-Translator: Luke Skywalker\n"
+"PO-Revision-Date: 2015-09-04 21:36+0200\n"
+"Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Generated-By: Babel 1.3\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: wiki/admin.py wiki/models/article.py
 msgid "created"
@@ -41,10 +41,12 @@ msgstr "Írj be néhány szót"
 
 #: wiki/forms.py
 msgid ""
-"This is just the initial contents of your article. After creating it, you can use more complex features "
+"This is just the initial contents of your article. After creating it, you can "
+"use more complex features "
 "like adding plugins, meta data, related articles etc..."
 msgstr ""
-"Ez csak a cikk kezdeti tartalma. Miután létrehoztad, sokkal összetettebb funkciókat is használhatsz, mint "
+"Ez csak a cikk kezdeti tartalma. Miután létrehoztad, sokkal összetettebb "
+"funkciókat is használhatsz, mint "
 "például beépülő modul hozzáadása, meta adatok, kapcsolódó cikkek, stb..."
 
 #: wiki/forms.py
@@ -56,15 +58,19 @@ msgid "Summary"
 msgstr "Összefoglalás"
 
 #: wiki/forms.py
-msgid "Give a short reason for your edit, which will be stated in the revision log."
-msgstr "Röviden írd le, hogy miért módosítottad, ez kerül a revision log fájlba."
+msgid ""
+"Give a short reason for your edit, which will be stated in the revision log."
+msgstr ""
+"Röviden írd le, hogy miért módosítottad, ez kerül a revision log fájlba."
 
 #: wiki/forms.py
 msgid ""
-"While you were editing, someone else changed the revision. Your contents have been automatically merged "
+"While you were editing, someone else changed the revision. Your contents have "
+"been automatically merged "
 "with the new contents. Please review the text below."
 msgstr ""
-"Miközben szerkesztetted valaki felülvizsgálta és megváltoztatta. Az általad változtatott tartalom "
+"Miközben szerkesztetted valaki felülvizsgálta és megváltoztatta. Az általad "
+"változtatott tartalom "
 "hozzáíródik az új tartalomhoz. Kérlek nézd át lentebb a szöveget."
 
 #: wiki/forms.py
@@ -81,10 +87,12 @@ msgstr "Slug - cikk jelölése egy-két szóval"
 
 #: wiki/forms.py
 msgid ""
-"This will be the address where your article can be found. Use only alphanumeric characters and - or _. "
+"This will be the address where your article can be found. Use only "
+"alphanumeric characters and - or _. "
 "Note that you cannot change the slug after creating the article."
 msgstr ""
-"Ez lesz az a cím, ahol a cikk elérhető. Csak betűket, számokat és - vagy _ karaktereket tartalmazhat. "
+"Ez lesz az a cím, ahol a cikk elérhető. Csak betűket, számokat és - vagy _ "
+"karaktereket tartalmazhat. "
 "Figyelem a jelölő nem változtatható meg a cikk létrehozása után."
 
 #: wiki/forms.py
@@ -113,11 +121,15 @@ msgstr "Végleges törlés"
 
 #: wiki/forms.py
 msgid ""
-"Purge the article: Completely remove it (and all its contents) with no undo. Purging is a good idea if "
-"you want to free the slug such that users can create new articles in its place."
+"Purge the article: Completely remove it (and all its contents) with no undo. "
+"Purging is a good idea if "
+"you want to free the slug such that users can create new articles in its "
+"place."
 msgstr ""
-"Cikk végleges törlése: Teljes mértékben eltávolítja a cikket (és annak minden hozzászólását), nem vonható "
-"vissza. A végleges törlés olyankor jó, ha fel akarsz szabadítani egy cikk jelölőt, aminek a helyén a "
+"Cikk végleges törlése: Teljes mértékben eltávolítja a cikket (és annak minden "
+"hozzászólását), nem vonható "
+"vissza. A végleges törlés olyankor jó, ha fel akarsz szabadítani egy cikk "
+"jelölőt, aminek a helyén a "
 "felhasználók új cikket helyezhetnek el."
 
 #: wiki/forms.py wiki/plugins/attachments/forms.py wiki/plugins/images/forms.py
@@ -126,7 +138,8 @@ msgstr "Nem vagy benne eléggé biztos!"
 
 #: wiki/forms.py
 msgid "While you tried to delete this article, it was modified. TAKE CARE!"
-msgstr "Miközben megpróbáltad törölni a cikket, valaki megmódosította. LEGYÉL ÓVATOS!"
+msgstr ""
+"Miközben megpróbáltad törölni a cikket, valaki megmódosította. LEGYÉL ÓVATOS!"
 
 #: wiki/forms.py
 msgid "Lock article"
@@ -157,8 +170,12 @@ msgid "Inherit permissions"
 msgstr "Örökölt jogok"
 
 #: wiki/forms.py
-msgid "Check here to apply the above permissions recursively to articles under this one."
-msgstr "Kattints ide, hogy a fenti jogokat érvényesítsük rekurzívan a cikkre és az alcikkekre."
+msgid ""
+"Check here to apply the above permissions recursively to articles under this "
+"one."
+msgstr ""
+"Kattints ide, hogy a fenti jogokat érvényesítsük rekurzívan a cikkre és az "
+"alcikkekre."
 
 #: wiki/forms.py
 msgid "Permission settings for the article were updated."
@@ -166,7 +183,8 @@ msgstr "A cikk jogosultsági beállításai frissítésre kerültek."
 
 #: wiki/forms.py
 msgid "Your permission settings were unchanged, so nothing saved."
-msgstr "A jogosultság beállításaiban nem történt változás, így nincs mit menteni."
+msgstr ""
+"A jogosultság beállításaiban nem történt változás, így nincs mit menteni."
 
 #: wiki/forms.py
 msgid "No user with that username"
@@ -194,10 +212,12 @@ msgstr "jelenlegi változat"
 
 #: wiki/models/article.py
 msgid ""
-"The revision being displayed for this article. If you need to do a roll-back, simply change the value of "
+"The revision being displayed for this article. If you need to do a roll-back, "
+"simply change the value of "
 "this field."
 msgstr ""
-"A verziószám megjelenik a cikknél. Ha szeretnél egy korábbi verziót látni, akkor változtasd meg ennek a "
+"A verziószám megjelenik a cikknél. Ha szeretnél egy korábbi verziót látni, "
+"akkor változtasd meg ennek a "
 "mezőnek az értékét."
 
 #: wiki/models/article.py
@@ -213,9 +233,12 @@ msgid "owner"
 msgstr "tulajdonos"
 
 #: wiki/models/article.py
-msgid "The owner of the article, usually the creator. The owner always has both read and write access."
+msgid ""
+"The owner of the article, usually the creator. The owner always has both read "
+"and write access."
 msgstr ""
-"A cikk tulajdonosa általában a készítője. A tulajdonosnak mindig van írási és olvasási jogosultsága is."
+"A cikk tulajdonosa általában a készítője. A tulajdonosnak mindig van írási és "
+"olvasási jogosultsága is."
 
 #: wiki/models/article.py
 msgid "group"
@@ -223,10 +246,12 @@ msgstr "csoport"
 
 #: wiki/models/article.py
 msgid ""
-"Like in a UNIX file system, permissions can be given to a user according to group membership. Groups are "
+"Like in a UNIX file system, permissions can be given to a user according to "
+"group membership. Groups are "
 "handled through the Django auth system."
 msgstr ""
-"A UNIX fájlrendszeréhez hasonlóan a jogosultságok kiadhatóak felhasználóra és csoportra is. A csoportokat "
+"A UNIX fájlrendszeréhez hasonlóan a jogosultságok kiadhatóak felhasználóra és "
+"csoportra is. A csoportokat "
 "a Django hitelesítési rendszerén keresztül kezeli."
 
 #: wiki/models/article.py
@@ -298,9 +323,12 @@ msgid "article title"
 msgstr "Cikk címe"
 
 #: wiki/models/article.py
-msgid "Each revision contains a title field that must be filled out, even if the title has not changed"
+msgid ""
+"Each revision contains a title field that must be filled out, even if the "
+"title has not changed"
 msgstr ""
-"Minden felülvizsgálatnak van egy cím mezője, amelyet kötelező kitölteni, akkor is, ha ez a cím nem "
+"Minden felülvizsgálatnak van egy cím mezője, amelyet kötelező kitölteni, "
+"akkor is, ha ez a cím nem "
 "változik."
 
 #: wiki/models/pluginbase.py
@@ -317,10 +345,12 @@ msgstr "A beépülő modul megváltozott"
 
 #: wiki/models/pluginbase.py
 msgid ""
-"The revision being displayed for this plugin.If you need to do a roll-back, simply change the value of "
+"The revision being displayed for this plugin.If you need to do a roll-back, "
+"simply change the value of "
 "this field."
 msgstr ""
-"A verzió megjelenik ehhez a beépülő modulhoz. Ha szükséged van egy megelőző állapotra, akkor változtasd "
+"A verzió megjelenik ehhez a beépülő modulhoz. Ha szükséged van egy megelőző "
+"állapotra, akkor változtasd "
 "meg ennek a mezőnek az értékét."
 
 #: wiki/models/urlpath.py
@@ -360,7 +390,8 @@ msgid ""
 "Articles who lost their parents\n"
 "===============================\n"
 "\n"
-"The children of this article have had their parents deleted. You should probably find a new home for them."
+"The children of this article have had their parents deleted. You should "
+"probably find a new home for them."
 msgstr ""
 "Cikkek, melyek elvesztették a szülő cikküket\n"
 "===============================\n"
@@ -388,8 +419,12 @@ msgid "Click to download file"
 msgstr "Kattints a fájl letöltéséhez"
 
 #: wiki/plugins/attachments/models.py
-msgid "The revision of this attachment currently in use (on all articles using the attachment)"
-msgstr "A csatolmány felülvizsgálata folyamatban van (minden cikknél megtörténik, melyeknek melléklete van)"
+msgid ""
+"The revision of this attachment currently in use (on all articles using the "
+"attachment)"
+msgstr ""
+"A csatolmány felülvizsgálata folyamatban van (minden cikknél megtörténik, "
+"melyeknek melléklete van)"
 
 #: wiki/plugins/attachments/models.py
 msgid "original filename"
@@ -424,8 +459,12 @@ msgid "Your file could not be saved: %s"
 msgstr "A fájl mentése nem sikerült: %s"
 
 #: wiki/plugins/attachments/views.py
-msgid "Your file could not be saved, probably because of a permission error on the web server."
-msgstr "A fájl nem menthető, lehetséges, hogy a web szerver jogosultsági beállításai miatt."
+msgid ""
+"Your file could not be saved, probably because of a permission error on the "
+"web server."
+msgstr ""
+"A fájl nem menthető, lehetséges, hogy a web szerver jogosultsági beállításai "
+"miatt."
 
 #: wiki/plugins/attachments/views.py
 msgid "%s uploaded and replaces old attachment."
@@ -433,10 +472,12 @@ msgstr "%s feltöltve és lecserélve a régi csatolmány"
 
 #: wiki/plugins/attachments/views.py
 msgid ""
-"Your new file will automatically be renamed to match the file already present. Files with different "
+"Your new file will automatically be renamed to match the file already "
+"present. Files with different "
 "extensions are not allowed."
 msgstr ""
-"Az új fájl automatikusan át lesz nevezve, hogy egyezzen a meglévővel. Más kiterjesztéssel rendelkező "
+"Az új fájl automatikusan át lesz nevezve, hogy egyezzen a meglévővel. Más "
+"kiterjesztéssel rendelkező "
 "fájlok nem támogatottak."
 
 #: wiki/plugins/attachments/views.py
@@ -473,9 +514,11 @@ msgstr "Segítség"
 
 #: wiki/plugins/images/forms.py
 msgid ""
-"New image %s was successfully uploaded. You can use it by selecting it from the list of available images."
+"New image %s was successfully uploaded. You can use it by selecting it from "
+"the list of available images."
 msgstr ""
-"%s új kép sikeresen feltöltve. Most már használhatod, ha kiválasztod a rendelkezésre álló képek "
+"%s új kép sikeresen feltöltve. Most már használhatod, ha kiválasztod a "
+"rendelkezésre álló képek "
 "listájából."
 
 #: wiki/plugins/images/forms.py
@@ -599,17 +642,23 @@ msgid "There was an error creating this article."
 msgstr "Hiba történt a cikk létrehozásakor."
 
 #: wiki/views/article.py
-msgid "This article cannot be deleted because it has children or is a root article."
-msgstr "A cikk nem törölhető, mert vannak al-cikkei, vagy fő cikként lett létrehozva."
+msgid ""
+"This article cannot be deleted because it has children or is a root article."
+msgstr ""
+"A cikk nem törölhető, mert vannak al-cikkei, vagy fő cikként lett létrehozva."
 
 #: wiki/views/article.py
-msgid "This article together with all its contents are now completely gone! Thanks!"
+msgid ""
+"This article together with all its contents are now completely gone! Thanks!"
 msgstr "A cikk az összes tartalmával együtt eltűnt! Köszönjük!"
 
 #: wiki/views/article.py
 msgid ""
-"The article \"%s\" is now marked as deleted! Thanks for keeping the site free from unwanted material!"
-msgstr " \"%s\" cikk törlésre megjelölve! Köszönjük, hogy a nem kívánt tartalmaktól megtisztítod a site-ot."
+"The article \"%s\" is now marked as deleted! Thanks for keeping the site free "
+"from unwanted material!"
+msgstr ""
+" \"%s\" cikk törlésre megjelölve! Köszönjük, hogy a nem kívánt tartalmaktól "
+"megtisztítod a site-ot."
 
 #: wiki/views/article.py
 msgid "Your changes were saved."
@@ -640,5 +689,8 @@ msgid "Merge between Revision #%(r1)d and Revision #%(r2)d"
 msgstr "#%(r1)d és  #%(r2)d verziók összefűzése"
 
 #: wiki/views/article.py
-msgid "A new revision was created: Merge between Revision #%(r1)d and Revision #%(r2)d"
-msgstr "Új véltozat létrehozva: #%(r1)d és  #%(r2)d változatok összefűzve"
+msgid ""
+"A new revision was created: Merge between Revision #%(r1)d and Revision #%"
+"(r2)d"
+msgstr "Új változat létrehozva: #%(r1)d és  #%(r2)d változatok összefűzve"
+
