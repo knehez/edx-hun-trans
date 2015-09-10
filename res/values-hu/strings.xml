@@ -69,7 +69,7 @@
 
     <!-- Data Usage Dialog -->
     <!-- Alert dialog error message shown when using a feature with a required internet connection -->
-    <string name="need_data">Ehhez a funkcióhot internet kapcsolat szükséges.</string>
+    <string name="need_data">Ehhez a funkcióhoz internet kapcsolat szükséges.</string>
     <!-- Alert dialog okay button -->
     <string name="play_data_dialog_OK">OK</string>
     <!-- Alert dialog cancel button -->
@@ -141,7 +141,7 @@
     <string name="wifi_dialog_title_help">Letöltés telefonos adatforgalommal</string>
     <!-- Password reset sent succesfully alert -->
     <string name="success_dialog_message_help">A jelszó helyreállításának lépéseiről e-mailt küldtünk. 
-        Ha nem látod a beérkező leveleid kötött pár perc múlva, nétd meg a levélszemét mappában is.</string>
+        Ha nem látod a beérkező leveleid kötött pár perc múlva, nézd meg a levélszemét mappában is.</string>
     <!-- Password reset dialog prompt -->
     <string name="confirm_dialog_message_help">Add meg az fiókod e-mail címét és a jelszó helyreállításáról e-mailt küldtünk.</string>
     <!-- Label explaining toggle for cellular data access -->
@@ -150,14 +150,14 @@
     <string name="delete_dialog_title_help">Törlés megerősítése</string>
     <plurals name="delete_video_dialog_msg">
         <item quantity="one">Biztos, hogy törlöd a videót?</item>
-        <item quantity="other">ABiztos, hogy törlöd a videókat?</item>
+        <item quantity="other">Biztos, hogy törlöd a videókat?</item>
     </plurals>
     <!-- Alert dialog button label -->
     <string name="delete_successful_dialog_title_help">Törlés</string>
     <!-- Alert dialog title for users with zero rated data -->
-    <string name="leaving_app_data_title">MeMOOC app ehagyása</string>
+    <string name="leaving_app_data_title">MeMOOC app elhagyása</string>
     <!-- Alert dialog content for users with zero rated data -->
-    <string name="leaving_app_data_message">He elhagyod a MeMooc alkalmazást, akkor az ingyenes tartalmakat nem látod. Figyelem, ez költségekkel járhat!.</string>
+    <string name="leaving_app_data_message">Ha elhagyod a MeMooc alkalmazást, akkor az ingyenes tartalmakat nem látod. Figyelem, ez költségekkel járhat!</string>
 
     <!-- Reset Dialog Fragment Place Holder messages -->
     <string name="reset_dialog_title">Alaphelyzet</string>
@@ -178,7 +178,7 @@
     <!-- NOTE: TODO - not final one -->
     <string name="discussion_subtitle">Csatlakozz a Fórumhoz</string>
     <!-- Row of Handouts on dashboard screen -->
-    <string name="handouts_title">Kéziratok</string>
+    <string name="handouts_title">Jegyzetek</string>
     <!-- Row of Handouts on dashboard screen -->
     <!-- NOTE: TODO - not final one -->
     <string name="handouts_subtitle">Fontos kurzus információk</string>
@@ -237,7 +237,7 @@
     <!-- Tab title for course handouts section -->
     <string name="tab_label_handouts">Jegyzetek</string>
     <!-- Tab title for course info section -->
-    <string name="tab_label_course_info">Kurzus info</string>
+    <string name="tab_label_course_info">Kurzus infó</string>
     <!-- Button for last accessed course section. Will be followed by course name -->
     <string name="last_accessed">Utolsó megtekintés</string>
     <!-- Label shown when no courseware content is available -->
@@ -286,7 +286,7 @@
 
 
     <!-- Label for warning message of graded assessment -->
-    <string name="assessment_graded_warning">Azt javasoljuk, az osztályozott komponenseket használd a <i>weben</i> amíg a mobil eszközön nincs támogatása.</string>
+    <string name="assessment_graded_warning">Azt javasoljuk, az osztályozott komponenseket használd a <i>weben</i>, amíg a mobil eszközön nem elérhető.</string>
 
     <!-- Video List -->
     <!-- Label shown to indicate video currently downloading -->
@@ -351,7 +351,7 @@
 
     <!-- Wifi New Message -->
     <!-- Toggle to allow downloads using cellular data -->
-    <string name="allow">Engedlyez</string>
+    <string name="allow">Engedélyez</string>
     <!-- Toggle to disallow downloads using cellular data -->
     <string name="do_not_allow">Tilt</string>
 
@@ -407,7 +407,7 @@
     <!-- Message on study groups screen encouraging users to create a group -->
     <string name="empty_groups_msg">Hozz létre tanulócsoportokat a barátaiddal, maradj motivált, tanulj többet, végezd el a kurzusaidat!</string>
     <!-- Message on study groups screen indicating requirement -->
-    <string name="empty_groups_msg2">Ehhez a Facebook fiókoddat meg kell adnod</string>
+    <string name="empty_groups_msg2">Ehhez a Facebook fiókodat meg kell adnod</string>
     <!-- Message shown after creating a study group -->
     <string name="group_created">Csoport létrehozva</string>
     <!-- Message shown after inviting friends to a study group -->
@@ -493,7 +493,7 @@
     <string name="register_title">Belépés a MeMOOC rendszerbe</string>
     <!-- Text for successful registration with social token  -->
     <string name="sign_up_with_facebook_ok">Sikeresen beléptél Facebook fiókkal.</string>
-    <string name="sign_up_with_google_ok">Sikeresen beléptél with Google fiókkal.</string>
+    <string name="sign_up_with_google_ok">Sikeresen beléptél Google fiókkal.</string>
     <string name="sign_up_with_social_ok">Kicsit több infóra lesz szükséged a MeMOOC elkezdéséhez.</string>
     <!-- Continue registration after social login -->
     <string name="complete_registration">Regisztráció befejezése</string>
@@ -512,7 +512,7 @@
     <!-- Alert dialog title shown for users whose in app data is zero rated, when they follow a link outside the app -->
     <string name="open_external_url_title">Adatforgalmi költségekkel járhat</string>
     <!-- Alert dialog content shown for users whose in app data is zero rated, when they follow a link outside the app -->
-    <string name="open_external_url_desc">Ez a link a böngésződben nyílik meg. Ez Adatforgalmi költségekkel járhat.</string>
+    <string name="open_external_url_desc">Ez a link a böngésződben nyílik meg. Ez adatforgalmi költségekkel járhat.</string>
 
     <!-- Message shown when user tries to view course handouts, but none are loaded and the user is offline -->
     <string name="offline_handouts_text">Offline módban vagy. A jegyzetek letöltéséhez kapcsolódj az internetre.</string>
