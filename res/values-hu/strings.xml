@@ -211,7 +211,7 @@
     <!-- List for table listing courses friends are in -->
     <string name="label_my_friends_courses">Barátaim kurzusai</string>
     <!-- Label on course indicating that user earned a certificate in that course -->
-    <string name="course_banner_certified">Megszerzett bizonyítványok</string>
+    <string name="course_banner_certified">Megszerzett bizonyítvány</string>
     <!-- Header ror list of users' friends enrolled in a course -->
     <string name="course_friends_also_enrolled">Barátaim ezen a kurzuson</string>
 
