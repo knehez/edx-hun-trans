@@ -134,7 +134,7 @@
     <!-- Reset password alert dialog title -->
     <string name="confirm_dialog_title_help">Jelszó helyreállítás</string>
     <!-- Reset password alert dialog message -->
-    <string name="success_dialog_title_help">A jelszó helyreállításáról e-mailt küldtünk</string>
+    <string name="success_dialog_title_help">A jelszó helyreállításáról e-mailt kapsz</string>
     <!-- Reset password alert dialog title -->
     <string name="title_reset_password_failed">Jelszó helyreállítás hiba</string>
     <!-- Label for switch controlling whether users permit downloading using cellular data or only wifi -->
@@ -458,7 +458,7 @@
     <!-- Message shown when linking to the external course list when in app course registration is not enabled -->
     <string name="find_courses_dialog_text_1">A tantárgyfelvétel mobil alkalmazásban nem engedélyezett.</string>
     <!-- Message shown when linking to the external course list when in app course registration is not enabled -->
-    <string name="find_courses_dialog_text_2">De addig is, &lt;b&gt;felveheted a kurzusokat a weboldalon&lt;/b&gt; - lépj be, vedd fel a kurzust és gyere vissza.</string>
+    <string name="find_courses_dialog_text_2">De addig is, &lt;b&gt;felveheted a kurzusokat a weboldalon&lt;/b&gt; - regisztrálj, vedd fel a kurzust és gyere vissza.</string>
     <!-- Title of find course screen -->
     <string name="find_courses_title">Kurzus keresése</string>
     <!-- Message shown when attempting to find courses with no internet connection -->
@@ -472,7 +472,7 @@
     <!-- Prompt leading user to sign in screen -->
     <string name="already_have_an_account">Már van fiókod? Lépj be</string>
     <!-- Prompt leading user to create account screen -->
-    <string name="sign_up_and_learn">Lépj be és kezdj tanulni</string>
+    <string name="sign_up_and_learn">Regisztrálj</string>
     <!-- In Sign up screen -->
     <string name="sign_up_with">Belépés</string>
     <!-- In Sign up screen -->
