@@ -101,8 +101,8 @@
     <!-- Button text allowing a user to go to the register screen -->
     <string name="new_user">Nincs felhasználói fiókod?</string>
     <string name="by_signing_up">A belépéssel elfogadod a </string>
-    <string name="licensing_agreement">MeMooc felhasználási feltételeit és szabályzatát</string>
-    <string name="login_title">Belépés a MeMooc rendszerbe</string>
+    <string name="licensing_agreement">MeMOOC felhasználási feltételeit és szabályzatát</string>
+    <string name="login_title">Belépés a MeMOOC rendszerbe</string>
 
     <!-- Navigation Drawer Labels -->
     <!-- Button text to show user Settings screen -->
@@ -157,7 +157,7 @@
     <!-- Alert dialog title for users with zero rated data -->
     <string name="leaving_app_data_title">MeMOOC app elhagyása</string>
     <!-- Alert dialog content for users with zero rated data -->
-    <string name="leaving_app_data_message">Ha elhagyod a MeMooc alkalmazást, akkor az ingyenes tartalmakat nem látod. Figyelem, ez költségekkel járhat!</string>
+    <string name="leaving_app_data_message">Ha elhagyod a MeMOOC alkalmazást, akkor az ingyenes tartalmakat nem látod. Figyelem, ez költségekkel járhat!</string>
 
     <!-- Reset Dialog Fragment Place Holder messages -->
     <string name="reset_dialog_title">Alaphelyzet</string>
