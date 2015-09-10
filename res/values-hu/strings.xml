@@ -193,13 +193,13 @@
     <string name="course_outline">Kurzus vázlat</string>
 
     <!-- Accessible content description of image for a course -->
-    <string name="course_image"Kurzus kép</string>
+    <string name="course_image">Kurzus kép</string>
     <!-- Accessible content description of school code label a course -->
     <string name="school_code">Szervezet kód</string>
     <!-- Accessible content description of course code label for a course -->
-    <string name="course_code"Kurzus kód</string>
+    <string name="course_code">Kurzus kód</string>
     <!-- Accessible content description of course name label field -->
-    <string name="course_name">Kurzsu név</string>
+    <string name="course_name">Kurzus név</string>
     <!-- Label indicating new course content has been downloaded -->
     <string name="new_course_content">Új tananyag</string>
     <!-- Label for date when course starts -->
@@ -223,7 +223,7 @@
     <string name="course_view_mode_full_course">Teljes kurzus</string>
 
     <!-- Label for the menu popup for viewing the course on the web -->
-    <string name="course_view_on_web">Nézd a weben/string>
+    <string name="course_view_on_web">Nézd a weben</string>
 
     <!-- Course Details -->
     <!-- Accessible content description of label for course content -->
@@ -413,129 +413,129 @@
     <!-- Message shown after inviting friends to a study group -->
     <string name="friends_invited">Barátok meghívása kész</string>
     <!-- Button title for action that allows users to share this app -->
-    <string name="btn_share_app">Tell your friends about edX</string>
+    <string name="btn_share_app">A MeMOOC megosztása a barátaiddal</string>
     <!-- Header for social friends list -->
-    <string name="friends_with_edx_accounts">Friends with edX accounts</string>
+    <string name="friends_with_edx_accounts">Barátaid MeMOOC fiókkal</string>
     <!-- Header for friends search -->
-    <string name="search_results">Search results</string>
+    <string name="search_results">Keresés eredménye</string>
     <!-- Button allowing a user to search for friends -->
-    <string name="friends_search">Search</string>
+    <string name="friends_search">Keresés</string>
     <!-- Button text to complete an action -->
-    <string name="done_text">Done</string>
+    <string name="done_text">Kész</string>
     <!-- Label indicating unread actions. Argument is a count -->
-    <string name="unread_text">{unread_count} Unread</string>
+    <string name="unread_text">{unread_count} olvasatlan</string>
     <!-- Label indicating number of members in a study group Argument is a count -->
-    <string name="group_summary_count">Group Members ({members})</string>
+    <string name="group_summary_count">Csoport tagok ({members})</string>
     <!-- Label indicating a user has no friends in a study group -->
-    <string name="group_summary_no_friends">You do not have any friends in this group</string>
+    <string name="group_summary_no_friends">Nincs a tanulócsoportban barátod</string>
     <!-- Alert dialog title when a user without facebook performs an action that requires Facebook -->
-    <string name="dialog_fbinstall_title">Facebook Required</string>
+    <string name="dialog_fbinstall_title">Facebook szükséges</string>
     <!-- Alert dialog message when a user without facebook performs an action that requires Facebook -->
-    <string name="dialog_fbinstall_msg">That feature requires the facebook app to be installed</string>
+    <string name="dialog_fbinstall_msg">Ehhez Facebook app szükséges</string>
     <!-- Alert dialog button action to open up the google play store -->
-    <string name="dialog_fbinstall_positive">Show in Google Play</string>
+    <string name="dialog_fbinstall_positive">Megmutat Google Play áruházban</string>
 
     <!-- My Groups -->
 
     <!-- Button label to bring up course finder -->
-    <string name="find_course_text">Looking for a new challenge?</string>
+    <string name="find_course_text">Új kihívásokat keresel?</string>
     <!-- Button label to bring up course finder -->
-    <string name="find_course_btn_text">Find a mobile-friendly course</string>
+    <string name="find_course_btn_text">Keress egy mobil-barát kurzust</string>
     <!-- Button label to bring up course finder -->
-    <string name="signin_with_text">signing in to this app in with</string>
+    <string name="signin_with_text">Belépés az alkalmazásba</string>
     <!-- Message between sign in button and social login buttons -->
-    <string name="or_sign_in_with">Or sign in with</string>
+    <string name="or_sign_in_with">vagy belépés</string>
     <!-- Facebook login method -->
     <string name="facebook_text">Facebook</string>
     <!-- Google login method -->
     <string name="google_text">Google</string>
     <!-- Message on course list -->
-    <string name="course_not_listed_text">Don\'t see one of your courses?</string>
+    <string name="course_not_listed_text">Nem találod a kurzusodat?</string>
     <!-- Message on course page for course that hasn't started -->
-    <string name="course_content_available_text">This course hasn\'t started yet. Come back on {start_time} to see your videos.</string>
+    <string name="course_content_available_text">A kurzus még nem kezdődött meg. A kezdő dátum {start_time}. </string>
     <!-- Button text, allowing user to open the edx website in a web browser -->
-    <string name="open_edx_btn_text">Open edx.org in my browser</string>
+    <string name="open_edx_btn_text">A MeMOOC.hu megnyitása a böngészőben</string>
     <!-- Message shown when linking to the external course list when in app course registration is not enabled -->
-    <string name="find_courses_dialog_text_1">Our team is currently working hard to let you enroll in courses within the app.</string>
+    <string name="find_courses_dialog_text_1">A tantárgyfelvétel mobil alkalmazásban nem engedélyezett.</string>
     <!-- Message shown when linking to the external course list when in app course registration is not enabled -->
-    <string name="find_courses_dialog_text_2">In the meantime, &lt;b&gt;you can enroll in courses through our website&lt;/b&gt; - you\'ll need to log in, enroll, and then return to the app when you\'re done.</string>
+    <string name="find_courses_dialog_text_2">De addig is, &lt;b&gtfelveheted a kurzusokat a weboldalon&lt;/b&gt; - lépj be, vedd fel a kurzust és gyere vissza.</string>
     <!-- Title of find course screen -->
-    <string name="find_courses_title">Find Courses</string>
+    <string name="find_courses_title">Kurzus keresése</string>
     <!-- Message shown when attempting to find courses with no internet connection -->
-    <string name="find_courses_offline_text">You are in offline mode.\nTo find courses, connect to the internet.</string>
+    <string name="find_courses_offline_text">Offline módban vagy.\nA kereséshez csatlakozz az internetre.</string>
     <!-- Prompt allowing user to choose email program -->
-    <string name="email_chooser_header">Send email using...</string>
+    <string name="email_chooser_header">E-mail küldése...</string>
     <!-- Error shown when user attempts to send email, but has no email app -->
-    <string name="email_client_not_present">No e-mail clients installed</string>
+    <string name="email_client_not_present">Nincs e-mail kliens telepítve</string>
 
     <!-- Landing Activity text -->
     <!-- Prompt leading user to sign in screen -->
-    <string name="already_have_an_account">Already have an account? Sign in</string>
+    <string name="already_have_an_account">Már van fiókod? Lépj be</string>
     <!-- Prompt leading user to create account screen -->
-    <string name="sign_up_and_learn">Sign up and start learning</string>
+    <string name="sign_up_and_learn">Lépj be és kezdj tanulni</string>
     <!-- In Sign up screen -->
-    <string name="sign_up_with">Sign up with</string>
+    <string name="sign_up_with">Belépés</string>
     <!-- In Sign up screen -->
-    <string name="or_sign_up_with_email">or sign up with email</string>
+    <string name="or_sign_up_with_email">vagy belépés e-mail címmel</string>
 
     <!-- Registration Screen -->
     <!-- Create account agreement. Followed by list of agreement names like "End User License Agreement" -->
-    <string name="by_creating_account">By creating an edX account, you agree to the </string>
+    <string name="by_creating_account">A MeMOOC fiók létrehozásával, elfogadod </string>
     <!-- Button text allowing user to show hidden optional registration fields -->
-    <string name="show_optional_text">Show optional fields</string>
+    <string name="show_optional_text">Nem kötelező mezők megmutatása</string>
     <!-- Button text allowing user to hide visible optional registration fields -->
-    <string name="hide_optional_text">Hide optional fields</string>
+    <string name="hide_optional_text">Nem kötelező mezők elrejtése</string>
     <!-- Button text allowing user create an account -->
-    <string name="create_account_text">Create my account</string>
+    <string name="create_account_text">Fiók létrehozása</string>
     <!-- Text shown while waiting for registration request -->
-    <string name="creating_account_text">Creating account...</string>
+    <string name="creating_account_text">Fiók létrehozása...</string>
     <!-- Registration screen title -->
-    <string name="register_title">Sign up for edX</string>
+    <string name="register_title">Belépés a MeMOOC rendszerbe</string>
     <!-- Text for successful registration with social token  -->
-    <string name="sign_up_with_facebook_ok">You\'ve successfully signed in with Facebook.</string>
-    <string name="sign_up_with_google_ok">You\'ve successfully signed in with Google.</string>
-    <string name="sign_up_with_social_ok">We just need a little more information before you start learning with edX.</string>
+    <string name="sign_up_with_facebook_ok">Sikeresen beléptél Facebook fiókkal.</string>
+    <string name="sign_up_with_google_ok">Sikeresen beléptél with Google fiókkal.</string>
+    <string name="sign_up_with_social_ok">Kicsit több infóra lesz szükséged a MeMOOC elkezdéséhez.</string>
     <!-- Continue registration after social login -->
-    <string name="complete_registration">Complete your registration</string>
+    <string name="complete_registration">Regisztráció befejezése</string>
     <!-- Message shown when enrolling in a course fails-->
-    <string name="enrollment_failure">We could not enroll you in this course at this time.</string>
+    <string name="enrollment_failure">Most nem tudod felvenni ezt a kurzust.</string>
     <!-- Alert dialog button allowing user to repeat their attempted action -->
-    <string name="try_again">Try Again</string>
+    <string name="try_again">Próbáld újra</string>
     <!-- Floating overlay text shown to user when they succeed at enrolling in a course -->
-    <string name="you_are_now_enrolled">You have enrolled in this course</string>
+    <string name="you_are_now_enrolled">Felvetted a kurzust</string>
     <!-- Error shown user attempts to enroll in a course they are already enrolled in -->
-    <string name="already_enrolled">You are already enrolled in this course</string>
+    <string name="already_enrolled">Már felvetted a kurzust</string>
     <!-- Error shown when registering an account fails -->
-    <string name="sign_up_error">Your account could not be created. Try again later.</string>
+    <string name="sign_up_error">A fiók létrehozása nem sikerült Próbáld újra később.</string>
 
     <!-- data charges may apply dialog text -->
     <!-- Alert dialog title shown for users whose in app data is zero rated, when they follow a link outside the app -->
-    <string name="open_external_url_title">Data charges may apply</string>
+    <string name="open_external_url_title">Adatforgalmi költségekkel járhat</string>
     <!-- Alert dialog content shown for users whose in app data is zero rated, when they follow a link outside the app -->
-    <string name="open_external_url_desc">This link will open in your mobile browser, and you may incur additional data charges.</string>
+    <string name="open_external_url_desc">Ez a link a böngésződben nyílik meg. Ez Adatforgalmi költségekkel járhat.</string>
 
     <!-- Message shown when user tries to view course handouts, but none are loaded and the user is offline -->
-    <string name="offline_handouts_text">You are in offline mode. To view handouts, connect to the internet.</string>
+    <string name="offline_handouts_text">Offline módban vagy. A jegyzetek letöltéséhez kapcsolódj az internetre.</string>
     <string name="android">Android</string>
 
     <!--  Email subject line when user attempts to submit feedback about the app -->
-    <string name="email_subject">Customer Feedback</string>
+    <string name="email_subject">Visszajelzés</string>
 
     <!-- Message indicating num of video deleted-->
     <plurals
         name="deleted_video">
         <!-- Message indicating one video deleted. {video_count} is 1-->
-        <item quantity="one">{video_count} video deleted </item>
+        <item quantity="one">{video_count} videó törölve</item>
         <!-- Message indicating more than one video deleted. {video_count} is number of videos deleted-->
-        <item quantity="other">{video_count} videos deleted</item>
+        <item quantity="other">{video_count} videó törölve</item>
     </plurals>
 
     <!-- Notification related -->
     <!-- Template for notification title -->
-    <string name="COURSE_ANNOUNCEMENT_NOTIFICATION_TITLE">New Announcement</string>
+    <string name="COURSE_ANNOUNCEMENT_NOTIFICATION_TITLE">Új hirdetmény</string>
     <!-- toggle between subscribe and unsubscribe to course announcement -->
-    <string name="notification_toggle">Allow Notifications</string>
+    <string name="notification_toggle">Hirdetmények megjelenítése</string>
     <!-- Placeholder title for course content with no title -->
-    <string name="untitled_block">Untitled</string>
+    <string name="untitled_block">Nincs cím</string>
 
 </resources>
