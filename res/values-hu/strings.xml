@@ -458,7 +458,7 @@
     <!-- Message shown when linking to the external course list when in app course registration is not enabled -->
     <string name="find_courses_dialog_text_1">A tantárgyfelvétel mobil alkalmazásban nem engedélyezett.</string>
     <!-- Message shown when linking to the external course list when in app course registration is not enabled -->
-    <string name="find_courses_dialog_text_2">De addig is, &lt;b&gtfelveheted a kurzusokat a weboldalon&lt;/b&gt; - lépj be, vedd fel a kurzust és gyere vissza.</string>
+    <string name="find_courses_dialog_text_2">De addig is, &lt;b&gt;felveheted a kurzusokat a weboldalon&lt;/b&gt; - lépj be, vedd fel a kurzust és gyere vissza.</string>
     <!-- Title of find course screen -->
     <string name="find_courses_title">Kurzus keresése</string>
     <!-- Message shown when attempting to find courses with no internet connection -->
