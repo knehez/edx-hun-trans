@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-06 18:53+0200\n"
+"PO-Revision-Date: 2015-09-11 16:22+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -1390,7 +1390,7 @@ msgstr ""
 
 #: lms/templates/register.html
 msgid "Needed for any certificates you may earn"
-msgstr ""
+msgstr "A bizonyítványhoz szükséges"
 
 #: lms/templates/register.html
 msgid "cannot be changed later"
@@ -2208,7 +2208,7 @@ msgstr ""
 
 #: lms/templates/ccx/schedule.html
 msgid "Set date"
-msgstr ""
+msgstr "Dátum megadása"
 
 #: lms/templates/ccx/schedule.html
 msgid "Save changes"
@@ -2312,7 +2312,7 @@ msgstr "Helytelen tanúsítványszám"
 
 #: lms/templates/certificates/invalid.html
 msgid "This Certificate Does Not Exist"
-msgstr ""
+msgstr "A bizonyítvány nem létezik"
 
 #: lms/templates/certificates/invalid.html
 msgid ""
@@ -2321,7 +2321,7 @@ msgstr ""
 
 #: lms/templates/certificates/invalid.html
 msgid "Looking for a Particular Certificate?"
-msgstr ""
+msgstr "Egy bizonyítványt keresel ?"
 
 #: lms/templates/certificates/invalid.html
 msgid ""
@@ -3037,11 +3037,11 @@ msgstr ""
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/instructor_analytics.html
 msgid "Problem"
-msgstr ""
+msgstr "Feladat"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Points Earned (Num Students)"
@@ -3217,7 +3217,7 @@ msgstr "'{username}' ({email}) tanuló eredményei"
 
 #: lms/templates/courseware/progress.html
 msgid "Your certificate is available"
-msgstr ""
+msgstr "A bizonyítványod elkészült"
 
 #: lms/templates/courseware/progress.html
 msgid ""
@@ -3227,19 +3227,19 @@ msgstr ""
 
 #: lms/templates/courseware/progress.html
 msgid "View certificate in a new browser window or tab."
-msgstr ""
+msgstr "Tekintsd meg a bizonyítványt egy új böngésző ablakban vagy fülön"
 
 #: lms/templates/courseware/progress.html
 msgid "View Certificate"
-msgstr ""
+msgstr "Bizonyítvány megtekintése"
 
 #: lms/templates/courseware/progress.html
 msgid "PDF will open in a new browser window or tab."
-msgstr ""
+msgstr "A PFD új browser ablakban vagy tabon nyílik meg"
 
 #: lms/templates/courseware/progress.html
 msgid "Download Your Certificate"
-msgstr ""
+msgstr "Töltsd le a bizonyítványod"
 
 #: lms/templates/courseware/progress.html
 msgid "We're working on it..."
@@ -3255,7 +3255,7 @@ msgstr ""
 
 #: lms/templates/courseware/progress.html
 msgid "Congratulations, you qualified for a certificate!"
-msgstr ""
+msgstr "Gratulálunk, bizonyítványt szereztél"
 
 #: lms/templates/courseware/progress.html
 msgid ""
@@ -3264,7 +3264,7 @@ msgstr ""
 
 #: lms/templates/courseware/progress.html
 msgid "Request Certificate"
-msgstr ""
+msgstr "Bizonyítvány kérése"
 
 #: lms/templates/courseware/progress.html
 msgid "Requirements for Course Credit"
@@ -3356,7 +3356,7 @@ msgstr "A végső minősítésed:"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Grade required for a {cert_name_short}:"
-msgstr ""
+msgstr "Osztályzat szükséges ehhez: {cert_name_short}:"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
@@ -3383,11 +3383,11 @@ msgstr "{cert_name_short} generálása"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "This link will open the certificate web view"
-msgstr ""
+msgstr "A link megnyitja a bizonyítványt"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "View {cert_name_short}"
-msgstr ""
+msgstr "{cert_name_short} megtekintés"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "This link will open/download a PDF document"
@@ -3395,7 +3395,7 @@ msgstr "Ez a link megnyit/letölt egy PDF fájlt."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download {cert_name_short} (PDF)"
-msgstr ""
+msgstr "{cert_name_short} letöltése (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your {cert_name_short} (PDF)"
@@ -3793,7 +3793,7 @@ msgstr ""
 #. Translators: This labels a sort menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html
 msgid "Sort:"
-msgstr ""
+msgstr "Rendezés"
 
 #. Translators: This is a menu option for sorting forum threads
 #: lms/templates/discussion/_thread_list_template.html
@@ -4082,7 +4082,7 @@ msgstr ""
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Mark as Answer"
-msgstr ""
+msgstr "Válaszként megjelöl"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Unmark as Answer"
@@ -4106,7 +4106,7 @@ msgstr ""
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Report"
-msgstr ""
+msgstr "Jelentés"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Unreport"
@@ -5047,27 +5047,27 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Example Certificates"
-msgstr ""
+msgstr "Minta bizonyítvány"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Generate example certificates for the course."
-msgstr ""
+msgstr "Minta bizonyítvány generálása a kurzushoz"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Generate Example Certificates"
-msgstr ""
+msgstr "Minta bizonyítvány generálása"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Generating example {name} certificate"
-msgstr ""
+msgstr "{name} minta bizonyítvány generálása"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Error generating example {name} certificate: {error}"
-msgstr ""
+msgstr "Hiba történt {name} nevű bizonyítvány generálásakor: {error}"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "View {name} certificate"
-msgstr ""
+msgstr "{name} bizonyítvány megtekintése"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Refresh Status"
@@ -5093,11 +5093,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Generate Certificates"
-msgstr ""
+msgstr "Bizonyítvány generálása"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Pending Tasks"
-msgstr ""
+msgstr "Függő feladatok"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
@@ -6812,7 +6812,7 @@ msgstr ""
 
 #: lms/templates/shoppingcart/download_report.html
 msgid "Start Date: "
-msgstr ""
+msgstr "Kezdő dátum:"
 
 #: lms/templates/shoppingcart/download_report.html
 msgid "End Date: "
