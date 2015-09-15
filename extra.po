@@ -92,4 +92,14 @@ msgstr "Miskolci Egyetem"
 msgid "Search our courses"
 msgstr "Keress a kurzusok között"
 
+msgid "Higher vocational training"
+msgid "Felsőfokú szakképzés (FOSZ) modulok"
 
+msgid "Teasers"
+msgid "Kedvcsináló kurzusok"
+
+msgid "Started"
+msgid "Elkezdődött"
+
+msgid "Ended"
+msgid "Befejezett"
