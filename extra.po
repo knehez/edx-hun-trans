@@ -93,16 +93,16 @@ msgid "Search our courses"
 msgstr "Keress a kurzusok között"
 
 msgid "Higher vocational training"
-msgid "Felsőfokú szakképzés (FOSZ) modulok"
+msgstr "Felsőfokú szakképzés (FOSZ) modulok"
 
 msgid "Teasers"
-msgid "Kedvcsináló kurzusok"
+msgstr "Kedvcsináló kurzusok"
 
 msgid "Started"
-msgid "Elkezdődött"
+msgstr "Elkezdődött"
 
 msgid "Ended"
-msgid "Befejezett"
+msgstr "Befejezett"
 
 msgid "Starting"
-msgid "Indulás"
+msgstr "Indulás"
