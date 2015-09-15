@@ -103,3 +103,6 @@ msgid "Elkezdődött"
 
 msgid "Ended"
 msgid "Befejezett"
+
+msgid "Starting"
+msgid "Indulás"
