@@ -1,7 +1,7 @@
 # edX translation file
 # Copyright (C) 2013 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
 # petermolnar.hu <peter@petermolnar.hu>, 2014
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: translation_team@edx.org\n"
 "POT-Creation-Date: 2013-05-02 13:13-0400\n"
-"PO-Revision-Date: 2015-06-25 19:31+0000\n"
+"PO-Revision-Date: 2015-09-21 19:16+0200\n"
 "Last-Translator: petermolnar.hu <peter@petermolnar.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/edx-platform/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.4\n"
 
 # empty
 msgid "This is a key string."
-msgstr "Ez egy kulcs karaktersorozat."
+msgstr "Ez egy kulcs-karaktersorozat."

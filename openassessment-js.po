@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-06 04:16-0500\n"
-"PO-Revision-Date: 2015-08-14 16:40+0200\n"
+"PO-Revision-Date: 2015-09-21 19:24+0200\n"
 "Last-Translator: Oliver Hornyak <ohornyak@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/edx-platform/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: openassessment/xblock/static/js/src/oa_server.js:68 openassessment/xblock/static/js/src/oa_server.js:112
 #: openassessment/xblock/static/js/src/oa_server.js:131
 msgid "This section could not be loaded."
-msgstr "Ezt a fejezetet nem sikerült beölteni."
+msgstr "Ezt a fejezetet nem sikerült betölteni."
 
 #: openassessment/xblock/static/js/openassessment-lms.min.js:1 openassessment/xblock/static/js/openassessment-studio.min.js:1
 #: openassessment/xblock/static/js/src/oa_server.js:166
@@ -50,7 +50,7 @@ msgstr "Az értékelés elküldése nem sikerült."
 #: openassessment/xblock/static/js/openassessment-lms.min.js:1 openassessment/xblock/static/js/openassessment-studio.min.js:1
 #: openassessment/xblock/static/js/src/oa_server.js:419
 msgid "One or more rescheduling tasks failed."
-msgstr "Egy, vagy több átütemezési feladat meghiúsult."
+msgstr "Egy vagy több átütemezési feladat meghiúsult."
 
 #: openassessment/xblock/static/js/openassessment-lms.min.js:1 openassessment/xblock/static/js/openassessment-studio.min.js:1
 #: openassessment/xblock/static/js/src/oa_server.js:468
@@ -107,7 +107,7 @@ msgstr "Hiba"
 
 #: openassessment/xblock/static/js/openassessment-lms.min.js:1 openassessment/xblock/static/js/src/lms/oa_response.js:454
 msgid "You're about to submit your response for this assignment. After you submit this response, you can't change it or submit a new response."
-msgstr "Miután beküldted a feladatodat nem változtathatod meg és nem küldhetsz be új választ."
+msgstr "Miután beküldted a feladatodat, nem változtathatod meg és nem küldhetsz be új választ."
 
 #: openassessment/xblock/static/js/openassessment-lms.min.js:1 openassessment/xblock/static/js/src/lms/oa_response.js:478
 msgid "File size must be 5MB or less."
@@ -115,7 +115,7 @@ msgstr "A fájl mérete maximum 5MB lehet."
 
 #: openassessment/xblock/static/js/openassessment-lms.min.js:1 openassessment/xblock/static/js/src/lms/oa_response.js:482
 msgid "File must be an image."
-msgstr "A fájlnak kép fájlnak kell lennie."
+msgstr "A fájlnak képfájlnak kell lennie."
 
 #: openassessment/xblock/static/js/openassessment-studio.min.js:1 openassessment/xblock/static/js/src/studio/oa_container_item.js:39
 msgid "Unnamed Option"
@@ -131,7 +131,7 @@ msgstr "Ezt a hozzárendelést nem sikerült menteni"
 
 #: openassessment/xblock/static/js/openassessment-studio.min.js:1 openassessment/xblock/static/js/src/studio/oa_edit.js:144
 msgid "Please correct the outlined fields."
-msgstr "Kérlek javítsd a kijelölt mezőket."
+msgstr "Kérlek, javítsd a kijelölt mezőket!"
 
 #: openassessment/xblock/static/js/openassessment-studio.min.js:1 openassessment/xblock/static/js/src/studio/oa_edit.js:178
 msgid "This problem has already been released. Any changes will apply only to future assessments."
@@ -143,7 +143,7 @@ msgstr "Értékelési szempont hozzáadva"
 
 #: openassessment/xblock/static/js/openassessment-studio.min.js:2 openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:98
 msgid "You've added a criterion. You'll need to select an option for the criterion in the Student Training step. To do this, click the Settings tab."
-msgstr "Hozzáadtál egy értékelési szempontot. Az értékelési szemponthoz Opciót kell választanod a tanulói gyakorlásnál. Kattints a Beállítások fülre."
+msgstr "Hozzáadtál egy értékelési szempontot. Az értékelési szemponthoz Opciót kell választanod a tanulói gyakorlásnál. Kattints a Beállítások fülre!"
 
 #: openassessment/xblock/static/js/openassessment-studio.min.js:2 openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:144
 #: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:176
@@ -155,13 +155,13 @@ msgid ""
 "You've deleted an option. The system has removed that option from its criterion in the sample responses in the Student Training step. You may have to "
 "select a new option for the criterion."
 msgstr ""
-"Töröltél egy opciót. A rendszer eltávolítja ezt az opciót az  értékelési szempont a tanulói gyakorlás lépéseinél. Választanod kell egy új opciót az "
+"Töröltél egy opciót. A rendszer eltávolítja ezt az opciót az értékelési szempont a tanulói gyakorlás lépéseinél. Választanod kell egy új opciót az "
 "értékelési szemponthoz."
 
 #: openassessment/xblock/static/js/openassessment-studio.min.js:2 openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:177
 msgid "You've deleted all the options for this criterion. The system has removed the criterion from the sample responses in the Student Training step."
 msgstr ""
-"Az értékelési szemponthoz tartozó összes opciót törölted. A rendszer eltávolítja az  értékelési szempontot a minta válaszokból a tanulói gyakorlásnál."
+"Az értékelési szemponthoz tartozó összes opciót törölted. A rendszer eltávolítja az  értékelési szempontot a mintaválaszokból a tanulói gyakorlásnál."
 
 #: openassessment/xblock/static/js/openassessment-studio.min.js:2 openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:203
 msgid "Criterion Deleted"
@@ -169,7 +169,7 @@ msgstr "Értékelési szempont törölve"
 
 #: openassessment/xblock/static/js/openassessment-studio.min.js:2 openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:204
 msgid "You've deleted a criterion. The system has removed the criterion from the sample responses in the Student Training step."
-msgstr "Töröltél egy értékelési szempontot. A rendszer eltávolítja ezt az értékelési szempontot a minta válaszokból a tanulói gyakorlásnál."
+msgstr "Töröltél egy értékelési szempontot. A rendszer eltávolítja ezt az értékelési szempontot a mintaválaszokból a tanulói gyakorlásnál."
 
 #: openassessment/xblock/static/js/openassessment-studio.min.js:2 openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:374
 msgid "Warning"

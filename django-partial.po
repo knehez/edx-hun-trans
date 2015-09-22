@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-07 20:21+0200\n"
+"PO-Revision-Date: 2015-09-21 19:11+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -65,7 +65,7 @@ msgstr "Név"
 #: cms/djangoapps/contentstore/views/videos.py
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Video ID"
-msgstr "Video azonosító"
+msgstr "Videóazonosító"
 
 #: cms/djangoapps/contentstore/views/videos.py
 #: common/djangoapps/config_models/admin.py
@@ -79,7 +79,7 @@ msgstr "Visszaállít a kiválasztott konfigurációra"
 
 #: common/djangoapps/config_models/admin.py
 msgid "Please select a single configuration to revert to."
-msgstr "Válaszd ki a visszaállítandó konfigurációt"
+msgstr "Válaszd ki a visszaállítandó konfigurációt!"
 
 #: common/djangoapps/config_models/admin.py
 msgid "Reverted configuration."
@@ -116,13 +116,13 @@ msgid ""
 "List of domains that are allowed to make cross-domain requests to this site.  "
 "Please list each domain on its own line."
 msgstr ""
-"Azoknak tartományoknak a listája, amelyek megengedik, hogy kereszt-tartomány-"
-"kéréseket csináljanak ehhez az oldalhoz.. Sorold fel mindegyik tartományt "
-"külön sorban"
+"Azoknak a tartományoknak a listája, amelyek megengedik, hogy kereszttartomány-"
+"kéréseket csináljanak ehhez az oldalhoz. Sorold fel mindegyik tartományt "
+"külön sorban!"
 
 #: common/djangoapps/course_modes/models.py
 msgid "Honor Code Certificate"
-msgstr "Becsületkódex tanúsítvány"
+msgstr "Becsületkódex-tanúsítvány"
 
 #: common/djangoapps/course_modes/models.py
 msgid "Your verification is pending"
@@ -208,11 +208,11 @@ msgstr "Tanuló"
 
 #: common/djangoapps/embargo/forms.py
 msgid "COURSE NOT FOUND.  Please check that the course ID is valid."
-msgstr "Kurzus nem található. Ellenőrizd a kurzusazonosító helyességét"
+msgstr "Kurzus nem található. Ellenőrizd a kurzusazonosító helyességét!"
 
 #: common/djangoapps/embargo/models.py
 msgid "The course key for the restricted course."
-msgstr "Kurzus kulcs a zárt kurzushoz."
+msgstr "Kurzuskulcs a zárt kurzushoz."
 
 #: common/djangoapps/embargo/models.py
 msgid "The message to show when a user is blocked from enrollment."
@@ -222,7 +222,7 @@ msgstr ""
 #: common/djangoapps/embargo/models.py
 msgid "The message to show when a user is blocked from accessing a course."
 msgstr ""
-"Ez az üzenet jelenik meg, ha egy felhasználó ki van zárva a kurzus elérésétől."
+"Ez az üzenet jelenik meg, ha egy felhasználó el van zárva a kurzus elérésétől."
 
 #: common/djangoapps/embargo/models.py
 msgid ""
@@ -232,7 +232,7 @@ msgstr ""
 
 #: common/djangoapps/embargo/models.py
 msgid "Two character ISO country code."
-msgstr "Két karakteres ISO ország kód."
+msgstr "Kétkarakteres ISO országkód."
 
 #: common/djangoapps/embargo/models.py
 msgid ""
@@ -256,7 +256,7 @@ msgstr ""
 
 #: common/djangoapps/embargo/models.py
 msgid "Blacklist {country} for {course}"
-msgstr "Letíltott {country} a {course} kurzushoz"
+msgstr "Letiltott {country} a {course} kurzushoz"
 
 #: common/djangoapps/student/forms.py
 msgid "Username must be minimum of two characters long"
@@ -272,7 +272,7 @@ msgstr "Érvényes jelszót kell megadni"
 
 #: common/djangoapps/student/forms.py
 msgid "Your legal name must be a minimum of two characters long"
-msgstr "A Teljes névnek legalább 2 karakter hosszúnak kell lennie"
+msgstr "A teljes névnek legalább 2 karakter hosszúnak kell lennie"
 
 #: common/djangoapps/student/forms.py
 msgid "Username should only consist of A-Z and 0-9, with no spaces."
@@ -288,7 +288,7 @@ msgstr ""
 
 #: common/djangoapps/student/forms.py
 msgid "You must accept the terms of service."
-msgstr "El kell fogadnod a Szolgáltatási feltételek"
+msgstr "El kell fogadnod a Szolgáltatási feltételeket!"
 
 #: common/djangoapps/student/forms.py
 msgid "A level of education is required"
@@ -320,11 +320,11 @@ msgstr "Ország megadása kötelező"
 
 #: common/djangoapps/student/forms.py
 msgid "To enroll, you must follow the honor code."
-msgstr "Feliratkozáshoz fogadd el a becsületkódexet."
+msgstr "Feliratkozáshoz fogadd el a becsületkódexet!"
 
 #: common/djangoapps/student/forms.py
 msgid "You are missing one or more required fields"
-msgstr "Egy, vagy több kötelező mező kitöltése hiányzik"
+msgstr "Egy vagy több kötelező mező kitöltése hiányzik"
 
 #: common/djangoapps/student/forms.py
 msgid "Username and password fields cannot match"
@@ -441,15 +441,15 @@ msgstr ""
 
 #: common/djangoapps/student/views.py
 msgid "Course id not specified"
-msgstr "A kurzus azonosító kitöltetlen"
+msgstr "A kurzusazonosító kitöltetlen"
 
 #: common/djangoapps/student/views.py lms/djangoapps/dashboard/support.py
 msgid "Invalid course id"
-msgstr "Érvénytelen kurzus azonosító"
+msgstr "Érvénytelen kurzusazonosító"
 
 #: common/djangoapps/student/views.py
 msgid "Course id is invalid"
-msgstr "A kurzus azonosító hibás"
+msgstr "A kurzusazonosító hibás"
 
 #: common/djangoapps/student/views.py
 msgid "Could not enroll"
@@ -479,7 +479,7 @@ msgid ""
 msgstr ""
 "Használd az {platform_name} felhasználói nevedet és jelszavadat, az "
 "{platform_name} rendszerbe történő bejelentkezéshez, majd a műszerfalon "
-"kapcsold össze az {platform_name} fiókodat a {provider_name} fiókoddal."
+"kapcsold össze az {platform_name} fiókodat a {provider_name} fiókoddal!"
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -490,8 +490,8 @@ msgstr ""
 #: common/djangoapps/student/views.py
 msgid "There was an error receiving your login information. Please email us."
 msgstr ""
-"Hiba történt a bejelentkezési adatok fogadása közben. Kérlek jelezed e-"
-"mailben."
+"Hiba történt a bejelentkezési adatok fogadása közben. Kérlek, jelezed e-"
+"mailben!"
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -499,7 +499,7 @@ msgid ""
 "again later."
 msgstr ""
 "Ez a fiók ideiglenesen zárolva van, mert túl sokszor próbáltál sikertelenül "
-"bejelentkezni. Próbálkozz később."
+"bejelentkezni. Próbálkozz később!"
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -508,13 +508,13 @@ msgid ""
 "Password\" link on this page to reset your password before logging in again."
 msgstr ""
 "A jelszóra vonatkozó előírások értelmében lejárt a jelszavad. Alaphelyzetbe "
-"kell állítanod a jelszavad, hogy újból be tudj jelentkezni. Kérlek kattints "
+"kell állítanod a jelszavad, hogy újból be tudj jelentkezni. Kérlek, kattints "
 "az \"Elfelejtettem a jelszavam\" linkre ezen az oldalon, hogy alaphelyzetbe "
-"állítsd a jelszavad mielőtt újra bejelentkezel."
+"állítsd a jelszavad, mielőtt újra bejelentkezel!"
 
 #: common/djangoapps/student/views.py
 msgid "Too many failed login attempts. Try again later."
-msgstr "Túl sok bejelentkezési kísérlet. Próbáld meg később."
+msgstr "Túl sok bejelentkezési kísérlet. Próbáld meg később!"
 
 #: common/djangoapps/student/views.py
 msgid "Email or password is incorrect."
@@ -528,11 +528,11 @@ msgstr ""
 
 #: common/djangoapps/student/views.py
 msgid "Please enter a username"
-msgstr "Add meg a felhasználói nevet"
+msgstr "Add meg a felhasználói nevet!"
 
 #: common/djangoapps/student/views.py
 msgid "Please choose an option"
-msgstr "Kérlek válassz egy opciót"
+msgstr "Kérlek, válassz egy opciót!"
 
 #: common/djangoapps/student/views.py
 msgid "User with username {} does not exist"
@@ -548,7 +548,7 @@ msgstr "Sikeresen reaktiválva {}'s fiókja"
 
 #: common/djangoapps/student/views.py
 msgid "Unexpected account status"
-msgstr "Meghatározhatatlan fiók állapot"
+msgstr "Meghatározhatatlan fiókállapot"
 
 #: common/djangoapps/student/views.py
 msgid "An account with the Public Username '{username}' already exists."
@@ -573,7 +573,8 @@ msgstr ""
 
 #: common/djangoapps/student/views.py
 msgid "Unknown error. Please e-mail us to let us know how it happened."
-msgstr "Ismeretlen hiba. Kérünk írd meg e-mailen, hogy hogyan következett be."
+msgstr ""
+"IsIsmeretlen hiba. Kérjük, írd meg e-mailen, hogy hogyan következett be!"
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -629,7 +630,7 @@ msgstr "Egy felhasználói fiók már létezik ezzel az e-mail címmel."
 
 #: common/djangoapps/student/views.py
 msgid "Unable to send email activation link. Please try again later."
-msgstr "Az aktiváló link elküldése e-mailben sikertelen. Próbáld meg később."
+msgstr "Az aktiváló link elküldése e-mailben sikertelen. Próbáld meg később!"
 
 #: common/djangoapps/third_party_auth/models.py
 msgid "Authentication with {} is currently unavailable."
@@ -654,7 +655,7 @@ msgid ""
 "email, and their account will be activated immediately upon registration."
 msgstr ""
 "Ha ezt a beállítást választod, a felhasználóknak nem kell az e-mailjüket "
-"megerősíteni. és a fiókjukat rögtön, a regisztráció után aktiváljuk."
+"megerősíteni, és a fiókjukat rögtön a regisztráció után aktiváljuk."
 
 #: common/djangoapps/third_party_auth/pipeline.py
 msgid ""
@@ -877,7 +878,7 @@ msgstr "jún."
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Jul"
-msgstr "júl."
+msgstr "július"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Aug 10, 2014". It is used for the %b
@@ -1230,7 +1231,7 @@ msgstr "Jelölőnégyzet"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Multiple Choice"
-msgstr "Több Lehetőség"
+msgstr "Több lehetőség"
 
 #. Translators: 'unmask_name' is a method name and should not be translated.
 #: common/lib/capa/capa/responsetypes.py
@@ -1272,7 +1273,7 @@ msgstr "Hibás volt az oktatói csapat válasza erre a feladatra."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Could not interpret '{student_answer}' as a number."
-msgstr "Nem értelmezhető '{student_answer}' válasz számként."
+msgstr "Nem értelmezhető '{student_answer}' számként."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "You may not use variables ({bad_variables}) in numerical problems."
@@ -1364,8 +1365,8 @@ msgid ""
 "Unable to deliver your submission to grader (Reason: {error_msg}). Please try "
 "again later."
 msgstr ""
-"Nem sikerült elküldeni a választ az értékelő rendszerhez (Hiba oka: "
-"{error_msg}). Próbáld újra egy kicsit később."
+"Nem sikerült elküldeni a választ az értékelőrendszerhez (Hiba oka: "
+"{error_msg}). Próbáld újra egy kicsit később!"
 
 #. Translators: 'grader' refers to the edX automatic code grader.
 #. Translators: the `grader` refers to the grading service open response
@@ -1407,7 +1408,7 @@ msgstr "Hibás adatbevitel: '{bad_input}' nem értelmezhető képlet."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Circuit Schematic Builder"
-msgstr "Áramkör kapcsolási rajz szerkesztő"
+msgstr "Áramkörkapcsolási rajz szerkesztője"
 
 #. Translators: 'SchematicResponse' is a problem type and should not be
 #. translated.
@@ -1426,7 +1427,7 @@ msgstr "Hiba az osztályozás során {image_input_id} (input = {} user_input)"
 #. Translators: {sr_coords} are the coordinates of a rectangle
 #: common/lib/capa/capa/responsetypes.py
 msgid "Error in problem specification! Cannot parse rectangle in {sr_coords}"
-msgstr "Hiba a feladat specifikációban! Nem értelmezhető téglalap  {sr_coords}"
+msgstr "Hiba a feladatspecifikációban! Nem értelmezhető téglalap  {sr_coords}"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Annotation Input"
@@ -1562,7 +1563,7 @@ msgstr "Befejezett"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Correct or Past Due"
-msgstr "Helyes, vagy lejárt"
+msgstr "Helyes vagy lejárt"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Past Due"
@@ -1574,7 +1575,7 @@ msgstr "Soha"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Whether to force the save button to appear on the page"
-msgstr "A mentés gomb mindenképpen megjelenjen-e az oldalon"
+msgstr "A mentés gomb mindenképpen megjelenjen-e az oldalon?"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Show Reset Button"
@@ -1602,7 +1603,7 @@ msgid ""
 msgstr ""
 "Megadja, milyen gyakran véletlenszerűsítsük a feladatokat, amikor a hallgatók "
 "betöltik azokat. Csak azoknál a feladatoknál releváns, ahol véletlenszerűen "
-"előállított számit használunk. Az alapértelmezett érték a Haladó beállítások "
+"előállított számot használunk. Az alapértelmezett érték a Haladó beállítások "
 "között található."
 
 #: common/lib/xmodule/xmodule/capa_base.py
@@ -1652,7 +1653,7 @@ msgid ""
 "Seconds a student must wait between submissions for a problem with multiple "
 "attempts."
 msgstr ""
-"Várakoyási idő másodpercekben. Ennyit kell várnia a hallgatónak, mielőtt újra "
+"Várakozási idő másodpercekben. Ennyit kell várnia a hallgatónak, mielőtt újra "
 "próbálkozhat a feladat beküldésével."
 
 #: common/lib/xmodule/xmodule/capa_base.py
@@ -2013,9 +2014,9 @@ msgid ""
 "is different from the set start date. To advertise the set start date, enter "
 "null."
 msgstr ""
-"Írd be azt a kezdő dátumot, amit a kurzus meghirdetésekor reklámozol. Akkor "
-"töltsd ki, ha a dátum különbözik a kurzus kezdő dátumától. A kezdő dáum "
-"használatához írj null értéket."
+"Írd be azt a kezdő dátumot, amit a kurzus meghirdetésekor reklámozol! Akkor "
+"töltsd ki, ha a dátum különbözik a kurzus kezdődátumától! A kezdődátum "
+"használatához írj null értéket!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Requisite Courses"
@@ -2037,13 +2038,13 @@ msgstr "Számológép megjelenítése"
 msgid ""
 "Enter true or false. When true, students can see the calculator in the course."
 msgstr ""
-"True, vagy False 'Igaz, vagy hamis'. Ha igaz, akkor a tanulók láthatják a "
+"True vagy False 'Igaz vagy hamis'. Ha igaz, akkor a tanulók láthatják a "
 "számológépet."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the name of the course as it should appear in the edX.org course list."
-msgstr "Add meg a kurzus nevét úgy, ahogy megjelenik a kurzusok listájában."
+msgstr "Add meg a kurzus nevét úgy, ahogy megjelenik a kurzusok listájában!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Display Name"
@@ -2052,7 +2053,7 @@ msgstr "Kurzus megjelenő neve"
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Course Editor"
-msgstr "Kurzus szerkesztő"
+msgstr "Kurzusszerkesztő"
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -2068,20 +2069,20 @@ msgid ""
 "Enter true or false. When true, students can see the chat widget in the "
 "course."
 msgstr ""
-"True, vagy False 'Igaz, vagy hamis'. Ha igaz, akkor a tanulók látják a chat "
+"True vagy False 'Igaz vagy hamis'. Ha igaz, akkor a tanulók látják a chat "
 "alkalmazást."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Survey URL"
-msgstr "Kurzus kérdőív URL"
+msgstr "Kurzuskérdőív URL"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the URL for the end-of-course survey. If your course does not have a "
 "survey, enter null."
 msgstr ""
-"Add meg a kurzus befejezésekor megjelenő kérdőív URL-jét. Ha a kurzusodban "
-"nincs kérdőív legyen a beállíts null."
+"Add meg a kurzus befejezésekor megjelenő kérdőív URL-jét! Ha a kurzusodban "
+"nincs kérdőív, legyen a beállíts null."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Discussion Blackout Dates"
@@ -2098,14 +2099,14 @@ msgid ""
 "periods looks like this, including the outer pair of square brackets: "
 "[[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", \"2015-10-08\"]] "
 msgstr ""
-"Adj meg egydátum párt, amely között a hallgatók nem küldhetnek fórim "
-"üzenenet. A szögletes zárójeleken belük adj meg még további szögletes zárójel "
-"párokat a dátum körül. A dátum formátuma legyen  [\"YYYY-MM-DD\", \"YYYY-MM-DD"
-"\"]. Ha időpontot is meg akarsz adni, a dormátum legyen  [\"YYYY-MM-DDTHH:MM"
-"\", \"YYYY-MM-DDTHH:MM\"]. Ne felejtsd el a \"T\" betűt a dátum és az idő "
-"között! Például, definiáljunk két szüneteltetési periódust. A már mgadott "
-"külső zárójellel a beállítás: [[\"2015-09-15\", \"2015-09-21\"], "
-"[\"2015-10-01\", \"2015-10-08\"]] "
+"Adj meg egy dátumpárt, amely között a hallgatók nem küldhetnek fórumüzenenet! "
+"A szögletes zárójeleken belül adj meg még további szögletes zárójelpárokat a "
+"dátum körül! A dátum formátuma legyen  [\"YYYY-MM-DD\", \"YYYY-MM-DD\"]! Ha "
+"időpontot is meg akarsz adni, a formátum legyen  [\"YYYY-MM-DDTHH:MM\", "
+"\"YYYY-MM-DDTHH:MM\"]! Ne felejtsd el a \"T\" betűt a dátum és az idő között! "
+"Például, definiáljunk két szüneteltetési periódust. A már mgadott külső "
+"zárójellel a beállítás: [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", "
+"\"2015-10-08\"]] "
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Discussion Topic Mapping"
@@ -2129,15 +2130,15 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Discussion Sorting Alphabetical"
-msgstr "Fórum rendezési sorrend"
+msgstr "Fórumrendezési sorrend"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If true, discussion categories and subcategories are "
 "sorted alphabetically. If false, they are sorted chronologically."
 msgstr ""
-"Lehetséges értékek true vagy false. Ha true, akkor a fórum kategóriák és "
-"alkategóriák ábécé sorrendben vannka rendezve. Ha false, akkor megjelenési "
+"Lehetséges értékek: true vagy false. Ha true, akkor a fórumkategóriák és -"
+"alkategóriák ábécé-sorrendben vannka rendezve. Ha false, akkor megjelenési "
 "idő szerint vannak rendezve."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2168,19 +2169,19 @@ msgid ""
 "Enter true or false. If true, the course appears in the list of new courses "
 "on edx.org, and a New! badge temporarily appears next to the course image."
 msgstr ""
-"Elfogadott értékek true vagy false. Ha true, akkor a kurzus megjelenik az új "
+"Elfogadott értékek: true vagy false. Ha true, akkor a kurzus megjelenik az új "
 "kurzusok listájában és az a kurzus képe mellett ikon jelzi, hogy új."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Mobile Course Available"
-msgstr "A kurzus elérhető mobil készülékről"
+msgstr "A kurzus elérhető mobilkészülékről"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If true, the course will be available to mobile devices."
 msgstr ""
-"Elfogadott értékek true vagy false. Ha true, a kurzus elérhető mobil "
-"eszközökön"
+"Elfogadott értékek: true vagy false. Ha true, a kurzus elérhető "
+"mobileszközökön"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Video Upload Credentials"
@@ -2207,7 +2208,7 @@ msgstr "A kurzus nem minősített"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter true or false. If true, the course will not be graded."
-msgstr "ELfogadott értékek true vagy false. Ha true, a kurzus nem osztályzott"
+msgstr "ELfogadott értékek: true vagy false. Ha true, a kurzus nem osztályzott."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Disable Progress Graph"
@@ -2216,7 +2217,7 @@ msgstr "Eredmény grafikon tiltása"
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter true or false. If true, students cannot view the progress graph."
 msgstr ""
-"Elfogadott érték true vagy false. Ha true, a hallgatók nem láthatják az "
+"Elfogadott érték: true vagy false. Ha true, a hallgatók nem láthatják az "
 "előrehaladási grafikont."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2239,7 +2240,7 @@ msgid ""
 msgstr ""
 "A HTML formátumú tanköny egy külün fülön megjeleníthető a tananyagban. Add "
 "meg a fül nevét (ez rendszerint a tankönyv címe), add meg az URL-jét a "
-"könyvnek és minden fejezet címét."
+"könyvnek és minden fejezet címét!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Remote Gradebook"
@@ -2250,8 +2251,8 @@ msgid ""
 "Enter the remote gradebook mapping. Only use this setting when "
 "REMOTE_GRADEBOOK_URL has been specified."
 msgstr ""
-"A távoli leckekönyv összerendelése. Csaak akkor használd a beállítást, ha a "
-"REMOTE_GRADEBOOK_URL is meg van adva"
+"A távoli leckekönyv összerendelése. Csak akkor használd a beállítást, ha a "
+"REMOTE_GRADEBOOK_URL is meg van adva!"
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content. CCX Coach is
@@ -2271,7 +2272,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Allow Anonymous Discussion Posts"
-msgstr "Névtelen hozzászólás engedélyezése a vita fórumban"
+msgstr "Névtelen hozzászólás engedélyezése a vitafórumban."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2303,11 +2304,11 @@ msgstr "Speciális modullista"
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter the names of the advanced components to use in your course."
 msgstr ""
-"Add meg a haladó komponenseknek a nevét, amelyeket a kurzusodban használsz."
+"Add meg a haladó komponenseknek a nevét, amelyeket a kurzusodban használsz!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Getting Started With Studio"
-msgstr "Kezdjünk bele a Stúdió használatába"
+msgstr "Kezdjünk bele a Stúdió használatába!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Course Team Members"
@@ -2318,7 +2319,7 @@ msgid ""
 "Grant your collaborators permission to edit your course so you can work "
 "together."
 msgstr ""
-"Adj engedélyt másnak is, hogy szerkeszthesse a kurzusodat. Így együtt tudtok "
+"Adj engedélyt másnak is, hogy szerkeszthesse a kurzusodat! Így együtt tudtok "
 "működni."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2335,7 +2336,7 @@ msgid ""
 "and Details page."
 msgstr ""
 "Határozd meg a kurzusod beiratkozási és indulási dátumait az Ütemezés és "
-"Részletek oldalon."
+"Részletek oldalon!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Edit Course Details &amp; Schedule"
@@ -2359,53 +2360,53 @@ msgstr "Értékelés beállításainak szerkesztése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Explore the Other Studio Checklists"
-msgstr "Fedezd fel a többi Studio funkciót"
+msgstr "Fedezd fel a többi Studio funkciót!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Discover other available course authoring tools, and find help when you need "
 "it."
-msgstr "Fedezz fel más kurzus adminisztrációs eszközöket."
+msgstr "Fedezz fel más kurzusadminisztrációs eszközöket!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Draft a Rough Course Outline"
-msgstr "Tervezd meg a kurzusod vázlatát"
+msgstr "Tervezd meg a kurzusod vázlatát!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Create Your First Section and Subsection"
-msgstr "Készítsd el az első fejezetet és alfejezetet"
+msgstr "Készítsd el az első fejezetet és alfejezetet!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Use your course outline to build your first Section and Subsection."
 msgstr ""
-"Használd a kurzus vázlatot, hogy elkészítsd az első fejezetet és alfejezetet"
+"Használd a kurzusvázlatot, hogy elkészítsd az első fejezetet és alfejezetet!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Edit Course Outline"
-msgstr "Kurzus vázlat szerkesztése"
+msgstr "Kurzusvázlat szerkesztése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Set Section Release Dates"
-msgstr "A fejezet kiadás dátumának beállítása"
+msgstr "A fejezetkiadás dátumának beállítása"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Specify the release dates for each Section in your course. Sections become "
 "visible to students on their release dates."
 msgstr ""
-"Add meg a megjelenési dátumát az egyes fejezeteknek. A fejezetek a megadott "
-"dátumtól kezdődően lesznek láthatók a hallgatók számára"
+"Add meg a megjelenési dátumát az egyes fejezeteknek! A fejezetek a megadott "
+"dátumtól kezdődően lesznek láthatók a hallgatók számára."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Designate a Subsection as Graded"
-msgstr "Jelölj ki alfejezeteket osztályozásra"
+msgstr "Jelölj ki alfejezeteket osztályozásra!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Set a Subsection to be graded as a specific assignment type. Assignments "
 "within graded Subsections count toward a student's final grade."
 msgstr ""
-"Állítsd be az alfejezet osztályozási típusát. Ennek eredménye a tanuló végső "
+"Állítsd be az alfejezet osztályozási típusát! Ennek eredménye a tanuló végső "
 "érdemjegyébe beleszámít."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2414,7 +2415,7 @@ msgstr "Kurzus tartalmának átrendezése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Use drag and drop to reorder the content in your course."
-msgstr "Rendezd át a kurzus tartalmát a \"fogd és vidd\" technikával."
+msgstr "Rendezd át a kurzus tartalmát a \"fogd és vidd\" technikával!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Renaming Sections"
@@ -2422,23 +2423,23 @@ msgstr "Fejezet átnevezése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Rename Sections by clicking the Section name from the Course Outline."
-msgstr "Fejezet átnevezéséhez kattints a fejezet nevére a kurzus vázlatban."
+msgstr "Fejezet átnevezéséhez kattints a fejezet nevére a kurzusvázlatban!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Deleting Course Content"
-msgstr "Kurzus tartalom törlése"
+msgstr "Kurzustartalom törlése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Delete Sections, Subsections, or Units you don't need anymore. Be careful, as "
 "there is no Undo function."
 msgstr ""
-"Olyan fejezet, alfejezet, vagy lecke törlése, melyre már nincs többé "
-"szükséged. Legyél óvatos, mert nincs lehetőség visszavonásra."
+"Olyan fejezet, alfejezet vagy lecke törlése, melyre már nincs többé "
+"szükséged. Legyél óvatos, mert nincs lehetőség visszavonásra!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add an Instructor-Only Section to Your Outline"
-msgstr "Készíts olyan fejezeteket, amit csak az oktatók láthatnak"
+msgstr "Készíts olyan fejezeteket, amit csak az oktatók láthatnak!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2451,11 +2452,11 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Explore edX's Support Tools"
-msgstr "Használd az edX  segédeszközeit"
+msgstr "Használd az edX  segédeszközeit!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Explore the Studio Help Forum"
-msgstr "Fedezd fel a Stúdió súgó fórumát"
+msgstr "Fedezd fel a Stúdió súgófórumát!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2465,7 +2466,7 @@ msgstr "Az oldal jobb felső részénél a segítség menüpontban teheted meg."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Visit Studio Help"
-msgstr "Nézd meg a Stúdió súgóját"
+msgstr "Nézd meg a Stúdió súgóját!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enroll in edX 101"
@@ -2475,11 +2476,11 @@ msgstr "Feliratkozás az edX101 kurzusra"
 msgid "Register for edX 101, edX's primer for course creation."
 msgstr ""
 "Regisztrálj az edx101-es minta kurzusra (amennyiben létezik), és ebben "
-"sokféle feladattípusra találsz példákat."
+"sokféle feladattípusra találsz példákat!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Register for edX 101"
-msgstr "Regisztrálj az edX 101 kurzusra"
+msgstr "Regisztrálj az edX 101 kurzusra!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Download the Studio Documentation"
@@ -2487,7 +2488,7 @@ msgstr "Stúdió dokumentációjának letöltése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Download the searchable Studio reference documentation in PDF form."
-msgstr "Töltsd le a kereshető Stúdió dokumentációt PDF formátumban."
+msgstr "Töltsd le a kereshető Stúdió dokumentációt PDF formátumban!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Download Documentation"
@@ -2495,11 +2496,11 @@ msgstr "Dokumentáció letöltése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Draft Your Course About Page"
-msgstr "Tervezd meg a kurzusod információs oldalát"
+msgstr "Tervezd meg a kurzusod információs oldalát!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Draft a Course Description"
-msgstr "Add meg a kurzus bemutatásához szükséges információt"
+msgstr "Add meg a kurzus bemutatásához szükséges információt!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2512,11 +2513,11 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Edit Course Schedule &amp; Details"
-msgstr "Kurzus ütemezés &amp; részletek szerkesztése"
+msgstr "Kurzusütemezés &amp; részletek szerkesztése"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Staff Bios"
-msgstr "Adj rövid leírást a stábodról"
+msgstr "Adj rövid leírást a stábodról!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2524,7 +2525,7 @@ msgid ""
 "staff bios on the course About page."
 msgstr ""
 "A leendő hallgatóknak hasznos információ, hogy kik lesznek az oktatóik. A "
-"kurzus beállításokban az áttekintés részben írj röviden az oktatókról is."
+"kurzus beállításokban az áttekintés részben írj röviden az oktatókról is!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Course FAQs"
@@ -2533,7 +2534,7 @@ msgstr "GyIK kurzushoz adása"
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Include a short list of frequently asked questions about your course."
 msgstr ""
-"Készíts egy rövid listát a kurzusodban leggyakrabban felmerülő kérdésekről."
+"Készíts egy rövid listát a kurzusodban leggyakrabban felmerülő kérdésekről!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Course Prerequisites"
@@ -2544,8 +2545,8 @@ msgid ""
 "Let students know what knowledge and/or skills they should have before they "
 "enroll in your course."
 msgstr ""
-"Mutasd meg a hallgatóknak milyen meglévő tudásra van szükségük, ahhoz "
-"beiratkozzanak a kurzusodra."
+"Mutasd meg a hallgatóknak, milyen meglévő tudásra van szükségük ahhoz, hogy "
+"beiratkozzanak a kurzusodra!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Info Sidebar Name"
@@ -2557,8 +2558,8 @@ msgid ""
 "the Course Info page. Your course handouts appear in the right panel of the "
 "page."
 msgstr ""
-"Add meg azt az elnevezést, amelyet a hallgatók a letölthető kurzus kéziratok "
-"felett látnak a kurzus információs oldalán. A felirat a lap jobb oldalán "
+"Add meg azt az elnevezést, amelyet a hallgatók a letölthető kurzuskéziratok "
+"felett látnak a kurzus információs oldalán! A felirat a lap jobb oldalán "
 "jelenik majd meg."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2589,7 +2590,7 @@ msgstr "Külső belépés domainje"
 msgid "Enter the external login method students can use for the course."
 msgstr ""
 "Add meg azt a külső beléptető metódust, amellyel a hallgatók belépnek a "
-"kurzusra"
+"kurzusra!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificates Downloadable Before End"
@@ -2617,12 +2618,12 @@ msgid ""
 "generated, enter early_no_info."
 msgstr ""
 "Efogadott értékekend, early_with_info, és early_no_info. A bizonyítvány "
-"genarálása után azok a hallgatók,akik megszerezték a bizonyítványt az "
+"genarálása után azok a hallgatók,akik megszerezték a bizonyítványt, az "
 "irányítópulton egy linket látnak, amely a bizonyítványra mutat. Akik "
 "megbuktak, azok az osztályozási beállításokat látják. Az alapértelmezett "
-"érték az end, amely ezeket a a kurzus befejezése után jeleníti meg. Ha "
+"érték az end, amely ezeket a kurzus befejezése után jeleníti meg. Ha "
 "early_with_info beállítást alkalmazol, minden hallgató megkapja a "
-"tájékoztatást,amint a bizonyítványt legenerálták. Ha csak a sikeresen "
+"tájékoztatást, amint a bizonyítványt legenerálták. Ha csak a sikeresen "
 "teljsítő hallgatóknak mutatod meg a linket a bizonyítvány legenerálása után, "
 "akor használd a early_no_info beállítást. "
 
@@ -2649,7 +2650,7 @@ msgid ""
 "Issue Open Badges badges for this course. Badges are generated when "
 "certificates are created."
 msgstr ""
-"Az Open Badges szabványú kitűzpk kiadása a kurzusnál. Kitűzőket akkor "
+"Az Open Badges szabványú kitűzők kiadása a kurzusnál. Kitűzőket akkor "
 "generálunk, amikor bizonyítványokat is."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2658,8 +2659,8 @@ msgid ""
 "marks, enter the short name of the course to use on the certificate that "
 "students receive when they complete the course."
 msgstr ""
-"Ezt az beállítást csak a pdf bizonyítványok generáláskor használuk. "
-"Idézőjelek között add meg az kurzus rüvid elnevezését, amelyet a hallgatók a "
+"Ezt az beállítást csak a pdf bizonyítványok generáláskor használjuk. "
+"Idézőjelek között add meg az kurzus rövid elnevezését, amelyet a hallgatók a "
 "kurzus elvégzésekor kapott bizonyítványokon látnak. "
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2700,7 +2701,7 @@ msgstr ""
 #. configuration values
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Configuration"
-msgstr "Bizonyítvány beállítások"
+msgstr "Bizonyítványbeállítások"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -2745,13 +2746,13 @@ msgid ""
 "course. To use the organization that you entered when you created the course, "
 "enter null."
 msgstr ""
-"Add meg annak a szervezetnek úgy, ahogy megjelenik a kurzus anyagaiban. Ez a "
+"Add meg annak a szervezetnek úgy, ahogy megjelenik a kurzus anyagaiban! Ez a "
 "beállítás felülírja azt a szervezeti nevet, amelyet a kurzus létrehozásánál "
-"gépeltél be. Ha azt a nevet akarod meghagyni, legyen a beállíts null."
+"gépeltél be. Ha azt a nevet akarod meghagyni, legyen a beállítás null!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Number Display String"
-msgstr "Kurzus szám megjelenítendő szövege"
+msgstr "Kurzusszám megjelenítendő szövege"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2760,9 +2761,9 @@ msgid ""
 "course. To use the course number that you entered when you created the "
 "course, enter null."
 msgstr ""
-"Add meg a kurzus számát olyan formátumban, ahogy megjelenik a tananyagban. Ez "
+"Add meg a kurzus számát olyan formátumban, ahogy megjelenik a tananyagban! Ez "
 "a beállítás felülírja azt az értéket, amit a kurzus létrehozásánál beírtál. "
-"Ha azt a számot akarod használni, legyen az érték null"
+"Ha azt a számot akarod használni, legyen az érték null!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Maximum Student Enrollment"
@@ -2773,7 +2774,7 @@ msgid ""
 "Enter the maximum number of students that can enroll in the course. To allow "
 "an unlimited number of students, enter null."
 msgstr ""
-"Add meg a legnagyobb tanulói létszámot, amelyet feliratkozáskor elfogadsz. "
+"Add meg a legnagyobb tanulói létszámot, amelyet feliratkozáskor elfogadsz! "
 "Korlátlan hallgatói létszámot a null beállítás jelent."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2796,7 +2797,7 @@ msgstr "Kizárólag meghívás alapján"
 msgid "Whether to restrict enrollment to invitation by the course staff."
 msgstr ""
 "A kurzus felvételét akarod-e korlátozni úgy, hogy csak a közreműködők "
-"meghívására lehessen jelentkezni."
+"meghívására lehessen jelentkezni?"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Course Survey Name"
@@ -2829,7 +2830,7 @@ msgid ""
 "not show in catalog and do not allow access to an about page)."
 msgstr ""
 "Azt adja meg, hogyan látszik a kurzus a kurzusok listájában. Három értket "
-"vehet fel: 'both' (megjelenik a listában és hozzáférhető a kurzus leírás "
+"vehet fel: 'both' (megjelenik a listában és hozzáférhető a kurzusleírás "
 "oldal), 'about' (csak a kurzus leírás oldal hozzáférhető), 'none' (nem "
 "jelenik meg és nem hozzáférhető a kurzus leírás oldal)."
 
@@ -3097,7 +3098,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Choose n at random"
-msgstr "Válassz n derabot véletlenszerűen"
+msgstr "Válassz n darabot véletlenszerűen!"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Count"
@@ -3166,7 +3167,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Select another problem type."
-msgstr "Válassz egy másik feladat típust."
+msgstr "Válassz egy másik feladattípust!"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "The specified library is configured to fetch {count} problem, "
@@ -3334,7 +3335,7 @@ msgstr "Gomb felirat"
 msgid "Enter the text on the button used to launch the third party application."
 msgstr ""
 "Írd be a szöveget, ami a gomb felirata lesz a más forrásból származó program "
-"futtatásához."
+"futtatásához!"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Accept grades past deadline"
@@ -3416,7 +3417,7 @@ msgstr "Leadási határidő"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Enter the date by which problems are due."
-msgstr "Add meg a leadási határidőt"
+msgstr "Add meg a leadási határidőt!"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Is Entrance Exam"
@@ -3478,7 +3479,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Select a Group Configuration"
-msgstr "Válassz csoport beállítást"
+msgstr "Válassz csoportbeállítást!"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid ""
@@ -3628,8 +3629,8 @@ msgid ""
 "Enter the location of the annotation storage server. The textannotation, "
 "videoannotation, and imageannotation advanced modules require this setting."
 msgstr ""
-"Add meg az annotációk tárolására szolgáló szervert. A szöveges-, képi- és "
-"videó annotáció használja ezt a beállítást. "
+"Add meg az annotációk tárolására szolgáló szervert! A szöveges, képi és "
+"videóannotáció használja ezt a beállítást! "
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "URL for Annotation Storage"
@@ -3640,13 +3641,14 @@ msgid ""
 "Enter the secret string for annotation storage. The textannotation, "
 "videoannotation, and imageannotation advanced modules require this string."
 msgstr ""
-"Add meg az annotációk tárolásához kapcsolódó titkos token sztringet. A "
-"szöveges-, képi- és videó annotáció használja ezt a beállítást. "
+"Add meg az annotációk tárolásához kapcsolódó titkos token sztringet! A "
+"szöveges, képi és videóannotáció használja ezt a beállítást!"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enter the ids for the content groups this problem belongs to."
 msgstr ""
-"Add meg annak a tartalom csoport azonosítóját, amelyhez a feladat tartozik"
+"Add meg annak a tartalomcsoportnak az azonosítóját, amelyhez a feladat "
+"tartozik!"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3656,7 +3658,7 @@ msgid ""
 msgstr ""
 "Megadja, mikor jelenjen meg a Válasz mutatása gomb. Lehetséges  értékek: "
 "\"always\", \"answered\", \"attempted\", \"closed\", \"finished\", \"past_due"
-"\", \"correct_or_past_due\", és \"never\"."
+"\", \"correct_or_past_due\" és \"never\"."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3667,7 +3669,7 @@ msgid ""
 msgstr ""
 "Megadja, mikor történjen a feladatok véletlenszerűsítése, amikor a hallgató "
 "betölti a feladatot. A lehetséges értékek:  \"always\", \"onreset\", \"never"
-"\", és  \"per_student\". Csak azokra a feladatokra vonatkozik, amelyeket "
+"\" és  \"per_student\". Csak azokra a feladatokra vonatkozik, amelyeket "
 "véletlenszerűen generálunk."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -3680,7 +3682,7 @@ msgid ""
 "course."
 msgstr ""
 "Add meg azoknak a napoknak a számát, amennyivel korábban a beta felhasználók "
-"elérhetik a kurzust"
+"elérhetik a kurzust!"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Static Asset Path"
@@ -3703,7 +3705,7 @@ msgid "Enter string customization substitutions for particular locations."
 msgstr ""
 "Bizonyos sztringek testreszabhatóak. Itt lehet megadni, melyik helyen, milyen "
 "cseréket hajtsunk végre. Csak akkor álítsd át, ha a forráskódban meggyőződtél "
-"a helyes használatról."
+"a helyes használatról!"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enable LaTeX Compiler"
@@ -3714,8 +3716,8 @@ msgid ""
 "Enter true or false. If true, you can use the LaTeX templates for HTML "
 "components and advanced Problem components."
 msgstr ""
-"Lehetséges értékek true vagy false. Ha true. akkor LaTeX templéteket "
-"használhatsz a HTML komponensekben és a haladó feladat komponensekben"
+"Lehetséges értékek: true vagy false. Ha true, akkor LaTeX templéteket "
+"használhatsz a HTML komponensekben és a haladó feladat komponensekben."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3727,7 +3729,7 @@ msgid ""
 "to unlimited."
 msgstr ""
 "Add meg azt a számot, amennyiszer a hallgatók egy adott kérdés "
-"megválaszolásakor próbálkozhatnak. Az alapértelmezett érték null, ami "
+"megválaszolásakor próbálkozhatnak! Az alapértelmezett érték null, ami "
 "korlátlan próbálkozási számot jelent. Az egyes feladatok beállításánál "
 "felülírhatod ezt az értéket. Azonban, ha a kurzus alapértelmezett "
 "próbálkozási száma egy konkrét érték, akkor a feladatoknál nem adhatsz meg "
@@ -3747,7 +3749,7 @@ msgid ""
 "moocsupport@mathworks.com"
 msgstr ""
 "Add meg azt az API kulcsot, amit a MathWorks adott a MATLAB Hosted Service "
-"eléréséhez. A kulcs meghatározot ideig él. Soha ne oszd meg a kulcsot a "
+"eléréséhez! A kulcs meghatározot ideig él. Soha ne oszd meg a kulcsot a "
 "kurzusok között! További információka  moocsupport@mathworks.com e-mail címen."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -3795,9 +3797,9 @@ msgid ""
 "settings. All existing problems are affected when this course-wide setting is "
 "changed."
 msgstr ""
-"Elfogadott értékek true vagy false. Ha true, akkor alapértelmezetten a kurzus "
-"feladatainál megjelenik a visszaállítás alaphelyzetbe gomb. Minden egyes "
-"feladatnál felülírható a beállítás. Ha a beállítást módosítod, minden "
+"Elfogadott értékek: true vagy false. Ha true, akkor alapértelmezetten a "
+"kurzus feladatainál megjelenik a visszaállítás alaphelyzetbe gomb. Minden "
+"egyes feladatnál felülírható a beállítás. Ha a beállítást módosítod, minden "
 "elkészített feladatra érvényes lesz a változtatás."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -3937,7 +3939,7 @@ msgstr "Sikeresen mentettük a visszajelzést."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Unable to save your feedback. Please try again later."
-msgstr "Nem sikerült elmenteni a visszajelzést. Próbáld meg később."
+msgstr "Nem sikerült elmenteni a visszajelzést. Próbáld meg később!"
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Successfully saved your submission."
@@ -4049,8 +4051,8 @@ msgid ""
 "The URL for your video. This can be a YouTube URL or a link to an .mp4, .ogg, "
 "or .webm video file hosted elsewhere on the Internet."
 msgstr ""
-"A video URL-je. Ez lehet egy youtube link vagy egy  .mp4, .ogg, vagy .webm "
-"videó fájl, amelyet valahol máshol hostolnak az interneten."
+"A video URL-je. Ez lehet egy youtube link vagy egy  .mp4, .ogg vagy .webm "
+"videófájl, amelyet valahol máshol hostolnak az interneten."
 
 #: common/lib/xmodule/xmodule/video_module/video_module.py
 msgid "Default Video URL"
@@ -4094,8 +4096,8 @@ msgstr "YouTube azonosító a 0,75x sebességű lejátszáshoz"
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Optional, for older browsers: the YouTube ID for the 1.25x speed video."
 msgstr ""
-"Opcionális, régi böngészők számára: YouTube azonosító, a videó 1,25x "
-"sebességű lejátszásához."
+"Opcionális, régi böngészők számára: YouTube azonosító a videó 1,25x sebességű "
+"lejátszásához."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "YouTube ID for 1.25x speed"
@@ -4104,7 +4106,7 @@ msgstr "YouTube azonosító a 1,25x sebességű lejátszáshoz"
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Optional, for older browsers: the YouTube ID for the 1.5x speed video."
 msgstr ""
-"Opcionális, régi böngészők számára: YouTube azonosító, a videó 1,5x sebességű "
+"Opcionális, régi böngészők számára: YouTube azonosító a videó 1,5x sebességű "
 "lejátszásához."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
@@ -4164,7 +4166,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Video File URLs"
-msgstr "Videó fájl URL-je"
+msgstr "Videófájl URL-je"
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid ""
@@ -4264,7 +4266,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Upload Handout"
-msgstr "Kurzus vázlat feltöltése"
+msgstr "Kurzusvázlat feltöltése"
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid ""
@@ -4650,8 +4652,8 @@ msgid ""
 "accomplished. Show it off to family, friends, and colleagues in your social "
 "and professional networks."
 msgstr ""
-"Gratulálunk, ezen az oldalon minden megtalálható, amit elértél. Mutasd meg a "
-"családodnak, barátaidnak, munkatársaidnak ."
+"Gratulálunk, ezen az oldalon minden megtalálható, amit elértél! Mutasd meg a "
+"családodnak, barátaidnak, munkatársaidnak!"
 
 #. Translators: This line leads the reader to understand more about the
 #. certificate that a student has been awarded
@@ -4790,7 +4792,7 @@ msgstr "Ez a  **{organization}**'s _{course_name}_ Wiki oldala."
 
 #: lms/djangoapps/course_wiki/views.py
 msgid "Course page automatically created."
-msgstr "Kurzus oldal automatikusan létrehozva."
+msgstr "Kurzusoldal automatikusan létrehozva."
 
 #: lms/djangoapps/course_wiki/views.py
 msgid "Welcome to the {platform_name} Wiki"
@@ -4908,7 +4910,7 @@ msgstr "Nem sikerült a git log letöltése"
 
 #: lms/djangoapps/dashboard/git_import.py
 msgid "git clone or pull failed!"
-msgstr "git klónozása, vagy az adatfeltöltés sikertelen!"
+msgstr "git klónozása vagy az adatfeltöltés sikertelen!"
 
 #: lms/djangoapps/dashboard/git_import.py
 msgid "Unable to run import command."
@@ -4938,7 +4940,7 @@ msgstr "E-mail cím"
 
 #: lms/djangoapps/dashboard/support.py
 msgid "Course ID"
-msgstr "Kurzus azonosító"
+msgstr "Kurzusazonosító"
 
 #: lms/djangoapps/dashboard/support.py
 msgid "User not found"
@@ -4991,16 +4993,16 @@ msgstr "Minden rendben!"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Must provide username"
-msgstr "Felhasználói név megadása kötelező"
+msgstr "Felhasználói név megadása kötelező!"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Must provide full name"
-msgstr "Teljes név megadása kötelező"
+msgstr "Teljes név megadása kötelező!"
 
 #. Translators: Domain is an email domain, such as "@gmail.com"
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Email address must end in {domain}"
-msgstr "Az e-mail címnek {domain} -re kell végződnie"
+msgstr "Az e-mail címnek {domain} -re kell végződnie!"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Failed - email {email_addr} already exists as {external_id}"
@@ -5044,7 +5046,7 @@ msgstr "Érték"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Site statistics"
-msgstr "Oldal statisztika"
+msgstr "Oldalstatisztika"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Total number of users"
@@ -5207,7 +5209,7 @@ msgstr "A megjegyzések szintje alacsony"
 #: lms/djangoapps/django_comment_client/base/views.py
 msgid "Error uploading file. Please contact the site administrator. Thank you."
 msgstr ""
-"Fájl feltöltési hiba. Kérjük lépj kapcsolatba az oldal adminisztrátorával. "
+"Fájlfeltöltési hiba. Kérjük, lépj kapcsolatba az oldal adminisztrátorával! "
 "Köszönjük!"
 
 #: lms/djangoapps/django_comment_client/base/views.py
@@ -5262,7 +5264,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py
 msgid "Data Integrity Error"
-msgstr "Adat integritás hiba"
+msgstr "Adatintegritás hiba"
 
 #: lms/djangoapps/instructor/tests/test_api.py
 #: lms/djangoapps/instructor/views/instructor_task_helpers.py
@@ -5459,7 +5461,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Coupon Code"
-msgstr "Kupon kód"
+msgstr "Kuponkód"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Course Id"
@@ -5618,7 +5620,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "coupon id is None"
-msgstr "kupon azonosító üres"
+msgstr "kuponazonosító üres"
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "coupon with the coupon id ({coupon_id}) DoesNotExist"
@@ -5656,11 +5658,11 @@ msgstr "({code}) kódú kupon sikeresen érvényesítve"
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "coupon with the coupon code ({code}) already exists for this course"
-msgstr "({code}) kupon kódot már felhasználták ehhez a kurzushoz"
+msgstr "({code}) kuponkódot már felhasználták ehhez a kurzushoz"
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "coupon id not found"
-msgstr "kupon azonosító nem található"
+msgstr "kuponazonosító nem található"
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "coupon with the coupon id ({coupon_id}) updated Successfully"
@@ -5688,7 +5690,7 @@ msgstr "Bizonyítványok"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Please Enter the numeric value for the course price"
-msgstr "Add meg a kurzus árát számokkal"
+msgstr "Add meg a kurzus árát számokkal!"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "CourseMode with the mode slug({mode_slug}) DoesNotExist"
@@ -5712,7 +5714,7 @@ msgstr "Cohortok"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Student Admin"
-msgstr "Tanuló adminisztrátor"
+msgstr "Tanulói adminisztrátor"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Extensions"
@@ -6035,7 +6037,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "Coupon Codes Used"
-msgstr "Felhasznált kupon kód"
+msgstr "Felhasznált kuponkód"
 
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "Registration Code Used"
@@ -6051,7 +6053,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor_task/views.py
 msgid "No status information available"
-msgstr "Nincs elérhető állapot információ"
+msgstr "Nincs elérhető állapotinformáció"
 
 #: lms/djangoapps/instructor_task/views.py
 msgid "No task_output information found for instructor_task {0}"
@@ -6216,8 +6218,8 @@ msgid ""
 "Enter the tab that is selected in the XBlock. If not set, the Courseware tab "
 "is selected."
 msgstr ""
-"Add meg azt a fület, amely az XBlockban ki van választva. Ha nincs beállítás, "
-"akkor a Tananyag fül az alapértelmezett"
+"Add meg azt a fület, amely az XBlockban ki van választva! Ha nincs beállítás, "
+"akkor a Tananyag fül az alapértelmezett."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "LaTeX Source File Name"
@@ -6225,7 +6227,7 @@ msgstr "LaTeX forrásfájl neve"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Enter the source file name for LaTeX."
-msgstr "Írd be a forrásfájl nevét a LaTeX-hez."
+msgstr "Írd be a forrásfájl nevét a LaTeX-hez!"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Course Is Public"
@@ -6251,12 +6253,11 @@ msgstr ""
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
 "This component refers to deleted or invalid content group configurations."
-msgstr ""
-"A komponens egy törölt vagy hibás tartalom csoport konfigurációra mutat."
+msgstr "A komponens egy törölt vagy hibás tartalomcsoport konfigurációra mutat."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "This component refers to deleted or invalid content groups."
-msgstr "A komponens egy törölt vagy hibás tartalom csoportra mutat."
+msgstr "A komponens egy törölt vagy hibás tartalomcsoportra mutat."
 
 #: lms/djangoapps/notes/views.py
 msgid "My Notes"
@@ -6576,7 +6577,7 @@ msgstr "Fizetés ideje"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Order ID"
-msgstr "Rendelés azonosító"
+msgstr "Rendelés azonosítója:"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Unit Cost"
@@ -6608,11 +6609,11 @@ msgstr "Kurzus bejelentésének dátuma"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Course Start Date"
-msgstr "Kurzus kezdő dátuma"
+msgstr "Kurzus kezdődátuma"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Course Registration Close Date"
-msgstr "Kurzusra történő regisztrálás befejező dátuma"
+msgstr "Kurzusra történő regisztrálás befejeződátuma"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Course Registration Period"
@@ -6787,12 +6788,12 @@ msgstr "Sikeres tranzakció."
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "The request is missing one or more required fields."
-msgstr "Nincs kitöltve egy, vagy több kötelező mező."
+msgstr "Nincs kitöltve egy vagy több kötelező mező."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "One or more fields in the request contains invalid data."
-msgstr "Egy, vagy több mező hibás adatot tartalmaz."
+msgstr "Egy vagy több mező hibás adatot tartalmaz."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 msgid ""
@@ -7569,7 +7570,7 @@ msgstr "Szervezet"
 
 #: lms/envs/devstack.py
 msgid "Course Type"
-msgstr "Kurzus típus"
+msgstr "Kurzustípus"
 
 #: lms/envs/devstack.py
 msgid "Honor"
@@ -7590,7 +7591,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_refund.html
 msgid "Order Id:"
-msgstr "Rendelés azonosító:"
+msgstr "Rendelés azonosítója:"
 
 #: lms/templates/dashboard/_dashboard_refund.html
 msgid "Enrollment:"
@@ -7602,7 +7603,7 @@ msgstr "feliratkozott"
 
 #: lms/templates/dashboard/_dashboard_refund.html
 msgid "unenrolled"
-msgstr "leiratkoztál"
+msgstr "leiratkozott"
 
 #: lms/templates/dashboard/_dashboard_refund.html
 msgid "Cost:"
@@ -7662,7 +7663,7 @@ msgstr ""
 
 #: lms/templates/registration/password_reset_confirm.html
 msgid "Password Reset Form"
-msgstr "Jelszó alaphelyzetbe állítás űrlap"
+msgstr "Jelszó alaphelyzetbe állítása űrlap"
 
 #: lms/templates/registration/password_reset_confirm.html
 msgid ""
@@ -7779,12 +7780,12 @@ msgid ""
 "You're receiving this e-mail because you requested a password reset for your "
 "user account at %(site_name)s."
 msgstr ""
-"Ezt az e-mailt azért kaptad, mert jelszó visszaállítást kezdeményeztél a "
+"Ezt az e-mailt azért kaptad, mert jelszóvisszaállítást kezdeményeztél a "
 "felhasználói fiókodnál az %(site_name)s oldalon. "
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Please go to the following page and choose a new password:"
-msgstr "Kérjük látogasd meg a következő oldalt és válassz egy új jelszót:"
+msgstr "Kérjük, látogasd meg a következő oldalt és válassz egy új jelszót:"
 
 #: lms/templates/registration/password_reset_email.html
 msgid ""
@@ -7839,7 +7840,7 @@ msgstr "Törlés"
 
 #: lms/templates/wiki/delete.html
 msgid "You cannot delete a root article."
-msgstr "Nem tudod törölni a kezdő cikket."
+msgstr "Nem tudod törölni a kezdőcikket."
 
 #: lms/templates/wiki/delete.html
 msgid ""
@@ -7855,8 +7856,8 @@ msgid ""
 "You are deleting an article. This means that its children will be deleted as "
 "well. If you choose to purge, children will also be purged!"
 msgstr ""
-"Egy cikket fogsz törölni. Ez azt jelenti, hogy az összes al-cikk is törlésre "
-"kerül. Ha véglegesen törlöd, az al-cikkek is véglegesen törlődnek."
+"Egy cikket fogsz törölni. Ez azt jelenti, hogy az összes alcikk is törlésre "
+"kerül. Ha véglegesen törlöd, az alcikkek is véglegesen törlődnek."
 
 #: lms/templates/wiki/delete.html
 msgid "Articles that will be deleted"
@@ -7868,7 +7869,7 @@ msgstr "... és továbbiak!"
 
 #: lms/templates/wiki/delete.html
 msgid "You are deleting an article. Please confirm."
-msgstr "Törölsz egy cikket. Kérjük erősítsd meg!"
+msgstr "Törölsz egy cikket. Kérjük, erősítsd meg!"
 
 #: lms/templates/wiki/edit.html
 msgid "Edit"
@@ -7911,9 +7912,9 @@ msgid ""
 "can change to a particular revision or merge an old revision with the current "
 "one."
 msgstr ""
-"Kattints minden elemre, hogy megnézhesd a megváltozott sorokat. Kattints az "
-"Előnézetre, hogy megtekinthesd hogyan néz ki a cikk a jelenlegi állapotában. "
-"A lap alján be tudod állítani, hogy ez egy új változat, vagy egy régebbivel "
+"Kattints minden elemre, hogy megnézhesd a megváltozott sorokat! Kattints az "
+"Előnézetre, hogy megtekinthesd, hogyan néz ki a cikk a jelenlegi állapotában. "
+"A lap alján be tudod állítani, hogy ez egy új változat vagy egy régebbivel "
 "olvadjon egybe."
 
 #: lms/templates/wiki/history.html
@@ -7938,7 +7939,7 @@ msgstr "A kiválasztott összefésülése az aktuálissal..."
 
 #: lms/templates/wiki/history.html
 msgid "Switch to selected version"
-msgstr "Válts a kiválasztott verzióra"
+msgstr "Válts a kiválasztott verzióra!"
 
 #: lms/templates/wiki/history.html
 msgid "Wiki Revision Preview"
@@ -7950,7 +7951,7 @@ msgstr "Vissza a történet nézetre"
 
 #: lms/templates/wiki/history.html
 msgid "Switch to this version"
-msgstr "Válts erre a változatra"
+msgstr "Válts erre a változatra!"
 
 #: lms/templates/wiki/history.html
 msgid "Merge Revision"
@@ -8160,7 +8161,7 @@ msgstr "Méret"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "File History"
-msgstr "Fájl előzmények"
+msgstr "Fájlelőzmények"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Detach"
@@ -8180,7 +8181,7 @@ msgstr "anonymous (IP logolva)"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "File history"
-msgstr "Fájl előzmények"
+msgstr "Fájlelőzmények"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "revisions"
@@ -8192,7 +8193,7 @@ msgstr "A cikknek nincs melléklete."
 
 #: openedx/core/djangoapps/course_groups/cohorts.py
 msgid "You cannot create two cohorts with the same name"
-msgstr "Nem hozhatsz létre két korcsoportot azonos néven"
+msgstr "Nem hozhatsz létre két korcsoportot azonos néven!"
 
 #: openedx/core/djangoapps/course_groups/cohorts.py
 msgid ""
@@ -8283,7 +8284,7 @@ msgstr "Jelszó"
 
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Remember me"
-msgstr "Emlékezz rám"
+msgstr "Emlékezz rám!"
 
 #: openedx/core/djangoapps/user_api/views.py
 msgid ""
@@ -8350,7 +8351,7 @@ msgstr "Levelezési cím"
 
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Tell us why you're interested in {platform_name}"
-msgstr "Mondd el miért érdeklődsz a {platform_name} iránt"
+msgstr "Mondd el, miért érdeklődsz a {platform_name} iránt!"
 
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Please select your Country."
