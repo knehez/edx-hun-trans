@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-21 20:51+0200\n"
+"PO-Revision-Date: 2015-09-22 15:32+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -4647,9 +4647,8 @@ msgid ""
 "You have been enrolled in {course_name} at {site_name} by a member of the "
 "course staff. The course should now appear on your {site_name} dashboard."
 msgstr ""
-"A kurzus stábtag jaként bejelentkeztél a {course_name} kurzusra a "
-"{site_name} oldalon. A kurzus most már megjelenik a {site_name} "
-"irányítópulton."
+"A kurzus stábtagjaként bejelentkeztél a {course_name} kurzusra a {site_name} "
+"oldalon. A kurzus most már megjelenik a {site_name} irányítópulton."
 
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt
@@ -6432,7 +6431,7 @@ msgstr "Válassz nyelvet!"
 
 #: lms/templates/modal/_modal-settings-language.html
 msgid "Please choose your preferred language"
-msgstr "Kérlek ,válassz előnyben részesített nyelvet!"
+msgstr "Kérlek,válassz előnyben részesített nyelvet!"
 
 #: lms/templates/modal/_modal-settings-language.html
 msgid "Save Language Settings"

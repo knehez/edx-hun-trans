@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-21 19:11+0200\n"
+"PO-Revision-Date: 2015-09-22 13:02+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -573,8 +573,7 @@ msgstr ""
 
 #: common/djangoapps/student/views.py
 msgid "Unknown error. Please e-mail us to let us know how it happened."
-msgstr ""
-"IsIsmeretlen hiba. Kérjük, írd meg e-mailen, hogy hogyan következett be!"
+msgstr "Ismeretlen hiba. Kérjük, írd meg e-mailen, hogy hogyan következett be!"
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -878,7 +877,7 @@ msgstr "jún."
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Jul"
-msgstr "július"
+msgstr "júl."
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Aug 10, 2014". It is used for the %b
@@ -2038,7 +2037,7 @@ msgstr "Számológép megjelenítése"
 msgid ""
 "Enter true or false. When true, students can see the calculator in the course."
 msgstr ""
-"True vagy False 'Igaz vagy hamis'. Ha igaz, akkor a tanulók láthatják a "
+"Lehetséges értékek: true vagy false . Ha igaz, akkor a tanulók láthatják a "
 "számológépet."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2069,7 +2068,7 @@ msgid ""
 "Enter true or false. When true, students can see the chat widget in the "
 "course."
 msgstr ""
-"True vagy False 'Igaz vagy hamis'. Ha igaz, akkor a tanulók látják a chat "
+"Lehetséges értékek: true vagy false.  Ha igaz, akkor a tanulók látják a chat "
 "alkalmazást."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2366,7 +2365,7 @@ msgstr "Fedezd fel a többi Studio funkciót!"
 msgid ""
 "Discover other available course authoring tools, and find help when you need "
 "it."
-msgstr "Fedezz fel más kurzusadminisztrációs eszközöket!"
+msgstr "Fedezz fel más kurzus-adminisztrációs eszközöket!"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Draft a Rough Course Outline"
@@ -2394,7 +2393,7 @@ msgid ""
 "Specify the release dates for each Section in your course. Sections become "
 "visible to students on their release dates."
 msgstr ""
-"Add meg a megjelenési dátumát az egyes fejezeteknek! A fejezetek a megadott "
+"Add meg az egyes fejezetek megjelenési dátumát! A fejezetek a megadott "
 "dátumtól kezdődően lesznek láthatók a hallgatók számára."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -4051,7 +4050,7 @@ msgid ""
 "The URL for your video. This can be a YouTube URL or a link to an .mp4, .ogg, "
 "or .webm video file hosted elsewhere on the Internet."
 msgstr ""
-"A video URL-je. Ez lehet egy youtube link vagy egy  .mp4, .ogg vagy .webm "
+"A video URL-je. Ez lehet egy YouTube link vagy egy  .mp4, .ogg vagy .webm "
 "videófájl, amelyet valahol máshol hostolnak az interneten."
 
 #: common/lib/xmodule/xmodule/video_module/video_module.py

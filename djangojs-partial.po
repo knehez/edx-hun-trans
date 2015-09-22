@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-21 17:34+0200\n"
+"PO-Revision-Date: 2015-09-22 15:08+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -2066,7 +2066,7 @@ msgstr "Jelöld be a négyzetet, hogy eltávolítsd az összes jelölőt!"
 msgid "Check the box to remove %(totalFlags)s flag."
 msgid_plural "Check the box to remove %(totalFlags)s flags."
 msgstr[0] "Jelöld be a négyzetet, hogy eltávolíts %(totalFlags)s jelölőt."
-msgstr[1] ""
+msgstr[1] "Jelöld be a négyzetet, hogy eltávolíts %(totalFlags)s jelölőt."
 
 #. Translators: 'count' is the number of flags solely for that annotation that
 #. will be removed
@@ -2251,7 +2251,7 @@ msgstr "Hiba a hallgatói lista lekérése közben."
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr ""
 "Hiba történt azon a hallhatók listájának  összeállításakor, akik "
-"beiratkozhatnak . Próbáld újra!"
+"beiratkozhatnak. Próbáld újra!"
 
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Error retrieving grading configuration."
@@ -2549,7 +2549,7 @@ msgid ""
 "the student identifier is spelled correctly."
 msgstr ""
 "Hiba történt a hallgatói előrehaladás URL lekérésekor '<%= student_id %>' "
-"részére. Kérlek ,ellenőrizd a hallgatói azonosítót!"
+"részére. Kérlek, ellenőrizd a hallgatói azonosítót!"
 
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 msgid "Please enter a problem location."
