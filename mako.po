@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-22 15:32+0200\n"
+"PO-Revision-Date: 2015-09-27 15:35+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -2993,6 +2993,8 @@ msgid ""
 "To download student profile data and anonymized IDs, visit the Data Download "
 "section of the Instructor Dashboard."
 msgstr ""
+"Az anonimizált hallgatói profiladatok letöltése az oktatói orányítópult "
+"adatletöltések részében van"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -3060,7 +3062,7 @@ msgstr ""
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Count of Students that Opened a Subsection"
-msgstr ""
+msgstr "Azoknak a hallgatóknak a száma, akik megnyitottak egy alfejezetet"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
@@ -5168,7 +5170,7 @@ msgstr "A kurzus befejeződött?"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Grade Cutoffs:"
-msgstr ""
+msgstr "Eredményességi szint:"
 
 #. Translators: git is a version-control system; see http://git-scm.com/about
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
@@ -5192,6 +5194,9 @@ msgid ""
 "exams and problem sets), and can be changed on the 'Grading' page (under "
 "'Settings') in Studio."
 msgstr ""
+"Kattints a gombra a kurzus osztályozási beállításainak megtekintéséhez. Az "
+"osztályzás a kurzus alfejezeteiben lévő feladatokaon alapul. A Studióban a "
+"Beállítások menü Értékelés almenüjében találod a konfigurációs ablakot."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Grading Configuration"
@@ -5199,11 +5204,11 @@ msgstr "Osztályozás beállítása"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Click to download a CSV of anonymized student IDs:"
-msgstr ""
+msgstr "Töltsd le az anonimizált hallgatói azonosítókat:"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Get Student Anonymized IDs CSV"
-msgstr ""
+msgstr "Anonimizált hallgatói azonosítók CSV letöltése"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
@@ -5218,28 +5223,39 @@ msgid ""
 "background, meaning it is OK to navigate away from this page while your "
 "report is generating."
 msgstr ""
+"Nagy kurzusok esetén a jelentések generálása órákig is eltarthat. Ha a "
+"jelentés generálása kész, akkor alul egy táblázatban megjelenik a generálás "
+"dátuma és ideje. A jelentést a háttérben generáljuk. Ez azt jelenti, hogy "
+"nyugodtan elhagyhatod az oldalt a jelentés generálása alatt."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
 "Please be patient and do not click these buttons multiple times. Clicking "
 "these buttons multiple times will significantly slow the generation process."
 msgstr ""
+"Kérjük, légy türelmes és ne nyomd meg a gombokat többször, mert ez nagyon "
+"lelassítja a generálást!"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
 "Click to generate a CSV file of all students enrolled in this course, along "
 "with profile information such as email address and username:"
 msgstr ""
+"Kattints a gombra a kurzusra jelentkezett hallgatók CSV fájljának "
+"generálásához. A fájl tartalmazza a profil információkat is: e-mail címet és "
+"felhasználói nevet."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Download profile information as a CSV"
-msgstr ""
+msgstr "Profil infromációk letöltése CSV formátumban"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
 "Click to generate a CSV file that lists learners who can enroll in the "
 "course but have not yet done so."
 msgstr ""
+"Kattints a gombra, hogy legeneráljuk azoknak a hallgatóknak a CSV fájlját, "
+"akik jelentkezhetnek a kurzusra, de még nem tették meg. "
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Download a CSV of learners who can enroll"
@@ -5250,15 +5266,19 @@ msgid ""
 "For smaller courses, click to list profile information for enrolled students "
 "directly on this page:"
 msgstr ""
+"Kis kurzusoknál a feliratkozott hallgatók profiladatait ki lehet listázni "
+"erre az oldalra. Kattitns a gombra!"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "List enrolled students' profile information"
-msgstr ""
+msgstr "Feliratkozott hallgatók profiladatainak kilistázása"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
 "Click to generate a CSV grade report for all currently enrolled students."
 msgstr ""
+"Kattints a gombra a kurzusra jelentkezett hallgatók értékelésének "
+"generálásához CSV formátumban."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Generate Grade Report"
@@ -5270,7 +5290,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Reports Available for Download"
-msgstr ""
+msgstr "Letölthető jelentések"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -5279,6 +5299,10 @@ msgid ""
 "generation. Reports are not deleted, so you will always be able to access "
 "previously generated reports from this page."
 msgstr ""
+"Az alábbi jelentések elkészültek és letölthetők. Minden jelentés "
+"hozzáférhető marad ezen az oldalon. A generálás UTC időzóna szerinti "
+"időbélyege alapján visszakereshetők a jelentések. A jelentéseket soha nem "
+"törli a rendszer, a korábbi jelentések is itt maradnak az oldalon."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -5295,6 +5319,9 @@ msgid ""
 "<b>Note</b>: To keep student data secure, you cannot save or email these "
 "links for direct access. Copies of links expire within 5 minutes."
 msgstr ""
+"<b>Figyelem</b>:  A hallgatók adatainak biztonsága érdekében ezeket a "
+"linkeket nem mentheted el, vagy nem küldheted el e-mailben. A linkek 5 "
+"percig érvényesek. "
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enrollment Codes"
@@ -5874,7 +5901,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_analytics.html
 msgid "Gender Distribution"
-msgstr ""
+msgstr "Nemek eloszlása"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_analytics.html
 msgid "Level of Education"
@@ -5926,7 +5953,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Register/Enroll Students"
-msgstr ""
+msgstr "Hallgatók regisztrációja/jelentkezése"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -5935,6 +5962,11 @@ msgid ""
 "name, and country. Please include one student per row and do not include any "
 "headers, footers, or blank lines."
 msgstr ""
+"Ha a kurzushoz hallgatókat akarsz regisztrálni és jelentkeztetni. akkor egy "
+"CSV fájlt kell kiválasztanod, amelynek az oszlopai (szigorúan ebben a "
+"sorrendben): e-mail, felhasználói név, név, ország. Egy sorban egy hallgató "
+"adatai szerepeljenek. A CSV fájban ne legyen se fejléc, se lábléc se üres "
+"sorok."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Upload CSV"
@@ -5974,7 +6006,7 @@ msgstr "Bétatesztelők eltávolítása"
 #. users can be added to.
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Administration List Management"
-msgstr ""
+msgstr "Adminisztrátorok kezelése"
 
 #. Translators: an "Administrator Group" is a group, such as Course Staff,
 #. that
