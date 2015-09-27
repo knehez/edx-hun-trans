@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-22 15:08+0200\n"
+"PO-Revision-Date: 2015-09-27 17:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -3426,7 +3426,7 @@ msgid ""
 "The name that appears on your certificates. Other learners never see your "
 "full name."
 msgstr ""
-"A név, ami a bizonyítványon meg fog jelenni. Más hallgatók nem láthatják a "
+"A név, amely a bizonyítványon meg fog jelenni. Más hallgatók nem láthatják a "
 "teljes nevedet."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
@@ -3458,8 +3458,8 @@ msgid ""
 "When you click \"Reset Password\", a message will be sent to your email "
 "address. Click the link in the message to reset your password."
 msgstr ""
-"Amikor a jelszó visszaállítását választod, egy e-mailt küldünk az e-mail "
-"címedre. Kattints az üzenetben szereplő linkre a jelszó visszaállításához"
+"Amikor a jelszó visszaállítását választod, egy üzenetet küldünk az e-mail "
+"címedre. Kattints az üzenetben szereplő linkre a jelszó visszaállításához."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Language"
@@ -3542,7 +3542,7 @@ msgstr "Sikeresen szétkapcsolva"
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "{platform_name} learners can see my:"
-msgstr "{platform_name} tanulói láthatják az én:"
+msgstr "{platform_name} tanulói ezt láthatják:"
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "Limited Profile"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-27 17:06+0200\n"
+"PO-Revision-Date: 2015-09-27 17:11+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -1505,7 +1505,7 @@ msgstr "Teljes név *"
 
 #: lms/templates/signup_modal.html
 msgid "Ed. Completed"
-msgstr "Oktatás befejeződött"
+msgstr "Legmagasabb végzettség"
 
 #: lms/templates/signup_modal.html
 msgid "Year of birth"
@@ -2136,7 +2136,7 @@ msgstr ""
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Email Addresses/Usernames"
-msgstr "Email cím/felhasználói név"
+msgstr "E-mail cím/felhasználói név"
 
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
