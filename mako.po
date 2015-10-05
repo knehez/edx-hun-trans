@@ -4357,7 +4357,7 @@ msgstr "Kedves {full_name}!"
 msgid ""
 "You have been invited to be a beta tester for {course_name} at {site_name} "
 "by a member of the course staff."
-msgstr ""
+msgstr "Béta tesztelőnek hívtak a {course_name} kurzushoz a {site_name} rendszerben."
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
@@ -4843,7 +4843,9 @@ msgid ""
 "You have been removed as a beta tester for {course_name} at {site_name} by a "
 "member of the course staff. The course will remain on your dashboard, but "
 "you will no longer be part of the beta testing group."
-msgstr ""
+msgstr "A béta tesztelői megbízásodat visszavonták a {course_name} kurzusnál "
+"a {site_name} rendszerben. A kurzust még mindig láthatod az irányítópulton, "
+"de már nem vagy tagja a béta tesztelő csapatnak."
 
 #: lms/templates/emails/remove_beta_tester_email_message.txt
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt
@@ -4852,7 +4854,7 @@ msgstr ""
 
 #: lms/templates/emails/remove_beta_tester_email_subject.txt
 msgid "You have been removed from a beta test for {course_name}"
-msgstr ""
+msgstr "A béta tesztelői megbízásodat visszavonták - {course_name}"
 
 #: lms/templates/emails/reverification_processed.txt
 msgid ""
