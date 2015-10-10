@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-10-10 11:42+0200\n"
+"PO-Revision-Date: 2015-10-10 12:32+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -3073,7 +3073,7 @@ msgstr "Nem találtam e-mail címet."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Any Type"
-msgstr ""
+msgstr "Bármelyik típus"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Library"
@@ -3105,11 +3105,11 @@ msgstr "Számláló"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Enter the number of components to display to each student."
-msgstr ""
+msgstr "Add meg megjelenítendő a feladatkomponensek számát"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Problem Type"
-msgstr ""
+msgstr "Feladat típusa"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid ""
@@ -3129,6 +3129,8 @@ msgid ""
 "Set this value to True if this module is either a graded assignment or a "
 "practice problem."
 msgstr ""
+"Lehetséges értékek: True és False. Ha True akkor ez a modul osztályozott, "
+"vagy ha nem, akkor gyakorló feladat"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "This component is out of date. The library has new content."
