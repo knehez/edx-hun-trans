@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-10-10 11:16+0200\n"
+"PO-Revision-Date: 2015-10-10 11:42+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -3077,15 +3077,15 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Library"
-msgstr ""
+msgstr "Könyvtár"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Select the library from which you want to draw content."
-msgstr ""
+msgstr "Válaszd ki a könyvtárat, amelyből a tartalmat beillesztjük"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Library Version"
-msgstr ""
+msgstr "Könyvtár verziója"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Mode"
@@ -3093,7 +3093,7 @@ msgstr "Mód"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Determines how content is drawn from the library"
-msgstr ""
+msgstr "Meghatározza, hogyan illesztjük be a tartalmat a könyvtárból"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Choose n at random"
@@ -3116,6 +3116,8 @@ msgid ""
 "Choose a problem type to fetch from the library. If \"Any Type\" is selected "
 "no filtering is applied."
 msgstr ""
+"Válassz egy problématípust. Ezt a típust illesztjük bele a könyvtárból. Az "
+"\"Any Type\" azaz \"Bármelyik típus\" esetén nem szűrünk ki semmit."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 #: common/lib/xmodule/xmodule/lti_module.py
@@ -3130,7 +3132,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "This component is out of date. The library has new content."
-msgstr ""
+msgstr "A komponens elavult. A könyvtárban újabb tartalom van."
 
 #. Translators: {refresh_icon} placeholder is substituted to "?" (without
 #. double quotes)
@@ -3140,11 +3142,11 @@ msgstr "{refresh_icon} Frissíts."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Library is invalid, corrupt, or has been deleted."
-msgstr ""
+msgstr "A könyvtár érvénytelen, sérült vagy letörölték"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Edit Library List."
-msgstr ""
+msgstr "Könyvtárak listájának szerkesztése"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid ""
@@ -3154,11 +3156,11 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "A library has not yet been selected."
-msgstr "Még nem választottál könyvtárat"
+msgstr "Még nem választottál könyvtárat."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Select a Library."
-msgstr ""
+msgstr "Válassz egy könyvtárat!"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "There are no matching problem types in the specified libraries."
@@ -3171,8 +3173,8 @@ msgstr "Válassz egy másik feladattípust!"
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "The specified library is configured to fetch {count} problem, "
 msgid_plural "The specified library is configured to fetch {count} problems, "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "A kiválasztott könyvtárból {count} feladatot illesztünk be,"
+msgstr[1] "A kiválasztott könyvtárból {count} feladatot illesztünk be,"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "but there is only {actual} matching problem."
@@ -3182,19 +3184,19 @@ msgstr[1] ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Edit the library configuration."
-msgstr ""
+msgstr "Könyvtár beállításások szerkesztése"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Invalid Library"
-msgstr ""
+msgstr "Érvénytelen könyvtár"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "No Library Selected"
-msgstr ""
+msgstr "Nincs könyvtár kiválasztva"
 
 #: common/lib/xmodule/xmodule/library_root_xblock.py
 msgid "Enter the name of the library as it should appear in Studio."
-msgstr ""
+msgstr "Add meg a könyvtár nevét. Így  jelenik majd meg a Studioban."
 
 #: common/lib/xmodule/xmodule/library_root_xblock.py
 msgid "Library Display Name"
@@ -3202,7 +3204,7 @@ msgstr "Könyvtár megjelenítési neve"
 
 #: common/lib/xmodule/xmodule/library_root_xblock.py
 msgid "Enter the names of the advanced components to use in your library."
-msgstr ""
+msgstr "Add meg a könyvtáradban használt haladó komponensek nevét"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
