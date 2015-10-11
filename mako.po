@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-10-08 20:23+0200\n"
+"PO-Revision-Date: 2015-10-11 07:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -3160,7 +3160,7 @@ msgstr "Hírek - MITx 6.002x"
 
 #: lms/templates/courseware/news.html
 msgid "Updates to Discussion Posts You Follow"
-msgstr ""
+msgstr "Az általad követett fórumüzenetek frissítései"
 
 #: lms/templates/courseware/progress.html
 msgid "{course_number} Progress"
@@ -3672,7 +3672,7 @@ msgstr ""
 
 #: lms/templates/discussion/_discussion_module_studio.html
 msgid "Discussion ID: {discussion_id}"
-msgstr ""
+msgstr "Fórum azonosító: {discussion_id}"
 
 #: lms/templates/discussion/_filter_dropdown.html
 msgid "Filter Topics"
@@ -3966,7 +3966,7 @@ msgstr "Cím:"
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Add a clear and descriptive title to encourage participation."
 msgstr ""
-"Egyértelmű és kifejező címet válassz, hogy a többik úgy érezzék, hogy meg kell "
+"Egyértelmű és kifejező címet válassz, hogy a többiek úgy érezzék, hogy meg kell "
 "nézniük!"
 
 #: lms/templates/discussion/_underscore_templates.html
@@ -4003,7 +4003,7 @@ msgstr "Kérdés"
 #. Translators: This is a forum post type
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Discussion"
-msgstr ""
+msgstr "Üzenetet"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid ""
@@ -4019,7 +4019,7 @@ msgstr "Témakör:"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Filter topics"
-msgstr ""
+msgstr "Szűrés"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Add your post to a relevant topic to help others find it."
@@ -5969,7 +5969,7 @@ msgstr "Közreműködő hozzáadása"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Instructors"
-msgstr ""
+msgstr "Instruktorok"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -5979,7 +5979,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Instructor"
-msgstr ""
+msgstr "Instruktor hozzáadása"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Beta Testers"
@@ -5997,7 +5997,7 @@ msgstr "Bétatesztelők hozzáadása"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Discussion Admins"
-msgstr ""
+msgstr "Fórum adminisztrátorok"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -6008,7 +6008,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Discussion Admin"
-msgstr ""
+msgstr "Fórum adminisztrátor hozzáadása"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Discussion Moderators"

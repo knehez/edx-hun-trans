@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-07-29 22:07+0200\n"
-"PO-Revision-Date: 2015-09-27 17:18+0200\n"
+"PO-Revision-Date: 2015-10-11 07:03+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -2012,8 +2012,8 @@ msgstr "körülbelül egy perce"
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d perce"
-msgstr[1] "%d perce"
+msgstr[0] "%d perccel"
+msgstr[1] "%d perccel"
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about an hour"
@@ -2032,8 +2032,8 @@ msgstr "egy napja"
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d napja"
-msgstr[1] "%d napja"
+msgstr[0] "%d nappal"
+msgstr[1] "%d nappal"
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about a month"
@@ -2042,8 +2042,8 @@ msgstr "körülbelül egy hónapja"
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d hónapja"
-msgstr[1] "%d hónapja"
+msgstr[0] "%d hónappal"
+msgstr[1] "%d hónappal"
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about a year"
@@ -2052,8 +2052,8 @@ msgstr "körülbelül egy éve"
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] "%d éve"
-msgstr[1] "%d éve"
+msgstr[0] "%d évvel"
+msgstr[1] "%d évvel"
 
 #. Translators: please note that this is not a literal flag, but rather a
 #. report
