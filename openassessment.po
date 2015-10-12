@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-06 03:39-0500\n"
-"PO-Revision-Date: 2015-09-21 19:21+0200\n"
+"PO-Revision-Date: 2015-10-12 23:14+0200\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -36,18 +36,18 @@ msgstr "Váratlan hiba történt."
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/grade_mixin.py
 #: openassessment/xblock/grade_mixin.py
 msgid "Peer Assessment"
-msgstr ""
+msgstr "Társ értékelés"
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/grade_mixin.py
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 #: openassessment/xblock/grade_mixin.py
 msgid "Self Assessment"
-msgstr ""
+msgstr "Önértékelés"
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/grade_mixin.py
 #: openassessment/xblock/grade_mixin.py
 msgid "Assessment feedback could not be saved."
-msgstr ""
+msgstr "A visszajelzést nem tudtuk elmenteni."
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/grade_mixin.py
 #: openassessment/xblock/grade_mixin.py
@@ -104,7 +104,7 @@ msgstr ""
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py
 #: openassessment/xblock/peer_assessment_mixin.py
 msgid "Submit your assessment & review another response"
-msgstr ""
+msgstr "Küld el a kiértékelést és folytasd egy másik válasszal"
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py
 #: openassessment/xblock/peer_assessment_mixin.py
@@ -114,7 +114,7 @@ msgstr ""
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py
 #: openassessment/xblock/peer_assessment_mixin.py
 msgid "Submit your assessment & move to response #{response_number}"
-msgstr ""
+msgstr "Küld el a kiértékelést és folytasd a #{response_number} válasszal"
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/resolve_dates.py
 #: openassessment/xblock/resolve_dates.py
@@ -293,7 +293,7 @@ msgstr "A válasz mentése nem sikerült."
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/submission_mixin.py
 #: openassessment/xblock/submission_mixin.py
 msgid "This response was not submitted."
-msgstr ""
+msgstr "A választ nem küldted el."
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/submission_mixin.py
 #: openassessment/xblock/submission_mixin.py
@@ -471,6 +471,8 @@ msgid ""
 "response to the question. The other steps appear below the Your Response "
 "field."
 msgstr ""
+"A feladat több lépésből áll. Az első lépés: válaszold meg a kérdést. A többi "
+"lépés a Válaszod alatt jelenik meg."
 
 #: openassessment/templates/openassessmentblock/oa_base.html
 msgid "This step's status:"
@@ -544,7 +546,7 @@ msgstr "Megjelenített név"
 msgid ""
 "This name appears when you hover over the unit in the course ribbon at the "
 "top of the page."
-msgstr ""
+msgstr "Ez a név jelenik meg, ha a lecke feletti sáv fölé viszed a kurzort."
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html
 msgid "Response Start Date"
@@ -556,7 +558,7 @@ msgstr "Válasz kezdőideje"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html
 msgid "The date and time when students can begin submitting responses."
-msgstr ""
+msgstr "A dátum és idő, amikor a hallgatók a válaszok beküldését elkezdhetik."
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html
 msgid "Response Due Date"
@@ -568,11 +570,11 @@ msgstr "Válasz esedékességi ideje"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html
 msgid "The date and time when students can no longer submit responses."
-msgstr ""
+msgstr "A dátum és idő, amiután a hallgatók nem küldhetnek be válaszokat."
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html
 msgid "Allow Image Responses"
-msgstr ""
+msgstr "Képek hozzáadása a válaszokhoz engedélyezve"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html
 msgid "False"
@@ -587,14 +589,15 @@ msgid ""
 "Specify whether students can submit an image file along with their text "
 "response."
 msgstr ""
+"Add meg, hogy a hallgatók feltölthetnek-e képeket a szöveges válaszaik mellett"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html
 msgid "Allow Latex Responses"
-msgstr ""
+msgstr "LaTex válszok engedélyezése"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html
 msgid "Specify whether students can write Latex formatted strings"
-msgstr ""
+msgstr "Megadja, hogy a hallgatók használhatnak-e LaTex formátumú szöveget"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html
 #: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_show.html
@@ -607,6 +610,8 @@ msgid ""
 "Specify the number of top-scoring responses to display. If the number is 0, "
 "the Top Responses section won't appear to students."
 msgstr ""
+"Add meg a kijelzendő legjobb válaszok mennyiségét- Ha ez a szám 0. akkor a "
+"legjobb válaszok nem jelennek meg a hallgatók előtt."
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html
 msgid ""
@@ -617,6 +622,12 @@ msgid ""
 "you include a student training training step, it must precede peer and self "
 "assessment steps."
 msgstr ""
+"Ebben a feladatban megadhatsz hallgatói betanulás, társ kiértékelés, "
+"önértéklelés és példa alapú értékelést. Válalszd ki azokat a lépéseket, "
+"amelyeket használni fogsz. Fogd és vidd őket olyan sorrendbe, ahogy tetszik. "
+"Ha példa alapú értékelést használsz, annak a léoésnek a többi előtt kell "
+"lennie. A hallgatói értékelésnek a társ és önértékelés előtt kell lennie, ha "
+"szerepel."
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html
 msgid ""
@@ -682,7 +693,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_example_based_assessment.html
 msgid "Step: Example-Based Assessment"
-msgstr ""
+msgstr "Lépés: példa alapú kiértékelés"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_example_based_assessment.html
 msgid ""
@@ -697,6 +708,9 @@ msgid ""
 "options that you would choose for each criterion in your rubric. Note that "
 "you must add your rubric to the Rubric tab before you can complete this step."
 msgstr ""
+"Adj meg egy vagy több példa választ, és add meg, hogyan értékelnéd azokat a "
+"rubrikában. Figyelem: nem fejezheted be ezt a lépést, amíg nem írtál a "
+"rubrikába!"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_option.html
 msgid "Option"
@@ -716,7 +730,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html
 msgid "Step: Peer Assessment"
-msgstr ""
+msgstr "Lépés: Társ értékelés"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html
 msgid ""
@@ -726,23 +740,25 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html
 msgid "Specify the following values for the peer assessment step."
-msgstr ""
+msgstr "Add meg a követketkező értékeket a társ értékelés lépéshez"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html
 msgid "Must Grade"
-msgstr ""
+msgstr "Társ értékelések száma"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html
 msgid "Specify the number of peer assessments that each student must complete."
 msgstr ""
+"Megadja a társ értékelések számát, amelyet az egyes hallgatóknak meg kell "
+"csinálniuk"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html
 msgid "Graded By"
-msgstr "Értékelte"
+msgstr "Értékelők száma"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html
 msgid "Specify the number of students who must assess each response."
-msgstr ""
+msgstr "Magadja, hogy az egyes válaszokat hány hallgató értékelje."
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html
 #: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html
@@ -758,6 +774,7 @@ msgstr "Kezdőidő"
 msgid ""
 "Enter the date and time when students can begin assessing peer responses."
 msgstr ""
+"Megadja a dátumot és időt, amikor a hallgatók megkezdhetik a társ értékelést"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html
 #: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html
@@ -773,6 +790,8 @@ msgstr "Esedékesség ideje"
 #: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html
 msgid "Enter the date and time when all peer assessments must be complete."
 msgstr ""
+"Megadja a dátumot és időt, amikorra a hallgatóknak be kell fejezni a társ "
+"értékelést"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_prompt.html
 msgid "You cannot delete a prompt after the assignment has been released."
@@ -826,7 +845,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html
 msgid "Step: Self Assessment"
-msgstr ""
+msgstr "Lépés: Önértékelés"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html
 msgid "Students assess their own responses using the rubric for the assignment."
@@ -840,14 +859,17 @@ msgstr ""
 msgid ""
 "Enter the date and time when students can begin assessing their responses."
 msgstr ""
+"Megadja a dátumot és időt, amikor a hallgatók megkezdhetik az önértékelést"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html
 msgid "Enter the date and time when all self assessments must be complete."
 msgstr ""
+"Megadja a dátumot és időt, amikorra a hallgatóknak be kell fejezni az "
+"önértékelést."
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_student_training.html
 msgid "Step: Student Training"
-msgstr ""
+msgstr "Lépés: hallgatói térning"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_student_training.html
 msgid ""
@@ -884,7 +906,7 @@ msgstr "Nincs kiválasztva"
 #: openassessment/templates/openassessmentblock/grade/oa_grade_not_started.html
 #: openassessment/templates/openassessmentblock/grade/oa_grade_waiting.html
 msgid "Your Grade"
-msgstr ""
+msgstr "A Te eredményed"
 
 #: openassessment/templates/openassessmentblock/grade/oa_grade_cancelled.html
 msgid ""
@@ -1085,7 +1107,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/grade/oa_grade_not_started.html
 msgid "Not Started"
-msgstr ""
+msgstr "Nincs elkezdve"
 
 #: openassessment/templates/openassessmentblock/grade/oa_grade_not_started.html
 msgid "You have not started this problem yet."
@@ -1483,22 +1505,26 @@ msgstr "Folyamatban"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "Enter your response to the question."
-msgstr "Írd be a kérdésre adott válaszod"
+msgstr "Írd be a kérdésre adott válaszod."
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid ""
 "You can save your progress and return to complete your response at any time "
 "before the due date"
 msgstr ""
+"Bármikor elmentheted a válaszodat és befejezheted - amíg le nem tellik a "
+"határidő"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid ""
 "You can save your progress and return to complete your response at any time."
 msgstr ""
+"Bármikor elmentheted a válaszodat és befejezheted - amíg le nem tellik a "
+"határidő."
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "After you submit your response, you cannot edit it"
-msgstr ""
+msgstr "Miután beküldted a válaszod, nem módosíthatsz rajta"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "The prompt for this section."
@@ -1526,7 +1552,7 @@ msgstr "Folytathatod a munkát a válaszon, ameddig el nem küldöd."
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "We could not save your progress"
-msgstr ""
+msgstr "Nem tudjuk elmenteni a választ"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "Save Your Progress"
@@ -1732,7 +1758,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 msgid "Student Response"
-msgstr ""
+msgstr "Hallgatói válasz"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 msgid ""
@@ -1763,7 +1789,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 msgid "Comments:"
-msgstr ""
+msgstr "Megjegyzések:"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 msgid "Remove submission"
@@ -1775,7 +1801,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 msgid "Assessment"
-msgstr ""
+msgstr "Kiértékelés"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 msgid "Selected Option"
@@ -1791,7 +1817,7 @@ msgstr "Elérhető pontszám"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 msgid "Overall Feedback"
-msgstr ""
+msgstr "Általános visszajelzés"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 msgid "Peer Assessments Completed by This Student"
@@ -1799,11 +1825,11 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 msgid "Student's Self Assessment"
-msgstr ""
+msgstr "Hallgatói önértékelés"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 msgid "Example Based Assessment"
-msgstr ""
+msgstr "Példa alapú kiértékelés"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html
 msgid "Couldn't find a response for this student."
@@ -1811,7 +1837,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html
 msgid "Learn to Assess Responses"
-msgstr ""
+msgstr "Gyakorold a válaszok értékelését"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "available August 13th, 2014 (in 5 days and
