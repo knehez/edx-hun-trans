@@ -74,3 +74,6 @@ msgstr "Az üzenet mindenki számára látható"
 
 msgid "%(post_type)s posted %(time_ago)s by %(author)s"
 msgstr "%(author)s %(time_ago)s"
+
+msgid "Related to: %(courseware_title_linked)s"
+msgid "Kapcsolódó témák: %(courseware_title_linked)s"
