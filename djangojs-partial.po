@@ -1994,7 +1994,7 @@ msgstr "csökkent a cél"
 #. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "%s ago"
-msgstr "%s ezelőtt"
+msgstr "%s"
 
 #. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
 #: common/static/js/src/jquery.timeago.locale.js
@@ -2032,8 +2032,8 @@ msgstr "egy napja"
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d nappal"
-msgstr[1] "%d nappal"
+msgstr[0] "%d nappja"
+msgstr[1] "%d nappja"
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about a month"

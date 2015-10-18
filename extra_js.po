@@ -72,11 +72,3 @@ msgstr "Az ütenetet a következő csoportok láthatják: %(group_name)s."
 msgid "This post is visible to everyone."
 msgstr "Az üzenet mindenki számára látható"
 
-#: common/static/common/templates/discussion/response-comment-show.underscore
-#, python-format
-msgid "posted %(time_ago)s by %(author)s"
-msgstr "elküldve %(time_ago)s beküldte: %(author)s"
-
-#: common/static/common/templates/discussion/thread-list-item.underscore
-msgid "discussion"
-msgstr "üzenet"
