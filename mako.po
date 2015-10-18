@@ -2890,7 +2890,7 @@ msgstr ""
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Course-specific grade adjustment"
-msgstr ""
+msgstr "Feladatok beállítása minden hallgatóra vonatkozóan"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -6264,7 +6264,7 @@ msgstr "Tanulói eredmények lap"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Student-specific grade adjustment"
-msgstr "Hallgatók feladatainak beállításai"
+msgstr "Feladatok beállítása egyes hallgatónként"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Specify a problem in the course here with its complete location:"
@@ -6300,7 +6300,8 @@ msgid ""
 "Rescoring runs in the background, and status for active tasks will appear in the "
 "'Pending Instructor Tasks' table. To see status for all tasks submitted for this "
 "problem and student, click on this button:"
-msgstr ""
+msgstr "Újrapontozás elindult a háttérben. 'FÜGGŐBEN LÉVŐ OKTATÓI FELADATOK' "
+"alatt látható majd az eredménye."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Show Background Task History for Student"
@@ -6363,7 +6364,8 @@ msgid ""
 "The above actions run in the background, and status for active tasks will appear "
 "in a table on the Course Info tab. To see status for all tasks submitted for this "
 "problem, click on this button"
-msgstr ""
+msgstr "A háttérfeladat elindult. A korábbiakról az alábbi gomb megnyomásával kaphatunk "
+"információt."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Show Background Task History for Problem"
