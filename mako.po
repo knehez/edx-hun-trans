@@ -2081,7 +2081,7 @@ msgstr "Ütemezés"
 
 #: lms/templates/ccx/coach_dashboard.html
 msgid "Student Admin"
-msgstr "Tanulói adminisztrátor"
+msgstr "Tanulói adminisztráció"
 
 #: lms/templates/ccx/coach_dashboard.html lms/templates/ccx/grading_policy.html
 msgid "Grading Policy"
@@ -5119,7 +5119,7 @@ msgstr "Kurzusfigyelmeztetések"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Data Download"
-msgstr "Adat letöltése"
+msgstr "Adat letöltés"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -5213,11 +5213,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Generate Grade Report"
-msgstr "Osztályzatértékelés generálása"
+msgstr "Osztályzat riport generálás"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Generate Problem Grade Report"
-msgstr ""
+msgstr "Feladat riport generálás"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Reports Available for Download"
@@ -6159,17 +6159,17 @@ msgstr "Üzenet:"
 msgid ""
 "Please try not to email students more than once per week. Before sending your "
 "email, consider:"
-msgstr ""
+msgstr "Ne küldj hetenként gyakrabban leveleket! Küldés előtt vedd figyelembe a következőket:"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Have you read over the email to make sure it says everything you want to say?"
-msgstr ""
+msgstr "Átolvastad újra a lvevelet küldés előtt? Benne van minden amit szeretnél tudatni?"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid ""
 "Have you sent the email to yourself first to make sure you're happy with how it's "
 "displayed, and that embedded links and images work properly?"
-msgstr ""
+msgstr "Először csak magadnak küldd el és ellenőrizd hogyan jelenik meg! Jók-e a képek, linkek?"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "CAUTION!"
@@ -6198,7 +6198,7 @@ msgstr "E-mail feladatelőzmények"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "To see the content of all previously sent emails, click this button:"
-msgstr ""
+msgstr "Kattints a gombra, ha meg szeretnéd nézni a korábban küldött leveleket."
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Sent Email History"
@@ -6212,7 +6212,7 @@ msgstr "Ahhoz, hogy elolvass egy e-mailt, kattints a tárgyára!"
 msgid ""
 "To see the status for all bulk email tasks ever submitted for this course, click "
 "on this button:"
-msgstr ""
+msgstr "Kattins ide, ha az eddigi levelek állapotát szeretnéd megnézni."
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Show Email Task History"
@@ -6264,7 +6264,7 @@ msgstr "Tanulói eredmények lap"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Student-specific grade adjustment"
-msgstr ""
+msgstr "Hallgatók feladatainak beállításai"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Specify a problem in the course here with its complete location:"

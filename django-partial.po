@@ -4676,7 +4676,7 @@ msgstr "Minden jog fenntartva"
 #. recognized
 #: lms/djangoapps/certificates/views.py
 msgid "Invalid Certificate"
-msgstr ""
+msgstr "Hibás bizonyítvány"
 
 #. Translators: The &amp; characters represent an ampersand character and can
 #. be ignored
@@ -5591,14 +5591,14 @@ msgstr ""
 msgid ""
 "Your problem grade report is being generated! You can view the status of the "
 "generation task in the 'Pending Instructor Tasks' section."
-msgstr ""
+msgstr "A riport elkészítés alatt. A 'Letölthető jelentések' részben mindjárt megjelenik"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "A problem grade report is already being generated. Check the 'Pending "
 "Instructor Tasks' table for the status of the task. When completed, the "
 "report will be available for download in the table below."
-msgstr ""
+msgstr "A riport elkészítés alatt. Lentebb fog hamarosan megjelenni."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Successfully changed due date for student {0} for {1} to {2}"
