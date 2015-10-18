@@ -3838,7 +3838,7 @@ msgstr ""
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "posted %(time_ago)s by %(author)s"
-msgstr "elküldve %(time_ago)s beküldte: %(author)s"
+msgstr "%(author)s %(time_ago)s"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Editing comment"
