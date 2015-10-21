@@ -834,7 +834,7 @@ msgstr "Szervezet"
 
 #: cms/templates/js/signatory-editor.underscore
 msgid "Close"
-msgstr "Bezár"
+msgstr "Bezárás"
 
 #: cms/templates/js/signatory-editor.underscore
 msgid "Certificate Signatory Configuration"

@@ -55,7 +55,7 @@ msgstr "Hiba a nyílt kiértékelés elmentése közben"
 
 #: cms/static/js/base.js
 msgid "This link will open in a new browser window/tab"
-msgstr "A link új fülön/ablakban nyílik meg"
+msgstr "Ez a link egy új böngésző ablakban/fülön nyílik meg"
 
 #: cms/static/js/base.js
 msgid "This link will open in a modal window"
