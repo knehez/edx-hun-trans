@@ -4616,7 +4616,7 @@ msgstr ""
 #. describes the guarantee provided by edX
 #: lms/djangoapps/certificates/views.py
 msgid "{platform_name} acknowledges the following student accomplishment"
-msgstr ""
+msgstr "{platform_name} oktatási központ ez úton elismeri az alábbi hallgató munkáját"
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views.py
