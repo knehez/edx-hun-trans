@@ -462,8 +462,8 @@ msgstr "Keresési eredmények"
 #: lms/templates/search/dashboard_search_results.underscore
 msgid "Load next %(num_items)s result"
 msgid_plural "Load next %(num_items)s results"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Töltsd be a következő %(num_items)s találatot"
+msgstr[1] "Töltsd be a következő %(num_items)s találatot"
 
 #: lms/templates/search/course_search_results.underscore
 #: lms/templates/search/dashboard_search_results.underscore
