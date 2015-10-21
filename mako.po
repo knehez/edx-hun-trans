@@ -3405,7 +3405,7 @@ msgstr "Feliratkoztál mint:"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "View Archived Course"
-msgstr "Archív kurzusok megtekintése"
+msgstr "Kurzus megtekintés"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 #: lms/templates/shoppingcart/registration_code_receipt.html
