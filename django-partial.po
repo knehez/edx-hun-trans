@@ -4515,15 +4515,15 @@ msgstr ""
 #. Translators:  The format of the date includes the full name of the month
 #: lms/djangoapps/certificates/views.py
 msgid "{month} {day}, {year}"
-msgstr "{year} {month} {day}"
+msgstr "{year}. {month} {day}."
 
 #. Translators: This line appears on the certificate after the name of a
 #. course, and provides more
 #. information about the organizations providing the course material to
 #. platform users
 #: lms/djangoapps/certificates/views.py
-msgid "a course of study offered by {partner_name}, through {platform_name}."
-msgstr ""
+msgid "a course of study offered by MeMOOC."
+msgstr "amelynek tananyagát a Miskolci Egyetemen működő MeMOOC angol és magyar nyelvű online oktatási központ szolgáltatta."
 
 #. Translators: Accomplishments describe the awards/certifications obtained by
 #. students on this platform
@@ -4533,23 +4533,23 @@ msgstr ""
 
 #: lms/djangoapps/certificates/views.py
 msgid "More Information About {user_name}'s Certificate:"
-msgstr ""
+msgstr "További információ {user_name}'s bizonyítványához:"
 
 #. Translators:  This line appears on the page just before the generation date
 #. for the certificate
 #: lms/djangoapps/certificates/views.py
 msgid "Issued On:"
-msgstr ""
+msgstr "Bizonyítvány dátuma:"
 
 #. Translators:  The Certificate ID Number is an alphanumeric value unique to
 #. each individual certificate
 #: lms/djangoapps/certificates/views.py
 msgid "Certificate ID Number"
-msgstr "Bizonyítvány száma"
+msgstr "Bizonyítvány azonosító száma"
 
 #: lms/djangoapps/certificates/views.py
 msgid "About {platform_name} Certificates"
-msgstr ""
+msgstr "{platform_name} bizonyítványokról"
 
 #. Translators: This text describes the purpose (and therefore, value) of a
 #. course certificate
@@ -4638,8 +4638,8 @@ msgstr "{partner_name} {course_number} Bizonyítvány | {platform_name}"
 #: lms/djangoapps/certificates/views.py
 msgid ""
 "successfully completed, received a passing grade, and was awarded a "
-"{platform_name} {certificate_type} Certificate of Completion in "
-msgstr ""
+"MeMOOC Certificate of Completion in "
+msgstr "sikeresen teljesítette online oktatásunk keretében az alábbi kurzusunkat"
 
 #. Translators: This line is displayed to a user who has completed a course
 #. and achieved a certification
@@ -4662,7 +4662,7 @@ msgstr ""
 #. certificate that a student has been awarded
 #: lms/djangoapps/certificates/views.py
 msgid "More about {fullname}'s accomplishment"
-msgstr ""
+msgstr "További információ {fullname}'s bizonyítványához"
 
 #. Translators:  'All rights reserved' is a legal term used in copyrighting to
 #. protect published content
