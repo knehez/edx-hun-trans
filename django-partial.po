@@ -4515,7 +4515,7 @@ msgstr ""
 #. Translators:  The format of the date includes the full name of the month
 #: lms/djangoapps/certificates/views.py
 msgid "{month} {day}, {year}"
-msgstr "{year}. {month} {day}."
+msgstr "{year}. {month}. {day}."
 
 #. Translators: This line appears on the certificate after the name of a
 #. course, and provides more
