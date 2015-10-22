@@ -4523,7 +4523,7 @@ msgstr "{year}. {month}. {day}."
 #. platform users
 #: lms/djangoapps/certificates/views.py
 msgid "a course of study offered by MeMOOC."
-msgstr "amelynek tananyagát a Miskolci Egyetemen működő MeMOOC angol és magyar nyelvű online oktatási központ szolgáltatta."
+msgstr "című tananyagot, amelyet a Miskolci Egyetemen működő MeMOOC Angol és Magyar Nyelvű Online Oktatási Központ szolgáltatott."
 
 #. Translators: Accomplishments describe the awards/certifications obtained by
 #. students on this platform
@@ -4533,7 +4533,7 @@ msgstr ""
 
 #: lms/djangoapps/certificates/views.py
 msgid "More Information About {user_name}'s Certificate:"
-msgstr "További információ {user_name}'s bizonyítványához:"
+msgstr "További információ {user_name} bizonyítványához:"
 
 #. Translators:  This line appears on the page just before the generation date
 #. for the certificate
@@ -4639,7 +4639,7 @@ msgstr "{partner_name} {course_number} Bizonyítvány | {platform_name}"
 msgid ""
 "successfully completed, received a passing grade, and was awarded a "
 "MeMOOC Certificate of Completion in "
-msgstr "sikeresen teljesítette online oktatásunk keretében az alábbi kurzusunkat"
+msgstr "részére, aki sikeresen teljesítette online oktatásunk keretében a(z)"
 
 #. Translators: This line is displayed to a user who has completed a course
 #. and achieved a certification
@@ -4662,7 +4662,7 @@ msgstr ""
 #. certificate that a student has been awarded
 #: lms/djangoapps/certificates/views.py
 msgid "More about {fullname}'s accomplishment"
-msgstr "További információ {fullname}'s bizonyítványához"
+msgstr "További információ {fullname} bizonyítványához"
 
 #. Translators:  'All rights reserved' is a legal term used in copyrighting to
 #. protect published content
