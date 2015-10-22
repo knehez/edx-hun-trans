@@ -4539,13 +4539,13 @@ msgstr "További információ {user_name} bizonyítványához:"
 #. for the certificate
 #: lms/djangoapps/certificates/views.py
 msgid "Issued On:"
-msgstr "Bizonyítvány dátuma:"
+msgstr "Kiállítás dátuma:"
 
 #. Translators:  The Certificate ID Number is an alphanumeric value unique to
 #. each individual certificate
 #: lms/djangoapps/certificates/views.py
 msgid "Certificate ID Number"
-msgstr "Bizonyítvány azonosító száma"
+msgstr "Azonosító szám"
 
 #: lms/djangoapps/certificates/views.py
 msgid "About {platform_name} Certificates"

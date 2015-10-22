@@ -109,4 +109,4 @@ msgid "Starting"
 msgstr "Indulás"
 
 msgid "{platform_name} | Certificate"
-msgstr "{platform_name} | Bizonyítvány"
+msgstr "{platform_name} | Igazolás"
