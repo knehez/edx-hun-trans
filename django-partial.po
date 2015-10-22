@@ -4662,7 +4662,7 @@ msgstr ""
 #. certificate that a student has been awarded
 #: lms/djangoapps/certificates/views.py
 msgid "More about {fullname}'s accomplishment"
-msgstr "További információ {fullname} bizonyítványához"
+msgstr "További információ {fullname} teljesítéséről"
 
 #. Translators:  'All rights reserved' is a legal term used in copyrighting to
 #. protect published content
