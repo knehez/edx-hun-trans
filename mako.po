@@ -2598,7 +2598,7 @@ msgstr "Kurzus indul"
 
 #: lms/templates/courseware/course_about.html
 msgid "Classes End"
-msgstr "Az osztály végez"
+msgstr "Kurzus befejezése"
 
 #: lms/templates/courseware/course_about.html
 msgid "Estimated Effort"
