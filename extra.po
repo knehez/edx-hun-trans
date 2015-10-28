@@ -110,3 +110,6 @@ msgstr "Indulás"
 
 msgid "{platform_name} | Certificate"
 msgstr "{platform_name} | Igazolás"
+
+msgid "More Courses"
+msgstr "További kurzusaink"
