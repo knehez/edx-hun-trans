@@ -2594,7 +2594,7 @@ msgstr ""
 
 #: lms/templates/courseware/course_about.html
 msgid "Classes Start"
-msgstr "Kurzus indul"
+msgstr "Kurzus indulás"
 
 #: lms/templates/courseware/course_about.html
 msgid "Classes End"
@@ -2602,7 +2602,7 @@ msgstr "Kurzus befejezése"
 
 #: lms/templates/courseware/course_about.html
 msgid "Estimated Effort"
-msgstr "Becsült ráfordítás"
+msgstr "Becsült időráfordítás (óra)"
 
 #: lms/templates/courseware/course_about.html
 msgid "Price"
@@ -2681,7 +2681,7 @@ msgstr "{university_name} ingyenes kurzusainak tallózása."
 
 #: lms/templates/courseware/courses.html
 msgid "Explore courses from {platform_name}."
-msgstr "Kurzusok böngészése a {platform_name} rendszerben."
+msgstr "Böngéssz a {platform_name} online kurzusaink között!"
 
 #: lms/templates/courseware/courses.html
 msgid "{platform_name} Logo"
