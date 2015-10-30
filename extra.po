@@ -76,7 +76,7 @@ msgid "Start"
 msgstr "Kezdés"
 
 msgid "Scheduled"
-msgstr "Előjegyzés"
+msgstr "Jelentkezem a kurzusra"
 
 msgid "About courses"
 msgstr "A kurzusról"
