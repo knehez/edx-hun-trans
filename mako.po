@@ -2417,7 +2417,7 @@ msgstr "Aktuális fejezet, {chapter}"
 
 #: lms/templates/courseware/accordion.html lms/templates/courseware/progress.html
 msgid "due {date}"
-msgstr "Esedékes {date}"
+msgstr "- határidő: {date}"
 
 #: lms/templates/courseware/course_about.html lms/templates/courseware/mktg_course_about.html
 msgid "An error occurred. Please try again later."
