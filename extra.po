@@ -113,3 +113,6 @@ msgstr "{platform_name} | Igazolás"
 
 msgid "More Courses"
 msgstr "További kurzusaink"
+
+msgid "Guide"
+msgstr "Útmutató"
