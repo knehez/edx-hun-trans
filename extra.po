@@ -116,3 +116,6 @@ msgstr "További kurzusaink"
 
 msgid "Guide"
 msgstr "Útmutató"
+
+msgid "FAQ"
+msgstr "GYIK"
